@@ -13,6 +13,10 @@ paginate:            5
 plugins:             [jekyll-paginate]
 paginate_path:       "page:num"
 
+collections:
+  subposts:
+    output: true
+
 # About/contact
 author:
   name:              Mark Otto
