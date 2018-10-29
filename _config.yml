@@ -12,6 +12,7 @@ baseurl:             '/DDMAL'
 paginate:            5
 plugins:             [jekyll-paginate]
 paginate_path:       "page:num"
+gem "github-pages", group: :jekyll_plugins
 
 collections:
   subposts:
