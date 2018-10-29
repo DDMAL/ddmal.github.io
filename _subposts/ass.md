@@ -1,5 +1,5 @@
 ---
-layout: subpost
+layout: post
 title: YEET
 ---
 
