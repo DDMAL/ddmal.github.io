@@ -41,14 +41,37 @@ body {
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   color: #313131;
-  letter-spacing: -.025rem;
+  letter-spacing: -2px;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color: #313131;
+  letter-spacing: -1.5px;
+  margin-top: -10px;
+  margin-bottom: 32px;
+}
+
+#home-body h2 {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 30px;
+  font-weight: 300;
+  color: #313131;
+  letter-spacing: -1px;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
 }
 
 
@@ -148,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
@@ -368,7 +391,7 @@ a.sidebar-nav-item:focus {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #ccc;
   text-align: center;
 }
