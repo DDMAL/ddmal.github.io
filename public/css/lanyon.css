@@ -567,6 +567,21 @@ a.pagination-item:hover {
   color: #8f5536;
 }
 
+/* Savage Custom - McGill Red */
+.theme-base-mr .sidebar,
+.theme-base-mr .sidebar-toggle:active,
+.theme-base-mr #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #ed1b2f;
+}
+.theme-base-mr .container a,
+.theme-base-mr .sidebar-toggle,
+.theme-base-mr .related-posts li a:hover {
+  color: #ed1b2f;
+}
+
+
+
+
 
 /*
  * Overlay sidebar
