@@ -95,6 +95,10 @@ p {
   width: 100%;
 }
 
+.content {
+  padding-top: 95px;
+}
+
 
 /*
  * Container
@@ -128,6 +132,11 @@ p {
   padding-bottom: 1rem;
   margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
+  position: fixed;
+  display: block;
+  z-index: 50;
+  width: 100%;
+  background-color: white;
 }
 .masthead-title {
   margin-top: 0;
@@ -172,10 +181,10 @@ p {
 /* Style and "hide" the sidebar */
 .sidebar {
   position: fixed;
-  top: 0;
+  top: 71px;
   bottom: 0;
   left: -14rem;
-  width: 14rem;
+  width: 11rem;
   visibility: hidden;
   overflow-y: auto;
   font-family: 'Raleway', sans-serif;
@@ -184,10 +193,17 @@ p {
   background-color: #202020;
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
+  z-index: 100;
 }
 @media (min-width: 30em) {
   .sidebar {
     font-size: .75rem; /* 14px */
+    /* top: 50px; */
+  }
+}
+@media (max-width: 376px) {
+  .sidebar {
+    top: 57px;
   }
 }
 
@@ -241,7 +257,7 @@ a.sidebar-nav-item:focus {
 
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
-  position: absolute;
+  position: fixed;
   top:  .8rem;
   left: 1rem;
   display: block;
@@ -250,6 +266,7 @@ a.sidebar-nav-item:focus {
   background-color: #fff;
   border-radius: .25rem;
   cursor: pointer;
+  z-index: 1000;
 }
 
 .sidebar-toggle:before {
@@ -318,7 +335,7 @@ a.sidebar-nav-item:focus {
 }
 
 #sidebar-checkbox:checked + .sidebar {
-  z-index: 10;
+  z-index: 1000;
   visibility: visible;
 }
 #sidebar-checkbox:checked ~ .sidebar,
@@ -577,6 +594,18 @@ a.pagination-item:hover {
 .theme-base-mr .sidebar-toggle,
 .theme-base-mr .related-posts li a:hover {
   color: #ed1b2f;
+}
+
+/* Savage Custom - Original DDMAL Blue */
+.theme-base-db .sidebar,
+.theme-base-db .sidebar-toggle:active,
+.theme-base-db #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #1bb3e9;
+}
+.theme-base-db .container a,
+.theme-base-db .sidebar-toggle,
+.theme-base-db .related-posts li a:hover {
+  color: #1bb3e9;
 }
 
 
