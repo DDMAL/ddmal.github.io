@@ -1,0 +1,13 @@
+<ul class="ulist-html">
+  {% assign list = include.list | split: ", " %}
+  {% for item in list %}
+    {% if item != null %}
+      {% if item contains "(l)" %}
+        <li><a href="{{ item | split: "(l)" | last }}">{{ item | split: "(l)" | first }}</a></li>
+      {% else %}
+        <li>{{ item }}</li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</ul>
+<hr>

@@ -51,6 +51,11 @@ h1 {
   letter-spacing: -2px;
 }
 
+.ulist-html {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
 h2, h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
