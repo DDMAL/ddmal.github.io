@@ -17,6 +17,8 @@ gem "github-pages", group: :jekyll_plugins
 collections:
   subposts:
     output: true
+  publications:
+    output: true
 
 # About/contact
 author:
