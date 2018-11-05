@@ -19,6 +19,8 @@ collections:
     output: true
   publications:
     output: true
+  posters:
+    output: true
 
 # About/contact
 author:
