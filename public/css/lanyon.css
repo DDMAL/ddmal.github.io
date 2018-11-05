@@ -651,6 +651,10 @@ a.pagination-item:hover {
 
 .bottom-left {
     position: absolute;
+    font-size: 1.2rem;
     bottom: 8px;
-    left: 16px;
+    right: 16px;
+    padding: 3px 10px;
+    background-color: #1bb3e9;
+    border-radius: 5px;
 }
