@@ -13,6 +13,7 @@ paginate:            5
 plugins_dir:             [jekyll-paginate]
 paginate_path:       "page:num"
 gem "github-pages", group: :jekyll_plugins
+permalinks:          true
 
 collections:
   subposts:
@@ -20,6 +21,8 @@ collections:
   publications:
     output: true
   posters:
+    output: true
+  research:
     output: true
 
 # About/contact
