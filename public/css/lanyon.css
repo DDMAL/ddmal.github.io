@@ -139,7 +139,8 @@ p {
   position: fixed;
   /* display: block; */
   width: 100%;
-  background-color: white;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 10px #a8a6a6;
 }
 .masthead-title {
   margin-top: 0;
@@ -496,7 +497,7 @@ a.pagination-item:hover {
 .theme-base-08 #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #ac4142;
 }
-.theme-base-08 .container a,
+.theme-basecointa-08 .container a,
 .theme-base-08 .sidebar-toggle,
 .theme-base-08 .related-posts li a:hover {
   color: #ac4142;
@@ -587,6 +588,7 @@ a.pagination-item:hover {
 }
 
 /* Savage Custom - McGill Red */
+
 .theme-base-mr .sidebar,
 .theme-base-mr .sidebar-toggle:active,
 .theme-base-mr #sidebar-checkbox:checked ~ .sidebar-toggle {
@@ -599,12 +601,14 @@ a.pagination-item:hover {
 }
 
 /* Savage Custom - Original DDMAL Blue */
+
 .theme-base-db .sidebar,
 .theme-base-db .sidebar-toggle:active,
 .theme-base-db #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #1bb3e9;
 }
 .theme-base-db .container a,
+.theme-base-db .masthead-container a,
 .theme-base-db .sidebar-toggle,
 .theme-base-db .related-posts li a:hover {
   color: #1bb3e9;
@@ -654,6 +658,8 @@ a.pagination-item:hover {
     background-color: #00000033;
 }
 
+/* Added Savage */
+
 .body-content {
   z-index: -1;
 }
@@ -670,8 +676,21 @@ hr {
   padding-top: 72.05px;
 }
 
+
+.masthead-container {
+  padding-left: 40px;
+}
+
+/* Savage responsive params */
+
 @media (max-width: 400px) {
   .top-nav-space {
     padding-top: 57.8px;
+  }
+}
+
+@media (max-width: 769px) {
+  .masthead-container {
+    padding-left: 0;
   }
 }
