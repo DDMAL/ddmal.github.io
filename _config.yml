@@ -24,6 +24,8 @@ collections:
     output: true
   research:
     output: true
+  software:
+    output: true
 
 # About/contact
 author:

@@ -491,6 +491,22 @@ hr {
   padding-top: 72.05px;
 }
 
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Site-content {
+  flex-grow: 1;
+}
+
+#sticky {
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  flex-shrink: 0;
+}
 
 
 

@@ -3,39 +3,40 @@
 
   {% include head.html %}
 
-  <body class='layout-reverse theme-base-db sidebar-overlay'>
-
+  <body id ="Site" class='layout-reverse theme-base-db sidebar-overlay'>
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
+    <main class="Site-content">
+      <div class="wrap">
+
+        <div class="masthead">
 
 
 
-      <div class="masthead">
+          <div class="masthead-container">
 
-
-
-        <div class="masthead-container">
-
-          <div class="title-wrap">
-            <h3 class="masthead-title">
-              <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-              <!-- <small>{{ site.tagline }}</small> -->
-            </h3>
-          </div>
-          <div class="nav-wrap">
-            {% include sidebar0.html %}
+            <div class="title-wrap">
+              <h3 class="masthead-title">
+                <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+                <!-- <small>{{ site.tagline }}</small> -->
+              </h3>
+            </div>
+            <div class="nav-wrap">
+              {% include sidebar0.html %}
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="container content">
-        {{ content }}
+        <div class="container content">
+          {{ content }}
+        </div>
       </div>
-    </div>
+    </main>
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    {% include footer.html %}
 
     <script>
       (function(document) {
