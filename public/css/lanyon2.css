@@ -38,6 +38,7 @@
 html,
 body {
   overflow-x: hidden;
+  color: #444;
 }
 
 html {
@@ -83,6 +84,21 @@ p {
   font-weight: 100;
   font-size: 16px;
   margin-bottom: 10px;
+}
+
+li {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+table {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+
+.omr-ocr-page {
+  list-style-type: none;
 }
 
 
@@ -553,4 +569,14 @@ img {
    display: block;
    text-align: left;
  }
+}
+
+@media (max-width: 650px) {
+  .mcgill-img-footer {
+    width: calc(936px / 4);
+    height: calc(134px / 4);
+  }
+  .footer-img-wrap {
+    padding-top: calc((89px - 134px / 4)/2);
+  }
 }

@@ -26,6 +26,8 @@ collections:
     output: true
   software:
     output: true
+  omr:
+    output: true
 
 # About/contact
 author:
