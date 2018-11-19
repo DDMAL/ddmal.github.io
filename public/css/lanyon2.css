@@ -491,24 +491,43 @@ hr {
   padding-top: 72.05px;
 }
 
-body {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-.Site-content {
-  flex-grow: 1;
+.wrap {
+  min-height: calc(100vh - 89px);
 }
 
 #sticky {
   width: 100%;
-  background-color: red;
+  height: 89px;
+  background-color: #c7cfdb;
+}
+
+.footer-content {
   color: white;
   text-align: center;
-  flex-shrink: 0;
+}
+
+.mcgill-img-footer {
+  width: calc(936px / 2.5);
+  height: calc(134px / 2.5);
+}
+
+.ddmal-img-footer {
+  margin: auto 0 auto auto;
+}
+
+.footer-img-wrap {
+  padding-top: calc((89px - 134px / 2.5)/2);
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  display: flex;
 }
 
 
+img {
+  margin-bottom: 0;
+}
 
 /* Savage responsive params */
 
@@ -522,7 +541,7 @@ body {
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
  .topnav.responsive {position: relative;}
  .topnav.responsive a.icon {
    position: absolute;
