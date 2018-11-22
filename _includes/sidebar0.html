@@ -1,14 +1,47 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
 <div class="topnav" id="myTopnav">
-  <a href="{{ site.baseurl }}/" class="active">Home</a>
-  <a href="{{ site.baseurl }}/blog/">Blog</a>
-  <a href="{{ site.baseurl }}/people/">People</a>
-  <a href="{{ site.baseurl }}/publications/">Publications</a>
-  <a href="{{ site.baseurl }}/research/">Research</a>
-  <a href="{{ site.baseurl }}/software/">Software</a>
-  <a href="{{ site.baseurl }}/events/">Events</a>
-  <a href="{{ site.baseurl }}/resources/">Resources</a>
+  {% if page.tab == "Home" %}
+    <a href="{{ site.baseurl }}/" class="active btn">Home</a>
+  {% else %}
+    <a href="{{ site.baseurl }}/" class="btn">Home</a>
+  {% endif %}
+  {% if page.tab == "Blog" %}
+    <a href="{{ site.baseurl }}/blog/" class="active btn">Blog</a>
+  {% else %}
+  <a href="{{ site.baseurl }}/blog/" class="btn">Blog</a>
+  {% endif %}
+  {% if page.tab == "People" %}
+    <a href="{{ site.baseurl }}/people/" class="active btn">People</a>
+  {% else %}
+    <a href="{{ site.baseurl }}/people/" class="btn">People</a>
+  {% endif %}
+  {% if page.tab == "Publications" %}
+    <a href="{{ site.baseurl }}/publications/" class="active btn">Publications</a>
+  {% else %}
+    <a href="{{ site.baseurl }}/publications/" class="btn">Publications</a>
+  {% endif %}
+  {% if page.tab == "Research" %}
+    <a href="{{ site.baseurl }}/research/" class="active btn">Research</a>
+  {% else %}
+    <a href="{{ site.baseurl }}/research/" class="btn">Research</a>
+  {% endif %}
+  {% if page.tab == "Software" %}
+    <a href="{{ site.baseurl }}/software/" class="active btn">Software</a>
+  {% else %}
+    <a href="{{ site.baseurl }}/software/" class="btn">Software</a>
+  {% endif %}
+  {% if page.tab == "Events" %}
+    <a href="{{ site.baseurl }}/events/" class="active btn">Events</a>
+  {% else %}
+    <a href="{{ site.baseurl }}/events/" class="btn">Events</a>
+  {% endif %}
+  {% if page.tab == "Resources" %}
+    <a href="{{ site.baseurl }}/resources/" class="active btn">Resources</a>
+  {% else %}
+    <a href="{{ site.baseurl }}/resources/" class="btn">Resources</a>
+  {% endif %}
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars" style="font-size: 1.8em;"></i>
   </a>

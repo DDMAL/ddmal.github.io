@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Software
+tab: Software
 ---
 
 Some of the software tools we're working on.
