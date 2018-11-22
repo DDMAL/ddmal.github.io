@@ -187,9 +187,6 @@ table {
   padding: 0 6%;
 }
 
-.title-wrap {
-}
-
 .nav-wrap {
   margin: auto 0 auto auto;
 }
@@ -578,9 +575,11 @@ img {
    display: block;
    text-align: right;
    margin-right: 60px;
-
-   margin-top: 8px;
+   margin-bottom: 8px;
+   padding: auto;
+   /* margin-top: 8px; */
    text-decoration: none;
+   letter-spacing: .7px;
  }
  .topnav.responsive .btn:hover {
    border-bottom: 2px solid transparent !important;
@@ -588,7 +587,13 @@ img {
  .topnav.responsive .active {
    border-top: 2px solid transparent !important;
    border-bottom: 2px solid transparent !important;
-   background-color: purple;
+   /* background-color: #0e6e9066; */
+   /* border-radius: 4px; */
+   color: #0e6e90;
+   border-right: 3px solid #0e6e90;
+ }
+ .title-wrap {
+   margin-top: 2.7px;
  }
 }
 
