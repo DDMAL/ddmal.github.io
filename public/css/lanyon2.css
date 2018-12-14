@@ -221,6 +221,7 @@ table {
 .page-title,
 .post-title {
   margin-top: 0;
+  text-align: left;
 }
 
 /* Meta data line below post title */

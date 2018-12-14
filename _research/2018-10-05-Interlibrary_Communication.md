@@ -1,6 +1,7 @@
 ---
 layout: research_post
 title: Interlibrary Communication
+tab: Research
 permalink: /research/:title/
 ---
 

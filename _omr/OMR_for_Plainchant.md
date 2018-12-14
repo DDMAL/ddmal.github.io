@@ -1,6 +1,7 @@
 ---
 layout: page
 title: OMR for Plainchant
+tab: Research
 ---
 <br>
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Gamut for Early Music on Microfilms (GEMM)
+tab: Research
 ---
 <br>
 
@@ -19,7 +20,7 @@ The project will concentrate on music from Medieval and Renaissance periods, bec
 
 The microfilms of Early Music are the raw material for this research. The starting point was to select samples of sources and digitize them using a microfilm scanner (Minolta MS6000) with grayscale option. Different notation styles with varying degrees of print quality have been considered. As a general policy, a 'backwards' procedure was adopted, starting with sources printed around 1600 and then moving by steps to earlier and earlier documents, including manuscripts. During this project, we will study the feasibility of using microfilm by comparing the image quality of direct scans and microfilm scans of the same music scores where they are available in both formats. A high-quality flatbed scanner (Epson 1640XL) will be used for the experiment. The principal metric is the recognition rate of the OMR process, although visual inspection of the image may be sufficient in some cases.
 
-[[more]({{ site.baseurl }}/omr/Microfilms_and_Scanning/)]  
+[[more]({{ site.baseurl }}/omr/gemm/Microfilms_and_Scanning/)]  
 <br>
 
 ## Preprocessing
@@ -27,7 +28,7 @@ The microfilms of Early Music are the raw material for this research. The starti
 One part of the current research is devoted to development and evaluation of pre-processing solutions. Standard approaches to pre-processing of degraded documents are considered, as well as approaches more specific to music such as staff detection (Fujinaga 2005). A particular attention is given to binarisation because it appears to be a critical step in OMR of early documents. For our preprocessing experiments, we use a framework for the creation of structured document analysis applications by domain experts called [Gamera](http://ldp.library.jhu.edu/projects/gamera/) (MacMillan, Droettboom, and Fujinaga. 2002). Gamera has been used in another OMR research project, the [Levy Sheet Music Project](http://levysheetmusic.mse.jhu.edu/) at the [Johns Hopkins University](http://jhu.edu/)
 (Choudhury et al. 2001). The framework is also being further developed within the current research project, as the new techniques that have been developed (such as binarization algorithms) are being integrated into it.
 
-[[more]({{ site.baseurl }}/omr/Preprocessing/)]  
+[[more]({{ site.baseurl }}/omr/gemm/Preprocessing/)]  
 <br>
 
 ## OMR Experiments

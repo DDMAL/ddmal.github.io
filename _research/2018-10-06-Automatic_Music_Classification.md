@@ -1,6 +1,7 @@
 ---
 layout: research_post
 title: Automatic Music Classification
+tab: Research
 permalink: /research/:title/
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Optical Music Recognition Bibliography
+tab: Research
 ---
 
 While some effort was made to link to free versions of these papers, many are behind pay walls and require an individual or institutional subscription to access them. This page was largely constructed from earlier bibliographies by Ichiro Fujinaga and Kia Ng, but expanded to cover sources since 2004.

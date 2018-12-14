@@ -1,6 +1,7 @@
 ---
 layout: page
 title: OMR and OCR Software
+tab: Research
 ---
 
 # OMR   

@@ -1,6 +1,7 @@
 ---
 layout: research_post
 title: SALAMI
+tab: Research
 permalink: /research/:title/
 ---
 
