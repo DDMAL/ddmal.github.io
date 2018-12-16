@@ -4,7 +4,6 @@ title: Logos
 tab: Resources
 ---
 
-<br>
 ![red banner]({{ site.baseurl }}/assets/Schulich_logo_white_on_red.png/ "Schulich logo white on red")  
 <br>
 ![clear banner]({{ site.baseurl }}/assets/Schulich_logo_transparent_background.png/ "Schulich logo transparent")  
