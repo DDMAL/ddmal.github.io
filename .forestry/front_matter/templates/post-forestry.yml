@@ -17,5 +17,13 @@ fields:
   config:
     required: true
   default: Blog
+- type: text
+  name: layout
+  label: layout
+  description: Jekyll template
+  config:
+    required: true
+  default: page
 pages:
 - _posts/2018-12-20-test-post.md
+- _posts/2018-12-20-test-post-2.md
