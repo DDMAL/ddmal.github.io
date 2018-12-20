@@ -9,13 +9,5 @@ fields:
   config:
     required: true
   name: title
-- type: textarea
-  name: content
-  label: content
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
 pages:
 - _posts/2018-12-20-test-post.md
