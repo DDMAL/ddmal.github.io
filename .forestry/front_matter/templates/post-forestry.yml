@@ -1,5 +1,5 @@
 ---
-label: Post-Forestry
+label: Blog Post
 hide_body: false
 is_partial: false
 fields:
@@ -9,5 +9,13 @@ fields:
   config:
     required: true
   name: title
+- type: text
+  name: tab
+  label: tab
+  description: Keeps blog menu highlighted.
+  hidden: true
+  config:
+    required: true
+  default: Blog
 pages:
 - _posts/2018-12-20-test-post.md
