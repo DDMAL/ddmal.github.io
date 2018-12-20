@@ -1,0 +1,19 @@
+---
+label: Post-Forestry
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: title
+  description: Title of post
+  config:
+    required: true
+  name: title
+- type: textarea
+  name: content
+  label: content
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
