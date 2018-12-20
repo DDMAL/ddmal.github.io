@@ -1,0 +1,57 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: 
+webhook_url: 
+sections:
+- type: jekyll-pages
+  label: Pages
+  create: all
+- type: jekyll-posts
+  label: Posts
+  create: all
+- type: directory
+  path: _events
+  label: Events
+  create: all
+  match: "**/*"
+- type: directory
+  path: _resources
+  label: Resources
+  create: all
+  match: "**/*"
+- type: directory
+  path: _omr
+  label: Omr
+  create: all
+  match: "**/*"
+- type: directory
+  path: _software
+  label: Software
+  create: all
+  match: "**/*"
+- type: directory
+  path: _research
+  label: Research
+  create: all
+  match: "**/*"
+- type: directory
+  path: _posters
+  label: Posters
+  create: all
+  match: "**/*"
+- type: directory
+  path: _publications
+  label: Publications
+  create: all
+  match: "**/*"
+- type: directory
+  path: _subposts
+  label: Subposts
+  create: all
+  match: "**/*"
+upload_dir: uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
