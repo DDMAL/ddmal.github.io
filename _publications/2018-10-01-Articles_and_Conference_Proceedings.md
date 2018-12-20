@@ -3,8 +3,6 @@ layout: subpost
 title: Articles and Conference Proceedings
 
 ---
-Heyo
-
 Devaney, J., J. Wild, P. Schubert, I. Fujinaga. 2010. Exploring the relationship between voice leading, harmony, and intonation in a cappella SATB vocal ensembles. _Proceedings of the International Conference on Music Perception and Cognition._ Seattle.
 
 Angeles, B., C. McKay, and I. Fujinaga. 2010. Discovering Metadata Inconsistencies. _Proceedings of the Conference of the International Society for Music Information Retrieval._ Utrecht, Netherlands.
