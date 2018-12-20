@@ -17,3 +17,5 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+pages:
+- _posts/test-post.md

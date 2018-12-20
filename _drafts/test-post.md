@@ -1,0 +1,6 @@
+---
+title: Test post
+content: Trying out Forestry CMS, hopefully this works!
+date: 2018-12-20 20:18:57 +0000
+
+---
