@@ -13,7 +13,7 @@ fields:
   name: tab
   label: tab
   description: Keeps blog menu highlighted.
-  hidden: true
+  hidden: false
   config:
     required: true
   default: Blog
