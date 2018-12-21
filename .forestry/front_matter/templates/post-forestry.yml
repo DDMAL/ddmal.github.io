@@ -9,5 +9,19 @@ fields:
   config:
     required: true
   name: title
+- type: text
+  name: layout
+  label: layout
+  description: Usually "post" or "page"
+  config:
+    required: true
+  default: post
+- type: text
+  name: tab
+  label: tab
+  description: Keep navbar active tab accurate, should be "Blog"
+  config:
+    required: true
+  default: Blog
 pages:
 - _posts/2018-12-20-test-post.md
