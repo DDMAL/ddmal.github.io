@@ -25,3 +25,4 @@ fields:
   default: Blog
 pages:
 - _posts/2018-12-20-test-post.md
+- _posts/test-post-2.md
