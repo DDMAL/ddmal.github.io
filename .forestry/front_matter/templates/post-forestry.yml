@@ -10,25 +10,6 @@ fields:
     required: true
   name: title
 - type: text
-<<<<<<< HEAD
-  name: tab
-  label: tab
-  description: Keeps blog menu highlighted.
-  hidden: false
-  config:
-    required: true
-  default: Blog
-- type: text
-  name: layout
-  label: layout
-  description: Jekyll template
-  config:
-    required: true
-  default: page
-pages:
-- _posts/2018-12-20-test-post.md
-- _posts/2018-12-20-test-post-2.md
-=======
   name: layout
   label: layout
   description: Usually "post" or "page"
@@ -45,4 +26,3 @@ pages:
 pages:
 - _posts/2018-12-20-test-post.md
 - _posts/2018-12-21-test-post-2.md
->>>>>>> 70dd8d049d6c24b8d41d61a81baae6132aefc77f
