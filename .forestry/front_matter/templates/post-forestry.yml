@@ -10,20 +10,19 @@ fields:
     required: true
   name: title
 - type: text
+  name: layout
+  label: layout
+  description: Usually "post" or "page"
+  config:
+    required: true
+  default: post
+- type: text
   name: tab
   label: tab
-  description: Keeps blog menu highlighted.
-  hidden: false
+  description: Keep navbar active tab accurate, should be "Blog"
   config:
     required: true
   default: Blog
-- type: text
-  name: layout
-  label: layout
-  description: Jekyll template
-  config:
-    required: true
-  default: page
 pages:
 - _posts/2018-12-20-test-post.md
-- _posts/2018-12-20-test-post-2.md
+- _posts/2018-12-21-test-post-2.md
