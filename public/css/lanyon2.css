@@ -559,6 +559,24 @@ img {
   margin-bottom: 0;
 }
 
+.post-container {
+  margin: 15px 0;
+  /* border: 2px solid black; */
+  /* border-radius: 5px; */
+
+}
+
+.post-title {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.post-excerpt {
+  margin: auto;
+  padding: 15px;
+}
+
 
 
 /* Savage responsive params */

@@ -10,8 +10,8 @@ description:         'A reserved <a href="http://jekyllrb.com" target="_blank">J
 url:                 'https://evansavage.github.io/'
 baseurl:             '/DDMAL'
 paginate:            5
-plugins_dir:             [jekyll-paginate]
-paginate_path:       "page:num"
+plugins_dir:         [jekyll-paginate]
+paginate_path:       blog/page:num
 gem "github-pages", group: :jekyll_plugins
 permalinks:          true
 

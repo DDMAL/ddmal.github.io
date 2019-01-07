@@ -4,12 +4,26 @@ layout: page
 tab: Blog
 ---
 
-<ul>
+<!-- <ul>
   {% for post in site.posts %}
     <li>
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
-</ul>
+</ul> -->
+
+{% for post in site.posts %}
+  <div class="post-container">
+    <div class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      {{ post.date | date: "%b %d, %y" }}
+    </div>
+    <div class="post-excerpt">
+      {{ post.excerpt }}
+    </div>
+  </div>
+  <hr>
+{% endfor %}
+
 
 <!-- -->
