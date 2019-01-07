@@ -2,6 +2,7 @@
 layout: page
 title: Publications
 tab: Publications
+permalink: /publications/
 ---
 
 [Articles and Conference Proceedings]({{ site.baseurl }}/publications/2018-10-01-Articles_and_Conference_Proceedings)  
