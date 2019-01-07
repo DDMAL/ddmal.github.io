@@ -2,6 +2,7 @@
 layout: page
 title: Events
 tab: Events
+permalink: /events/
 ---
 
 * [ISMIR 2016](http://www.wp.nyu.edu/ismir2016/), August, New York City, USA.
