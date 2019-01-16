@@ -145,19 +145,6 @@ table {
  * Center the page content.
  */
 
-.container {
-  max-width: 28rem;
-}
-@media (min-width: 38em) {
-  .container {
-    max-width: 32rem;
-  }
-}
-@media (min-width: 56em) {
-  .container {
-    max-width: 38rem;
-  }
-}
 
 
 /*
@@ -491,15 +478,20 @@ a.pagination-item:hover {
 
 .pic-container {
   position: relative;
-  text-align: center;
   color: white;
   z-index: -1;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bottom-left {
     position: absolute;
     bottom: 8px;
-    right: 16px;
+    right: 10px;
     background-color: #00000033;
 }
 
@@ -635,5 +627,33 @@ img {
   }
   .footer-img-wrap {
     padding-top: calc((89px - 134px / 4)/2);
+  }
+}
+
+.container {
+  max-width: 28rem;
+}
+@media (min-width: 38em) {
+  .container {
+    max-width: 32rem;
+  }
+  .bottom-left {
+    right: 15px;
+  }
+}
+@media (min-width: 896px) {
+  .container {
+    max-width: 750px;
+  }
+  .bottom-left {
+    right: 25px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+  .bottom-left {
+    right: 100px;
   }
 }
