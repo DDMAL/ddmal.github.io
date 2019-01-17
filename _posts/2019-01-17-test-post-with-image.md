@@ -11,4 +11,4 @@ We in this.
 
 ![]({{ site.baseurl }}/assets/lab20060518b.jpg)
 
-Hopefully that image works! [Yuh]([https://github.com/](https://github.com/ "https://github.com/"))
+Hopefully that image works! [Yuh](https://github.com/)
