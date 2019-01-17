@@ -15,7 +15,7 @@ fields:
   description: Usually "post" or "page"
   config:
     required: true
-  default: post
+  default: page
 - type: text
   name: tab
   label: tab
