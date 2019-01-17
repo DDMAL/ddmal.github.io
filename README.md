@@ -1,4 +1,4 @@
-# DDMAL
+# [DDMAL](https://DDMAL.github.io/DDMAL-new-site)
 
 This is the repository for the new DDMAL website distributed via GitHub Pages. It is a static website built using Jekyll, meaning that there is no backend presence, and the entirety of the site is stored in this repository, blog contents included. The formatting was adapted from the Lanyon theme, developed by Mark Otto.
 
