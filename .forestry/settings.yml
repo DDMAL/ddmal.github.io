@@ -8,7 +8,7 @@ sections:
   label: Blog
   create: all
 upload_dir: assets
-public_path: "/assets"
+public_path: "{{ site.baseurl }}/assets"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
