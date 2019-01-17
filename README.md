@@ -60,3 +60,10 @@ to install any updated or newly-added gems for the build. Then, the site can be 
 The content management system (CMS) used for this site is [Forestry](https://forestry.io/). This is where blog entries are added, edited, and maintained. Contact [Evan Savage](mailto:evan.savage@mail.mcgill.ca) or [Emily Hopkins](mailto:emily.hopkins@mcgill.ca) to gain access to the CMS.
 
 Blog entries are written in Markdown, which makes it easy to add text, headers, images, and lists to a new post. Here is a [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to consult for any necessary formatting.  
+
+To add a new post, select 'Blog' on the sidebar. On the next screen, click the 'Create New' dropdown and select 'Blog'. The left column that appears is the minimum amount of Front Matter (YAML) required for each new post. 'Layout' and 'Tab' are already populated and should remain unchanged. Choose a title that will display at the top of the blog post. 
+
+The right column is where the content of each post is added. The default mode is a What-You-See-Is-What-You-Get (WYSIWYG) 
+editor, which will give you immediate feedback on the desired Markdown formatting. If it is preferred, click on the ellipsis in the upper right hand corner to change to edit in 'Raw' mode, where the Markdown is explicitly written. 
+
+If the blog post will feature images and files, upload them to the 'Media' library which can be accessed on the sidebar. To add them in the WYSIWYG post editor, hit `ctrl+shift+u`. This will open the media library where each image or file can be selected and added inline to the post. 
