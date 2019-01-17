@@ -4,10 +4,10 @@ This is the repository for the new DDMAL website distributed via GitHub Pages. I
 
 ## Contents
 
-- [Setup](#setup)
+- [Local Setup](#setup)
+- [CMS](#cms)
 
-
-## Setup
+## Local Setup
 
 You will need to download a full [Ruby development environment](https://jekyllrb.com/docs/installation/) to install Jekyll. Follow steps 1 and 2 of [these instructions](https://jekyllrb.com/docs/) after installing Ruby. 
 
@@ -55,3 +55,8 @@ bundle install
 
 to install any updated or newly-added gems for the build. Then, the site can be rebuilt with `bundle exec jekyll serve --watch`. 
 
+## CMS
+
+The content management system (CMS) used for this site is [Forestry](https://forestry.io/). This is where blog entries are added, edited, and maintained. Contact [Evan Savage](mailto:evan.savage@mail.mcgill.ca) or [Emily Hopkins](mailto:emily.hopkins@mcgill.ca) to gain access to the CMS.
+
+Blog entries are written in Markdown, which makes it easy to add text, headers, images, and lists to a new post. Here is a [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to consult for any necessary formatting.  
