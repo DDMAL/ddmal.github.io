@@ -3,6 +3,7 @@ layout: page
 tab: Blog
 title: Test post with image
 date: 2019-01-17 21:43:31 +0000
+permalink: /blog/:title/
 
 ---
 # Here is a header

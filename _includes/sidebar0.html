@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-<div class="topnav" id="myTopnav">
+<!-- <div class="navbar topnav" id="myTopnav">
   {% if page.tab == "Home" %}
     <a href="{{ site.baseurl }}/" class="active btn">Home</a>
   {% else %}
@@ -45,4 +45,40 @@
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars" style="font-size: 1.8em;"></i>
   </a>
-</div>
+</div> -->
+
+<nav class="navbar fixed-top navbar-expand-lg bg-white">
+  <a class="navbar-brand" href="{{ site.baseurl }}/">DDMAL</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto" id="nav-items">
+      <li class="nav-item">
+        <a class="nav-link" href="{{ site.baseurl }}/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ site.baseurl }}/blog/">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ site.baseurl }}/people/">People</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ site.baseurl }}/publications/">Publications</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ site.baseurl }}/research/">Research</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ site.baseurl }}/software/">Software</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ site.baseurl }}/events/">Events</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ site.baseurl }}/resources/">Resources</a>
+      </li>
+    </ul>
+  </div>
+</nav>

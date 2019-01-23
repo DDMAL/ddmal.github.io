@@ -66,7 +66,7 @@ a:hover {
   color: #0e6e90 !important;
 }
 
-#myTopnav .btn::after {
+#nav-items a::after {
   content: '';
   display: block;
   width: 0;
@@ -75,7 +75,7 @@ a:hover {
   transition: width .3s;
 }
 
-#myTopnav .btn:hover::after {
+#nav-items a:hover::after {
   width: 100%;
   /* line-height: .85; */
 }
@@ -316,25 +316,28 @@ a.pagination-item:hover {
    /* display: inline-flex; */
 }
 
+#nav-items .active a {
+  color: #0e6e90;
+  border-top: 2px solid currentColor;
+}
+
 /* Style the links inside the navigation bar */
-.topnav .btn {
-   float: left;
+#nav-items a {
+   /* float: left;
    display: block;
    color: black;
    font-family: 'Raleway', sans-serif;
-   text-align: center;
-   padding: 0 14px;
-   font-size: 14px;
+   text-align: center; */
+   padding: 0 16px;
+   /* font-size: 14px; */
    border-top: 2px solid transparent;
    border-bottom: 2px solid transparent;
+   color: #1bb3e9;
 }
 
 
 /* Add an active class to highlight the current page */
-#myTopnav .active {
-  border-top: 2px solid currentColor;
 
-}
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
@@ -543,6 +546,7 @@ hr {
   padding-left: 4%;
   padding-right: 4%;
   padding-bottom: 0;
+  margin-top: -30px;
   margin-bottom: 0;
   display: flex;
 }
