@@ -531,6 +531,7 @@ hr {
 .mcgill-img-footer {
   width: calc(936px / 2.5);
   height: calc(134px / 2.5);
+  margin-left: 0;
 }
 
 .ddmal-img-footer {
@@ -548,6 +549,9 @@ hr {
 
 
 img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   margin-bottom: 0;
 }
 
