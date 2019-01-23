@@ -23,6 +23,14 @@ fields:
   config:
     required: true
   default: Blog
+- type: text
+  name: permalink
+  label: permalink
+  description: Override standard url extension to better organize site
+  hidden: true
+  config:
+    required: true
+  default: "/blog/:title"
 pages:
 - _posts/2019-01-17-test-post-with-image.md
 - _posts/2019-01-17-yeet.md
