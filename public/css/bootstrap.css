@@ -4198,6 +4198,7 @@ input[type="button"].btn-block {
   line-height: inherit;
   white-space: nowrap;
   color: #1bb3e9;
+  letter-spacing: -1.5px;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -4244,7 +4245,7 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
-  border: 1px solid transparent;
+  border: 1px solid black;
   border-radius: 0.25rem;
 }
 
@@ -4478,13 +4479,13 @@ input[type="button"].btn-block {
   display: none;
 }
 
-.navbar-light .navbar-brand {
+/* .navbar-light .navbar-brand {
   color: rgba(0, 0, 0, 0.9);
 }
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
   color: rgba(0, 0, 0, 0.9);
-}
+} */
 
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.5);

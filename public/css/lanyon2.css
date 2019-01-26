@@ -593,6 +593,15 @@ img {
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 850px) {
 
+  #nav-items a {
+    width: 185px;
+  }
+
+  #nav-items a:hover::after {
+    width: 100px;
+    /* line-height: .85; */
+  }
+
  .topnav.responsive {
    position: relative;
  }
@@ -615,14 +624,19 @@ img {
  .topnav.responsive .btn:hover {
    border-bottom: 2px solid transparent !important;
  }
- .topnav.responsive .active {
+ .active a {
    border-top: 2px solid transparent !important;
    border-bottom: 2px solid transparent !important;
    /* background-color: #0e6e9066; */
    /* border-radius: 4px; */
    color: #0e6e90;
-   border-right: 3px solid #0e6e90;
+   border-left: 3px solid #0e6e90;
  }
+
+ .nav-item {
+   padding: 3.5px 0;
+ }
+
  .title-wrap {
    margin-top: 2.7px;
  }
@@ -663,5 +677,11 @@ img {
   }
   .bottom-left {
     right: 100px;
+  }
+}
+
+@media (max-width: 420px) {
+  p, body li, #home-research-list li {
+    font-size: 14px;
   }
 }
