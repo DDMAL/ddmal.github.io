@@ -220,6 +220,10 @@ table {
   text-align: left;
 }
 
+.home-title {
+  margin-top: 0;
+}
+
 /* Meta data line below post title */
 .post-date {
   display: block;
@@ -483,6 +487,8 @@ a.pagination-item:hover {
   position: relative;
   color: white;
   z-index: -1;
+  display: table;
+  margin: auto;
 }
 
 .center-img {
@@ -493,9 +499,11 @@ a.pagination-item:hover {
 
 .bottom-left {
     position: absolute;
-    bottom: 8px;
-    right: 10px;
-    background-color: #00000033;
+    bottom: 12px;
+    right: 12px;
+    background-color: #45c5d5;
+    padding: 5px 8px;
+    border-radius: 5px;
 }
 
 /* Added Savage */
@@ -557,7 +565,12 @@ img {
   margin-right: auto;
   display: block;
   margin-bottom: 0;
+  max-height: 400px;
 }
+
+/* #home-body img {
+  max-height: 400px;
+} */
 
 .post-container {
   margin: 15px 0;
@@ -568,13 +581,17 @@ img {
 
 .post-title {
   display: flex;
-  padding: 15px;
+  padding: 8px;
   justify-content: space-between;
 }
 
 .post-excerpt {
   margin: auto;
   padding: 15px;
+}
+
+.subtitle {
+  margin-bottom: 20px;
 }
 
 
@@ -659,29 +676,38 @@ img {
   .container {
     max-width: 32rem;
   }
-  .bottom-left {
-    right: 15px;
-  }
+
 }
 @media (min-width: 896px) {
   .container {
     max-width: 750px;
   }
-  .bottom-left {
+  /* .bottom-left {
     right: 25px;
-  }
+  } */
 }
 @media (min-width: 1200px) {
   .container {
     max-width: 1170px;
   }
-  .bottom-left {
+  /* .bottom-left {
     right: 100px;
-  }
+  } */
 }
 
 @media (max-width: 420px) {
   p, body li, #home-research-list li {
     font-size: 14px;
+  }
+}
+
+@media (min-width: 608px) {
+  .page-title, .home-title {
+    margin-top: 20px;
+  }
+  .bottom-left {
+    bottom: 6px;
+    right: 6px;
+    padding: 2px 5px;
   }
 }

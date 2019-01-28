@@ -11,12 +11,17 @@ tab: Blog
     </li>
   {% endfor %}
 </ul> -->
-
+<div class="container">
 {% for post in site.posts %}
   <div class="post-container">
-    <div class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      {{ post.date | date: "%b %d, %y" }}
+    <div class="post-title row">
+      <div class="col-sm-12">
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </div>
+      <div class="col-sm-12"><br></div>
+      <div class="col-sm-12">
+        {{ post.date | date: "%b %d, %y" }}
+      </div>
     </div>
     <div class="post-excerpt">
       {% assign preprocessed_content=post.content | replace: '<p>', '__p__' %}
@@ -41,6 +46,7 @@ tab: Blog
   </div>
   <hr>
 {% endfor %}
+</div>
 
 
 <!-- -->
