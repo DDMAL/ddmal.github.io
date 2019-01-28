@@ -11,7 +11,7 @@ This is the repository for the new DDMAL website distributed via GitHub Pages. I
 
 You will need to download a full [Ruby development environment](https://jekyllrb.com/docs/installation/) to install Jekyll. Follow steps 1 and 2 of [these instructions](https://jekyllrb.com/docs/) after installing Ruby. 
 
-Create a new directory and initialize an empty repository in it. 
+Create a new directory and initialize an empty repository in it. This is assuming you have [Git](https://www.atlassian.com/git/tutorials/install-git) installed. 
 
 ```
 mkdir <your_repo>
@@ -66,4 +66,4 @@ To add a new post, select 'Blog' on the sidebar. On the next screen, click the '
 The right column is where the content of each post is added. The default mode is a What-You-See-Is-What-You-Get (WYSIWYG) 
 editor, which will give you immediate feedback on the desired Markdown formatting. If it is preferred, click on the ellipsis in the upper right hand corner to change to edit in 'Raw' mode, where the Markdown is explicitly written. 
 
-If the blog post will feature images and files, upload them to the 'Media' library which can be accessed on the sidebar. To add them in the WYSIWYG post editor, hit `ctrl+shift+u`. This will open the media library where each image or file can be selected and added inline to the post. 
+If the blog post will feature images and files, upload them to the 'Media' library which can be accessed on the sidebar. To add them in the WYSIWYG post editor, hit `ctrl+shift+u`. This will open the media library where each image or file can be selected and added inline to the post. The images will be center-justified when posted to the blog. 
