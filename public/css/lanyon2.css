@@ -92,6 +92,10 @@ a:hover {
   letter-spacing: -1px;
 }
 
+#home-body .bottom-left {
+  background-color: #fff0;
+}
+
 p {
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
