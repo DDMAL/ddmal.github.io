@@ -62,7 +62,7 @@ h2, h3, h4, h5, h6 {
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #0e6e90 !important;
 }
 
@@ -501,7 +501,7 @@ a.pagination-item:hover {
     position: absolute;
     bottom: 12px;
     right: 12px;
-    background-color: #45c5d5;
+    background-color: #1bb3e9bd;
     padding: 5px 8px;
     border-radius: 5px;
 }
@@ -705,6 +705,9 @@ img {
   .page-title, .home-title {
     margin-top: 20px;
   }
+}
+
+@media (max-width: 608px) {
   .bottom-left {
     bottom: 6px;
     right: 6px;
