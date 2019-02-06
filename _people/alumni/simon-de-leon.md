@@ -1,7 +1,7 @@
 ---
 title: Simon de Leon
 first_name: Simon
-last_name: de Leon
+last_name: Leon
 role: alumni
 affiliation:
 degree:
