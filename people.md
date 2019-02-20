@@ -111,13 +111,13 @@ tab: People
 <ul class="ulist-html">
 {% for person in people %}
   {% if person.role == 'masters' %}
-  <li>
-  {% if person.link %}
-  <a href="{{ person.link }}">{{ person.title }}</a>
-  {% else %}
-  {{ person.title }}
-  {% endif %}
-  </li>
+    <li>
+      {% if person.link %}
+        <a href="{{ person.link }}">{{ person.title }}</a>
+      {% else %}
+        {{ person.title }}
+      {% endif %}
+    </li>
   {% endif %}
 {% endfor %}
 </ul>
@@ -129,13 +129,13 @@ tab: People
 <ul class="ulist-html">
 {% for person in people %}
   {% if person.role == 'lab-member' %}
-  <li>
-  {% if person.link %}
-  <a href="{{ person.link }}">{{ person.title }}</a>
-  {% else %}
-  {{ person.title }}
-  {% endif %}
-  </li>
+    <li>
+      {% if person.link %}
+        <a href="{{ person.link }}">{{ person.title }}</a>
+      {% else %}
+        {{ person.title }}
+      {% endif %}
+    </li>
   {% endif %}
 {% endfor %}
 </ul>

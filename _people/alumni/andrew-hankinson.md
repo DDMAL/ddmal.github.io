@@ -5,5 +5,6 @@ last_name: Hankinson
 role: alumni
 affiliation: Bodleian Libaray
 degree: Post Doc, PhD
-link:
+link: https://andrewhankinson.info/
+neon: project-manager
 ---

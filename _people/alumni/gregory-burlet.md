@@ -6,4 +6,5 @@ role: alumni
 affiliation: Frettable
 degree: MA
 link:
+neon: developer
 ---

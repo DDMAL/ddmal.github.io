@@ -38,15 +38,42 @@ Any contributions are welcome! The easiest way to submit code is:
 If you have any comments please [let us know](emily.hopkins@mcgill.ca). If you would like to see a particular feature implemented, post a new [issue](https://github.com/DDMAL/Neon2/issues) on the Neon2 Github.  
 <br>
 
-## Developers
+## Developers    
 
 Neon2 is developed by:
 
-{% include ulist.html list="Juliette Regimbal; Zoé McLennan; Andrew Tran; Gregory Burlet; Alastair Porter(l)http://www.music.mcgill.ca/~alastair" %}
+{% assign people = site.people | sort: 'last_name' %}
+
+<ul class="ulist-html">
+{% for person in people %}
+  {% if person.neon == 'developer' %}
+  <li>
+  {% if person.link %}
+  <a href="{{ person.link }}">{{ person.title }}</a>
+  {% else %}
+  {{ person.title }}
+  {% endif %}
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>
 
 Project managers:
 
-{% include ulist.html list="Gabriel Vigliensoni; Andrew Hankinson(l)https://andrewhankinson.info/; Ichiro Fujinaga(l)http://music.mcgill.ca/~ich" %}  
+<ul class="ulist-html">
+{% for person in people %}
+  {% if person.neon == 'project-manager' %}
+  <li>
+  {% if person.link %}
+  <a href="{{ person.link }}">{{ person.title }}</a>
+  {% else %}
+  {{ person.title }}
+  {% endif %}
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
 <br>
 
 ## Sponsors
