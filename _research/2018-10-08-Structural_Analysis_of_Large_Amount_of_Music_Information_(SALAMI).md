@@ -2,6 +2,7 @@
 layout: research_post
 title: SALAMI
 tab: Research
+type: project
 permalink: /research/:title/
 ---
 

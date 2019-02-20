@@ -2,6 +2,7 @@
 layout: research_post
 title: Audio Quality
 tab: Research
+type: project
 permalink: /research/:title/
 ---
 

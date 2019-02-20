@@ -2,6 +2,7 @@
 layout: research_post
 title: The McGill Image-to-Audio Conversion Project (MltAC)
 tab: Research
+type: project
 permalink: /research/:title/
 ---
 

@@ -2,6 +2,7 @@
 layout: research_post
 title: Interlibrary Communication
 tab: Research
+type: project
 permalink: /research/:title/
 ---
 

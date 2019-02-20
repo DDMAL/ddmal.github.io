@@ -2,7 +2,7 @@
 layout: page
 title: Preprocessing
 tab: Research
-permalink: /omr/gemm/:title/
+permalink: /research/omr/gemm/:title/
 ---
 
 With early documents, pre-processing is a crucial phase since they are in most cases highly degraded. Further more, music manuscripts are by definition unique, so it is impossible to choose the best copy for our task. It is very often the same with early prints because few complete copies survive.

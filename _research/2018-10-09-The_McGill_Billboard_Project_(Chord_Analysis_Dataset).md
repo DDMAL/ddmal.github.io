@@ -2,6 +2,7 @@
 layout: research_post
 title: The McGill Billboard Project
 tab: Research
+type: project
 permalink: /research/:title/
 ---
 

@@ -2,6 +2,7 @@
 layout: research_post
 title: Workflow Management with Automatic Metadata Extraction
 tab: Research
+type: project
 permalink: /research/:title/
 ---
 

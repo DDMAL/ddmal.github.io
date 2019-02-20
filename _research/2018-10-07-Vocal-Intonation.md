@@ -2,6 +2,7 @@
 layout: research_post
 title: Vocal Intonation
 tab: Research
+type: project
 permalink: /research/:title/
 ---
 
