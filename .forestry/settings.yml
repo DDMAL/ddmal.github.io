@@ -18,6 +18,11 @@ sections:
   create: all
   match: "**/*"
 - type: directory
+  path: _resources
+  label: Resources
+  create: all
+  match: "**/*"
+- type: directory
   path: _software
   label: Software
   create: all
