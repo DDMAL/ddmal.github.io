@@ -12,6 +12,11 @@ sections:
   label: People
   create: all
   match: "**/*"
+- type: directory
+  path: _research
+  label: Research
+  create: all
+  match: "**/*"
 upload_dir: assets
 public_path: "{{ site.baseurl }}/assets"
 front_matter_path: ''
