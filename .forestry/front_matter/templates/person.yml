@@ -1,40 +1,63 @@
 ---
 label: Person
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title
   type: text
   hidden: false
   default: ''
+  description: Full name of the individual
+  config:
+    required: true
 - name: first_name
   label: First name
   type: text
   hidden: false
   default: ''
+  config:
+    required: true
 - name: last_name
   label: Last name
   type: text
   hidden: false
   default: ''
-- name: role
-  label: Role
-  type: text
-  hidden: false
-  default: ''
+  config:
+    required: true
+- type: select
+  name: role
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - alumni
+    - doctoral
+    - lab-member
+    - masters
+    - post-doctoral
+    - project-manager
+    - supervisor
+  label: role
+  description: Individual's relation to DDMAL (alumni, current student, etc...)
+  default: alumni
 - name: link
   label: Link
   type: text
   hidden: false
   default: ''
+  description: Link to a personal/professional website related to individual
 - name: affiliation
   label: Affiliation
   type: text
   hidden: false
   default: ''
+  description: 'Usually for alumni role: where the DDMAL member is now working/studying'
 - name: degree
   label: Degree
   type: text
   hidden: false
   default: ''
+  description: 'Usually for alumni role: what degrees do they possess since leaving
+    McGill (ex. Post Doc, PhD, Masters)'
