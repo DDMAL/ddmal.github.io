@@ -17,6 +17,11 @@ sections:
   label: Research
   create: all
   match: "**/*"
+- type: directory
+  path: _software
+  label: Software
+  create: all
+  match: "**/*"
 upload_dir: assets
 public_path: "{{ site.baseurl }}/assets"
 front_matter_path: ''
