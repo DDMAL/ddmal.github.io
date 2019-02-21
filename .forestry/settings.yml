@@ -4,14 +4,14 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: jekyll-posts
+  label: Blog
+  create: all
 - type: directory
   path: _people
   label: People
   create: all
   match: "**/*"
-- type: jekyll-posts
-  label: Blog
-  create: all
 upload_dir: assets
 public_path: "{{ site.baseurl }}/assets"
 front_matter_path: ''
