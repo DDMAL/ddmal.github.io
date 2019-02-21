@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: index.html
+  label: Home
+  match: "**/*"
 - type: jekyll-posts
   label: Blog
   create: all
