@@ -7,13 +7,17 @@ sections:
 - type: document
   path: index.html
   label: Home
-  match: "**/*"
 - type: jekyll-posts
   label: Blog
   create: all
 - type: directory
   path: _people
   label: People
+  create: all
+  match: "**/*"
+- type: directory
+  path: _publications
+  label: Publications
   create: all
   match: "**/*"
 - type: directory
