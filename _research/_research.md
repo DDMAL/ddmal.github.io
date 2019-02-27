@@ -10,7 +10,12 @@ permalink: /research/
 {% if post.title == "Centre de Recherche sur l'Interprétation au Clavecin (CRIC)" %}
   * {{ post.title }}
 {% else %}
+  {% if post.link %}
+  * [ {{ post.title }}]({{ post.link }})
+  {% else %}
   * [ {{ post.title }} ]({{ site.baseurl }}{{ post.url }})
+  {% endif %}
+
 {% endif %}
 {% endif %}
 

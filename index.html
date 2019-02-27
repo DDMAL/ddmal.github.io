@@ -4,38 +4,6 @@ title: Home
 tab: Home
 ---
 
-<!-- <div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div> -->
 <div style="text-align:center">
   <h1 class="home-title">Welcome!</h1>
   <div style="padding-top: 15px;"></div>
@@ -61,7 +29,11 @@ tab: Home
         {% if post.title == "Centre de Recherche sur l'Interprétation au Clavecin (CRIC)" %}
           <li> {{ post.title }} </li>
         {% else %}
-          <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+          {% if post.link %}
+            <li><a href="{{ post.link }}">{{ post.title }}</a></li>
+          {% else %}
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
         {% endif %}
       {% endif %}
 
