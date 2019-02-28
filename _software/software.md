@@ -17,4 +17,4 @@ Some of the software tools we're working on.
 * [PyBagithttps](https://github.com/ahankinson/pybagit)
 
 
-More code is available on out [GitHub Page](http://github.com/DDMAL).
+More code is available on our [GitHub Page](http://github.com/DDMAL).
