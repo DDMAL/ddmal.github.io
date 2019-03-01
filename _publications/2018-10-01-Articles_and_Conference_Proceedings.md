@@ -1,5 +1,5 @@
 ---
-layout: subpost
+layout: page
 title: Articles and Conference Proceedings
 
 ---
