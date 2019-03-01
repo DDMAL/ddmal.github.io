@@ -48,7 +48,11 @@ We welcome bug reports, feature requests, and patches to the libmei project page
 
 ## Authors
 
-{% include ulist.html list="Andrew Hankinson; Alastair Porter; Greg Burlet; Jamie Klassen; Mahtab Ghamsari" %}
+* Andrew Hankinson
+* Alastair Porter
+* Greg Burlet
+* Jamie Klassen
+* Mahtab Ghamsari
 
 Development of LibMEI was made available with funding from the Social Sciences and Humanities Research Council of Canada.  
 <br>
