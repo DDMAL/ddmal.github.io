@@ -17,6 +17,8 @@ sections:
   label: People
   create: all
   match: "**/*"
+  templates:
+  - person
 - type: directory
   path: _publications
   label: Publications
