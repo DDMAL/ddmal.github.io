@@ -90,7 +90,7 @@ The front matter for this file and many of the files at the same level of the fo
 Here is a loose tree structure representative of the need for permalinks in the Jekyll framework. Each bullet point's url is a concatenation of each parent element's own URL extension. The root URL (/DDMAL-new-site/) is not explicitly typed in the permalink front matter as it is the root for any page on the website. 
 
 * DDMAL-new-site (/DDMAL-new-site/)
-  * Software (/DDMAL-new-site__/software/__)
+  * Software (/DDMAL-new-site/software/)
     * LibMEI (/DDMAL-new-site/software/LibMEI/)
     * Neon (/DDMAL-new-site/software/neon/)
 
