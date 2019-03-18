@@ -1,5 +1,5 @@
 ---
-layout: research_post
+layout: page
 title: Automatic Music Classification
 tab: Research
 type: project

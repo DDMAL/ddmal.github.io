@@ -1,5 +1,5 @@
 ---
-layout: research_post
+layout: page
 title: The McGill Billboard Project
 tab: Research
 type: project

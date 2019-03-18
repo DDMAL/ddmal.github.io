@@ -1,5 +1,5 @@
 ---
-layout: research_post
+layout: page
 title: Workflow Management with Automatic Metadata Extraction
 tab: Research
 type: project

@@ -1,5 +1,5 @@
 ---
-layout: research_post
+layout: page
 title: Vocal Intonation
 tab: Research
 type: project

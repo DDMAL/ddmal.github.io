@@ -1,5 +1,5 @@
 ---
-layout: research_post
+layout: page
 title: Optical Music Recognition (OMR)
 tab: Research
 type: project

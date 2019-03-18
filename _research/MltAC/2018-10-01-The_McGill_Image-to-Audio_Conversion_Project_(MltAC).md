@@ -1,5 +1,5 @@
 ---
-layout: research_post
+layout: page
 title: The McGill Image-to-Audio Conversion Project (MltAC)
 tab: Research
 type: project

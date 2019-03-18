@@ -1,5 +1,5 @@
 ---
-layout: research_post
+layout: page
 title: Interlibrary Communication
 tab: Research
 type: project

@@ -1,5 +1,5 @@
 ---
-layout: research_post
+layout: page
 title: SALAMI
 tab: Research
 type: project

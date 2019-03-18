@@ -1,5 +1,5 @@
 ---
-layout: research_post
+layout: page
 title: Audio Quality
 tab: Research
 type: project

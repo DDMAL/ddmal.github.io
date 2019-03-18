@@ -1,5 +1,5 @@
 ---
-layout: research_post
+layout: page
 title: Single Interface for Music Score Searching and Analysis (SIMSSA)
 tab: Research
 type: project

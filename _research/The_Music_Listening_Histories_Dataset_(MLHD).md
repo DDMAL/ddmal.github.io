@@ -1,5 +1,5 @@
 ---
-layout: research_post
+layout: page
 title: The Music Listening Histories Dataset (MLHD)
 tab: Research
 type: project
