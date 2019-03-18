@@ -17,14 +17,6 @@ fields:
   default: page
   hidden: true
 - type: text
-  name: tab
-  label: tab
-  description: Keep navbar active tab accurate, should be "Blog"
-  config:
-    required: true
-  default: Blog
-  hidden: true
-- type: text
   name: permalink
   label: permalink
   description: Override standard url extension to better organize site
