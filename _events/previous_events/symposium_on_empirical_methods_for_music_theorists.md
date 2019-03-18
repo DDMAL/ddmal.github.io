@@ -2,7 +2,7 @@
 layout: page
 title: Symposium on Empirical Methods for Music Theorists
 tab: Events
-permalink: /events/previous_events/:title/
+permalink: /:title/
 ---
 
 The Music Cognition Interest Group of SMT and CIRMMT Research Axis 5 (Music Perception and Cognition) is pleased to announce a Symposium on Empirical Methods to take place immediately following the upcoming SMT meeting in Montreal.

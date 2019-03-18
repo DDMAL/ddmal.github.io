@@ -2,6 +2,7 @@
 layout: page
 title: Previous Events
 tab: Events
+permalink: /events/previous_events/
 ---
 
 * [ISMIR 2015](http://ismir2015.uma.es/), October, Malaga, Spain.
