@@ -8,6 +8,7 @@ This is the repository for the new DDMAL website distributed via GitHub Pages. I
 - [CMS](#cms)
   - [CMS Navigation](#cms-navigation)
   - [Media](#media)
+- [Troubleshooting](#troubleshooting)
 
 ## Local Setup
 
@@ -88,4 +89,6 @@ Blog posts, workshops, and individual pages often include images and downloads o
 When writing or editing a Markdown entry that will include an image or file, hit `ctrl+shift+u` to open the Media folder. Then, you can select any existing media and drop it right into the new post; Forestry handles the file path automatically, and it should not need to be altered. Images will be center-justified when posted to the website. 
 
 
+## Troubleshooting
 
+If you are having any difficulties with setup, the CMS, or local development, please feel free to email [Evan Savage](mailto:evan.savage@mail.mcgill.ca) or use the issues tab found in this repository. 
