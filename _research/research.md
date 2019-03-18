@@ -2,7 +2,6 @@
 layout: page
 title: Research & Projects
 tab: Research
-permalink: /research/
 ---
 
 {% for post in site.research %}
