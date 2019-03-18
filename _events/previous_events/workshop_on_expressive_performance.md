@@ -2,7 +2,6 @@
 layout: page
 title: Workshop on Expressive Performance
 tab: Events
-permalink: /:title/
 ---
 
 CIRMMT Axis Three ("Musical information archiving and retrieval") presents a half-day workshop in Montreal on the topic of expressive performance The schedule will include two keynote talks by Roger Dannenberg (Carnegie Mellon University) and Christopher Raphael (Indiana University), several 20 minute talks, a poster session accompanied by a wine and cheese, and plenty of time for informal discussion between researchers interested in expressive performance.  
