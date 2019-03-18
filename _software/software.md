@@ -2,7 +2,6 @@
 layout: page
 title: Software
 tab: Software
-permalink: /software/
 ---
 
 Some of the software tools we're working on.
