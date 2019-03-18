@@ -81,6 +81,20 @@ In the example above, selecting the group "alumni" from the dropdown for __Role_
 
 Some tabs such as "People" only include editable Front Matter as their respective Markdown files contain little information other than names, affiliations, and links to external websites. There is no need for a body of content for those files. Otherwise, tabs like "Research" and "Blog" include Front Matter and Markdown editing for correctly filing and editing entire pages. 
 
+### Organization
+
+For most of the tabs on the sidebar in Forestry, there is a corresponding Markdown file for each at the root of the respective tab. For example, the **Software** tab features a file called **software.md** within it. This is the the landing page that a user will see when selecting "Software" from the navigation bar on the actual website. 
+
+The front matter for this file and many of the files at the same level of the folder require permalinks to specify how the website content is actually oriented hierarchically. The **LibMEI.md** and **neon.md** files are extensions of **software.md** so their permalinks are "/software/LibMEI/" and "/software/neon/" respectively where the permalink for **software.md** is solely "/software/". The permalinks are oriented in this manner as the two project files are a subset of the software tab. 
+
+Here is a loose tree structure representative of the need for permalinks in the Jekyll framework. Each bullet point's url is a concatenation of each parent element's own URL extension. 
+
+* DDMAL-new-site (/DDMAL-new-site/)
+  * Software (/DDMAL-new-site/software/)
+    * LibMEI (/DDMAL-new-site/software/LibMEI)
+    * Neon (/DDMAL-new-site/software/neon/)
+
+
 
 ### Media
 
