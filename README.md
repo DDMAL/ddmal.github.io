@@ -87,13 +87,12 @@ For most of the tabs on the sidebar in Forestry, there is a corresponding Markdo
 
 The front matter for this file and many of the files at the same level of the folder require permalinks to specify how the website content is actually oriented hierarchically. The **LibMEI.md** and **neon.md** files are extensions of **software.md** so their permalinks are "/software/LibMEI/" and "/software/neon/" respectively where the permalink for **software.md** is solely "/software/". The permalinks are oriented in this manner as the two project files are a subset of the software tab. 
 
-Here is a loose tree structure representative of the need for permalinks in the Jekyll framework. Each bullet point's url is a concatenation of each parent element's own URL extension. 
+Here is a loose tree structure representative of the need for permalinks in the Jekyll framework. Each bullet point's url is a concatenation of each parent element's own URL extension. The root URL (/DDMAL-new-site/) is not explicitly typed in the permalink front matter as it is the root for any page on the website. 
 
 * DDMAL-new-site (/DDMAL-new-site/)
-  * Software (/DDMAL-new-site/software/)
-    * LibMEI (/DDMAL-new-site/software/LibMEI)
+  * Software (/DDMAL-new-site__/software/__)
+    * LibMEI (/DDMAL-new-site/software/LibMEI/)
     * Neon (/DDMAL-new-site/software/neon/)
-
 
 
 ### Media
