@@ -2,6 +2,7 @@
 layout: page
 title: Resources
 tab: Resources
+permalink: /resources/
 ---
 
 ## Links
