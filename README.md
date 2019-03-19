@@ -79,20 +79,20 @@ Every Markdown file has a number of fields in the leftmost column to edit which 
 
 In the example above, selecting the group "alumni" from the dropdown for __Role__ will automatically place the individual in that respective group on the website. Other details such as "link" and "affiliation" are not required, but they can be used to link to others' work and provide more context. 
 
-Some tabs such as "People" only include editable Front Matter as their respective Markdown files contain little information other than names, affiliations, and links to external websites. There is no need for a body of content for those files. Otherwise, tabs like "Research" and "Blog" include Front Matter and Markdown editing for correctly filing and editing entire pages. 
+Some tabs such as "People" only include editable front matter as their respective Markdown files contain little information other than names, affiliations, and links to external websites. There is no need for a body of content for those files. Otherwise, tabs like "Research" and "Blog" include front matter and Markdown editing for correctly filing and editing entire pages. 
 
 ### Organization
 
-For most of the tabs on the sidebar in Forestry, there is a corresponding Markdown file for each at the root of the respective tab. For example, the **Software** tab features a file called **software.md** within it. This is the the landing page that a user will see when selecting "Software" from the navigation bar on the actual website. 
+For most of the tabs on the sidebar in Forestry, there is a corresponding Markdown file for each at the root of the respective tab's folder. For example, the **Software** tab features a file called **software.md** within it. This is the the landing page that a user will see when selecting "Software" from the navigation bar on the actual website. 
 
-The front matter for this file and many of the files at the same level of the folder require permalinks to specify how the website content is actually oriented hierarchically. The **LibMEI.md** and **neon.md** files are extensions of **software.md** so their permalinks are "/software/LibMEI/" and "/software/neon/" respectively where the permalink for **software.md** is solely "/software/". The permalinks are oriented in this manner as the two project files are a subset of the software tab. 
+The folder architecture automatically appends to the URL based on the progression from the root URL through each child folder. The front matter for the **software.md** file at the root of the **Software** folder requires a "permalink" field since we would like to see that page at "DDMAL-new-site/software/" instead of "DDMAL-new-site/software/software/". The permalink should only need to be specified for landing pages found within the subfolder they are representing with the same name. Here's a quick example:
 
-Here is a loose tree structure representative of the need for permalinks in the Jekyll framework. Each bullet point's url is a concatenation of each parent element's own URL extension. The root URL (/DDMAL-new-site/) is not explicitly typed in the permalink front matter as it is the root for any page on the website. 
-
-* DDMAL-new-site (/DDMAL-new-site/)
-  * Software (/DDMAL-new-site/software/)
-    * LibMEI (/DDMAL-new-site/software/LibMEI/)
-    * Neon (/DDMAL-new-site/software/neon/)
+* software [**folder**]
+  * software.md (permalink: /software/) ---|
+  * LibMEI.md <----------------------------|
+  * neon.md   <----------------------------|
+  
+The **LibMEI.md** and **neon.md** files are linked to from **software.md**, and their URLs will immediately be correct without the need for a permalink since they are a subset of the software landing page inside the software folder. As folders are nested in an increasing website architecture, the same principle applies, and each parent folder will be one further step back in the entire URL. 
 
 
 ### Media
