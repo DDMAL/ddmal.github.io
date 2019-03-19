@@ -3,7 +3,6 @@ layout: page
 title: SALAMI
 tab: Research
 type: project
-permalink: /research/:title/
 ---
 
 SALAMI (Structural Analysis of Large Amounts of Music Information) is an innovative and ambitious computational musicology project. To date, musical analysis has been conducted by individuals and on a small scale. Our computational approach, combined with the huge volume of data now available from such source as the Internet Archive, will: a) deliver a very substantive corpus of musical analyses in a common framework for use by music scholars, students and beyond; and, b) establish a methodology and tooling which will enable others to add to this in the future and to broaden the application of the techniques we establish. A resource of SALAMI's magnitude empowers musicologists to approach their work in a new and different way, starting with the data, and to ask research questions that have not been possible before.

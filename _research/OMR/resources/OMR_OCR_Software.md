@@ -2,7 +2,6 @@
 layout: page
 title: OMR and OCR Software
 tab: Research
-permalink: /research/omr/:title/
 ---
 
 # OMR   

@@ -3,7 +3,6 @@ layout: page
 title: Vocal Intonation
 tab: Research
 type: project
-permalink: /research/:title/
 ---
 
 ## Researchers

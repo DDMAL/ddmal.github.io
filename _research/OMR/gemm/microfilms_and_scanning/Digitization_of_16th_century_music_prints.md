@@ -2,7 +2,6 @@
 layout: page
 title: Digitization of 16th Century Music Prints
 tab: Research
-permalink: /research/omr/gemm/microfilms_and_scanning/:title/
 ---
 
 For our experiments, we selected a first set of microfilms of 18 music prints of the 16th century held at the [Marvin Duchow Music Library at McGill](https://www.mcgill.ca/library/branches/music/about). They were scanned in grayscale at a resolution of 400 dpi and following the guidelines set-up for the [Marenzio project at Harvard](http://www.marenzio.org/). The microfilms scanned correspond to a total of about 1800 images. In some cases, the images contain more than one page (two or four more to be precise). In these cases, the resolution was increased to 600 dpi.

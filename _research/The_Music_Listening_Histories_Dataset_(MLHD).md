@@ -3,7 +3,6 @@ layout: page
 title: The Music Listening Histories Dataset (MLHD)
 tab: Research
 type: project
-permalink: /research/:title/
 ---
 
 The Music Listening Histories Dataset (MLHD) is a large-scale collection of music listening events assembled from more than 27 billion time-stamped logs extracted from Last.fm.

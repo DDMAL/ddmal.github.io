@@ -3,7 +3,6 @@ layout: page
 title: Interlibrary Communication
 tab: Research
 type: project
-permalink: /research/:title/
 ---
 
 This research project examines how to access the music data once they are stored. This problem arises even for new digitally-born materials.
