@@ -89,8 +89,8 @@ The folder architecture automatically appends to the URL based on the progressio
 
 * software [**folder**]
   * software.md (permalink: /software/) ---|
-  * LibMEI.md <----------------------------|
-  * neon.md   <----------------------------|
+  * LibMEI.md <---------------------------|
+  * neon.md   <-----------------------------|
   
 The **LibMEI.md** and **neon.md** files are linked to from **software.md**, and their URLs will immediately be correct without the need for a permalink since they are a subset of the software landing page inside the software folder. As folders are nested in an increasing website architecture, the same principle applies, and each parent folder will be one further step back in the entire URL. 
 
