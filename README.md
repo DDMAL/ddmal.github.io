@@ -7,6 +7,7 @@ This is the repository for the new DDMAL website distributed via GitHub Pages. I
 - [Local Setup](#local-setup)
 - [CMS](#cms)
   - [CMS Navigation](#cms-navigation)
+  - [Organization](#organization)
   - [Media](#media)
 - [Troubleshooting](#troubleshooting)
 
