@@ -3,7 +3,6 @@ layout: page
 title: Automatic Music Classification
 tab: Research
 type: project
-permalink: /research/:title/
 ---
 
 ## jMIR

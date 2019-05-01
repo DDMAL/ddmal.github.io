@@ -2,7 +2,6 @@
 layout: page
 title: Scanning and Ground-truth Annotation for early Music Microfilms
 tab: Research
-permalink: /research/omr/gemm/microfilms_and_scanning/:title/
 ---
 
 Throughout the summer of 2006, we attempted to scan prints from a variety of printers from microfilms held at the Marvin Duchow Music Library at McGill University. Two master's students were trained to use the microfilm scanner and to correct the output of the optical music recognition process with Aruspix. As a gauge for future researchers who might undertake such a project, we present here some statistics on the time it took to build this set of ground truth.

@@ -2,7 +2,6 @@
 layout: page
 title: OMR for Plainchant
 tab: Research
-permalink: /research/omr/:title/
 ---
 <br>
 

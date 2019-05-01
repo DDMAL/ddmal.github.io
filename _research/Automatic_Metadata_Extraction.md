@@ -3,7 +3,6 @@ layout: page
 title: Workflow Management with Automatic Metadata Extraction
 tab: Research
 type: project
-permalink: /research/:title/
 ---
 
 As libraries convert materials into digital formats, the need for efficient workflow management tools will increase. The significant human labor required for editing, inspecting, correcting, and "tagging" (with appropriate metadata) digital objects might inhibit libraries and other organizations from initiating large-scale digitization efforts. By developing the framework of workflow management tools, semi-automated tools will reduce the resource requirements for implementing large-scale digitization projects and provide enhanced search functionality.
