@@ -30,7 +30,11 @@ Thus, the formal analysis is potentially useful in classifying different genres 
 
 Variations 2 Audio Timeliner from Indiana University is an audio annotation and analysis tool for creating and labeling bubble diagrams. These diagrams can be used to navigate music or other audio for detailed study.
 
+<br>  
+
 ![]({{ site.baseurl }}/assets/variations-sample-timeline.jpeg)
+
+<br>  
 
 Traditionally, structural analysis of music has been done manually, with very few exceptions (e.g., Huron 2001, Järvinen et al. 1999). This is a time-consuming task and only a small sample of music has been analysed. Moreover, since there are no standard formats for describing the structure (see various examples of traditional analysis in Appendix B), let alone a standard machine-readable file format, there is no simple way to compare large amount of music based upon its various internal structures.
 Even within the field of Music Information Retrieval (MIR) research, with its evolving computational approach to music analysis, the majority of structural analysis work has been performed on a few hundred pieces, at best. SALAMI will be analysing ~350,000 pieces (~23,000 hours). The algorithms chosen, modified and/or developed for use by SALAMI will be trained and evaluated using a set of ground-truth data based upon several thousand exemplars created by trained musicologists. This research paradigm is thus orders of magnitude greater than any previous research.

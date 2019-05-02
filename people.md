@@ -6,8 +6,10 @@ tab: People
 
 
 {% include textpic.html imgurl="/assets/DDMALSummer2018-1000px.jpg" text="2018" %}
+
 <br>
-**_l-r_** : Ichiro Fujinaga, Minh Anh Nguyen, Zoé McLennan, Juliette Regimbal, Alex Daigle, Eric Liu, Gabriel Vigliensoni, Martha Thomae, Gustavo Polins Pedro, Tim de Reuse, Emily Hopkins, Noah Baxter, Yaolong Ju, Laura Beauchamp, Andrew Kam, Vi-An Tran, Néstor Nápoles, Julie Cumming
+
+**_l-r_** : ****Ichiro Fujinaga****, Minh Anh Nguyen, Zoé McLennan, Juliette Regimbal, Alex Daigle, Eric Liu, Gabriel Vigliensoni, Martha Thomae, Gustavo Polins Pedro, Tim de Reuse, Emily Hopkins, Noah Baxter, Yaolong Ju, Laura Beauchamp, Andrew Kam, Vi-An Tran, Néstor Nápoles, Julie Cumming
 <hr>
 
 {% include textpic.html imgurl="/assets/DDMALSummer2017-1000px.jpg" text="2017" %}
