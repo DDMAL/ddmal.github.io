@@ -111,12 +111,17 @@ p {
 
 li {
   font-family: 'Raleway', sans-serif;
+  font-weight: 100;
   font-size: 16px;
 }
 
 table {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
+}
+
+b {
+  font-weight: 500;
 }
 
 
