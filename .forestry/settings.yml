@@ -45,7 +45,7 @@ sections:
   create: all
   match: "**/*"
 upload_dir: assets
-public_path: "{{ site.baseurl }}/assets"
+public_path: "{{ site.url }}/assets"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"

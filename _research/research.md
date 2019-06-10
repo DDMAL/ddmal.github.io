@@ -14,7 +14,7 @@ permalink: "/research/"
   {% if post.link %}
 * [ {{ post.title }}]({{ post.link }})
   {% else %}
-* [ {{ post.title }} ]({{ site.baseurl }}{{ post.url }})
+* [ {{ post.title }} ]({{ site.url }}{{ post.url }})
   {% endif %}
 
 {% endif %}

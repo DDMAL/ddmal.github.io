@@ -8,13 +8,13 @@ permalink: /research/SALAMI/background/
 ## Table of Contents
 
 * [Introduction and Background](#introduction-and-background)
-* [A. Compliance with Standards]({{ site.baseurl }}/research/SALAMI/background/compliance)
-* [B. Partnership]({{ site.baseurl }}/research/SALAMi/background/partnership)
-* [C. Research Products and Uses]({{ site.baseurl }}/research/SALAMI/background/research_products)
-* [D. Data Description]({{ site.baseurl }}/research/SALAMI/background/data_description)
-* [E. History and Resources]({{ site.baseurl }}/research/SALAMI/background/history)
-* [F. Technology and Work Plan]({{ site.baseurl }}/research/SALAMI/background/technology)
-* [G. Environmental Scan]({{ site.baseurl }}/research/SALAMI/background/environmental_scan)
+* [A. Compliance with Standards]({{ site.url }}/research/SALAMI/background/compliance)
+* [B. Partnership]({{ site.url }}/research/SALAMi/background/partnership)
+* [C. Research Products and Uses]({{ site.url }}/research/SALAMI/background/research_products)
+* [D. Data Description]({{ site.url }}/research/SALAMI/background/data_description)
+* [E. History and Resources]({{ site.url }}/research/SALAMI/background/history)
+* [F. Technology and Work Plan]({{ site.url }}/research/SALAMI/background/technology)
+* [G. Environmental Scan]({{ site.url }}/research/SALAMI/background/environmental_scan)
 
 <br>  
 
@@ -32,7 +32,7 @@ Variations 2 Audio Timeliner from Indiana University is an audio annotation and 
 
 <br>  
 
-![]({{ site.baseurl }}/assets/variations-sample-timeline.jpeg)
+![]({{ site.url }}/assets/variations-sample-timeline.jpeg)
 
 <br>  
 

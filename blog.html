@@ -7,7 +7,7 @@ tab: Blog
 <!-- <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul> -->
@@ -16,7 +16,7 @@ tab: Blog
   <div class="post-container">
     <div class="post-title row">
       <div class="col-sm-12">
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
       </div>
       <div class="col-sm-12"><br></div>
       <div class="col-sm-12">
@@ -39,7 +39,7 @@ tab: Blog
       {{ cleaned_content }}
       <br />
       <p>
-        <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+        <a href="{{ site.url }}{{ post.url }}">Read more</a>
       </p>
     </div>
 

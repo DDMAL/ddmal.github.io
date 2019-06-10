@@ -118,4 +118,4 @@ This research has been supported by BecasChile Bicentenario, [Comision Nacional 
 
 For additional information, questions, problems, or feedback please contact Gabriel Vigliensoni at [gabriel.vigliensonimartin@mcgill.ca](mailto:gabriel.vigliensonimartin@mcgill.ca). In case of issues, please do include as much detail as possible.
 
-![last.fm]({{ site.baseurl }}/assets/Lastfm2008.png "Last.fm")
+![last.fm]({{ site.url }}/assets/Lastfm2008.png "Last.fm")

@@ -132,6 +132,6 @@ Please e-mail any questions, comments, or bugs to Ashley Burgoyne at [john.ashle
 
 <hr>
 
-![Public domain]({{ site.baseurl }}/assets/public_domain.png "Public domain")
+![Public domain]({{ site.url }}/assets/public_domain.png "Public domain")
 <br>
 To the extent possible under law, the DDMAL has waived all copyright and related or neighbouring rights to the McGill *Billboard* annotations. This work is published from Canada.

@@ -12,20 +12,20 @@ Optical Music Recognition (OMR) is the process of converting scanned images of p
 ## Projects
 
 * [Optical Neume Recognition Project](https://www.cs.bham.ac.uk/~aps/research/projects/neumes/) (2012 - 2014)
-* [Search the Liber Usualis]({{ site.baseurl }}/research/omr/Search_the_Liber_Usualis/)
+* [Search the Liber Usualis]({{ site.url }}/research/omr/Search_the_Liber_Usualis/)
 * [Single Interface for Music Score Search and Analysis (SIMSSA)](https://simssa.ca/) (2011 - 2021)
-* [Optical Music Recognition for Plainchant]({{ site.baseurl }}/research/omr/OMR_for_Plainchant/) (2010 - 2013)
-* [Gamut for Early Music on Microfilms (GEMM)]({{ site.baseurl }}/research/omr/gemm/) (2005 - 2008)  
+* [Optical Music Recognition for Plainchant]({{ site.url }}/research/omr/OMR_for_Plainchant/) (2010 - 2013)
+* [Gamut for Early Music on Microfilms (GEMM)]({{ site.url }}/research/omr/gemm/) (2005 - 2008)  
 <br>
 
 ## Software
 
 * [Gamera](http://gamera.informatik.hsnr.de/)
 * [Aruspix](http://www.aruspix.net/)
-* [Neon.js]({{ site.baseurl }}/software/neon/)  
+* [Neon.js]({{ site.url }}/software/neon/)  
 <br>
 
 ## Resources
 
-* [OMR Bibliography]({{ site.baseurl }}/research/omr/resources/OMR_Bibliography/)
-* [OMR and OCR Software]({{ site.baseurl }}/research/omr/resources/OMR_OCR_Software/)
+* [OMR Bibliography]({{ site.url }}/research/omr/resources/OMR_Bibliography/)
+* [OMR and OCR Software]({{ site.url }}/research/omr/resources/OMR_OCR_Software/)

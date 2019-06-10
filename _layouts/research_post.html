@@ -16,7 +16,7 @@ layout: default
     {% for post in site.research limit:3 %}
       <li>
         <h3>
-          <a href="{{ site.baseurl }}{{ post.url }}">
+          <a href="{{ site.url }}{{ post.url }}">
             {{ post.title }}
             <!-- <small>{{ post.date | date_to_string }}</small> -->
           </a>
