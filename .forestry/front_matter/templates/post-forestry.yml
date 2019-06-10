@@ -25,5 +25,5 @@ fields:
     required: true
   default: "/blog/:title"
 pages:
-- _posts/2018-12-21-test-post-2.md
 - _posts/2018-12-20-test-post.md
+- _posts/2018-12-21-test-post-2.md
