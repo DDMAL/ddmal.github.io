@@ -4,56 +4,41 @@ title: Home
 tab: Home
 ---
 
-<!-- <div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div> -->
-
 <div style="text-align:center">
-  <h1>Welcome!</h1>
+  <h1 class="home-title">Welcome!</h1>
   <div style="padding-top: 15px;"></div>
-  <h2>Distributed Digital Music Archives & Libraries Lab</h2>
+  <h3 style="font-weight:300;" class="subtitle">Distributed Digital Music Archives & Libraries Lab</h2>
 </div>
-<div data-aos="fade-in" id="home-body">
+<div class="container" data-aos="fade-in" id="home-body">
   {% include textpic.html imgurl="/assets/DDMALSummer2018-1000px.jpg" %}
   <br>
-  <p>We focus on developing and evaluating practices, frameworks, and tools for the design and construction of worldwide distributed digital music archives and libraries. Over the last few millennia, humans have amassed an enormous amount of information and cultural material that is scattered around the world. It is becoming abundantly clear that the optimal path for acquisition is to distribute the task of digitizing the wealth of historical and cultural heritage material that exists in analogue formats, which may include books, manuscripts, music scores, maps, photographs, videos, analogue tapes, and phonograph records. In order to achieve this goal, libraries, museums, and archives throughout the world, large or small, need well-researched policies, proper guidance, and efficient tools to digitize their collections and to make them available economically. The research conducted within the program will address unique and imminent challenges posed by the digitization and dissemination of music media.
-  </p>
-  <p>    We are located in the <a href="http://www.music.mcgill.ca/musictech/">Music Technology Area</a> of the <a href="http://www.mcgill.ca/music/">Schulich School of Music</a> at <a href="http://www.mcgill.ca/">McGill University</a> in Montreal, Quebec, Canada. We are affiliated with the <a href="http://www.cirmmt.mcgill.ca/"</a>Centre for Interdisciplinary Research in Music Media and Technology</a> (CIRMMT).
-  </p>
+  <div class="col-lg-12">
+    <p>We focus on developing and evaluating practices, frameworks, and tools for the design and construction of worldwide distributed digital music archives and libraries. Over the last few millennia, humans have amassed an enormous amount of information and cultural material that is scattered around the world. It is becoming abundantly clear that the optimal path for acquisition is to distribute the task of digitizing the wealth of historical and cultural heritage material that exists in analogue formats, which may include books, manuscripts, music scores, maps, photographs, videos, analogue tapes, and phonograph records.
+    </p>
+    <p>
+      In order to achieve this goal, libraries, museums, and archives throughout the world, large or small, need well-researched policies, proper guidance, and efficient tools to digitize their collections and to make them available economically. The research conducted within the program will address unique and imminent challenges posed by the digitization and dissemination of music media.
+    </p>
+    <p>    We are located in the <a href="http://www.music.mcgill.ca/musictech/">Music Technology Area</a> of the <a href="http://www.mcgill.ca/music/">Schulich School of Music</a> at <a href="http://www.mcgill.ca/">McGill University</a> in Montreal, Quebec, Canada. We are affiliated with the <a href="http://www.cirmmt.mcgill.ca/"</a>Centre for Interdisciplinary Research in Music Media and Technology</a> (CIRMMT).
+    </p>
+  </div>
   <h2>Research & Projects</h2>
+  <br>
   <ul id="home-research-list">
     {% for post in site.research %}
-      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      {% if post.type == 'project' %}
+        {% if post.title == "Centre de Recherche sur l'Interprétation au Clavecin (CRIC)" %}
+          <li> {{ post.title }} </li>
+        {% else %}
+          {% if post.link %}
+            <li><a href="{{ post.link }}">{{ post.title }}</a></li>
+          {% else %}
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+        {% endif %}
+      {% endif %}
+
     {% endfor %}
-  </ul>
+  <!-- </ul> -->
 </div>
 <br><br>
+<!-- Yuh -->

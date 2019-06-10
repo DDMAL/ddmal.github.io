@@ -4,11 +4,59 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: index.html
+  label: Home
 - type: jekyll-posts
   label: Blog
   create: all
-upload_dir: uploads
-public_path: "/uploads"
+  templates:
+  - post-forestry
+- type: directory
+  path: _people
+  label: People
+  create: all
+  match: "**/*"
+  templates:
+  - person
+- type: directory
+  path: _publications
+  label: Publications
+  create: all
+  match: "**/*"
+- type: directory
+  path: _research
+  label: Research
+  create: all
+  match: "**/*"
+- type: directory
+  path: _software
+  label: Software
+  create: all
+  match: "**/*"
+- type: directory
+  path: _events
+  label: Events
+  create: all
+  match: "**/*"
+- type: directory
+  path: _resources
+  label: Resources
+  create: all
+  match: "**/*"
+upload_dir: assets
+public_path: "{{ site.baseurl }}/assets"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
+build:
+  preview_command: bundle exec jekyll build --drafts --unpublished --future -d _site
+  publish_command: bundle exec jekyll build -d _site
+  preview_env:
+  - JEKYLL_ENV=staging
+  publish_env:
+  - JEKYLL_ENV=production
+  preview_output_directory: _site
+  output_directory: _site
+  instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
+    --port 8080 --host 0.0.0.0 -d _site

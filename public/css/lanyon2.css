@@ -62,11 +62,11 @@ h2, h3, h4, h5, h6 {
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #0e6e90 !important;
 }
 
-#myTopnav .btn::after {
+#nav-items a::after {
   content: '';
   display: block;
   width: 0;
@@ -75,7 +75,7 @@ a:hover {
   transition: width .3s;
 }
 
-#myTopnav .btn:hover::after {
+#nav-items a:hover::after {
   width: 100%;
   /* line-height: .85; */
 }
@@ -90,6 +90,10 @@ a:hover {
   font-weight: 300;
   color: #313131;
   letter-spacing: -1px;
+}
+
+#home-body .bottom-left {
+  background-color: #fff0;
 }
 
 p {
@@ -107,12 +111,17 @@ p {
 
 li {
   font-family: 'Raleway', sans-serif;
+  font-weight: 100;
   font-size: 16px;
 }
 
 table {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
+}
+
+b {
+  font-weight: 500;
 }
 
 
@@ -145,19 +154,6 @@ table {
  * Center the page content.
  */
 
-.container {
-  max-width: 28rem;
-}
-@media (min-width: 38em) {
-  .container {
-    max-width: 32rem;
-  }
-}
-@media (min-width: 56em) {
-  .container {
-    max-width: 38rem;
-  }
-}
 
 
 /*
@@ -218,7 +214,7 @@ table {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  /* margin-bottom: 4em; */
 }
 
 /* Blog post or page title */
@@ -231,6 +227,10 @@ table {
 .post-title {
   margin-top: 0;
   text-align: left;
+}
+
+.home-title {
+  margin-top: 0;
 }
 
 /* Meta data line below post title */
@@ -329,25 +329,28 @@ a.pagination-item:hover {
    /* display: inline-flex; */
 }
 
+#nav-items .active a {
+  color: #0e6e90;
+  border-top: 2px solid currentColor;
+}
+
 /* Style the links inside the navigation bar */
-.topnav .btn {
-   float: left;
+#nav-items a {
+   /* float: left;
    display: block;
    color: black;
    font-family: 'Raleway', sans-serif;
-   text-align: center;
-   padding: 0 14px;
-   font-size: 14px;
+   text-align: center; */
+   padding: 0 16px;
+   /* font-size: 14px; */
    border-top: 2px solid transparent;
    border-bottom: 2px solid transparent;
+   color: #1bb3e9;
 }
 
 
 /* Add an active class to highlight the current page */
-#myTopnav .active {
-  border-top: 2px solid currentColor;
 
-}
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
@@ -491,16 +494,25 @@ a.pagination-item:hover {
 
 .pic-container {
   position: relative;
-  text-align: center;
   color: white;
   z-index: -1;
+  display: table;
+  margin: auto;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bottom-left {
     position: absolute;
-    bottom: 8px;
-    right: 16px;
-    background-color: #00000033;
+    bottom: 12px;
+    right: 12px;
+    background-color: #1bb3e9bd;
+    padding: 5px 8px;
+    border-radius: 5px;
 }
 
 /* Added Savage */
@@ -522,13 +534,14 @@ hr {
 }
 
 .wrap {
-  min-height: calc(100vh - 89px);
+  min-height: calc(100vh - 109px);
 }
 
 #sticky {
   width: 100%;
   height: 89px;
   background-color: #c7cfdb;
+  /* margin-top: -89px; */
 }
 
 .footer-content {
@@ -539,6 +552,7 @@ hr {
 .mcgill-img-footer {
   width: calc(936px / 2.5);
   height: calc(134px / 2.5);
+  margin-left: 0;
 }
 
 .ddmal-img-footer {
@@ -550,13 +564,44 @@ hr {
   padding-left: 4%;
   padding-right: 4%;
   padding-bottom: 0;
+  margin-top: -10px;
   margin-bottom: 0;
   display: flex;
 }
 
 
 img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   margin-bottom: 0;
+  max-height: 400px;
+}
+
+/* #home-body img {
+  max-height: 400px;
+} */
+
+.post-container {
+  margin: 15px 0;
+  /* border: 2px solid black; */
+  /* border-radius: 5px; */
+
+}
+
+.post-title {
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+}
+
+.post-excerpt {
+  margin: auto;
+  padding: 15px;
+}
+
+.subtitle {
+  margin-bottom: 20px;
 }
 
 
@@ -574,6 +619,15 @@ img {
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 850px) {
+
+  #nav-items a {
+    width: 185px;
+  }
+
+  #nav-items a:hover::after {
+    width: 100px;
+    /* line-height: .85; */
+  }
 
  .topnav.responsive {
    position: relative;
@@ -597,14 +651,19 @@ img {
  .topnav.responsive .btn:hover {
    border-bottom: 2px solid transparent !important;
  }
- .topnav.responsive .active {
+ .active a {
    border-top: 2px solid transparent !important;
    border-bottom: 2px solid transparent !important;
    /* background-color: #0e6e9066; */
    /* border-radius: 4px; */
    color: #0e6e90;
-   border-right: 3px solid #0e6e90;
+   border-left: 3px solid #0e6e90;
  }
+
+ .nav-item {
+   padding: 3.5px 0;
+ }
+
  .title-wrap {
    margin-top: 2.7px;
  }
@@ -617,5 +676,54 @@ img {
   }
   .footer-img-wrap {
     padding-top: calc((89px - 134px / 4)/2);
+  }
+}
+
+.container {
+  max-width: 28rem;
+}
+@media (min-width: 38em) {
+  .container {
+    max-width: 32rem;
+  }
+
+}
+@media (min-width: 896px) {
+  .container {
+    max-width: 750px;
+  }
+  /* .bottom-left {
+    right: 25px;
+  } */
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+  /* .bottom-left {
+    right: 100px;
+  } */
+}
+
+@media (max-width: 420px) {
+  p, body li, #home-research-list li {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 608px) {
+  .page-title, .home-title {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 608px) {
+  .bottom-left {
+    bottom: 6px;
+    right: 6px;
+    padding: 2px 5px;
+  }
+  .wrap {
+    min-height: calc(100vh - 99px);
   }
 }

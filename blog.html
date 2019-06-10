@@ -4,10 +4,49 @@ layout: page
 tab: Blog
 ---
 
-<ul>
+<!-- <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
-</ul>
+</ul> -->
+<div class="container">
+{% for post in site.posts %}
+  <div class="post-container">
+    <div class="post-title row">
+      <div class="col-sm-12">
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </div>
+      <div class="col-sm-12"><br></div>
+      <div class="col-sm-12">
+        {{ post.date | date: "%b %d, %y" }}
+      </div>
+    </div>
+    <div class="post-excerpt">
+      {% assign preprocessed_content=post.content | replace: '<p>', '__p__' %}
+      {% assign preprocessed_content=preprocessed_content | replace: '</p>', '__/p__' %}
+      {% assign preprocessed_content=preprocessed_content | replace: '<a', '__a__' %}
+      {% assign preprocessed_content=preprocessed_content | replace: '</a>', '__/a__' %}
+
+      {% assign truncated_content=preprocessed_content | strip_html | truncatewords:150 %}
+
+      {% assign cleaned_content=truncated_content | replace: '__p__', '<p>' %}
+      {% assign cleaned_content=cleaned_content | replace: '__/p__', '</p>' %}
+      {% assign cleaned_content=cleaned_content | replace: '__a__', '<a' %}
+      {% assign cleaned_content=cleaned_content | replace: '__/a__', '</a>' %}
+
+      {{ cleaned_content }}
+      <br />
+      <p>
+        <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+      </p>
+    </div>
+
+  </div>
+  <hr>
+{% endfor %}
+</div>
+
+
+<!-- -->
