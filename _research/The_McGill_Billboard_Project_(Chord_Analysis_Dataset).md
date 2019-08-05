@@ -3,6 +3,9 @@ layout: page
 title: The McGill Billboard Project
 tab: Research
 type: project
+redirect_from:
+  - /billboard
+  - /billboard/
 ---
 
 Thank you for your interest in the McGill *Billboard* annotations! We are proud to announce a 2.0 release, with many improvements over the original, including new annotations, a number of corrections to errors in the existing annotations, and more accurate estimates of timing.
