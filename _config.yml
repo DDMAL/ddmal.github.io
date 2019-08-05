@@ -10,10 +10,16 @@ description:         'A reserved <a href="http://jekyllrb.com" target="_blank">J
 url:                 ''
 baseurl:             ''
 paginate:            5
-plugins_dir:         [jekyll-paginate]
+plugins_dir:
+  - jekyll-paginate
 paginate_path:       blog/page:num
 gem "github-pages", group: :jekyll_plugins
 permalinks:          true
+gems:
+  - jekyll-redirect-from
+plugins:
+  - jekyll-redirect-from
+
 
 collections:
   publications:
