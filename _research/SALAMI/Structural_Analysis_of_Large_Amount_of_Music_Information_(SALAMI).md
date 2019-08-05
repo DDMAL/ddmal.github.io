@@ -3,6 +3,9 @@ layout: page
 title: Structural Analysis of Large Amounts of Music Information (SALAMI)
 tab: Research
 type: project
+redirect_from:
+  - /research/salami/annotations
+  - /research/salami/annotations/
 permalink: /research/SALAMI/
 ---
 
