@@ -17,6 +17,7 @@ gem 'contrast'
 gem 'linear'
 gem 'jekyll-theme-midnight'
 gem 'jekyll-paginate'
+gem 'jekyll-redirect-from'
 gem 'github-pages', '104', group: :jekyll_plugins
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
