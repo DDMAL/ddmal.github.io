@@ -60,7 +60,7 @@ When adding an image for a lab member page, place it in the **assets/lab_members
 Here is the updated list of variables to edit for each lab member's markdown page. If a list is shown in brackets ([]), the possible variable values can **only** be one of the entries. Variables in italics are optional. These are also case-sensitive for the time being!
 
 * layout: **DON'T EDIT**
-* category: [Postdoc, PhD, Masters, Undergraduate, Alumni]
+* category: [Principal, Manager, Postdoc, PhD, Masters, Undergraduate, Alumni]
 * title: your name
 * degree: what degree you are pursuing (ex: BSc in Computer Science, MA in Music Technology, PhD in Music Technology
 * photo: the exact file name (with extension) in the **assets/lab_member** directory
