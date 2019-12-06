@@ -2,6 +2,7 @@
 layout: lab_member
 category: Undergraduate
 title: Juliette Regimbal
+degree: 
 photo: juliette_regimbal_2018.jpg
 # cv:
 social:

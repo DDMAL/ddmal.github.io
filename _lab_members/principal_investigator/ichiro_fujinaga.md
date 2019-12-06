@@ -1,7 +1,7 @@
 ---
-layout: lab_member
-category: Alumni
-title: Alumni template
+layout: lab_member # DON'T CHANGE
+category: Principal # One of [Alumni, Masters, PhD, Postdoc, Principal, Manager, Undergraduate]
+title: Ichiro Fujinaga
 photo: placeholder.png
 # cv:
 # social:

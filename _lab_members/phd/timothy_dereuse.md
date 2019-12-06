@@ -2,6 +2,7 @@
 layout: lab_member
 category: PhD
 title: Timothy Raja de Reuse
+degree: PhD Candidate in Music Technology
 photo: timothy_dereuse_2019.jpg
 # cv:
 social:

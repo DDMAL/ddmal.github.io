@@ -1,7 +1,7 @@
 ---
-layout: lab_member
-category: Undergraduate
-title: Undergraduate template
+layout: lab_member # DON'T CHANGE
+category: Manager # One of [Alumni, Masters, PhD, Postdoc, Principal, Manager, Undergraduate]
+title: Emily Hopkins
 photo: placeholder.png
 # cv:
 # social:

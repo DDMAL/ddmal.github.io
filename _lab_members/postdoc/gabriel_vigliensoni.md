@@ -2,6 +2,7 @@
 layout: lab_member
 category: Postdoc
 title: Gabriel Vigliensoni
+degree: Postdoctoral researcher
 photo: GVM_by_Manuela_Martelli_sq_sm.jpg
 cv: CV_GVM.pdf
 social:
@@ -12,7 +13,7 @@ social:
 #   linkedin_username:
 #   instagram_username:
 
-current_focus: AI-assisted music composition 
+current_focus: AI-assisted music composition
 research_interests:
   - Music production
   - Music composition
@@ -20,7 +21,7 @@ research_interests:
   - Music listening behaviour
   - Optical music recognition
 academic_record:
-  - PhD in Music, McGill University 
+  - PhD in Music, McGill University
   - MA in Music Technology, McGill University
   - BA in Sound Science, Universidad de Chile
 # publications:
@@ -106,4 +107,3 @@ I have been professionally involved in music production, performance, and sound 
 
 
 <div class="csl-entry">Vigliensoni, Gabriel, Cory McKay, and Ichiro Fujinaga. 2010. “Using JWebMiner 2.0 to Improve Music Classification Performance by Combining Different Types of Features Mined from the Web.” In <i>Proceedings of the International Society for Music Information Retrieval Conference</i>, 607–12. Utrecht. <a href="http://cloud.simssa.ca/index.php/s/epYWZBSMmtbknUo">http://cloud.simssa.ca/index.php/s/epYWZBSMmtbknUo</a>.</div>
-

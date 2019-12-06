@@ -2,6 +2,7 @@
 layout: lab_member
 category: Masters
 title: Evan Savage
+degree: MA in Music Technology
 photo: Evan_Savage_2019.jpg
 cv: CV - Evan Savage.pdf
 social:

@@ -2,6 +2,7 @@
 layout: lab_member
 category: PhD
 title: Yaolong Ju
+degree: PhD Candidate in Music Technology
 photo: yaolong_ju.jpg
 cv: cv_yaolong_ju.pdf
 social:

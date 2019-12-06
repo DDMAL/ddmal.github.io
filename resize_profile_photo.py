@@ -5,8 +5,6 @@ import os
 image_path = 'assets/lab_members/'
 MAX_SIZE = (150, 150)
 
-
-
 for filename in os.listdir(image_path):
     if filename.lower().endswith(('.png', '.jpg', '.jpeg')):
         print(filename)

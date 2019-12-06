@@ -4,6 +4,20 @@ title: Lab Members
 tab: Lab_Members
 ---
 <br>
+{% assign pi = site.lab_members | where:"category","Principal" %}
+<h3 class="people-title"> Principal Investigator </h3>
+<ul class="member-list">
+{% for member in pi %}
+  <li><a href='{{ member.url }}'>{{ member.title }}</a><a href='{{ member.url }}'><img class="member_photo_list" src="{{ site.baseurl }}/assets/lab_members/thumbnail/{{ member.photo }}" /></a></li>
+{% endfor %}
+</ul>
+{% assign manager = site.lab_members | where:"category","Manager" %}
+<h3 class="people-title"> Project Manager </h3>
+<ul class="member-list">
+{% for member in manager %}
+  <li><a href='{{ member.url }}'>{{ member.title }}</a><a href='{{ member.url }}'><img class="member_photo_list" src="{{ site.baseurl }}/assets/lab_members/thumbnail/{{ member.photo }}" /></a></li>
+{% endfor %}
+</ul>
 {% assign postdoc = site.lab_members | where:"category","Postdoc" %}
 <h3 class="people-title"> Postdoctoral researchers </h3>
 <ul class="member-list">

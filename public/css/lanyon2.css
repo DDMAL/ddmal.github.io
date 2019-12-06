@@ -737,10 +737,16 @@ img {
   margin-left: 60px;
 } */
 
-.current-focus p {
+.current-focus p:first-child {
   margin-left: 10px;
   font-size: 24px;
   width: 55%;
+  margin-bottom: 0;
+}
+
+.current-focus .focus {
+  font-size: 18px;
+  margin-left: 15px;
 }
 
 .people-title {
