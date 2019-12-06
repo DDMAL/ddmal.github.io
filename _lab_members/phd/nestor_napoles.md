@@ -10,7 +10,7 @@ social:
   linkedin_username: napulen
 #   instagram_username:
   personal_webpage: https://napulen.github.io
-current_focus: Music Technology
+current_focus: Symbolic and Audio Musical Key Estimation
 research_interests:
   - Deep Learning
   - Music Theory
