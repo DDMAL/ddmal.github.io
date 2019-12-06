@@ -19,10 +19,7 @@ research_interests:
   - Image Processing
   - Digital Signal Processing
 academic_record:
-  - Computational Acoustic Modeling
-  - Gestural Control
-  - Applied Machine Learning
-  - Digital Sound Synthesis and Audio Processing
+  - BSc in Computer Science, Pennsylvania State University
 publications:
   - hold
   - hold
