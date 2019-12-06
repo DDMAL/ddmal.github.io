@@ -570,13 +570,13 @@ hr {
 }
 
 
-img {
+/* img {
   margin-left: auto;
   margin-right: auto;
   display: block;
   margin-bottom: 0;
   max-height: 400px;
-}
+} */
 
 /* #home-body img {
   max-height: 400px;
@@ -726,4 +726,167 @@ img {
   .wrap {
     min-height: calc(100vh - 99px);
   }
+}
+
+.logo_header {
+  display: flex;
+  align-items: center;
+}
+
+/* .social-links {
+  margin-left: 60px;
+} */
+
+.current-focus p {
+  margin-left: 10px;
+  font-size: 24px;
+  width: 55%;
+}
+
+.people-title {
+  font-weight: normal;
+  margin-bottom: 25px;
+}
+
+.lab_member {
+  min-height: 500px;
+
+}
+
+.lab_member_subtitles {
+  font-weight: normal;
+  /* margin-left: 5px; */
+  letter-spacing: -0.3px;
+  margin-bottom: 15px;
+}
+
+.research-interests {
+  width: 55%;
+}
+
+.research-interests ul {
+  list-style: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding-left: 10px;
+}
+
+.research-interests ul li {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+
+.member_photo_list {
+  max-width: 80px;
+  margin-bottom: 0;
+}
+
+.member-list {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.member-list li {
+  border-radius: 4px;
+  /* padding: 10px 20px; */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 450px;
+}
+.member-list li:last-child {
+  margin-bottom: 50px;
+}
+
+.member-list li a:first-child {
+  display:block;
+  padding: 36px 20px;
+  flex: 1;
+  font-size: 18px;
+}
+.member-list li a:nth-child(2) {
+  padding: 10px 10px 10px 0px;
+}
+
+
+.research-interests ul li:nth-child(n+1) {
+  background-color: #ADBDFF;
+}
+.research-interests ul li:nth-child(2n) {
+  background-color: #D8D8F6;
+}
+.research-interests ul li:nth-child(3n) {
+  background-color: #FFC0BF;
+}
+.research-interests ul li:nth-child(4n) {
+  background-color: #C4E7D4;
+}
+
+.lab_member .img-wrap {
+  position: absolute;
+  top: 100px;
+  right: 80px;
+  max-width: 350px;
+}
+
+.lab_member_flex {
+  margin-bottom: 30px;
+}
+
+.lab_member .img-wrap .profile-photo {
+
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.cv-icon {
+  /* position: absolute; */
+  width: 30px;
+  /* margin-left: 30px; */
+  /* right: -20px; */
+  padding-top: 10px;
+  margin: 0;
+  margin-left: 30px;
+}
+
+.lab_member .img-wrap .social-links {
+  position: absolute;
+  right: -50px;
+  top: 0;
+  /* transform: translateX(-50%); */
+}
+
+.flex-wrap {
+  display: flex;
+}
+
+.lab_member_bio {
+  width: 55%;
+  min-height: 360px;
+  text-align: justify;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.social__link:first-child {
+  /* margin-left: 10px; */
+}
+
+.social-links .social__link {
+  margin-right: 10px;
+}
+
+.publications ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.publications ul li {
+  margin-bottom: 15px;
 }

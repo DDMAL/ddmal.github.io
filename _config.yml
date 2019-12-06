@@ -38,6 +38,8 @@ collections:
     output: true
   people:
     output: true
+  lab_members:
+    output: true
 
 # About/contact
 author:
