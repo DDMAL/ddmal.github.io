@@ -8,7 +8,7 @@ social:
   github_username: deepio
   instagram_username: global2alex
   personal_webpage: https://alexdaigle.com/2/
-current_focus: Music Technology
+current_focus: Optical music recognition software and music engraving software
 research_interests:
   - Music Information Retrieval
   - Image Processing
