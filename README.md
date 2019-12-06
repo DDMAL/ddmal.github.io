@@ -62,6 +62,7 @@ Here is the updated list of variables to edit for each lab member's markdown pag
 * layout: **DON'T EDIT**
 * category: [Postdoc, PhD, Masters, Undergraduate, Alumni]
 * title: your name
+* degree: what degree you are pursuing (ex: BSc in Computer Science, MA in Music Technology, PhD in Music Technology
 * photo: the exact file name (with extension) in the **assets/lab_member** directory
 * *cv*: the exact file name of CV (with extension) stored locally in **assets/lab_member/cv** 
 * *social*: 
