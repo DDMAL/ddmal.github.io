@@ -29,4 +29,4 @@ Publications:
 
 - Nápoles López, Néstor, Claire Arthur, and Ichiro Fujinaga. 2019. “Key-Finding Based on a Hidden Markov Model and Key Profiles.” In _Proceedings of the 6th International Conference on Digital Libraries for Musicology_. DLfM ’19. New York, NY, USA: ACM.
 
-- Nápoles López, Néstor, Gabriel Vigliensoni, and Ichiro Fujinaga. 2018. “Encoding Matters.” In _Proceedings of the 5th International Conference on Digital Libraries for Musicology_, 69–73. DLfM ’18. New York, NY, USA: ACM. [https://doi.org/10.1145/3273024.3273027].
+- Nápoles López, Néstor, Gabriel Vigliensoni, and Ichiro Fujinaga. 2018. “Encoding Matters.” In _Proceedings of the 5th International Conference on Digital Libraries for Musicology_, 69–73. DLfM ’18. New York, NY, USA: ACM. [https://doi.org/10.1145/3273024.3273027](https://doi.org/10.1145/3273024.3273027).
