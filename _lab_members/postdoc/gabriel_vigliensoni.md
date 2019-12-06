@@ -1,10 +1,10 @@
 ---
 layout: lab_member
 category: Postdoc
-title: Postdoc template
+title: Gabriel Vigliensoni
 photo: placeholder.png
 # cv: 
-# social:
+social:
   github_username: vigliensoni
 #   linkedin_username:
 #   instagram_username:
