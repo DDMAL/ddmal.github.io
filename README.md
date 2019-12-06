@@ -39,15 +39,7 @@ Enter the directory with `cd ddmal.github.io`, and pull from the repository to y
 git pull origin master
 ```
 
-
-
-At this point, the site is able to be edited and run locally. Assuming steps 1 and 2 of the Jekyll documentation were followed correctly, we can now update the gems required for the website to run:
-
-```
-bundle install
-```
-
-and then run the website:
+At this point, the site is able to be edited and run locally. Assuming steps 1 and 2 of the Jekyll documentation were followed correctly, run:
 
 ```
 bundle exec jekyll serve --watch
