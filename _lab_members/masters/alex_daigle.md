@@ -16,7 +16,7 @@ research_interests:
 academic_record:
   - St. Thomas University Alumni
   - Berklee College of Music Alumni
-  - McGill University Master
+  - Current student at McGill University
 ---
 
 <!-- FILL IN BIO HERE -->
