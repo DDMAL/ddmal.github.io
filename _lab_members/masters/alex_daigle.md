@@ -7,7 +7,7 @@ social:
   github_username: deepio
   instagram_username: global2alex
   personal_webpage: https://alexdaigle.com/2/
-current_focus: State-of-the-art of Optical Music Recognition
+current_focus: Music Technology
 research_interests:
   - Music Information Retrieval
   - Image Processing
@@ -16,11 +16,7 @@ research_interests:
 academic_record:
   - St. Thomas University Alumni
   - Berklee College of Music Alumni
-  - McGill University Master of the Arts Student
-publications:
-  - hold
-  - hold
-  - hold
+  - McGill University Master
 ---
 
 <!-- FILL IN BIO HERE -->
