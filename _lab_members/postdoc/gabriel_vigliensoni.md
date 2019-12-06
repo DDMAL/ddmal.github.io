@@ -13,7 +13,7 @@ social:
 #   linkedin_username:
 #   instagram_username:
 
-current_focus: AI-assisted music composition
+current_focus: Optical music recognition, AI-assisted music composition.
 research_interests:
   - Music production
   - Music composition
