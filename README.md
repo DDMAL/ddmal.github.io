@@ -74,7 +74,7 @@ Here is the updated list of variables to edit for each lab member's markdown pag
   * *personal_webpage*: entire url of personal website
 * *current_focus*: Your main area of focus in research or work related to the lab. (Ex: Generative Adversarial Networks (GANs))
 * *research_interests*: any number of hyphenated entries for research areas of interest (check template or an existing user page)
-* *classes_taken*: any number of hyphenated entries for previously taken coursework
+* *academic_record*: any number of hyphenated entries for previously taken coursework
 * *publications*:
 
 **Write your biography below the second '---' on the markdown page.**
