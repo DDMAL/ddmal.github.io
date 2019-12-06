@@ -13,18 +13,24 @@ This is the repository for the new DDMAL website distributed via GitHub Pages. I
 
 ## Local Setup
 
+### RVM (Mac) / Windows Install
+
 You will need to download a full [Ruby development environment](https://jekyllrb.com/docs/installation/) to install Jekyll. Follow steps 1 and 2 of [these instructions](https://jekyllrb.com/docs/) after installing Ruby.
+
+Mac users may need to install RVM to configure the local Ruby version correctly, and [here](https://usabilityetc.com/articles/ruby-on-mac-os-x-with-rvm/) is a link with instructions on how-to.
 
 Assuming you have [Git](https://www.atlassian.com/git/tutorials/install-git) installed, open a terminal and clone the repository into any known location on your computer. The documents folder is recommended, though it is up to you. 
 
-```
-git clone https://github.com/DDMAL/DDMAL-new-site.git
-```
-
-Enter the directory with `cd DDMAL-new-site`, and pull from the repository to your local folder. Specifically, pull from the 'gh-pages' branch, the branch used by GitHub Pages to host the site.
+### Configuration and building site locally
 
 ```
-git pull origin gh-pages
+git clone https://github.com/DDMAL/ddmal.github.io.git
+```
+
+Enter the directory with `cd ddmal.github.io`, and pull from the repository to your local folder. Specifically, pull from the 'master' branch, the branch used by GitHub Pages to host the site.
+
+```
+git pull origin master
 ```
 
 At this point, the site is able to be edited and run locally. Assuming steps 1 and 2 of the Jekyll documentation were followed correctly, run:
@@ -33,7 +39,7 @@ At this point, the site is able to be edited and run locally. Assuming steps 1 a
 bundle exec jekyll serve --watch
 ```
 
-The built site can then be viewed at 'localhost:4000/DDMAL-new-site/'. The `--watch` option automatically checks for updates to the local files and can be immediately viewed by refreshing the page. `--watch` is not supported by Windows, thus the command above will need to be rerun after each edit.
+The built site can then be viewed at 'localhost:4000'. The `--watch` option automatically checks for updates to the local files and can be immediately viewed by refreshing the page. `--watch` is not supported by Windows, thus the command above will need to be rerun after each edit.
 
 If any changes need to be made to the 'Gemfile' at the root directory, run:
 
@@ -42,6 +48,33 @@ bundle install
 ```
 
 to install any updated or newly-added gems for the build. Then, the site can be rebuilt with `bundle exec jekyll serve --watch`.
+
+## Creating your lab member page 
+
+Inside the **_lab_members** folder, there are five different folders that contain markdown files for your respective page on the website as a lab member. Choose the folder related to your afiliation, and copy an existing user file to add your own details to. Vanilla templates for each of the five lab member categories are also available in the **TEMPLATES** folder at the root directory. Copy, paste, and rename in the correct subfolder within **_lab_members**. 
+
+When adding an image for a lab member page, place it in the **assets/lab_members** directory. Reference the exact filename for the *photo* variable in the respective lab member's markdown file.
+
+### Variables
+
+Here is the updated list of variables to edit for each lab member's markdown page:
+
+* layout: lab_member
+* category: Masters
+* title: Evan Savage
+* photo: Evan_Savage_2019.jpg
+* cv: CV - Evan Savage.pdf
+* social:
+  * github_username: evansavage
+  * linkedin_username: evan-savage-45050694
+  * instagram_username: _s4v4ge
+  * bandcamp_username: s4v4ge
+  * soundcloud_username: s4v4ge1
+  * personal_webpage: https://evansavage.github.io/  # ENTIRE URL
+* current_focus: Generative Adversarial Networks (GANs)
+* research_interests: 
+* academic_record:
+* publications:
 
 ## CMS
 
