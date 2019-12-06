@@ -2,7 +2,7 @@
 layout: lab_member
 category: PhD
 title: Néstor Nápoles López
-photo: napulen_2019.jpg
+photo: Nestor_Napoles_2018.jpg
 # cv:
 social:
   github_username: napulen
