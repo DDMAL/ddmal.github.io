@@ -7,8 +7,8 @@ photo: GVM_by_Manuela_Martelli_sq_sm.jpg
 cv: CV_GVM.pdf
 social:
   github_username: vigliensoni
-  soundcloud: vigliensoni
-  bandcamp: vigliensoni
+  soundcloud_username: vigliensoni
+  bandcamp_username: vigliensoni
   personal_webpage: https://vigliensoni.com
 #   linkedin_username:
 #   instagram_username:
