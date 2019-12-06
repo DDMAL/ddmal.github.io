@@ -22,6 +22,7 @@ research_interests:
 academic_record:
   - PhD in Music, McGill University 
   - MA in Music Technology, McGill University
+  - BA in Sound Science, Universidad de Chile
 # publications:
 #   - hold
 #   - hold
