@@ -51,7 +51,30 @@ to install any updated or newly-added gems for the build. Then, the site can be 
 
 ## Creating your lab member page 
 
-Inside the **_lab_members** folder, there are five different folders for the 
+Inside the **_lab_members** folder, there are five different folders that contain markdown files for your respective page on the website as a lab member. Choose the folder related to your afiliation, and copy an existing user file to add your own details to. Vanilla templates for each of the five lab member categories are also available in the **TEMPLATES** folder at the root directory. Copy, paste, and rename in the correct subfolder within **_lab_members**. 
+
+When adding an image for a lab member page, place it in the **assets/lab_members** directory. Reference the exact filename for the *photo* variable in the respective lab member's markdown file.
+
+### Variables
+
+Here is the updated list of variables to edit for each lab member's markdown page:
+
+* layout: lab_member
+* category: Masters
+* title: Evan Savage
+* photo: Evan_Savage_2019.jpg
+* cv: CV - Evan Savage.pdf
+* social:
+  * github_username: evansavage
+  * linkedin_username: evan-savage-45050694
+  * instagram_username: _s4v4ge
+  * bandcamp_username: s4v4ge
+  * soundcloud_username: s4v4ge1
+  * personal_webpage: https://evansavage.github.io/  # ENTIRE URL
+* current_focus: Generative Adversarial Networks (GANs)
+* research_interests: 
+* academic_record:
+* publications:
 
 ## CMS
 
