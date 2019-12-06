@@ -57,24 +57,27 @@ When adding an image for a lab member page, place it in the **assets/lab_members
 
 ### Variables
 
-Here is the updated list of variables to edit for each lab member's markdown page:
+Here is the updated list of variables to edit for each lab member's markdown page. If a list is shown in brackets ([]), the possible variable values can **only** be one of the entries. Variables in italics are optional. These are also case-sensitive for the time being!
 
-* layout: lab_member
-* category: Masters
-* title: Evan Savage
-* photo: Evan_Savage_2019.jpg
-* cv: CV - Evan Savage.pdf
-* social:
-  * github_username: evansavage
-  * linkedin_username: evan-savage-45050694
-  * instagram_username: _s4v4ge
-  * bandcamp_username: s4v4ge
-  * soundcloud_username: s4v4ge1
-  * personal_webpage: https://evansavage.github.io/  # ENTIRE URL
-* current_focus: Generative Adversarial Networks (GANs)
-* research_interests: 
-* academic_record:
-* publications:
+* layout: **DON'T EDIT**
+* category: [Postdoc, PhD, Masters, Undergraduate, Alumni]
+* title: your name
+* photo: the exact file name (with extension) in the **assets/lab_member** directory
+* *cv*: the exact file name of CV (with extension) stored locally in **assets/lab_member/cv** 
+* *social*: 
+  * *github_username*: [USERNAME] from https://github.com/[USERNAME]
+  * *linkedin_username*: [USERNAME] from https://www.linkedin.com/in/[USERNAME]/
+  * *instagram_username*: [USERNAME] from https://www.instagram.com/[USERNAME]/
+  * *bandcamp_username*: [USERNAME] from https://[USERNAME].bandcamp.com/releases
+  * *soundcloud_username*: [USERNAME] from https://soundcloud.com/[USERNAME]
+  * *twitter_username*: [USERNAME] from https://www.twitter.com/[USERNAME]
+  * *personal_webpage*: entire url of personal website
+* *current_focus*: Your main area of focus in research or work related to the lab. (Ex: Generative Adversarial Networks (GANs))
+* *research_interests*: any number of hyphenated entries for research areas of interest (check template or an existing user page)
+* *classes_taken*: any number of hyphenated entries for previously taken coursework
+* *publications*:
+
+**Write your biography below the second '---' on the markdown page.**
 
 ## CMS
 
