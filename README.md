@@ -4,12 +4,18 @@ This is the repository for the new DDMAL website distributed via GitHub Pages. I
 
 ## Contents
 
-- [Local Setup](#local-setup)
-- [CMS](#cms)
-  - [CMS Navigation](#cms-navigation)
-  - [Organization](#organization)
-  - [Media](#media)
-- [Troubleshooting](#troubleshooting)
+- [DDMAL](#ddmal)
+  - [Contents](#contents)
+  - [Local Setup](#local-setup)
+    - [RVM (Mac) / Windows Install](#rvm-mac--windows-install)
+    - [Configuration and building site locally](#configuration-and-building-site-locally)
+  - [Creating your lab member page](#creating-your-lab-member-page)
+    - [Variables](#variables)
+  - [CMS](#cms)
+    - [CMS Navigation](#cms-navigation)
+    - [Organization](#organization)
+    - [Media](#media)
+  - [Troubleshooting](#troubleshooting)
 
 ## Local Setup
 
@@ -33,7 +39,15 @@ Enter the directory with `cd ddmal.github.io`, and pull from the repository to y
 git pull origin master
 ```
 
-At this point, the site is able to be edited and run locally. Assuming steps 1 and 2 of the Jekyll documentation were followed correctly, run:
+
+
+At this point, the site is able to be edited and run locally. Assuming steps 1 and 2 of the Jekyll documentation were followed correctly, we can now update the gems required for the website to run:
+
+```
+bundle install
+```
+
+and then run the website:
 
 ```
 bundle exec jekyll serve --watch
