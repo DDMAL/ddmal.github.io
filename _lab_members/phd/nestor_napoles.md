@@ -22,7 +22,7 @@ academic_record:
 publications:
 ---
 
-I am a Ph.D. candidate at the Music Technology Area, working under the supervision of professor Ichiro Fujinaga. Before attending McGill, I graduated from an MSc in Sound and Music Computing at the Music Technology Group, which is part of Universitat Pompeu Fabra, in Barcelona. There, my research focused on the automatic analysis of functional harmony. Here in McGill, my research interests have extended to Music Information Retrieval (MIR) of tonal features of music (i.e., musical keys and harmony), serious music-based computer games, and Optical Music Recognition (OMR).
+I am a PhD candidate in Music Technology at McGill University. I am working under the supervision of professor Ichiro Fujinaga. Before attending McGill, I graduated from an MSc in Sound and Music Computing from Universitat Pompeu Fabra. There, my research focused on the automatic analysis of functional harmony. Here in McGill, my research interests have extended to Music Information Retrieval (MIR) in the context of tonal music and tonal features (e.g., musical keys and harmony). I am also interested in serious music-based computer games, and Optical Music Recognition (OMR).
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
