@@ -1,6 +1,6 @@
 ---
 layout: lab_member
-category: Postdoc
+category: Postdoctoral researcher
 title: Gabriel Vigliensoni
 photo: GVM_by_Manuela_Martelli_sq_sm.jpg
 cv: CV_GVM.pdf
@@ -11,7 +11,7 @@ social:
   soundcloud: vigliensoni
   bandcamp: vigliensoni
   personal_webpage:  https://vigliensoni.com
-current_focus: AI-assisted music production 
+current_focus: AI-assisted music composition
 research_interests:
   - Music production
   - Music composition
