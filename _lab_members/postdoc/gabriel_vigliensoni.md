@@ -8,12 +8,16 @@ social:
   github_username: vigliensoni
 #   linkedin_username:
 #   instagram_username:
+  soundcloud: vigliensoni
+  bandcamp: vigliensoni
   personal_webpage:  https://vigliensoni.com
-# current_focus:
+current_focus: AI-assisted music production 
 research_interests:
-  - Music Production
-  - Music Recommendation
-  - optical music recommendation
+  - Music production
+  - Music composition
+  - Music recommendation
+  - Music listening behaviour
+  - Optical music recognition
 
 academic_record:
   - PhD in Music, McGill University 
