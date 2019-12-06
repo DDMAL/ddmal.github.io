@@ -2,7 +2,7 @@
 layout: lab_member
 category: PhD
 title: Timothy Raja de Reuse
-photo: timothy_dereuse_2017.jpg
+photo: timothy_dereuse_2019.jpg
 # cv:
 social:
   github_username: timothydereuse
