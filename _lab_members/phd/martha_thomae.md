@@ -3,7 +3,7 @@ layout: lab_member
 category: PhD
 title: Martha E. Thomae
 degree: PhD Candidate
-photo: placeholder.png
+photo: martha_thomae.jpg
 cv: CV_ThomaeElias_MarthaE.pdf
 social:
   github_username: martha-thomae
