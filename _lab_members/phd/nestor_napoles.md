@@ -24,7 +24,9 @@ academic_record:
 publications:
 ---
 
-I am a PhD candidate in Music Technology at McGill University. I am working under the supervision of professor Ichiro Fujinaga. Before attending McGill, I graduated from an MSc in Sound and Music Computing from Universitat Pompeu Fabra. There, my research focused on the automatic analysis of functional harmony. Here in McGill, my research interests have extended to Music Information Retrieval (MIR) in the context of tonal music and tonal features (e.g., musical keys and harmony). I am also interested in serious music-based computer games, and Optical Music Recognition (OMR).
+Néstor Nápoles López is a PhD candidate in Music Technology at McGill University, working under the supervision of professor Ichiro Fujinaga. Néstor holds an MSc in Sound and Music Computing from Universitat Pompeu Fabra (Catalonia) and a Licenciatura en Informática (bachelor’s in software engineering) from his hometown's university, Universidad de Guadalajara (Guadalajara, Mexico). His research interests include Music Information Retrieval (MIR) in the context of tonal music (mostly around the computational study of musical keys, modulations, and roman numerals), music encoding, and educational video games for musicianship training.
+
+As part of his research assistant role at the Distributed Digital Music Archives and Libraries (DDMAL) Laborary, Néstor is the current maintainer and full-stack developer of the Cantus Ultimus website, a website that provides an interactive and public interface for the visualization of chant data and their source manuscript images.
 
 Publications:
 
