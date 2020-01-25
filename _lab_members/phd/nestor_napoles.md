@@ -24,9 +24,9 @@ academic_record:
 publications:
 ---
 
-Néstor Nápoles López is a PhD candidate in Music Technology at McGill University, working under the supervision of professor Ichiro Fujinaga. Néstor holds an MSc in Sound and Music Computing from Universitat Pompeu Fabra (Catalonia) and a Licenciatura en Informática (bachelor’s in software engineering) from his hometown's university, Universidad de Guadalajara (Guadalajara, Mexico). His research interests include Music Information Retrieval (MIR) in the context of tonal music (mostly around the computational study of musical keys, modulations, and roman numerals), music encoding, and educational video games for musicianship training.
+Néstor Nápoles López is a PhD candidate in Music Technology at McGill University, working under the supervision of professor Ichiro Fujinaga. Néstor holds an [MSc in Sound and Music Computing from Universitat Pompeu Fabra](https://www.upf.edu/web/smc) (Spain) and a Licenciatura en Informática (undergraduate degree in software engineering) from his hometown university, [Universidad de Guadalajara](http://www.udg.mx/en) (Mexico). His research interests include Music Information Retrieval (MIR) in the context of tonal music (mostly around the computational study of musical keys, tonicizations, modulations, and roman numerals), music encoding, and educational video games for musicianship training.
 
-As part of his research assistant role at the Distributed Digital Music Archives and Libraries (DDMAL) Laborary, Néstor is the current maintainer and full-stack developer of the Cantus Ultimus website, a website that provides an interactive and public interface for the visualization of chant data and their source manuscript images.
+As part of his research assistant role at the Distributed Digital Music Archives and Libraries (DDMAL) Laboratory, Néstor is the current maintainer and full-stack developer of the [Cantus Ultimus website](https://cantus.simssa.ca/), a public website that provides an interactive interface for the simultaneous visualization of expert-curated chant data and its source manuscript images.
 
 Publications:
 
