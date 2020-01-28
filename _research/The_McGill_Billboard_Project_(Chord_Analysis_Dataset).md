@@ -6,6 +6,9 @@ type: project
 redirect_from:
   - /billboard
   - /billboard/
+  - /research/billboard
+  - /research/billboard/
+# permalink: /research/The_McGill_Billboard_Project_(Chord_Analysis_Dataset)/
 ---
 
 Thank you for your interest in the McGill *Billboard* annotations! We are proud to announce a 2.0 release, with many improvements over the original, including new annotations, a number of corrections to errors in the existing annotations, and more accurate estimates of timing.
@@ -26,7 +29,7 @@ This release contains the annotations and audio features corresponding to the fi
 
 Since the original release, we have been able to complete a number of annotations that had originally encountered problems. Some of these new annotations are a closer match to the target sample than what was available at the time we released the original McGill *Billboard* annotations, and as such, a small number of entries refer to a different song in version 2.0 than they did in 1.x releases. We recommend that all users replace any previous editions of these annotations with version 2.0.
 
-This release is also split into multiple files, to reflect the needs of different users. Users may choose their preferred archive format (XZ, BZ2, or GZ) and extract all their relevant archives into a single directory. The result will be a `McGill-Billboard` directory with a subdirectory for each annotated entry in the sample, each subdirectory containing the relevant annotations and features.  
+This release is also split into multiple files, to reflect the needs of different users. Users may choose their preferred archive format (XZ, BZ2, or GZ) and extract all their relevant archives into a single directory. The result will be a `McGill-Billboard` directory with a subdirectory for each annotated entry in the sample, each subdirectory containing the relevant annotations and features.
 <br>
 
 ## Index
@@ -46,7 +49,7 @@ The index is a CSV files with the following columns:
 * **peak_rank**, the highest rank the song annotated ever achieved on the Billboard Hot 100; and
 * **weeks_on_chart**, the number of weeks the song annotated spent on the Billboard Hot 100 chart in total.
 
-Sample entries for which we were unable to obtain audio or an annotation also appear in the index, but with the **id**, **chart_date**, and **target_rank** columns exclusively.  
+Sample entries for which we were unable to obtain audio or an annotation also appear in the index, but with the **id**, **chart_date**, and **target_rank** columns exclusively.
 <br>
 
 ## Complete Annotations
@@ -76,7 +79,7 @@ Two non-chord symbols may appear within bars. For passages that were too musical
 
 Bas de Haas has written Haskell tools for parsing and manipulating the McGill Billboard annotations [[5]](http://www.cs.uu.nl/research/techreps/repo/CS-2012/2012-018.pdf), which are available from Hackage:
 
-* [http://hackage.haskell.org/package/billboard-parser/](http://hackage.haskell.org/package/billboard-parser/)  
+* [http://hackage.haskell.org/package/billboard-parser/](http://hackage.haskell.org/package/billboard-parser/)
 <br>
 
 ## LAB Files (MIREX Style)
@@ -93,7 +96,7 @@ For convenience, we also have LAB files with chord labels simplified to the voca
 
 * [billboard-2.0.1-mirex.tar.xz](https://www.dropbox.com/s/fg8lvy79o7etiyc/billboard-2.0.1-mirex.tar.xz?dl=1)
 * [billboard-2.0.1-mirex.tar.bz2](https://www.dropbox.com/s/1it49qcjx3l4dga/billboard-2.0.1-mirex.tar.bz2?dl=1)
-* [billboard-2.0.1-mirex.tar.gz](https://www.dropbox.com/s/f88s73bmivlvbiy/billboard-2.0.1-mirex.tar.gz?dl=1)  
+* [billboard-2.0.1-mirex.tar.gz](https://www.dropbox.com/s/f88s73bmivlvbiy/billboard-2.0.1-mirex.tar.gz?dl=1)
 <br>
 
 ## Audio features
@@ -112,7 +115,7 @@ Researchers of many kinds may find the Echo Nest features helpful. We have recom
 * [billboard-2.0-echonest.tar.bz2](https://www.dropbox.com/s/flzygf12d1vqqpf/billboard-2.0-echonest.tar.bz2?dl=1)
 * [billboard-2.0-echonest.tar.gz](https://www.dropbox.com/s/8g8z6cgt6w1yosv/billboard-2.0-echonest.tar.gz?dl=1)
 
-If you are interested in audio features other than these, please contact us. So long as the features are non-invertible and the computational load is sane, we are happy to provide custom features upon request.  
+If you are interested in audio features other than these, please contact us. So long as the features are non-invertible and the computational load is sane, we are happy to provide custom features upon request.
 <br>
 
 ## Contact
