@@ -21,9 +21,9 @@ research_interests:
 academic_record:
   - BSc in Computer Science, Pennsylvania State University
 publications:
-  - hold
-  - hold
-  - hold
+  # - hold
+  # - hold
+  # - hold
 ---
 
 <!-- FILL IN BIO HERE -->
