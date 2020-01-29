@@ -2,6 +2,7 @@
 layout: page
 title: OMR for Plainchant
 tab: Research
+permalink: /research/omr/OMR_for_Plainchant/
 ---
 <br>
 
@@ -13,20 +14,20 @@ Plainchant manuscripts, copied by hand from the ninth through the sixteenth cent
 
 As part of our most recent SSHRC Standard grant, we have developed an OMR system that attains a 97 percent recognition rate for printed symbols from later Western music notation, and with our current SSHRC Image, Text, Sound, and Technology grant, we are developing a system capable of recognising printed lyrics. Our new project will begin by extending this system to recognise printed square-note neumes, which became the most common system of hand-written notation for plainchant around 1200. Although this notational system is centuries old, it continues to be used today when publishing compilations of liturgical plainchant, e.g., the Liber Usualis, a common reference book for practising church musicians and plainchant scholars. After determining the best strategy for recognising printed neumes, we will extend the work to hand-written sources, focusing on three distinct notational styles: hand-written square-note neumes, analogous to printed chant notation; Aquitanian neumes, an older, staffless notational style in which individual neumes are composed of separated strokes and points; and Gothic neumes, variations on the square-note neume shapes that we expect to be more difficult to recognise.
 
-Interdisciplinary in its very nature, this project will bring together researchers at all states of their careers, from both musicology and computer engineering. In order to provide the best possible training environment for students and in order to strengthen the connection between these two disciplines, the project will include regular presentations of intermediate results to all communities involved. When complete, it will have produced infrastructure and tools ready for musicians and others to generate and share digital libraries comprising centuries of plainchant and will open a wide range of new avenues for musicological research.  
+Interdisciplinary in its very nature, this project will bring together researchers at all states of their careers, from both musicology and computer engineering. In order to provide the best possible training environment for students and in order to strengthen the connection between these two disciplines, the project will include regular presentations of intermediate results to all communities involved. When complete, it will have produced infrastructure and tools ready for musicians and others to generate and share digital libraries comprising centuries of plainchant and will open a wide range of new avenues for musicological research.
 <br>
 
 ## Researchers
 
 * [Ichiro Fujinaga](http://music.mcgill.ca/~ich)
-* [Julie Cumming](http://www.mcgill.ca/music/about-us/bio/julie-e-cumming)  
+* [Julie Cumming](http://www.mcgill.ca/music/about-us/bio/julie-e-cumming)
 <br>
 
 ## Doctoral Students
 
 * Ashley Burgoyne
 * Remi Chiu
-* [Andrew Hankinson](https://andrewhankinson.info/)  
+* [Andrew Hankinson](https://andrewhankinson.info/)
 <br>
 
 ## Masters & Undergraduate Students
