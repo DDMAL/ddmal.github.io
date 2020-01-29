@@ -3,6 +3,9 @@ layout: page
 title: OMR for Plainchant
 tab: Research
 permalink: /research/omr/OMR_for_Plainchant/
+redirect_from:
+  - /research/omr/OMR_for_Plainchant
+  - /research/omr/OMR_for_Plainchant/
 ---
 <br>
 
