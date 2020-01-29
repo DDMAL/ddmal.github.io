@@ -2,9 +2,9 @@
 layout: page
 title: Search the Liber Usualis
 tab: Research
-redirect_from:
-  - /research/omr/search_the_liber_usualis
-  - /research/omr/search_the_liber_usualis/
+# redirect_from:
+#   - /research/omr/search_the_liber_usualis
+#   - /research/omr/search_the_liber_usualis/
 ---
 
 The Liber Usualis is a valuable resource for musical scholars. As a compendium of the most common chants used by the Catholic Church, it is useful for identifying the origins of chants used in polyphonic compositions.
