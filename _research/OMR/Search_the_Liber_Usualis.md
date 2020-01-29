@@ -2,15 +2,18 @@
 layout: page
 title: Search the Liber Usualis
 tab: Research
+redirect_from:
+  - /research/omr/search_the_liber_usualis
+  - /research/omr/search_the_liber_usualis/
 ---
 
-The Liber Usualis is a valuable resource for musical scholars. As a compendium of the most common chants used by the Catholic Church, it is useful for identifying the origins of chants used in polyphonic compositions.  
+The Liber Usualis is a valuable resource for musical scholars. As a compendium of the most common chants used by the Catholic Church, it is useful for identifying the origins of chants used in polyphonic compositions.
 
-Using Optical Music Recognition and Optical Text Recognition, we have processed a scanned version of the Liber and made its contents searchable. This is a proof-of-concept demonstration for the larger task of providing search capabilities for all digitized musical works.  
+Using Optical Music Recognition and Optical Text Recognition, we have processed a scanned version of the Liber and made its contents searchable. This is a proof-of-concept demonstration for the larger task of providing search capabilities for all digitized musical works.
 
-[The search interface is available online](http://liber.simssa.ca/).  
+[The search interface is available online](http://liber.simssa.ca/).
 
-This work was done as part of the [SIMSSA](https://simssa.ca/) project.  
+This work was done as part of the [SIMSSA](https://simssa.ca/) project.
 <br>
 
 ## Searching Help
