@@ -2,7 +2,7 @@
 layout: page
 title: Microfilms and Scanning
 tab: Research
-permalink: /research/omr/gemm/microfilms_and_scanning/
+permalink: /research/omr/gemm/:title/
 ---
 
 ## Progress Reports
