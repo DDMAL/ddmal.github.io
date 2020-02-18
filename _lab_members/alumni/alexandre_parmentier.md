@@ -3,7 +3,7 @@ category: Alumni
 layout: lab_member
 photo: placeholder.png
 social:
-  github_username: lexpar
+  github_username: agpar
 title: Alexandre Parmentier
 ---
 
