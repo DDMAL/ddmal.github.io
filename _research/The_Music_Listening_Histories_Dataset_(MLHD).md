@@ -30,7 +30,7 @@ Additionally, we also provide a set of text files with demographic information, 
 
 The dataset can be downloaded here:
 
-<http://bit.ly/MLHD-Dataset>
+<http://bit.ly/MLHD-Dataset-20>
 
 (A file with sha256 hashes per TAR file is provided to verify that the download was successful.)  
 <br>
@@ -70,21 +70,21 @@ The `registered`, `firstscrobble`, and `lastscrobble` columns return Unix (UTC) 
 
 The CSV file can be downloaded from the following link:
 
-<http://bit.ly/MLHD_Demographics>  
+<http://bit.ly/MLHD-Demographics-20>  
 <br>
 
 ## Listening Behavioural Features
 
 In order characterize listening behaviours, we provide in the MLHD a set of four computational features tailored to to represent some characteristics of music listening behaviours. The features are `exploratoryness`, `mainstreamness`, `genderedness`, and `fringeness`. Values for these features were computed for the three types of music items in the dataset: artists, albums, and tracks. Therefore, each listener’s listening profile is described by a vector of 12 continuous values. For details about each of these features formulations, please refer to Vigliensoni and Fujinaga (2016).
 
-<http://bit.ly/MLHD_Behavioral>  
+<http://bit.ly/MLHD-Behavioral-20>  
 <br>
 
 ## User Activity Features
 
 We computed from the music listening histories’ UTC timestamps a series of features that aggregated the number of logs of each listening history into several time spans. These low-dimensional representations of user activity are: `hourly activity per day`, `hourly activity by week hour`, `weekly activity`, `monthly activity`, and `yearly activity`. Values in each column represent the percentage of the total of listening logs per user for each span of time.
 
-<http://bit.ly/MLHD_Activity>  
+<http://bit.ly/MLHD-Activity-20>  
 <br>
 
 ## Scientific References
