@@ -2,7 +2,7 @@
 layout: lab_member
 category: Postdoc
 title: Gabriel Vigliensoni
-degree: Postdoctoral researcher
+degree: Postdoctoral Researcher
 photo: GVM_by_Manuela_Martelli_sq_sm.jpg
 cv: CV_GVM.pdf
 social:
