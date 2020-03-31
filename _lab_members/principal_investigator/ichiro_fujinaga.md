@@ -2,13 +2,13 @@
 layout: lab_member # DON'T CHANGE
 category: Principal # One of [Alumni, Masters, PhD, Postdoc, Principal, Manager, Undergraduate]
 title: Ichiro Fujinaga
-photo: placeholder.png
+photo: ich2019.jpg
 # cv:
 # social:
 #   github_username:
 #   linkedin_username:
 #   instagram_username:
-#   personal_webpage:  # ENTIRE URL
+#   personal_webpage: http://www.music.mcgill.ca/~ich/ # ENTIRE URL
 # current_focus:
 # research_interests:
 #   -
