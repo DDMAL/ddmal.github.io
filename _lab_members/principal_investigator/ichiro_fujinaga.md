@@ -4,11 +4,11 @@ category: Principal # One of [Alumni, Masters, PhD, Postdoc, Principal, Manager,
 title: Ichiro Fujinaga
 photo: ich2019.jpg
 # cv:
-# social:
-github_username: fujinaga
+social:
+  github_username: fujinaga
 #   linkedin_username:
 #   instagram_username:
-personal_webpage: http://www.music.mcgill.ca/~ich/ # ENTIRE URL
+  personal_webpage: http://www.music.mcgill.ca/~ich/ # ENTIRE URL
 # current_focus:
 # research_interests:
 #   -
