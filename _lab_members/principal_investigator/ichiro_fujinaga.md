@@ -2,6 +2,7 @@
 layout: lab_member # DON'T CHANGE
 category: Principal # One of [Alumni, Masters, PhD, Postdoc, Principal, Manager, Undergraduate]
 title: Ichiro Fujinaga
+degree: Principal Investigator
 photo: ich2019.jpg
 # cv:
 social:
