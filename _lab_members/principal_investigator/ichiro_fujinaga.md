@@ -4,7 +4,7 @@ category: Principal # One of [Alumni, Masters, PhD, Postdoc, Principal, Manager,
 title: Ichiro Fujinaga
 photo: ich2019.jpg
 # cv:
-# social:
+social:
 github_username: fujinaga
 #   linkedin_username:
 #   instagram_username:
