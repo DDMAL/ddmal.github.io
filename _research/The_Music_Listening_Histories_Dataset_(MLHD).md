@@ -32,7 +32,7 @@ Additionally, we also provide a set of text files with demographic information, 
 
 The dataset can be downloaded here:
 
-<http://bit.ly/MLHD-Dataset-20>
+<https://bit.ly/MLHD-Dataset-21>
 
 (A file with sha256 hashes per TAR file is provided to verify that the download was successful.)  
 <br>
