@@ -30,9 +30,9 @@ Additionally, we also provide a set of text files with demographic information, 
 
 ## Download
 
-The dataset can be downloaded using the [Globus system](https://www.globus.org/data-sharing) from the following endpoint hosted in Compute Canada:
+The dataset can be downloaded using the [Globus system](https://www.globus.org/data-sharing){:target="_blank"} from the following endpoint hosted in Compute Canada:
 
-[https://app.globus.org/file-manager?origin_id=6e604070-3009-11eb-b16c-0ee0d5d9299f&origin_path=%2F](https://app.globus.org/file-manager?origin_id=6e604070-3009-11eb-b16c-0ee0d5d9299f&origin_path=%2F)
+[MLHD Dataset in Compute Canada Globus endpoint](https://app.globus.org/file-manager?origin_id=6e604070-3009-11eb-b16c-0ee0d5d9299f&origin_path=%2F){:target="_blank"}
 
 A file with sha256 hashes per each of the 576 TAR files is provided to verify that the download was successful.
 <br>
