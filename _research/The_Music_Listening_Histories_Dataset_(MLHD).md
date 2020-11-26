@@ -23,18 +23,18 @@ The logs in the dataset are organized in the form of sanitized listening histori
 
 Each log is a quadruple `<timestamp, artist-MBID, release-MBID, recording-MBID>`.
 
-In order to allow easy computation in HPC parallel systems, the dataset is distributed as TAR files with about 1K user files each. In total, the full dataset of listening histories is distributed as 576 files of about 1GB each. (Note: the file `MLHD_386.tar` does not have any actual listening history. It is part of the dataset just to add up to 576 files, thus facilitating the parallelization by using many combinations of factors)
+In order to allow easy computation in HPC parallel systems, the dataset is distributed as TAR files with about 1K user listening histories files each. The full dataset is distributed as 576 files of about 1GB each. These files are subsequently bundled in sets of 32 TAR files in order to facilitate its downloading. (Note: the file `MLHD_386.tar` does not have any actual listening history. It is part of the dataset just to add up to 576 files, thus facilitating the parallelization by using many combinations of factors)
 
 Additionally, we also provide a set of text files with demographic information, as well as listening habits and behavioural data.  
 <br>
 
 ## Download
 
-The dataset can be downloaded here:
+The dataset can be downloaded using the [Globus system](https://www.globus.org/data-sharing) from the following endpoint hosted in Compute Canada:
 
-<https://bit.ly/MLHD-Dataset-21>
+[https://app.globus.org/file-manager?origin_id=6e604070-3009-11eb-b16c-0ee0d5d9299f&origin_path=%2F](https://app.globus.org/file-manager?origin_id=6e604070-3009-11eb-b16c-0ee0d5d9299f&origin_path=%2F)
 
-(A file with sha256 hashes per TAR file is provided to verify that the download was successful.)  
+A file with sha256 hashes per each of the 576 TAR files is provided to verify that the download was successful.
 <br>
 
 ## Features for profiling and describing listeners in the Music Listening Histories Dataset
