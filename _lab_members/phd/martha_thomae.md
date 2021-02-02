@@ -2,7 +2,7 @@
 layout: lab_member
 category: PhD
 title: Martha E. Thomae
-degree: PhD Candidate
+degree: PhD Candidate in Music Technology
 photo: martha_thomae.jpg
 cv: CV_ThomaeElias_MarthaE.pdf
 social:
@@ -10,9 +10,10 @@ social:
 #   linkedin_username:
 #   instagram_username:
 #   personal_webpage:  # ENTIRE URL
-current_focus: Music Technology
+current_focus: Early Music Preservation and Encoding
 research_interests:
   - Music Information Retrieval
+  - Symbolic Music
   - Music Preservation
   - Music Encoding
   - Early Music
@@ -35,26 +36,18 @@ I am a PhD candidate working under the supervision of Ichiro Fujinaga and Julie 
 
 My research is focused on the preservation and encoding of mensural music. I have developed tools to facilitate the encoding of this repertoire, including the <i>Mensural MEI Translator</i> and the <i>Automatic Scoring-up Tool</i>. I am an active member of the Mensural MEI Interest Group (IG), where we look into the best options for encoding the various features of mensural notation to represent the characteristics of the vocal polyphonic music from the Late Middle Ages and the Renaissance. Since 2020, I have been acting as Co-Chair of the Mensural MEI IG and as a member of the MEI Board (2020–2022). Currently, I am working on a project that involves the digitization and encoding of the musical content of a Guatemalan choirbook from the colonial period which is written in mensural notation. This research is funded by the Fonds de Recherche du Québec - Société et Culture (FRQSC).
 
-<h3>Publications</h3>
+<h4>Publications:</h4>
 
-<body>
-<small>
-<div class="csl-bib-body" style="line-height: 1.35; margin-left: 2em; text-indent:-2em;">
+- Thomae, Martha E. “The Guatemalan Choirbooks: Facilitating Preservation, Performance, and Study of the Colonial Repertoire.” In _Christian Music Traditions in the Americas_, edited by Andrew Shenton and Joanna Smolko. New York: Rowman & Littlefield, 2021.
 
-<div class="csl-entry">Thomae, Martha E. “The Guatemalan Choirbooks: Facilitating Preservation, Performance, and Study of the Colonial Repertoire.” In <i>Christian Music Traditions in the Americas</i>, edited by Andrew Shenton and Joanna Smolko. New York: Rowman & Littlefield, 2021.</div>
+- Thomae, Martha E., Antonio Ríos-Vila, Jorge Calvo-Zaragoza, David Rizo, and Jose M. Iñesta. “Retrieving Music Semantics from Optical Music Recognition by Machine Translation.” In _Music Encoding Conference Proceedings 26-29 May, 2020_, 19–24. Tufts University, Boston, 2020. [http://dx.doi.org/10.17613/605z-nt78](http://dx.doi.org/10.17613/605z-nt78).
 
-<div class="csl-entry">Thomae, Martha E., Antonio Ríos-Vila, Jorge Calvo-Zaragoza, David Rizo, and Jose M. Iñesta. “Retrieving Music Semantics from Optical Music Recognition by Machine Translation.” In <i>Music Encoding Conference Proceedings 26-29 May, 2020</i>, 19–24. Tufts University, Boston, 2020. <a href="http://dx.doi.org/10.17613/605z-nt78">http://dx.doi.org/10.17613/605z-nt78</a>.</div>
+- Desmond, Karen, Andrew Hankinson, Laurent Pugin, Juliette Regimbal, Craig Sapp, and Martha E. Thomae. “Next Steps for Measuring Polyphony–A Prototype Editor for Encoding Mensural Music.” In _Music Encoding Conference Proceedings 26-29 May, 2020_, 121–24. Tufts University, Boston, 2020. [http://dx.doi.org/10.17613/5k88-9z02](http://dx.doi.org/10.17613/5k88-9z02).
 
-<div class="csl-entry">Desmond, Karen, Andrew Hankinson, Laurent Pugin, Juliette Regimbal, Craig Sapp, and Martha E. Thomae. “Next Steps for Measuring Polyphony–A Prototype Editor for Encoding Mensural Music.” In <i>Music Encoding Conference Proceedings 26-29 May, 2020</i>, 121–24. Tufts University, Boston, 2020. <a href="http://dx.doi.org/10.17613/5k88-9z02">http://dx.doi.org/10.17613/5k88-9z02</a>.</div>
+- Thomae, Martha E., Julie E. Cumming, and Ichiro Fujinaga. 2019. “The Mensural Scoring-Up Tool.” In _Proceedings of the 6th International Workshop on Digital Libraries for Musicology_, 9–19. The Hague, Netherlands: ACM. [http://cloud.simssa.ca/index.php/s/w2Iw6IsGrWqnYpe](http://cloud.simssa.ca/index.php/s/w2Iw6IsGrWqnYpe).
 
-<div class="csl-entry">Thomae, Martha E., Julie E. Cumming, and Ichiro Fujinaga. 2019. “The Mensural Scoring-Up Tool.” In <i>Proceedings of the 6th International Workshop on Digital Libraries for Musicology</i>, 9–19. The Hague, Netherlands: ACM. <a href="http://cloud.simssa.ca/index.php/s/w2Iw6IsGrWqnYpe">http://cloud.simssa.ca/index.php/s/w2Iw6IsGrWqnYpe</a>.</div>
+- - -
 
-<hr>
+- Thomae, Martha E. 2017. “Automatic Scoring up of Mensural Music Using Perfect Mensurations, 1300-1550.” Master’s Thesis, Montreal: McGill University. [http://cloud.simssa.ca/index.php/s/gcZwsRbWa8OTN4X](http://cloud.simssa.ca/index.php/s/gcZwsRbWa8OTN4X).
 
-<div class="csl-entry">Thomae, Martha E. 2017. “Automatic Scoring up of Mensural Music Using Perfect Mensurations, 1300-1550.” Master’s Thesis, Montreal: McGill University. <a href="http://cloud.simssa.ca/index.php/s/gcZwsRbWa8OTN4X">http://cloud.simssa.ca/index.php/s/gcZwsRbWa8OTN4X</a>.</div>
-
-<div class="csl-entry">Thomae, Martha E. “Desarrollo de un modelo algorítmico para la transformación de partituras musicales escritas en notación mensural blanca a notación contemporánea.” Undergraduate Thesis, Universidad del Valle de Guatemala, 2013.</div>
-
-</div>
-</small>
-</body>
+- Thomae, Martha E. “Desarrollo de un modelo algorítmico para la transformación de partituras musicales escritas en notación mensural blanca a notación contemporánea.” Undergraduate Thesis, Universidad del Valle de Guatemala, 2013.
