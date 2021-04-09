@@ -47,7 +47,7 @@ I am a musician and scholar who combines practice-based research with extensive 
   
 <div class="csl-entry">Vigliensoni, G., L. McCallum, and R. Fiebrink. 2020. <a href="https://ualresearchonline.arts.ac.uk/id/eprint/15853/1/VigliensoniMcCallumFiebrink_ICCC2020.pdf">“Creating latent spaces for modern music genre rhythms using minimal training data.”</a> In <i>Proceedings of the International Conference on Computational Creativity (ICCC’20)</i>. Online.</div>
 
-<div class="csl-entry">Regimbal, J., G. Vigliensoni, C. Hutnik, and I. Fujinaga. 2020. <a href="https://hcommons.org/deposits/objects/hc:31976/datastreams/CONTENT/content">“IIIF-based lyric and neume editor for square-notation manuscripts.”</a> In Proceedings of the Music Encoding Conference</i>. Online.</div>
+<div class="csl-entry">Regimbal, J., G. Vigliensoni, C. Hutnik, and I. Fujinaga. 2020. <a href="https://hcommons.org/deposits/objects/hc:31976/datastreams/CONTENT/content">“IIIF-based lyric and neume editor for square-notation manuscripts.”</a> In <i>Proceedings of the Music Encoding Conference</i>. Online.</div>
 
 <div class="csl-entry">Fujinaga, Ichiro, and Gabriel Vigliensoni. 2019. “The Art of Teaching Computers: The SIMSSA Optical Music Recognition Workflow System.” In <i>Proceedings of the 27th European Signal Processing Conference</i>. <a href="https://doi.org/10.23919/EUSIPCO.2019.8902658">https://doi.org/10.23919/EUSIPCO.2019.8902658</a>.</div>
 
