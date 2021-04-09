@@ -6,7 +6,11 @@ layout: default
   <div class="logo_header">
     <h1 style="text-align: left;" class="page-title">{{ page.title }}</h1>
     {% if page.cv %}
-      <a href="{{ site.baseurl }}/assets/lab_members/cv/{{ page.cv }}"><img class="cv-icon" src="{{ site.baseurl }}/assets/resume-document.png" /></a>
+      {% if page.cv contains "http" %}
+        <a href="{{ page.cv }}"><img class="cv-icon" src="{{ site.baseurl }}/assets/resume-document.png" /></a>
+      {% else %}
+        <a href="{{ site.baseurl }}/assets/lab_members/cv/{{ page.cv }}"><img class="cv-icon" src="{{ site.baseurl }}/assets/resume-document.png" /></a>
+      {% endif %}
     {% endif %}
   </div>
   <div class="img-wrap">
