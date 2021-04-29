@@ -23,7 +23,7 @@ The logs in the dataset are organized in the form of sanitized listening histori
 
 Each log is a quadruple `<timestamp, artist-MBID, release-MBID, recording-MBID>`.
 
-In order to allow easy computation in HPC parallel systems, the dataset is distributed as TAR files with about 1K user listening histories files each. The full dataset is distributed as 576 files of about 1GB each. These files are subsequently bundled in sets of 32 TAR files in order to facilitate its downloading. (Note: the file `MLHD_386.tar` does not have any actual listening history. It is part of the dataset just to add up to 576 files, thus facilitating the parallelization by using many combinations of factors)
+To allow easy computation in HPC parallel systems, the dataset is distributed as TAR files with about 1K user listening histories files each. The full dataset contains 576 files of about 1GB each. These files are subsequently bundled in sets of 32 TAR files in order to facilitate downloading. (Note: the file `MLHD_386.tar` does not have any actual listening history. It is part of the dataset just to add up to 576 files, thus facilitating the parallelization by using many combinations of factors)
 
 Additionally, we also provide a set of text files with demographic information, as well as listening habits and behavioural data.  
 <br>
@@ -34,12 +34,12 @@ The dataset can be downloaded using the [Globus system](https://www.globus.org/d
 
 [MLHD Dataset in Compute Canada Globus endpoint](https://app.globus.org/file-manager?origin_id=6e604070-3009-11eb-b16c-0ee0d5d9299f&origin_path=%2F){:target="_blank"}
 
-A file with sha256 hashes per each of the 576 TAR files is provided to verify that the download was successful.
+A file with sha256 hashes per each of the 576 TAR files is provided to verify the integrity of the files. 
 <br>
 
 ## Features for profiling and describing listeners in the Music Listening Histories Dataset
 
-Accompanying the full data of the MLHD, we also provide a set of text files with additional self-declared demographic information about the listeners, a set of features for describing their listening activity, and a set of features for describing their listening behaviour. The features in these files aim to characterize specific aspects of the listeners.
+Accompanying the MLHD full data, we also provide a set of text files with additional data aiming at characterizing specific aspects of the listeners. The data contains self-declared demographic information about the listeners, a set of features for describing their listening activity, and a set of features for describing their listening behaviour. 
 
 Each text file comes with a header indicating the column names. The delimiter character is a tab. In order to protect the listeners' identities, all references to their usernames and Last.fm IDs have been anonymized with UUIDs.
 
@@ -77,7 +77,7 @@ The CSV file can be downloaded from the following link:
 
 ## Listening Behavioural Features
 
-In order characterize listening behaviours, we provide in the MLHD a set of four computational features tailored to to represent some characteristics of music listening behaviours. The features are `exploratoryness`, `mainstreamness`, `genderedness`, and `fringeness`. Values for these features were computed for the three types of music items in the dataset: artists, albums, and tracks. Therefore, each listener’s listening profile is described by a vector of 12 continuous values. For details about each of these features formulations, please refer to Vigliensoni and Fujinaga (2016).
+To characterize listening behaviours, we provide in the MLHD a set of four computational features tailored to to represent some characteristics of music listening behaviours. The features are `exploratoryness`, `mainstreamness`, `genderedness`, and `fringeness`. Values for these features were computed for the three types of music items in the dataset: artists, albums, and tracks. Therefore, each listener’s listening profile is described by a vector of 12 continuous values. For details about each of these features formulations, please refer to Vigliensoni and Fujinaga (2016).
 
 <http://bit.ly/MLHD-Behavioral-20>  
 <br>
