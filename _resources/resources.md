@@ -7,7 +7,7 @@ permalink: /resources/
 
 ## Links
 
-* [MusicTech Wiki (only works within MT)](http://132.206.14.8/wiki/index.php/Main_Page)
+* [MusicTech Wiki (requires VPN)](https://wiki.simssa.ca)
 * [Logos (for posters, presentations, etc.)]({{ site.url }}/resources/logos/)  
 <br>
 
