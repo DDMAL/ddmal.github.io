@@ -17,14 +17,16 @@ tab: Lab_Members
 {% for member in manager %}
   <li><a href='{{ member.url }}'>{{ member.title }}</a><a href='{{ member.url }}'><img class="member_photo_list" src="{{ site.baseurl }}/assets/lab_members/thumbnail/{{ member.photo }}" /></a></li>
 {% endfor %}
-</ul>
+
+<!-- we have no postdocs right now -->
+<!-- </ul>
 {% assign postdoc = site.lab_members | where:"category","Postdoc" %}
 <h3 class="people-title"> Postdoctoral Researchers </h3>
 <ul class="member-list">
 {% for member in postdoc %}
   <li><a href='{{ member.url }}'>{{ member.title }}</a><a href='{{ member.url }}'><img class="member_photo_list" src="{{ site.baseurl }}/assets/lab_members/thumbnail/{{ member.photo }}" /></a></li>
 {% endfor %}
-</ul>
+</ul> -->
 {% assign phd = site.lab_members | where:"category","PhD" %}
 <h3 class="people-title"> PhD </h3>
 <ul class="member-list">
