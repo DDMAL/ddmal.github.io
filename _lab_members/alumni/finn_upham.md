@@ -1,6 +1,6 @@
 ---
 layout: lab_member
-category: Postdoc
+category: Alumni
 title: Finn Upham
 degree: Postdoctoral researcher
 photo: FinnUpham_350.jpg

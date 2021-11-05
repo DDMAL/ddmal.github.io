@@ -1,6 +1,6 @@
 ---
 layout: lab_member
-category: Masters
+category: Alumni
 title: Alex Daigle
 degree: MA in Music Technology
 photo: Alex_Daigle_2019.png

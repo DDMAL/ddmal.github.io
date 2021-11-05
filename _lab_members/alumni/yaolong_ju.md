@@ -1,6 +1,6 @@
 ---
 layout: lab_member
-category: PhD
+category: Alumni
 title: Yaolong Ju
 degree: PhD Candidate in Music Technology
 photo: yaolong_ju.jpg

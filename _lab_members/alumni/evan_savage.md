@@ -1,6 +1,6 @@
 ---
 layout: lab_member
-category: Masters
+category: Alumni
 title: Evan Savage
 degree: MA in Music Technology
 photo: Evan_Savage_2019.jpg
