@@ -28,8 +28,6 @@ Néstor Nápoles López is a PhD candidate in Music Technology at McGill Univers
 
 As part of his research assistant role at the Distributed Digital Music Archives and Libraries (DDMAL) Laboratory, Néstor is the current maintainer and full-stack developer of the [Cantus Ultimus website](https://cantus.simssa.ca/), a public website that provides an interactive interface for the simultaneous visualization of expert-curated chant data and its source manuscript images.
 
-Publications:
+## Publications and projects 
 
-- Nápoles López, Néstor, Claire Arthur, and Ichiro Fujinaga. 2019. “Key-Finding Based on a Hidden Markov Model and Key Profiles.” In _Proceedings of the 6th International Conference on Digital Libraries for Musicology_. DLfM ’19. New York, NY, USA: ACM.
-
-- Nápoles López, Néstor, Gabriel Vigliensoni, and Ichiro Fujinaga. 2018. “Encoding Matters.” In _Proceedings of the 5th International Conference on Digital Libraries for Musicology_, 69–73. DLfM ’18. New York, NY, USA: ACM. [https://doi.org/10.1145/3273024.3273027](https://doi.org/10.1145/3273024.3273027).
+Available on [personal website](https://napulen.github.io).
