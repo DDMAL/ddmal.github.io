@@ -28,6 +28,6 @@ Néstor Nápoles López is a PhD candidate in Music Technology at McGill Univers
 
 As part of his research assistant role at the Distributed Digital Music Archives and Libraries (DDMAL) Laboratory, Néstor is the current maintainer and full-stack developer of the [Cantus Ultimus website](https://cantus.simssa.ca/), a public website that provides an interactive interface for the simultaneous visualization of expert-curated chant data and its source manuscript images.
 
-## Publications and projects 
+**Publications and projects** 
 
 Available on [personal website](https://napulen.github.io).
