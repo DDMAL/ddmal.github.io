@@ -1,7 +1,7 @@
 ---
 layout: lab_member
 category: Masters
-title: Junhao Wang
+title: Yinan Zhou
 degree: MA in Music Technology
 photo: placeholder.png
 # cv: 
