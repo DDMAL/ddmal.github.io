@@ -3086,6 +3086,9 @@ input[type="button"].btn-block {
     right: 0;
     left: auto;
   }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+}
 }
 
 @media (min-width: 992px) {

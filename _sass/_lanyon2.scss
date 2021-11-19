@@ -331,13 +331,14 @@ a.pagination-item:hover {
 
 #nav-items .active a {
   color: #0e6e90;
-  border-top: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
 }
 
 /* Style the links inside the navigation bar */
 #nav-items a {
-   /* float: left;
+/* float: left; */
    display: block;
+/*
    color: black;
    font-family: 'Raleway', sans-serif;
    text-align: center; */

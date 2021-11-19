@@ -20,6 +20,12 @@ sass:
     sass_dir: _sass
 
 collections:
+  activities:
+    output: true
+  media:
+    output: true
+  presentations:
+    output: true
   publications:
     output: true
   posters:
