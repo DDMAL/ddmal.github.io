@@ -1,7 +1,7 @@
 ---
 layout: lab_member
 category: Masters
-title: Yinan Zhou
+title: Suzuka Kokubu
 degree: MA in Music Technology
 photo: placeholder.png
 # cv: 
