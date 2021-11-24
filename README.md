@@ -88,7 +88,7 @@ Here is the updated list of variables to edit for each lab member's markdown pag
 
 <br>
 
-The content management system (CMS) used for this site is [Forestry](https://forestry.io/). This is where blog entries and website contents are added, edited, and maintained. Contact [Evan Savage](mailto:evan.savage@mail.mcgill.ca) or [Emily Hopkins](mailto:emily.hopkins@mcgill.ca) to gain access to the CMS.
+The content management system (CMS) used for this site is [Forestry](https://forestry.io/). This is where blog entries and website contents are added, edited, and maintained. Contact [Emily Hopkins](mailto:emily.hopkins@mcgill.ca) to gain access to the CMS.
 
 Blog entries and website content are written in Markdown, which make it easy to add text, links, images, and lists to a new post. Here is a [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to consult for any necessary formatting.
 
@@ -142,4 +142,4 @@ When writing or editing a Markdown entry that will include an image or file, hit
 
 ## Troubleshooting
 
-If you are having any difficulties with setup, the CMS, or local development, please feel free to email [Evan Savage](mailto:evan.savage@mail.mcgill.ca) or use the issues tab found in this repository.
+If you are having any difficulties with setup, the CMS, or local development, please feel free to email [Emily Hopkins](emily.hopkins@mcgill.ca) or use the issues tab found in this repository.
