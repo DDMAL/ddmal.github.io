@@ -7,9 +7,9 @@ photo: Gabrielle_Halpin.JPG
 # cv: 
 social:
   github_username: GabbyHalpin
-  linkedin_username: www.linkedin.com/in/gabriellehalpin
+  linkedin_username: gabriellehalpin
 # instagram_username:
-# personal_webpage: https://www.julietteregimbal.ca/
+# personal_webpage: 
 # current_focus:
 # research_interests:
 
