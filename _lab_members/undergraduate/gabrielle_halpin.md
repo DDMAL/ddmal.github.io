@@ -3,11 +3,11 @@ layout: lab_member
 category: Undergraduate
 title: Gabrielle Halpin
 # degree: 
-photo: placeholder.png
+photo: Gabrielle_Halpin.JPG
 # cv: 
 social:
   github_username: GabbyHalpin
-#  linkedin_username: 
+  linkedin_username: www.linkedin.com/in/gabriellehalpin
 # instagram_username:
 # personal_webpage: https://www.julietteregimbal.ca/
 # current_focus:
