@@ -20,10 +20,8 @@ research_interests:
 academic_record:
   - MA Music Technology, McGill University
   - B.Eng, Electrical Engineering, McGill University
-# publications:
-  # - hold
-  # - hold
-  # - hold
+publications:
+  - Hanssian, Sevag. 2021. “Music demixing with the sliCQ transform.” In MDX21 workshop, ISMIR 2021.
 ---
 
 <!-- FILL IN BIO HERE -->
