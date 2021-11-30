@@ -3,7 +3,7 @@ layout: lab_member
 category: Masters
 title: Junhao Wang
 degree: MA in Music Technology
-photo: junhao.jpg
+photo: junhao.JPG
 # cv: 
 social:
  github_username: jwang44
