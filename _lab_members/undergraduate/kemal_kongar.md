@@ -3,7 +3,7 @@ layout: lab_member
 category: Undergraduate
 title: Kemal Kongar
 # degree: 
-photo: placeholder.png
+photo: kemal.jpg
 # cv: 
 social:
   github_username: kemalkongar
