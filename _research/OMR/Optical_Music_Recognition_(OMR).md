@@ -27,5 +27,5 @@ Optical Music Recognition (OMR) is the process of converting scanned images of p
 
 ## Resources
 
-* [OMR Bibliography]({{ site.url }}/research/omr/resources/OMR_Bibliography/)
-* [OMR and OCR Software]({{ site.url }}/research/omr/resources/OMR_OCR_Software/)
+* [OMR Bibliography]({{ site.url }}/research/OMR/resources/OMR_Bibliography/)
+* [OMR and OCR Software]({{ site.url }}/research/OMR/resources/OMR_OCR_Software/)
