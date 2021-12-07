@@ -3,18 +3,22 @@ layout: lab_member
 category: Masters
 title: Suzuka Kokubu
 degree: MA in Music Technology
-photo: placeholder.png
+photo: suzuka.JPG
 # cv: 
-# social:
+social:
 #   github_username: 
 #   linkedin_username: 
 #   instagram_username: 
 #   bandcamp_username: 
 #   soundcloud_username: 
-#   personal_webpage:  # ENTIRE URL
+personal_webpage:  https://www.suzukakokubu.com/
 # current_focus: 
 # research_interests:
-# academic_record:
+academic_record:
+* MA Music Technology, McGill University
+* BS Applied Physics, Columbia University
+* BS Physics, Washington College
+
 # publications:
   # - hold
   # - hold
