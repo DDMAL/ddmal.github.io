@@ -31,7 +31,7 @@ export_folder = 'zotero_export/'
 
 for type in parse_list:
 
-    html_file_name = f'DDMALtemp_{type}.html'
+    html_file_name = f'DDMAL_{type}.html'
     citation_folder = f'_{type}'
 
     with open(export_folder + html_file_name) as f:
@@ -69,6 +69,7 @@ for type in parse_list:
             if t.split('_')[0] != ')no':
                 final_title = t
                 break
+        final_title = final_title.replace('/', ' ')
         file_name = author + '_' + final_title.replace(' ', '_') + '_' + year + '.md'
 
         if not os.path.exists(ddmal_root_folder + citation_folder + '/' + year):
