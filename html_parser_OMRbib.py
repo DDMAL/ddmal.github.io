@@ -1,3 +1,8 @@
+'''Emily Hopkins adapted from the html parser Evan Savage wrote that is 
+used on SIMSSA site.
+Run script according the docs but just choose "a" when prompted since it's 
+only one list.'''
+
 from bs4 import BeautifulSoup
 from urllib.parse import unquote
 import re
@@ -18,7 +23,7 @@ if choice not in input_list:
 if choice == 'a':
     parse_list = full_list
 else:
-    parse_list = [full_list[input_list.index(choice)]]
+    parse_list = [full_list[input_list.index(choice)]] 
 
 ddmal_root_folder = './'
 export_folder = 'zotero_export/'
@@ -28,8 +33,8 @@ export_folder = 'zotero_export/'
 
 for type in parse_list:
 
-    html_file_name = f'DDMALtemp_{type}.html'
-    citation_folder = f'_{type}'
+    html_file_name = f'OMRbibliography.html'
+    citation_folder = f'_OMRbibliography'
 
     with open(export_folder + html_file_name) as f:
         html_soup = BeautifulSoup(f, 'html.parser')
@@ -66,6 +71,7 @@ for type in parse_list:
             if t.split('_')[0] != ')no':
                 final_title = t
                 break
+        final_title = final_title.replace('/', ' ')
         file_name = author + '_' + final_title.replace(' ', '_') + '_' + year + '.md'
 
         if not os.path.exists(ddmal_root_folder + citation_folder + '/' + year):

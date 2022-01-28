@@ -3,7 +3,7 @@ layout: page
 title: Optical Music Recognition (OMR)
 tab: Research
 type: project
-permalink: /research/omr/
+permalink: /research/OMR/
 ---
 
 Optical Music Recognition (OMR) is the process of converting scanned images of pages of music into computer readable and manipulable symbols. We focus on creating music recognition tools for libraries, archives and musicologists, and specialize in working with early music notation.  
@@ -27,5 +27,5 @@ Optical Music Recognition (OMR) is the process of converting scanned images of p
 
 ## Resources
 
-* [OMR Bibliography]({{ site.url }}/research/OMR/resources/OMR_Bibliography/)
+* [OMR Bibliography]({{ site.url }}/research/OMR/resources/OMRBibliography/)
 * [OMR and OCR Software]({{ site.url }}/research/OMR/resources/OMR_OCR_Software/)

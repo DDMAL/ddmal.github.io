@@ -30,6 +30,8 @@ collections:
     output: true
   posters:
     output: true
+  OMRbibliography:
+    output: true
   research:
     output: true
   software:

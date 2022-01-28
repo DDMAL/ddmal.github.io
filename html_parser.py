@@ -1,3 +1,6 @@
+'''Emily Hopkins adapted to DDMAL needs from the parser Evan Savage 
+wrote for the SIMSSA site'''
+
 from bs4 import BeautifulSoup
 from urllib.parse import unquote
 import re
