@@ -88,7 +88,7 @@ Here is the updated list of variables to edit for each lab member's markdown pag
 
 <br>
 
-The content management system (CMS) used for this site is [Forestry](https://forestry.io/). This is where blog entries and website contents are added, edited, and maintained. Contact [Emily Hopkins](mailto:emily.hopkins@mcgill.ca) to gain access to the CMS.
+The content management system (CMS) used for this site is [Forestry](https://forestry.io/). This is where blog entries and website contents are added, edited, and maintained. 
 
 Blog entries and website content are written in Markdown, which make it easy to add text, links, images, and lists to a new post. Here is a [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to consult for any necessary formatting.
 
@@ -139,7 +139,22 @@ Blog posts, workshops, and individual pages often include images and downloads o
 
 When writing or editing a Markdown entry that will include an image or file, hit `ctrl+shift+u` to open the Media folder. Then, you can select any existing media and drop it right into the new post; Forestry handles the file path automatically, and it should not need to be altered. Images will be center-justified when posted to the website.
 
+### Updating citations
+
+There are two parts of this site updated from Zotero group libraries.
+(OMR Bibliography and DDMAL)
+https://www.zotero.org/groups/424851/omr_bibliography
+https://www.zotero.org/groups/2415821/ddmal
+
+The basic functionality is documented on the SIMSSA site here:
+https://github.com/DDMAL/simssa.github.io#updating-citations-locally
+
+This repo has two different versions of that script, one for general
+DDMAL citation updates and one for the Zotero bibliography.
+
+(Ideally someone will make a general-purpose parser that works for all
+these scenarios but I didn't get to it -EH)
 
 ## Troubleshooting
 
-If you are having any difficulties with setup, the CMS, or local development, please feel free to email [Emily Hopkins](emily.hopkins@mcgill.ca) or use the issues tab found in this repository.
+If you are having any difficulties with setup, the CMS, or local development, please use the issues tab found in this repository.
