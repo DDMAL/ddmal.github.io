@@ -1,15 +1,15 @@
 ---
 layout: lab_member # DON'T CHANGE
 category: Undergraduate # One of [Alumni, Masters, PhD, Postdoc, Undergraduate]
-title: Undergraduate template
+title: Jinho Yoon
 photo: placeholder.png
 # cv:
-# social:
-#   github_username: jinh0
+social:
+  github_username: jinh0
 #   linkedin_username:
 #   instagram_username:
 #   personal_webpage:  # ENTIRE URL
-# current_focus: Summer software developer
+current_focus: Summer software developer
 # research_interests:
 #   -
 #   -
