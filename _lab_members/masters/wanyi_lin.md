@@ -5,8 +5,8 @@ title: Wanyi Lin
 degree: MA in Music Technology
 photo: placeholder.png
 # cv: 
-# social:
-#   github_username: 
+social:
+   github_username: softcat477
 #   linkedin_username: 
 #   instagram_username: 
 #   bandcamp_username: 
