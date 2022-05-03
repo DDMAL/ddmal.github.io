@@ -2,7 +2,7 @@
 layout: lab_member
 category: Undergraduate
 title: Shahrad Mohammadzadeh
-# degree: Honours Computer Science @ McGill 
+degree: Honours Computer Science @ McGill 
 photo: shahrad-img.png
 # cv: 
 social:
@@ -10,8 +10,8 @@ social:
   linkedin_username: Shahrad MZ
 # instagram_username:
 # personal_webpage: 
-# current_focus:
-# research_interests: Machine learning, Data Science, Software Systems, Music Technology 
+current_focus: Machine learning and Data Science
+research_interests: Machine learning, Data Science, Software Systems, Music Technology 
 
 # academic_record:
 #   -
