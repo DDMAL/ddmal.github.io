@@ -13,7 +13,6 @@ social:
 current_focus: Machine learning and Data Science
 research_interests: Machine learning, Data Science, Software Systems, Music Technology 
 
-This is Shahrad. You can find me playing the piano, Searching github for new technologies, and playing basketball!
 # academic_record:
 #   -
 # publications:
@@ -21,3 +20,4 @@ This is Shahrad. You can find me playing the piano, Searching github for new tec
 #   - hold
 #   - hold
 ---
+This is Shahrad. You can find me playing the piano, Searching github for new technologies, and playing basketball!
