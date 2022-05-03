@@ -4,17 +4,17 @@ category: Undergraduate # One of [Alumni, Masters, PhD, Postdoc, Undergraduate]
 title: Jiwoo Jeong
 photo: placeholder.png
 # cv:
-# social:
-#   github_username:
-#   linkedin_username:
+social:
+   github_username: jiwoojeongjj
+   linkedin_username: jiwoojeong
 #   instagram_username:
 #   personal_webpage:  # ENTIRE URL
-# current_focus:
+current_focus: Computer Science Student
 # research_interests:
 #   -
 #   -
-# academic_record:
-#   -
+academic_record:
+   - B.Sc. Anatomy and Cell Biology
 #   -
 # publications:
 #   - hold
