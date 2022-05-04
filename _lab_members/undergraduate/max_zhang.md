@@ -29,4 +29,4 @@ From Vancouver, Zhang performs regularly at music venues across Montreal on trum
 
 Entering his fifth year of undergraduate studies, Zhang is pursuing a double major in Computer Science alongside his Bachelor of Music. He has taken a keen interest in software development, having just completed courses in Software Architecture, Programming Languages and Paradigms, and Applied Machine Learning at McGill, to list a few.
 
-Besides coding and music, Zhang enjoys rock in his off-hours!
+Besides coding and music, Zhang enjoys rock climbing in his off-hours!
