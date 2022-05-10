@@ -8,4 +8,4 @@ social:
 title: Andrew Hankinson
 ---
 
-Andrew Hankinson is currently affiliated with: Bodleian Libraries, University of Oxford
+Andrew Hankinson is currently affiliated with the RISM Digital Center, Bern, Switzerland.
