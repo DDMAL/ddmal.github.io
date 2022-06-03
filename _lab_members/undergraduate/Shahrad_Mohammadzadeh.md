@@ -6,8 +6,8 @@ degree: Studying B.Sc Honours Computer Science @ McGill University
 photo: shahrad.jpg
 # cv:
 social:
-  github_username: (https://github.com/EMZEDI)
-  linkedin_username: (https://www.linkedin.com/in/shahrad-m-88970b212)
+  github_username: https://github.com/EMZEDI
+  linkedin_username: https://www.linkedin.com/in/shahrad-m-88970b212
 # current_focus: Music Technology
 research_interests:
   - Data Science
