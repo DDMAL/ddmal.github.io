@@ -10,7 +10,7 @@ social:
   linkedin_username: napulen
 #   instagram_username:
   personal_webpage: https://napulen.github.io
-current_focus: Symbolic and Audio Musical Key Estimation
+current_focus: Automatic Roman Numeral Analysis
 research_interests:
   - Deep Learning
   - Music Theory
@@ -24,7 +24,7 @@ academic_record:
 publications:
 ---
 
-Néstor Nápoles López is a PhD candidate in Music Technology at McGill University, working under the supervision of professor Ichiro Fujinaga. Néstor holds an [MSc in Sound and Music Computing from Universitat Pompeu Fabra](https://www.upf.edu/web/smc) (Spain) and a Licenciatura en Informática (undergraduate degree in software engineering) from his hometown university, [Universidad de Guadalajara](http://www.udg.mx/en) (Mexico). His research interests include Music Information Retrieval (MIR) in the context of tonal music (mostly around the computational study of musical keys, tonicizations, modulations, and Roman numerals), music encoding, and educational video games for musicianship training.
+Néstor Nápoles López is a PhD candidate in Music Technology at McGill University, working under the supervision of professor Ichiro Fujinaga. Néstor holds an [MSc in Sound and Music Computing from Universitat Pompeu Fabra](https://www.upf.edu/web/smc) (Spain) and a Licenciatura en Informática (undergraduate degree in software engineering) from his hometown university, [Universidad de Guadalajara](http://www.udg.mx/en) (Mexico). His research interests include Music Information Retrieval (MIR) in the context of tonal music (mostly around the computational study of musical keys, tonicizations, modulations, chords, and Roman numeral analysis), music encoding, and educational video games for musicianship training.
 
 As part of his research assistant role at the Distributed Digital Music Archives and Libraries (DDMAL) Laboratory, Néstor participates in the development of [Cantus Ultimus](https://cantus.simssa.ca/), a public website that provides an interactive interface for the simultaneous visualization of expert-curated chant data and its source manuscript images.
 
