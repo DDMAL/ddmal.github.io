@@ -1,6 +1,6 @@
 ---
 layout: lab_member
-category: Masters
+category: Alumni
 title: Sevag Hanssian
 degree: MA in Music Technology
 photo: Sevag_2021.jpg
