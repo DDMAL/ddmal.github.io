@@ -1,6 +1,6 @@
 ---
 layout: lab_member # DON'T CHANGE
-category: Masters # One of [Alumni, Masters, PhD, Postdoc, Undergraduate]
+category: Alumni # One of [Alumni, Masters, PhD, Postdoc, Undergraduate]
 title: Paul Buser
 degree: MA in Music Technology
 photo: paul_buser.jpg
