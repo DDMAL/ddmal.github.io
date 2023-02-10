@@ -1,6 +1,6 @@
 ---
 layout: lab_member
-category: PhD
+category: Alumni
 title: Martha E. Thomae
 degree: PhD Candidate in Music Technology
 photo: martha_thomae.jpg
