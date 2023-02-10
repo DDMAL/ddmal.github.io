@@ -1,6 +1,6 @@
 ---
 layout: lab_member
-category: PhD
+category: Alumni
 title: Néstor Nápoles López
 degree: PhD Candidate in Music Technology
 photo: Nestor_Napoles_2018.jpg
