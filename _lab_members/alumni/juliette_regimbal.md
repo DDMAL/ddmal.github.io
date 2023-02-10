@@ -1,6 +1,6 @@
 ---
 layout: lab_member
-category: Masters
+category: Alumni
 title: Juliette Regimbal
 degree: B.Eng. Computer Engineering
 photo: juliette_regimbal_2019.jpg
