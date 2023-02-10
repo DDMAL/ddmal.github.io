@@ -1,6 +1,6 @@
 ---
 layout: lab_member
-category: Masters
+category: Alumni
 title: Junhao Wang
 degree: MA in Music Technology
 photo: junhao.JPG
