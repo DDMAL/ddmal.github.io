@@ -1,6 +1,6 @@
 ---
 layout: lab_member
-category: Masters
+category: Alumni
 title: Suzuka Kokubu
 degree: MA in Music Technology
 photo: suzuka.JPG
