@@ -1,6 +1,6 @@
 ---
 layout: lab_member # DON'T CHANGE
-category: Manager # One of [Alumni, Masters, PhD, Postdoc, Principal, Manager, Undergraduate]
+category: Alumni # One of [Alumni, Masters, PhD, Postdoc, Principal, Manager, Undergraduate]
 title: Emily Hopkins
 photo: Hopkins.JPG
 # cv:
