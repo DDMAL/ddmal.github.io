@@ -1,9 +1,9 @@
 ---
 layout: lab_member
-category: Undergraduate
+category: Alumni
 title: Eli Waksbaum
 degree: B.A. Mathematics and Computer Science
-photo: Eli_Waksbaum.jpeg
+photo: 
  social:
    github_username: eliwaksbaum
    linkedin_username: eli-waksbaum
