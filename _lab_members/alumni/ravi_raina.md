@@ -1,6 +1,6 @@
 ---
 layout: lab_member
-category: Undergraduate
+category: Alumni
 title: Ravi Raina
 # degree: 
 photo: ravi_raina.jpeg
