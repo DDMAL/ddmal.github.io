@@ -1,6 +1,6 @@
 ---
 layout: lab_member
-category: Undergraduate
+category: Alumni
 title: Jiali Cheng
 # degree: 
 photo: JialiCHENG_IMG_8823.JPG
