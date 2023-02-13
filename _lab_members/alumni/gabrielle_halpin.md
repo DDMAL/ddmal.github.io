@@ -1,6 +1,6 @@
 ---
 layout: lab_member
-category: Undergraduate
+category: Alumni
 title: Gabrielle Halpin
 # degree: 
 photo: Gabrielle_Halpin.JPG
