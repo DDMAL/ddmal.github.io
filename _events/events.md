@@ -5,6 +5,8 @@ tab: Events
 permalink: /events/
 ---
 
+* [ISMIR 2022](https://ismir2022.ismir.net/), December, Bengaluru, Hybrid
+* [LinkedMusic Project Meeting 2022](https://linkedmusic.ca/activities/), November, Montreal/Online
 * [ISMIR 2021](https://ismir2021.ismir.net/), November, Online
 * [Music Encoding Conference 2021](https://music-encoding.org/conference/2021/), July, University of Alicante
 * [LinkedMusic Workshop](https://linkedmusic.ca), October 2021, Montreal
