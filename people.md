@@ -4,7 +4,13 @@ title: People
 tab: People
 ---
 
+{% include textpic.html imgurl="/assets/DDMALSummer2019-1280px.png" text="2019" %}
 
+<br>
+
+**_l-r_** :
+
+<hr>
 {% include textpic.html imgurl="/assets/DDMALSummer2018-1000px.jpg" text="2018" %}
 
 <br>
