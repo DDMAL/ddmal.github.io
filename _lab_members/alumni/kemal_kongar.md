@@ -1,6 +1,6 @@
 ---
 layout: lab_member
-category: Undergraduate
+category: Alumni
 title: Kemal Kongar
 # degree: 
 photo: kemal.jpg
