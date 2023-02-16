@@ -1,6 +1,6 @@
 ---
 layout: lab_member
-category: Undergraduate
+category: Alumni
 title: Katie Lin
 # degree: 
 photo: placeholder.png
