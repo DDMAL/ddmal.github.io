@@ -1,6 +1,6 @@
 ---
 layout: lab_member
-category: Undergraduate
+category: Alumni
 title: Shahrad Mohammadzadeh
 degree: Studying B.Sc Honours Computer Science @ McGill University
 photo: shahrad.jpg
