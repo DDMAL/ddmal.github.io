@@ -2,12 +2,12 @@
 layout: lab_member # DON'T CHANGE
 category: Manager # One of [Alumni, Masters, PhD, Postdoc, Principal, Manager, Undergraduate]
 title: Marisa Goldman
-photo: 
+photo: marisagoldman22.jpg
 # cv:
 social:
    github_username: maregold
 #   linkedin_username:
-   twitter_username: 
+#   twitter_username: 
 #   personal_webpage:  # ENTIRE URL
 current_focus: Project Manager (LinkedMusic)
 research_interests:
