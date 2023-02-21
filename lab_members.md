@@ -49,7 +49,7 @@ tab: Lab_Members
 {% endfor %}
 </ul>
 {% assign alumni = site.lab_members | where:"category","Alumni" %}
-<h3 class="people-title"> Alumni </h3> See past group photos [here](https://ddmal.music.mcgill.ca/people/)
+<h3 class="people-title"> Alumni </h3> See past group photos <a href="https://ddmal.music.mcgill.ca/people/">here</a>
 <ul class="member-list">
 {% for member in alumni %}
   <li><a href='{{ member.url }}'>{{ member.title }}</a><a href='{{ member.url }}'><img class="member_photo_list" src="{{ site.baseurl }}/assets/lab_members/thumbnail/{{ member.photo }}" /></a></li>
