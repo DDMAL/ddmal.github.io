@@ -2,7 +2,7 @@
 layout: lab_member # DON'T CHANGE
 category: Undergraduate # One of [Alumni, Masters, PhD, Postdoc, Undergraduate]
 title: Sabrina Mansour
-photo: #PHOTOSOOSOS
+photo: Sabrina.jpeg
 # cv:
 social:
    github_username: sabrina0822   
