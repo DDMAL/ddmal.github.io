@@ -1,6 +1,6 @@
 ---
 layout: lab_member # DON'T CHANGE
-category: Undergraduate # One of [Alumni, Masters, PhD, Postdoc, Undergraduate]
+category: Alumni # One of [Alumni, Masters, PhD, Postdoc, Undergraduate]
 title: Khoi Nguyen
 photo: placeholder.png
 # cv:
