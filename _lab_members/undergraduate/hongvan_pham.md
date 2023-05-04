@@ -9,7 +9,7 @@ social:
    linkedin_username: vanhpham
    soundcloud_username: hiiamvan
 #   instagram_username:
-#   personal_webpage:  # ENTIRE URL
+   personal_webpage: https://malajvan.github.io/minivan/  # ENTIRE URL
 # current_focus:
 # research_interests:
 #   -
