@@ -16,4 +16,4 @@ Jacob deGroot-Maggetti is a graduate of the Master's in Music Theory Program at 
 
 Living in Kitchener-Waterloo before his degree at McGill, Jacob sang in the Grand Philharmonic Choir and Grand Philharmonic Chamber Choir, performed with the University of Waterloo Gamelan Ensemble, and directed the Ad Hoc, Post Hoc and Propter Hoc chamber choirs. In Montreal, he performed with the Orpheus Singers.
 
-In his free time, he enjoys playing traditional Irish and Quebecois dance music, reading, and learning about diverse topics. Linguistics and mathematics have been recent subjects of interest.
+In his free time, he enjoys playing traditional Irish and Quebecois dance music, reading, and learning about diverse subjects. Linguistics and mathematics have been recent topics of interest.
