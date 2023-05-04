@@ -51,7 +51,7 @@ to install any updated or newly-added gems for the build. Then, the site can be 
 
 ## Creating your lab member page
 
-Inside the **_lab_members** folder, there are five different folders that contain markdown files for your respective page on the website as a lab member. Choose the folder related to your afiliation, and copy an existing user file to add your own details to. Vanilla templates for each of the five lab member categories are also available in the **TEMPLATES** folder at the root directory. Copy, paste, and rename in the correct subfolder within **_lab_members**.
+Inside the **_lab_members** folder, there are five different folders that contain markdown files for your respective page on the website as a lab member. Choose the folder related to your affiliation, and copy an existing user file to add your own details to. Vanilla templates for each of the five lab member categories are also available in the **TEMPLATES** folder at the root directory. Copy, paste, and rename in the correct subfolder within **_lab_members**.
 
 When adding an image for a lab member page, place it in the **assets/lab_members** directory. Reference the exact filename for the *photo* variable in the respective lab member's markdown file.
 
@@ -90,7 +90,7 @@ Here is the updated list of variables to edit for each lab member's markdown pag
 
 The content management system (CMS) used for this site is [Forestry](https://forestry.io/). This is where blog entries and website contents are added, edited, and maintained. 
 
-Blog entries and website content are written in Markdown, which make it easy to add text, links, images, and lists to a new post. Here is a [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to consult for any necessary formatting.
+Blog entries and website content are written in Markdown, which makes it easy to add text, links, images, and lists to a new post. Here is a [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to consult for any necessary formatting.
 
 In the picture above, you can see how each of the links for navigation on the DDMAL website correspond to an editable tab on the sidebar of the CMS. The next section will explain in further detail how each component is edited and what output should be expected.
 
