@@ -7,7 +7,7 @@ personal_webpage: https://jacobdgm.com
 github_username: jacobdgm
 bandcamp_username: jacobdegroot-maggetti
 soundcloud_username: jacob-degroot-maggetti
-photo: placeholder.jpg
+photo: placeholder.png
 current_focus: Cantus Database
 academic_record: BA in Music, University of Waterloo
 ---
