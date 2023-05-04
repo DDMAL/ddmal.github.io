@@ -31,3 +31,8 @@ I'm a guitar player, and perform live under the band name "Water Gun Water Gun S
 - de Reuse, Timothy, and Ichiro Fujinaga. 2019. “Pattern Clustering in Monophonic Music by Learning a Non-Linear Embedding from Human Annotations.” In _Proceedings of the 20th International Society for Music Information Retrieval Conference_. Delft, Netherlands.
 
 - de Reuse, Timothy, and Ichiro Fujinaga. 2019. “Robust Transcript Alignment on Medieval Chant Manuscripts.” In _Proceedings of the 2nd International Workshop on Reading Music Systems_. Delft, Netherlands.
+
+- Degroot-Maggetti, Jacob, Timothy de Reuse, Laurent Feisthauer, Samuel Howes, Yaolong Ju, Suzaka Kokubu, Sylvain Margot, Néstor Nápoles López, and Finn Upham. 2020. "Data quality matters: Iterative corrections on a corpus of Mendelssohn string quartets and implications for MIR Analysis." In _Proceedings of the 21st International Society for Music Information Retrieval Conference._ Montreal, Canada.
+
+- de Reuse, Timothy and Ichiro Fujinaga. 2022. "A Transformer-Based "Spellchecker" for Detecting Errors in OMR Output." In _Proceedings of the 23rd International Society for Music Information Retrieval Conference._ Bengaluru, India.
+
