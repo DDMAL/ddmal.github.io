@@ -9,7 +9,7 @@ bandcamp_username: jacobdegroot-maggetti
 soundcloud_username: jacob-degroot-maggetti
 ---
 
-Jacob deGroot-Maggetti is a graduate of the Master's in Music Theory Program at McGill University, where he is studied the music of Canadian fiddler Oliver Schroer.
+Jacob deGroot-Maggetti is a graduate of the Master's in Music Theory Program at McGill University, where he [studied the music of Canadian fiddler Oliver Schroer](https://jacobdgm.com/etc/oliver-schroer/thesis/).
 
 Living in Kitchener-Waterloo before his degree at McGill, Jacob sang in the Grand Philharmonic Choir and Grand Philharmonic Chamber Choir, performed with the University of Waterloo Gamelan Ensemble, and directed the Ad Hoc, Post Hoc and Propter Hoc chamber choirs. In Montreal, he performed with the Orpheus Singers.
 
