@@ -2,11 +2,14 @@
 layout: lab_member
 category: Masters
 title: Jacob deGroot-Maggetti
-degree: MA in Music Theory
+degree: MA in Music Theory (graduate)
 personal_webpage: https://jacobdgm.com
 github_username: jacobdgm
 bandcamp_username: jacobdegroot-maggetti
 soundcloud_username: jacob-degroot-maggetti
+photo: placeholder.jpg
+current_focus: Cantus Database
+academic_record: BA in Music, University of Waterloo
 ---
 
 Jacob deGroot-Maggetti is a graduate of the Master's in Music Theory Program at McGill University, where he [studied the music of Canadian fiddler Oliver Schroer](https://jacobdgm.com/etc/oliver-schroer/thesis/).
