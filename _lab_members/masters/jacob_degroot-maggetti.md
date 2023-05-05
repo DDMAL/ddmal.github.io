@@ -3,7 +3,7 @@ layout: lab_member
 category: Masters
 title: Jacob deGroot-Maggetti
 degree: MA in Music Theory (graduate)
-photo: placeholder.jpg
+photo: jacobdgm.jpg
 current_focus: Cantus Database
 academic_record: BA in Music, University of Waterloo
 social:
