@@ -16,7 +16,7 @@ social:
 # research_interests:
 academic_record:
   - Queen's University, Bachelors Degree in Computer Science with Minor in Music
-publications:
+publications:  
   - "Cautery tool state detection using deep learning on intraoperative surgery videos" https://doi.org/10.1117/12.2654234 
   - "Phase recognition and cautery localization in basal cell carcinoma surgical videos" https://doi.org/10.1117/12.2611837
 ---
