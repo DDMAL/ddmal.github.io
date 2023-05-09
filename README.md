@@ -13,26 +13,13 @@ This is the repository for the new DDMAL website distributed via GitHub Pages. I
 
 ## Local Setup
 
-Before proceeding to further setup steps, you may need to ensure the listed [requirements](https://jekyllrb.com/docs/installation/#requirements) are achieved. The [Quickstart guide](https://jekyllrb.com/docs/) can be a useful resource of general installation guidelines.
+### macOS / Windows Install
 
-### Windows Install
-
-Follow the steps of the [Windows instructions](https://jekyllrb.com/docs/installation/windows/) to install dependencies before proceeding.
-
-### macOS (M1 or M2) Install
-
-Follow the steps of the [macOS instructions](https://jekyllrb.com/docs/installation/macos/) to install dependencies before proceeding. If you are using Homebrew, make sure to run ```brew doctor``` to check the system and address any reported problems. 
-
-General compilation issues may occur due to incompatible versions of Ruby. The [Ruby documentation page](https://www.ruby-lang.org/en/documentation/installation/) may be used for any version upgrades/downgrades. One recommendation would be to use Homebrew to get `ruby-install` and `chruby` for compilation, installation, and switching between different Ruby versions. After installing, the following configurations in the ~/.zshrc file are necessary for correct functionality: 
-
-- ```source /opt/homebrew/opt/chruby/share/chruby/chruby.sh```, to make the chruby program available in the shell.
-- ```source /opt/homebrew/opt/chruby/share/chruby/auto.sh```, to enable auto-switching of Rubies specified by .ruby-version files. 
-- ```chruby ruby-x.y.z```, sets the desired Ruby version (note that you may need to install it first via ```ruby-install ruby x.y.z```). Where x.y.z is to be replaced with the version number. When switching between Ruby versions, this is the line that needs to be updated. Check for correct setup with ```ruby -v```, it should print out a line that starts with *ruby x.y.z*. 
-
-### Local installation, configuration, and build instructions
-Verify that Ruby, Jekyll, and bundler gems are working with the following [steps](https://jekyllrb.com/docs/#instructions) before proceeding.
+You will need to download a full [Ruby development environment](https://jekyllrb.com/docs/installation/) to install Jekyll. Follow steps 1 and 2 of [these instructions](https://jekyllrb.com/docs/) after installing Ruby. Note that mac users may need to install a package manager to configure the local Ruby version correctly, and [here](https://www.ruby-lang.org/en/documentation/installation/) is a link with instructions on how-to.
 
 Assuming you have [Git](https://www.atlassian.com/git/tutorials/install-git) installed, open a terminal and clone the repository into any known location on your computer. The documents folder is recommended, though it is up to you.
+
+### Configuration and building site locally
 
 ```
 git clone https://github.com/DDMAL/ddmal.github.io.git
@@ -52,18 +39,30 @@ bundle exec jekyll serve --watch
 
 The built site can then be viewed at 'localhost:4000'. The `--watch` option automatically checks for updates to the local files and can be immediately viewed by refreshing the page. `--watch` is not supported by Windows, thus the command above will need to be rerun after each edit.
 
-If any changes need to be made to the 'Gemfile' at the root directory of your repository, run:
+### Important!
+
+- For macOS users, it may be necessary to uncomment the lines under ```macOs-specific dependencies``` in the Gemfile and comment those under ```Windows-specific dependencies```. 
+- For Windows users, comment everything under ```macOs-specific dependencies``` and uncomment the lines under ```Windows-specific dependencies```. 
+
+After making changes to the 'Gemfile' at the root directory of the repository, run:
 
 ```
 bundle install
 ```
+to install any updated or newly-added gems for the build. The site can then be rebuilt with `bundle exec jekyll serve --watch`.
 
-to install any updated or newly-added gems for the build. Then, the site can be rebuilt with `bundle exec jekyll serve --watch`.
+### Troubleshooting for macOS
 
-**macOS troubleshooting:** 
-- using Ruby version 3.0.0 may cause additional failures when executing ```bundle exec jekyll serve```, a possible fix would be to run ```bundle add webrick```.
+- If you are using Homebrew for package management, make sure to run ```brew doctor``` to check if there are any warnings that need to be addressed.
+
+- General compilation issues may occur due to incompatible versions of Ruby. One recommendation would be to use Homebrew to get `ruby-install` and `chruby` for compilation, installation, and switching between different Ruby versions. After installing, the following configurations in the ~/.zshrc file are necessary for correct functionality: 
+
+  - ```source /opt/homebrew/opt/chruby/share/chruby/chruby.sh```, to make the chruby program available in the shell.
+  - ```source /opt/homebrew/opt/chruby/share/chruby/auto.sh```, to enable auto-switching of Rubies specified by .ruby-version files. 
+  - ```chruby ruby-x.y.z```, sets the desired Ruby version (note that you may need to install it first via ```ruby-install ruby x.y.z```). Where x.y.z is to be replaced with the version number. When switching between Ruby versions, this is the line that needs to be updated. Check for correct setup with ```ruby -v```, it should print out a line that starts with *ruby x.y.z*. 
+- using Ruby version 3.0.0 may cause additional failures when executing ```bundle exec jekyll serve```, a possible fix could be to uncomment the `gem` command under `# macOS dependency for Ruby version 3.0.0 or higher` in the Gemfile. If that does not work, then it is possible that a newer version is needed, so you may have to execute ```bundle add webrick```. Note that running the `bundle add webrick` command will update the Gemfile with a specific webrick version. The command performs `bundle install` automatically so it is not needed to execute it again.
+- a Ruby version higher than 2.6 is needed to execute any `gem` or `bundle` commands.
 - if you installed the newest version of Ruby, downgrading to an older version may be necessary for some dependencies to work. 
-- further troubleshooting help can be found [here](https://jekyllrb.com/docs/troubleshooting/#configuration-problems).
 
 ## Creating your lab member page
 
