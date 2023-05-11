@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - check-links
-      # - master
+      - main
 
 jobs:
   link_checker:
