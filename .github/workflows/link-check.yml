@@ -1,0 +1,30 @@
+name: Check for Broken Links
+on:
+  push:
+    branches:
+      - check-links
+      # - master
+
+jobs:
+  link_checker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install -g broken-link-checker  # Install the broken-link-checker package globally
+
+      - name: Execute Link Checker and Show Broken Links
+        env: 
+          WEBSITE_URL: "https://ddmal.music.mcgill.ca/"
+        run: |
+          blc $WEBSITE_URL | grep -i "BROKEN" | awk '{print $2}' > broken_links.txt
+          if [ -s "broken_links.txt" ]; then
+            echo "The broken links are:"
+            cat broken_links.txt
+            exit 1
+          else 
+            echo "No broken links were found on $WEBSITE_URL"
+          fi
