@@ -1,16 +1,157 @@
----
-layout: default
-title: Home
-tab: Home
----
+<!DOCTYPE html>
+<html lang="en-us">
 
-<div style="text-align:center">
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <meta name="theme-color" content="#1DB2E9">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#1DB2E9">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#1DB2E9">
+
+  <title>
+    
+      DDMAL &middot; Distributed Digital Music Archives & Libraries Lab
+    
+  </title>
+  <!-- <link rel="preload" href="/assets/css/main.css" as="style" onload="this.rel='stylesheet'"> -->
+
+  <!-- CSS -->
+  <!-- <link rel="stylesheet" href="public/css/poole.css">
+  <link rel="stylesheet" href="public/css/lanyon2.css">
+  <link rel="stylesheet" type="text/css" href="public/css/bootstrap.css"> -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <!-- <noscript><link rel="stylesheet" href="/assets/css/main.css"></noscript> -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:300,400,500" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/mcgill_crest.png">
+  <link rel="shortcut icon" href="public/mcgill_crest.png">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- <div class="navbar topnav" id="myTopnav">
+  
+    <a href="" class="active btn">Home</a>
+
+    <a href="blog/" class="btn">Blog</a>
+
+    <a href="people/" class="btn">People</a>
+
+    <a href="publications/" class="btn">Publications</a>
+
+    <a href="research/" class="btn">Research</a>
+
+    <a href="software/" class="btn">Software</a>
+
+    <a href="events/" class="btn">Events</a>
+
+    <a href="resources/" class="btn">Resources</a>
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars" style="font-size: 1.8em;"></i>
+  </a>
+</div> -->
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg bg-white">
+  <a class="navbar-brand" href="">DDMAL</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto" id="nav-items">
+      <li class="nav-item">
+        <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="blog/">Blog</a>
+      </li> -->
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="people/">People</a>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link" href="lab_members/">Lab Members</a>
+      </li>
+    <!--   <li class="nav-item">
+        <a class="nav-link" href="publications/">Publications</a>
+      </li> -->
+      <li class="dropdown">
+        <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">Activities<span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+            
+              <li><a href='activities/media/' target='_top' >Media</a></li>
+
+              <li><a href='activities/posters/' target='_top' >Posters</a></li>
+
+              <li><a href='activities/presentations/' target='_top' >Presentations</a></li>
+
+              <li><a href='activities/publications/' target='_top' >Publications</a></li>
+            
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="research/">Research</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="software/">Software</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="events/">Events</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="resources/">Resources</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+  <body id ="Site" class='layout-reverse theme-base-db sidebar-overlay'>
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+
+      <div class="wrap">
+
+        <!-- <div class="masthead">
+
+          <div class="masthead-container">
+
+            <div class="title-wrap">
+              <h3 class="masthead-title">
+                <a href="" title="Home">DDMAL</a>
+                <small>Distributed Digital Music Archives & Libraries Lab</small>
+              </h3>
+            </div>
+            <div class="nav-wrap">
+
+            </div>
+          </div>
+        </div> -->
+
+        <div class="container content">
+          <div style="text-align:center">
   <h1 class="home-title">Welcome!</h1>
   <div style="padding-top: 15px;"></div>
   <h3 style="font-weight:300;" class="subtitle">Distributed Digital Music Archives & Libraries Lab</h2>
 </div>
 <div class="container" data-aos="fade-in" id="home-body">
-  {% include textpic.html imgurl="/assets/DDMAL Screen Shot 2022-06-03 at 11.14.14 PM.jpg" %}
+  <div class="pic-container">
+  <img src="assets/DDMAL Screen Shot 2022-06-03 at 11.14.14 PM.jpg" alt="" class="center-img">
+  <div class="bottom-left"></div>
+</div>
+
   <br>
   <div class="col-lg-12">
     <p>We focus on developing and evaluating practices, frameworks, and tools for the design and construction of worldwide distributed digital music archives and libraries. Over the last few millennia, humans have amassed an enormous amount of information and cultural material that is scattered around the world. It is becoming abundantly clear that the optimal path for acquisition is to distribute the task of digitizing the wealth of historical and cultural heritage material that exists in analogue formats, which may include books, manuscripts, music scores, maps, photographs, videos, analogue tapes, and phonograph records.
@@ -24,21 +165,81 @@ tab: Home
   <h2>Research & Projects</h2>
   <br>
   <ul id="home-research-list">
-    {% for post in site.research %}
-      {% if post.type == 'project' %}
-        {% if post.title == "Centre de Recherche sur l'Interprétation au Clavecin (CRIC)" %}
-          <li> {{ post.title }} </li>
-        {% else %}
-          {% if post.link %}
-            <li><a href="{{ post.link }}">{{ post.title }}</a></li>
-          {% else %}
-            <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-          {% endif %}
-        {% endif %}
-      {% endif %}
+       
+            <li><a href="research/Audio_Quality/">Audio Quality</a></li>
 
-    {% endfor %}
+            <li><a href="research/Automatic_Metadata_Extraction/">Workflow Management with Automatic Metadata Extraction</a></li>
+
+            <li><a href="research/Automatic_Music_Classification/">Automatic Music Classification</a></li>
+
+            <li> Centre de Recherche sur l'Interprétation au Clavecin (CRIC) </li>
+         
+            <li><a href="research/Interlibrary_Communication/">Interlibrary Communication</a></li>
+
+            <li><a href="https://linkedmusic.ca/">LinkedMusic</a></li>
+
+            <li><a href="research/The_McGill_Image-to-Audio_Conversion_Project_(MltAC)/">The McGill Image-to-Audio Conversion Project (MltAC)</a></li>
+
+            <li><a href="research/omr/">Optical Music Recognition (OMR)</a></li>
+
+            <li><a href="research/Posters_deprecated/">Posters</a></li>
+
+            <li><a href="research/salami/">Structural Analysis of Large Amounts of Music Information (SALAMI)</a></li>
+
+            <li><a href="https://simssa.ca/">Single Interface for Music Score Searching and Analysis (SIMSSA)</a></li>
+
+            <li><a href="research/The_McGill_Billboard_Project_(Chord_Analysis_Dataset)/">The McGill Billboard Project</a></li>
+
+            <li><a href="research/The_Music_Listening_Histories_Dataset_(MLHD)/">The Music Listening Histories Dataset (MLHD)</a></li>
+
+            <li><a href="research/Vocal-Intonation/">Vocal Intonation</a></li>
+
   <!-- </ul> -->
 </div>
 <br><br>
 <!-- Yuh -->
+
+        </div>
+      </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+
+    <footer id="sticky">
+  <div class="footer-img-wrap">
+    <img class="mcgill-img-footer" src="assets/schulich_logo.png" alt="">
+    <img class="ddmal-img-footer" src="assets/Ddmal_logo_transp-bg_no-border_1600w.png" alt="">
+  </div>
+</footer>
+
+    <!-- <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+          var url = window.location;
+          $('ul.navbar-nav a[href="'+ url +'"]').parent().addClass('active');
+          $('ul.navbar-nav a').filter(function() {
+               return this.href == url;
+          }).parent().addClass('active');
+      });
+    </script>
+  </body>
+</html>
