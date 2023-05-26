@@ -1,0 +1,35 @@
+name: Check for Broken Links
+
+on: [push, pull_request]
+
+jobs:
+  build_and_check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Simple HTTP Server
+        run: |
+          nohup python -m http.server 8000 --bind 127.0.0.1 &  # bind to IPv4 address
+
+      - name: Wait for HTTP server
+        run: |
+          for i in {1..30}; do # maximum wait time is 30 seconds
+            if curl -s http://127.0.0.1:8000 > /dev/null; then
+              echo "HTTP server is up"
+              break
+            fi
+            echo "Waiting for HTTP server"
+            sleep 1
+          done
+
+      - name: Install dependencies
+        run: npm install -g broken-link-checker  # Install the broken-link-checker package globally
+
+      - name: Execute Link Checker and Show Broken Links
+        env:
+          WEBSITE_URL: "http://127.0.0.1:8000"
+        run: |
+          blc $WEBSITE_URL -re
