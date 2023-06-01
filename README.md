@@ -17,8 +17,6 @@ To view the old version using Forestry CMS, consult the 'old-forestry-version' b
 
 ### macOS / Windows Install
 
-You will need to download a full [Ruby development environment](https://jekyllrb.com/docs/installation/) to install Jekyll. Follow steps 1 and 2 of [these instructions](https://jekyllrb.com/docs/) after installing Ruby. Note that mac users may need to install a package manager to configure the local Ruby version correctly, and [here](https://www.ruby-lang.org/en/documentation/installation/) is a link with instructions on how-to.
-
 Assuming you have [Git](https://www.atlassian.com/git/tutorials/install-git) installed, open a terminal and clone the repository into any known location on your computer. The documents folder is recommended, though it is up to you.
 
 ### Configuration and building site locally
