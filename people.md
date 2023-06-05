@@ -71,7 +71,7 @@ tab: People
 
 <hr>
 
-## Post-Doctoral Fellows  
+## Post-Doctoral Fellows
 
 <ul class="ulist-html">
 {% for person in people %}
