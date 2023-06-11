@@ -1,0 +1,84 @@
+name: Check for Broken Links
+
+on: [push, pull_request]
+
+jobs:
+  build_and_check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          node-version: 16
+
+      - name: Setup Simple HTTP Server
+        run: |
+          nohup python -m http.server 8000 --bind 127.0.0.1 &  # bind to IPv4 address
+
+      - name: Wait for HTTP server
+        run: |
+          for i in {1..30}; do # maximum wait time is 30 seconds
+            if curl -s http://127.0.0.1:8000 > /dev/null; then
+              echo "HTTP server is up"
+              break
+            fi
+            echo "Waiting for HTTP server"
+            sleep 1
+          done
+
+      - name: Install dependencies
+        run: npm install -g broken-link-checker  # Install the broken-link-checker package globally
+
+      - name: Execute Link Checker and Show Broken Links
+        env:
+          TEMPORARY_WEBSITE_URL: "http://127.0.0.1:8000"
+          ACTUAL_WEBSITE_URL: "https://ddmal.music.mcgill.ca"
+        run: |
+          output=$(blc $TEMPORARY_WEBSITE_URL -re | \
+            grep -v -E '├───OK───|└───OK───' | \
+            awk '
+              BEGIN {
+                p=1;
+                buf=""
+              }
+
+              # The logic between the following two statements ensures lines started with "Getting links from:"
+              # and immediately followed by a line starting with "Finished!" and containing "0 broken" get removed
+              /^Getting links from:/ {
+                buf=$0;
+                next
+              }
+              /^Finished!.*0 broken\./ {
+                if (length(buf)>0) {
+                  buf="";
+                  next
+                }
+              }
+
+              {
+                if(length(buf)>0)
+                  print buf;
+                if (NF > 0) # ensures only lines with non-zero fields are printed
+                  print;
+                buf=""
+              }
+
+              # Printing an empty line after any single "Finished!" keyword to separate the outputs
+              /^Finished!/ {
+                print ""
+              }
+            ' | sed "s|$TEMPORARY_WEBSITE_URL|$ACTUAL_WEBSITE_URL|g")
+
+          echo "$output"
+
+          # Fail the github actions only if there's a single HTTP 404 found
+          echo "$output" | grep -q 'HTTP_404' && flag=1
+
+          if [ "$flag" -eq "1" ]; then
+            echo "Broken links were found, exiting with an error."
+            exit 1
+          else
+            echo "No broken links were found (although there may be other HTTP errors - check above), exiting successfully."
+            exit 0
+          fi
