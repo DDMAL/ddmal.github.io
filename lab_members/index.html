@@ -1,459 +1,281 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
   <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
-  <meta name="theme-color" content="#1DB2E9">
-  <!-- Windows Phone -->
-  <meta name="msapplication-navbutton-color" content="#1DB2E9">
-  <!-- iOS Safari -->
-  <meta name="apple-mobile-web-app-status-bar-style" content="#1DB2E9">
-
-  <title>
-    
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="theme-color" content="#1DB2E9">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#1DB2E9">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1DB2E9">
+    <title>
       Lab Members &middot; DDMAL
-    
-  </title>
-  <!-- <link rel="preload" href="../assets/css/main.css" as="style" onload="this.rel='stylesheet'"> -->
-
-  <!-- CSS -->
-  <!-- <link rel="stylesheet" href="../public/css/poole.css">
-  <link rel="stylesheet" href="../public/css/lanyon2.css">
-  <link rel="stylesheet" type="text/css" href="../public/css/bootstrap.css"> -->
-  <link rel="stylesheet" href="../assets/css/main.css" />
-  <!-- <noscript><link rel="stylesheet" href="../assets/css/main.css"></noscript> -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:300,400,500" rel="stylesheet">
-
-
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../public/mcgill_crest.png">
-  <link rel="shortcut icon" href="../public/mcgill_crest.png">
-
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-</head>
-
-
+    </title>
+    <!-- <link rel="preload" href="../assets/css/main.css" as="style" onload="this.rel='stylesheet'"> -->
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="../public/css/poole.css">
+      <link rel="stylesheet" href="../public/css/lanyon2.css">
+      <link rel="stylesheet" type="text/css" href="../public/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <!-- <noscript><link rel="stylesheet" href="../assets/css/main.css"></noscript> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:300,400,500" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../public/mcgill_crest.png">
+    <link rel="shortcut icon" href="../public/mcgill_crest.png">
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  </head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-<!-- <div class="navbar topnav" id="myTopnav">
-  
+  <!-- <div class="navbar topnav" id="myTopnav">
     <a href="../" class="btn">Home</a>
-  
-  
-  <a href="../blog/" class="btn">Blog</a>
-  
-  
+
+
+    <a href="../blog/" class="btn">Blog</a>
+
+
     <a href="../people/" class="btn">People</a>
-  
-  
+
+
     <a href="../publications/" class="btn">Publications</a>
-  
-  
+
+
     <a href="../research/" class="btn">Research</a>
-  
-  
+
+
     <a href="../software/" class="btn">Software</a>
-  
-  
+
+
     <a href="../events/" class="btn">Events</a>
-  
-  
+
+
     <a href="../resources/" class="btn">Resources</a>
-  
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars" style="font-size: 1.8em;"></i>
-  </a>
-</div> -->
-
-<nav class="navbar navbar-light fixed-top navbar-expand-lg bg-white">
-  <a class="navbar-brand" href="../">DDMAL</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    </a>
+    </div> -->
+  <nav class="navbar navbar-light fixed-top navbar-expand-lg bg-white">
+    <a class="navbar-brand" href="../">DDMAL</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto" id="nav-items">
-      <li class="nav-item">
-        <a class="nav-link" href="../">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="../blog/">Blog</a>
-      </li> -->
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="../people/">People</a>
-      </li> -->
-      <li class="nav-item">
-        <a class="nav-link" href="../lab_members/">Lab Members</a>
-      </li>
-    <!--   <li class="nav-item">
-        <a class="nav-link" href="../publications/">Publications</a>
-      </li> -->
-      <li class="dropdown">
-        <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">Activities<span class="caret"></span></a>
-        <ul class="dropdown-menu" role="menu">
-          
-            
-              <li><a href='../activities/media/' target='_top' >Media</a></li>
-            
-          
-            
-              <li><a href='../activities/posters/' target='_top' >Posters</a></li>
-            
-          
-            
-              <li><a href='../activities/presentations/' target='_top' >Presentations</a></li>
-            
-          
-            
-              <li><a href='../activities/publications/' target='_top' >Publications</a></li>
-            
-          
-        </ul>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="../research/">Research</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="../software/">Software</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="../events/">Events</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="../resources/">Resources</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto" id="nav-items">
+        <li class="nav-item">
+          <a class="nav-link" href="../">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="../blog/">Blog</a>
+          </li> -->
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="../people/">People</a>
+          </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="../lab_members/">Lab Members</a>
+        </li>
+        <!--   <li class="nav-item">
+          <a class="nav-link" href="../publications/">Publications</a>
+          </li> -->
+        <li class="dropdown">
+          <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">Activities<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href='../activities/media/' target='_top' >Media</a></li>
+            <li><a href='../activities/posters/' target='_top' >Posters</a></li>
+            <li><a href='../activities/presentations/' target='_top' >Presentations</a></li>
+            <li><a href='../activities/publications/' target='_top' >Publications</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../research/">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../software/">Software</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../events/">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../resources/">Resources</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <body id ="Site" class='layout-reverse theme-base-db sidebar-overlay'>
-
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
+      content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <!-- <div class="masthead">
+        <div class="masthead-container">
 
-
-      <div class="wrap">
-
-        <!-- <div class="masthead">
-
-
-
-          <div class="masthead-container">
-
-            <div class="title-wrap">
-              <h3 class="masthead-title">
-                <a href="../" title="Home">DDMAL</a>
-                <small>Distributed Digital Music Archives & Libraries Lab</small>
-              </h3>
-            </div>
-            <div class="nav-wrap">
-
-            </div>
+          <div class="title-wrap">
+            <h3 class="masthead-title">
+              <a href="../" title="Home">DDMAL</a>
+              <small>Distributed Digital Music Archives & Libraries Lab</small>
+            </h3>
           </div>
-        </div> -->
+          <div class="nav-wrap">
 
-        <div class="container content">
-          <div class="page container">
-  <h1 style="text-align: left;" class="page-title">Lab Members</h1>
-  <div style="margin-bottom: 25px"></div>
-  <p><br /></p>
-
-<h3 class="people-title"> Principal Investigator </h3>
-<ul class="member-list">
-
-  <li><a href="../lab_members/principal_investigator/ichiro_fujinaga/">Ichiro Fujinaga</a><a href="../lab_members/principal_investigator/ichiro_fujinaga/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/ich2019.jpg" /></a></li>
-
-</ul>
-
-<h3 class="people-title"> Project Manager </h3>
-<ul class="member-list">
-
-  <li><a href="../lab_members/project_manager/marisa_goldman/">Marisa Goldman</a><a href="../lab_members/project_manager/marisa_goldman/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/marisagoldman22.jpg" /></a></li>
-
-
-
-
-<h3 class="people-title"> Postdoctoral Researchers </h3>
-<ul class="member-list">
-
-  <li><a href="../lab_members/postdocs/anna_de_bakker/">Anna de Bakker</a><a href="../lab_members/postdocs/anna_de_bakker/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-
-
-<h3 class="people-title"> PhD </h3>
-<ul class="member-list">
-
-  <li><a href="../lab_members/phd/timothy_dereuse/">Timothy Raja de Reuse</a><a href="../lab_members/phd/timothy_dereuse/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/timothy_dereuse_2019.jpg" /></a></li>
-
-</ul>
-
-<h3 class="people-title"> Masters </h3>
-<ul class="member-list">
-
-  <li><a href="../lab_members/masters/dylan_hillerbrand/">Dylan Hillerbrand</a><a href="../lab_members/masters/dylan_hillerbrand/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/masters/harry_chung/">Harry Chung</a><a href="../lab_members/masters/harry_chung/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/masters/jacob_degroot-maggetti/">Jacob deGroot-Maggetti</a><a href="../lab_members/masters/jacob_degroot-maggetti/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/masters/lucas_march/">Lucas March</a><a href="../lab_members/masters/lucas_march/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/masters/wanyi_lin/">Wanyi Lin</a><a href="../lab_members/masters/wanyi_lin/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/masters/yinan_zhou/">Yinan Zhou</a><a href="../lab_members/masters/yinan_zhou/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/yinan_photo.jpg" /></a></li>
-
-</ul>
-
-<h3 class="people-title"> Undergraduate </h3>
-<ul class="member-list">
-
-  <li><a href="../lab_members/undergraduate/anthony_tan/">Anthony Tan</a><a href="../lab_members/undergraduate/anthony_tan/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/anthony_tan.jpg" /></a></li>
-
-  <li><a href="../lab_members/undergraduate/david_peterman/">David Peterman</a><a href="../lab_members/undergraduate/david_peterman/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/david_peterman.jpeg" /></a></li>
-
-  <li><a href="../lab_members/undergraduate/genevieve_gates-panneton/">Geneviève Gates-Panneton</a><a href="../lab_members/undergraduate/genevieve_gates-panneton/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/Gen_and_Calypso.jpg" /></a></li>
-
-  <li><a href="../lab_members/undergraduate/hongvan_pham/">Hong Van Pham</a><a href="../lab_members/undergraduate/hongvan_pham/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/hongvan_pham.jpeg" /></a></li>
-
-  <li><a href="../lab_members/undergraduate/jacky_zhang/">Jacky Zhang</a><a href="../lab_members/undergraduate/jacky_zhang/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/jacky_zhang.jpg" /></a></li>
-
-  <li><a href="../lab_members/undergraduate/katie_lin/">Katie Lin</a><a href="../lab_members/undergraduate/katie_lin/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/katie.jpg" /></a></li>
-
-  <li><a href="../lab_members/undergraduate/max_zhang/">Max Zhang</a><a href="../lab_members/undergraduate/max_zhang/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/max-zhang.png" /></a></li>
-
-  <li><a href="../lab_members/undergraduate/sabrina_mansour/">Sabrina Mansour</a><a href="../lab_members/undergraduate/sabrina_mansour/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/Sabrina.jpeg" /></a></li>
-
-  <li><a href="../lab_members/undergraduate/taz_scotttalib/">Taz Scott-Talib</a><a href="../lab_members/undergraduate/taz_scotttalib/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/taz.jpg" /></a></li>
-
-  <li><a href="../lab_members/undergraduate/zhanna_klimanova/">Zhanna Klimanova</a><a href="../lab_members/undergraduate/zhanna_klimanova/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-</ul>
-
-<h3 class="people-title"> Alumni </h3> See past group photos <a href="https://ddmal.music.mcgill.ca/people/">here</a>
-<ul class="member-list">
-
-  <li><a href="../lab_members/alumni/adam_tindale/">Adam Tindale</a><a href="../lab_members/alumni/adam_tindale/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/alastair_porter/">Alastair Porter</a><a href="../lab_members/alumni/alastair_porter/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/alex_daigle/">Alex Daigle</a><a href="../lab_members/alumni/alex_daigle/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/Alex_Daigle_2019.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/alexandre_parmentier/">Alexandre Parmentier</a><a href="../lab_members/alumni/alexandre_parmentier/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/andrew_fogarty/">Andrew Fogarty</a><a href="../lab_members/alumni/andrew_fogarty/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/andrew_hankinson/">Andrew Hankinson</a><a href="../lab_members/alumni/andrew_hankinson/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/andrew_horwitz/">Andrew Horwitz</a><a href="../lab_members/alumni/andrew_horwitz/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/anton_khelou/">Anton Khelou</a><a href="../lab_members/alumni/anton_khelou/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/arielle_goldman/">Arielle Goldman</a><a href="../lab_members/alumni/arielle_goldman/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/ashley_burgoyne/">Ashley Burgoyne</a><a href="../lab_members/alumni/ashley_burgoyne/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/beinan_li/">Beinan Li</a><a href="../lab_members/alumni/beinan_li/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/brian_stern/">Brian Stern</a><a href="../lab_members/alumni/brian_stern/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/catherine_lai/">Catherine Lai</a><a href="../lab_members/alumni/catherine_lai/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/catherine_motuz/">Catherine Motuz</a><a href="../lab_members/alumni/catherine_motuz/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/chris_niven/">Chris Niven</a><a href="../lab_members/alumni/chris_niven/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/christopher_antila/">Christopher Antila</a><a href="../lab_members/alumni/christopher_antila/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/cory_mckay/">Cory McKay</a><a href="../lab_members/alumni/cory_mckay/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/daniel_mcennis/">Daniel McEnnis</a><a href="../lab_members/alumni/daniel_mcennis/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/david_garfinkle/">David Garfinkle</a><a href="../lab_members/alumni/david_garfinkle/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/David_Garfinkle_2019.jpg" /></a></li>
-
-  <li><a href="../lab_members/alumni/deepanjan_roy/">Deepanjan Roy</a><a href="../lab_members/alumni/deepanjan_roy/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/eli_waksbaum/">Eli Waksbaum</a><a href="../lab_members/alumni/eli_waksbaum/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/emily_hopkins/">Emily Hopkins</a><a href="../lab_members/alumni/emily_hopkins/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/Hopkins.JPG" /></a></li>
-
-  <li><a href="../lab_members/alumni/evan_magoni/">Evan Magoni</a><a href="../lab_members/alumni/evan_magoni/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/evan_savage/">Evan Savage</a><a href="../lab_members/alumni/evan_savage/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/Evan_Savage_2019.jpg" /></a></li>
-
-  <li><a href="../lab_members/alumni/finn_upham/">Finn Upham</a><a href="../lab_members/alumni/finn_upham/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/FinnUpham_350.jpg" /></a></li>
-
-  <li><a href="../lab_members/alumni/gabriel_vigliensoni/">Gabriel Vigliensoni</a><a href="../lab_members/alumni/gabriel_vigliensoni/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/GVM_by_Manuela_Martelli_sq_sm.jpg" /></a></li>
-
-  <li><a href="../lab_members/alumni/gabrielle_halpin/">Gabrielle Halpin</a><a href="../lab_members/alumni/gabrielle_halpin/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/Gabrielle_Halpin.JPG" /></a></li>
-
-  <li><a href="../lab_members/alumni/greg_eustace/">Greg Eustace</a><a href="../lab_members/alumni/greg_eustace/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/gregory_burlet/">Gregory Burlet</a><a href="../lab_members/alumni/gregory_burlet/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/hannah_robertson/">Hannah Robertson</a><a href="../lab_members/alumni/hannah_robertson/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/harry_simmonds/">Harry Simmonds</a><a href="../lab_members/alumni/harry_simmonds/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/jamie_klassen/">Jamie Klassen</a><a href="../lab_members/alumni/jamie_klassen/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/jason_hockman/">Jason Hockman</a><a href="../lab_members/alumni/jason_hockman/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/jason_leung/">Jason Leung</a><a href="../lab_members/alumni/jason_leung/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/jessica_thompson/">Jessica Thompson</a><a href="../lab_members/alumni/jessica_thompson/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/jiali_cheng/">Jiali Cheng</a><a href="../lab_members/alumni/jiali_cheng/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/JialiCHENG_IMG_8823.JPG" /></a></li>
-
-  <li><a href="../lab_members/alumni/jin_xing/">Jin Xing</a><a href="../lab_members/alumni/jin_xing/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/jinho_yoon/">Jinho Yoon</a><a href="../lab_members/alumni/jinho_yoon/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/jiwoo_jeong/">Jiwoo Jeong</a><a href="../lab_members/alumni/jiwoo_jeong/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/johanna_devaney/">Johanna Devaney</a><a href="../lab_members/alumni/johanna_devaney/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/jordan_smith/">Jordan Smith</a><a href="../lab_members/alumni/jordan_smith/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/jorge_calvo-zaragoza/">Jorge Calvo-Zaragoza</a><a href="../lab_members/alumni/jorge_calvo-zaragoza/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/juliette_regimbal/">Juliette Regimbal</a><a href="../lab_members/alumni/juliette_regimbal/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/juliette_regimbal_2019.jpg" /></a></li>
-
-  <li><a href="../lab_members/alumni/junhao_wang/">Junhao Wang</a><a href="../lab_members/alumni/junhao_wang/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/junhao.JPG" /></a></li>
-
-  <li><a href="../lab_members/alumni/justin_bell/">Justin Bell</a><a href="../lab_members/alumni/justin_bell/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/j%C3%A9r%C3%B4me_parent-l%C3%A9vesque/">Jérôme Parent-Lévesque</a><a href="../lab_members/alumni/j%C3%A9r%C3%B4me_parent-l%C3%A9vesque/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/kemal_kongar/">Kemal Kongar</a><a href="../lab_members/alumni/kemal_kongar/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/kemal.jpg" /></a></li>
-
-  <li><a href="../lab_members/alumni/khoi_nguyen/">Khoi Nguyen</a><a href="../lab_members/alumni/khoi_nguyen/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/k%C3%A9_zhang/">Ké Zhang</a><a href="../lab_members/alumni/k%C3%A9_zhang/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/laurent_pugin/">Laurent Pugin</a><a href="../lab_members/alumni/laurent_pugin/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/laurier_baribeau/">Laurier Baribeau</a><a href="../lab_members/alumni/laurier_baribeau/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/lillio_mok/">Lillio Mok</a><a href="../lab_members/alumni/lillio_mok/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/ling-xiao_yang/">Ling-Xiao Yang</a><a href="../lab_members/alumni/ling-xiao_yang/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/mahtab_ghamsari/">Mahtab Ghamsari</a><a href="../lab_members/alumni/mahtab_ghamsari/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/marina_borsodi-benson/">Marina Borsodi-Benson</a><a href="../lab_members/alumni/marina_borsodi-benson/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/marnie_reckenberg/">Marnie Reckenberg</a><a href="../lab_members/alumni/marnie_reckenberg/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/martha_thomae/">Martha E. Thomae</a><a href="../lab_members/alumni/martha_thomae/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/martha_thomae.jpg" /></a></li>
-
-  <li><a href="../lab_members/alumni/matan_gover/">Matan Gover</a><a href="../lab_members/alumni/matan_gover/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/mathieu_bergeron/">Mathieu Bergeron</a><a href="../lab_members/alumni/mathieu_bergeron/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/mike_winters/">Mike Winters</a><a href="../lab_members/alumni/mike_winters/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/neda_eshraghi/">Neda Eshraghi</a><a href="../lab_members/alumni/neda_eshraghi/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/nestor_napoles/">Néstor Nápoles López</a><a href="../lab_members/alumni/nestor_napoles/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/Nestor_Napoles_2018.jpg" /></a></li>
-
-  <li><a href="../lab_members/alumni/nicky_mirfallah/">Nicky Mirfallah</a><a href="../lab_members/alumni/nicky_mirfallah/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/paul_buser/">Paul Buser</a><a href="../lab_members/alumni/paul_buser/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/paul_buser.jpg" /></a></li>
-
-  <li><a href="../lab_members/alumni/peter_henderson/">Peter Henderson</a><a href="../lab_members/alumni/peter_henderson/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/rajarshi%20rivu_khoda/">Rajarshi Rivu Khoda</a><a href="../lab_members/alumni/rajarshi%20rivu_khoda/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/ravi_raina/">Ravi Raina</a><a href="../lab_members/alumni/ravi_raina/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/ravi_raina.jpeg" /></a></li>
-
-  <li><a href="../lab_members/alumni/rebecca_fiebrink/">Rebecca Fiebrink</a><a href="../lab_members/alumni/rebecca_fiebrink/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/reiko_yamada/">Reiko Yamada</a><a href="../lab_members/alumni/reiko_yamada/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/reiner_kr%C3%A4mer/">Reiner Krämer</a><a href="../lab_members/alumni/reiner_kr%C3%A4mer/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/remi_chiu/">Remi Chiu</a><a href="../lab_members/alumni/remi_chiu/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/robert_ferguson/">Robert Ferguson</a><a href="../lab_members/alumni/robert_ferguson/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/rory_oconnor/">Rory O'Connor</a><a href="../lab_members/alumni/rory_oconnor/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/ruth_berkow/">Ruth Berkow</a><a href="../lab_members/alumni/ruth_berkow/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/ryan_bannon/">Ryan Bannon</a><a href="../lab_members/alumni/ryan_bannon/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/sacah_perry-fagant/">Sacah Perry-Fagant</a><a href="../lab_members/alumni/sacah_perry-fagant/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/saining_li/">Saining Li</a><a href="../lab_members/alumni/saining_li/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/sevag_hanssian/">Sevag Hanssian</a><a href="../lab_members/alumni/sevag_hanssian/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/Sevag_2021.jpg" /></a></li>
-
-  <li><a href="../lab_members/alumni/shahrad_mohammadzadeh/">Shahrad Mohammadzadeh</a><a href="../lab_members/alumni/shahrad_mohammadzadeh/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/shahrad.jpg" /></a></li>
-
-  <li><a href="../lab_members/alumni/simon_leon/">Simon de Leon</a><a href="../lab_members/alumni/simon_leon/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/spencer_cambell/">Spencer Cambell</a><a href="../lab_members/alumni/spencer_cambell/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/suzuka_kokubu/">Suzuka Kokubu</a><a href="../lab_members/alumni/suzuka_kokubu/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/suzuka.JPG" /></a></li>
-
-  <li><a href="../lab_members/alumni/tim_wilfong/">Tim Wilfong</a><a href="../lab_members/alumni/tim_wilfong/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/tristan_himmelman/">Tristan Himmelman</a><a href="../lab_members/alumni/tristan_himmelman/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/tristan_matthews/">Tristan Matthews</a><a href="../lab_members/alumni/tristan_matthews/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/tristano_tenaglia/">Tristano Tenaglia</a><a href="../lab_members/alumni/tristano_tenaglia/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/v%C3%A9ronique_lagac%C3%A9/">Véronique Lagacé</a><a href="../lab_members/alumni/v%C3%A9ronique_lagac%C3%A9/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/wei_gao/">Wei Gao</a><a href="../lab_members/alumni/wei_gao/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/wendy_liu/">Wendy Liu</a><a href="../lab_members/alumni/wendy_liu/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/william_bain/">William Bain</a><a href="../lab_members/alumni/william_bain/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/yaolong_ju/">Yaolong Ju</a><a href="../lab_members/alumni/yaolong_ju/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/yaolong_ju.jpg" /></a></li>
-
-  <li><a href="../lab_members/alumni/yihong_luo/">Yihong Luo</a><a href="../lab_members/alumni/yihong_luo/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/yu_hua/">Yu Hua</a><a href="../lab_members/alumni/yu_hua/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/yue%20phillis_ouyang/">Yue Phillis Ouyang</a><a href="../lab_members/alumni/yue%20phillis_ouyang/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-  <li><a href="../lab_members/alumni/zeyad_saleh/">Zeyad Saleh</a><a href="../lab_members/alumni/zeyad_saleh/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
-
-</ul>
-</ul></ul>
-
-</div>
-
-<br>
-<br>  
-
+          </div>
         </div>
+        </div> -->
+      <div class="container content">
+        <div class="page container">
+          <h1 style="text-align: left;" class="page-title">Lab Members</h1>
+          <div style="margin-bottom: 25px"></div>
+          <p><br /></p>
+          <h3 class="people-title"> Principal Investigator </h3>
+          <ul class="member-list">
+            <li><a href="../lab_members/principal_investigator/ichiro_fujinaga/">Ichiro Fujinaga</a><a href="../lab_members/principal_investigator/ichiro_fujinaga/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/ich2019.jpg" /></a></li>
+          </ul>
+          <h3 class="people-title"> Project Manager </h3>
+          <ul class="member-list">
+            <li><a href="../lab_members/project_manager/marisa_goldman/">Marisa Goldman</a><a href="../lab_members/project_manager/marisa_goldman/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/marisagoldman22.jpg" /></a></li>
+            <h3 class="people-title"> Postdoctoral Researchers </h3>
+            <ul class="member-list">
+              <li><a href="../lab_members/postdocs/anna_de_bakker/">Anna de Bakker</a><a href="../lab_members/postdocs/anna_de_bakker/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+              <h3 class="people-title"> PhD </h3>
+              <ul class="member-list">
+                <li><a href="../lab_members/phd/timothy_dereuse/">Timothy Raja de Reuse</a><a href="../lab_members/phd/timothy_dereuse/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/timothy_dereuse_2019.jpg" /></a></li>
+              </ul>
+              <h3 class="people-title"> Masters </h3>
+              <ul class="member-list">
+                <li><a href="../lab_members/masters/dylan_hillerbrand/">Dylan Hillerbrand</a><a href="../lab_members/masters/dylan_hillerbrand/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/masters/harry_chung/">Harry Chung</a><a href="../lab_members/masters/harry_chung/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/masters/jacob_degroot-maggetti/">Jacob deGroot-Maggetti</a><a href="../lab_members/masters/jacob_degroot-maggetti/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/masters/lucas_march/">Lucas March</a><a href="../lab_members/masters/lucas_march/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/masters/wanyi_lin/">Wanyi Lin</a><a href="../lab_members/masters/wanyi_lin/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/masters/yinan_zhou/">Yinan Zhou</a><a href="../lab_members/masters/yinan_zhou/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/yinan_photo.jpg" /></a></li>
+              </ul>
+              <h3 class="people-title"> Undergraduate </h3>
+              <ul class="member-list">
+                <li><a href="../lab_members/undergraduate/anthony_tan/">Anthony Tan</a><a href="../lab_members/undergraduate/anthony_tan/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/anthony_tan.jpg" /></a></li>
+                <li><a href="../lab_members/undergraduate/david_peterman/">David Peterman</a><a href="../lab_members/undergraduate/david_peterman/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/david_peterman.jpeg" /></a></li>
+                <li><a href="../lab_members/undergraduate/genevieve_gates-panneton/">Geneviève Gates-Panneton</a><a href="../lab_members/undergraduate/genevieve_gates-panneton/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/Gen_and_Calypso.jpg" /></a></li>
+                <li><a href="../lab_members/undergraduate/hongvan_pham/">Hong Van Pham</a><a href="../lab_members/undergraduate/hongvan_pham/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/hongvan_pham.jpeg" /></a></li>
+                <li><a href="../lab_members/undergraduate/jacky_zhang/">Jacky Zhang</a><a href="../lab_members/undergraduate/jacky_zhang/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/jacky_zhang.jpg" /></a></li>
+                <li><a href="../lab_members/undergraduate/katie_lin/">Katie Lin</a><a href="../lab_members/undergraduate/katie_lin/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/katie.jpg" /></a></li>
+                <li><a href="../lab_members/undergraduate/max_zhang/">Max Zhang</a><a href="../lab_members/undergraduate/max_zhang/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/max-zhang.png" /></a></li>
+                <li><a href="../lab_members/undergraduate/sabrina_mansour/">Sabrina Mansour</a><a href="../lab_members/undergraduate/sabrina_mansour/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/Sabrina.jpeg" /></a></li>
+                <li><a href="../lab_members/undergraduate/taz_scotttalib/">Taz Scott-Talib</a><a href="../lab_members/undergraduate/taz_scotttalib/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/taz.jpg" /></a></li>
+                <li><a href="../lab_members/undergraduate/zhanna_klimanova/">Zhanna Klimanova</a><a href="../lab_members/undergraduate/zhanna_klimanova/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+              </ul>
+              <h3 class="people-title"> Alumni </h3>
+              See past group photos <a href="https://ddmal.music.mcgill.ca/people/">here</a>
+              <ul class="member-list">
+                <li><a href="../lab_members/alumni/adam_tindale/">Adam Tindale</a><a href="../lab_members/alumni/adam_tindale/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/alastair_porter/">Alastair Porter</a><a href="../lab_members/alumni/alastair_porter/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/alex_daigle/">Alex Daigle</a><a href="../lab_members/alumni/alex_daigle/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/Alex_Daigle_2019.png" /></a></li>
+                <li><a href="../lab_members/alumni/alexandre_parmentier/">Alexandre Parmentier</a><a href="../lab_members/alumni/alexandre_parmentier/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/andrew_fogarty/">Andrew Fogarty</a><a href="../lab_members/alumni/andrew_fogarty/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/andrew_hankinson/">Andrew Hankinson</a><a href="../lab_members/alumni/andrew_hankinson/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/andrew_horwitz/">Andrew Horwitz</a><a href="../lab_members/alumni/andrew_horwitz/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/anton_khelou/">Anton Khelou</a><a href="../lab_members/alumni/anton_khelou/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/arielle_goldman/">Arielle Goldman</a><a href="../lab_members/alumni/arielle_goldman/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/ashley_burgoyne/">Ashley Burgoyne</a><a href="../lab_members/alumni/ashley_burgoyne/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/beinan_li/">Beinan Li</a><a href="../lab_members/alumni/beinan_li/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/brian_stern/">Brian Stern</a><a href="../lab_members/alumni/brian_stern/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/catherine_lai/">Catherine Lai</a><a href="../lab_members/alumni/catherine_lai/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/catherine_motuz/">Catherine Motuz</a><a href="../lab_members/alumni/catherine_motuz/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/chris_niven/">Chris Niven</a><a href="../lab_members/alumni/chris_niven/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/christopher_antila/">Christopher Antila</a><a href="../lab_members/alumni/christopher_antila/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/cory_mckay/">Cory McKay</a><a href="../lab_members/alumni/cory_mckay/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/daniel_mcennis/">Daniel McEnnis</a><a href="../lab_members/alumni/daniel_mcennis/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/david_garfinkle/">David Garfinkle</a><a href="../lab_members/alumni/david_garfinkle/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/David_Garfinkle_2019.jpg" /></a></li>
+                <li><a href="../lab_members/alumni/deepanjan_roy/">Deepanjan Roy</a><a href="../lab_members/alumni/deepanjan_roy/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/eli_waksbaum/">Eli Waksbaum</a><a href="../lab_members/alumni/eli_waksbaum/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/emily_hopkins/">Emily Hopkins</a><a href="../lab_members/alumni/emily_hopkins/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/Hopkins.JPG" /></a></li>
+                <li><a href="../lab_members/alumni/evan_magoni/">Evan Magoni</a><a href="../lab_members/alumni/evan_magoni/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/evan_savage/">Evan Savage</a><a href="../lab_members/alumni/evan_savage/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/Evan_Savage_2019.jpg" /></a></li>
+                <li><a href="../lab_members/alumni/finn_upham/">Finn Upham</a><a href="../lab_members/alumni/finn_upham/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/FinnUpham_350.jpg" /></a></li>
+                <li><a href="../lab_members/alumni/gabriel_vigliensoni/">Gabriel Vigliensoni</a><a href="../lab_members/alumni/gabriel_vigliensoni/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/GVM_by_Manuela_Martelli_sq_sm.jpg" /></a></li>
+                <li><a href="../lab_members/alumni/gabrielle_halpin/">Gabrielle Halpin</a><a href="../lab_members/alumni/gabrielle_halpin/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/Gabrielle_Halpin.JPG" /></a></li>
+                <li><a href="../lab_members/alumni/greg_eustace/">Greg Eustace</a><a href="../lab_members/alumni/greg_eustace/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/gregory_burlet/">Gregory Burlet</a><a href="../lab_members/alumni/gregory_burlet/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/hannah_robertson/">Hannah Robertson</a><a href="../lab_members/alumni/hannah_robertson/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/harry_simmonds/">Harry Simmonds</a><a href="../lab_members/alumni/harry_simmonds/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/jamie_klassen/">Jamie Klassen</a><a href="../lab_members/alumni/jamie_klassen/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/jason_hockman/">Jason Hockman</a><a href="../lab_members/alumni/jason_hockman/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/jason_leung/">Jason Leung</a><a href="../lab_members/alumni/jason_leung/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/jessica_thompson/">Jessica Thompson</a><a href="../lab_members/alumni/jessica_thompson/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/jiali_cheng/">Jiali Cheng</a><a href="../lab_members/alumni/jiali_cheng/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/JialiCHENG_IMG_8823.JPG" /></a></li>
+                <li><a href="../lab_members/alumni/jin_xing/">Jin Xing</a><a href="../lab_members/alumni/jin_xing/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/jinho_yoon/">Jinho Yoon</a><a href="../lab_members/alumni/jinho_yoon/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/jiwoo_jeong/">Jiwoo Jeong</a><a href="../lab_members/alumni/jiwoo_jeong/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/johanna_devaney/">Johanna Devaney</a><a href="../lab_members/alumni/johanna_devaney/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/jordan_smith/">Jordan Smith</a><a href="../lab_members/alumni/jordan_smith/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/jorge_calvo-zaragoza/">Jorge Calvo-Zaragoza</a><a href="../lab_members/alumni/jorge_calvo-zaragoza/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/juliette_regimbal/">Juliette Regimbal</a><a href="../lab_members/alumni/juliette_regimbal/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/juliette_regimbal_2019.jpg" /></a></li>
+                <li><a href="../lab_members/alumni/junhao_wang/">Junhao Wang</a><a href="../lab_members/alumni/junhao_wang/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/junhao.JPG" /></a></li>
+                <li><a href="../lab_members/alumni/justin_bell/">Justin Bell</a><a href="../lab_members/alumni/justin_bell/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/j%C3%A9r%C3%B4me_parent-l%C3%A9vesque/">Jérôme Parent-Lévesque</a><a href="../lab_members/alumni/j%C3%A9r%C3%B4me_parent-l%C3%A9vesque/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/kemal_kongar/">Kemal Kongar</a><a href="../lab_members/alumni/kemal_kongar/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/kemal.jpg" /></a></li>
+                <li><a href="../lab_members/alumni/khoi_nguyen/">Khoi Nguyen</a><a href="../lab_members/alumni/khoi_nguyen/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/k%C3%A9_zhang/">Ké Zhang</a><a href="../lab_members/alumni/k%C3%A9_zhang/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/laurent_pugin/">Laurent Pugin</a><a href="../lab_members/alumni/laurent_pugin/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/laurier_baribeau/">Laurier Baribeau</a><a href="../lab_members/alumni/laurier_baribeau/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/lillio_mok/">Lillio Mok</a><a href="../lab_members/alumni/lillio_mok/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/ling-xiao_yang/">Ling-Xiao Yang</a><a href="../lab_members/alumni/ling-xiao_yang/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/mahtab_ghamsari/">Mahtab Ghamsari</a><a href="../lab_members/alumni/mahtab_ghamsari/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/marina_borsodi-benson/">Marina Borsodi-Benson</a><a href="../lab_members/alumni/marina_borsodi-benson/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/marnie_reckenberg/">Marnie Reckenberg</a><a href="../lab_members/alumni/marnie_reckenberg/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/martha_thomae/">Martha E. Thomae</a><a href="../lab_members/alumni/martha_thomae/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/martha_thomae.jpg" /></a></li>
+                <li><a href="../lab_members/alumni/matan_gover/">Matan Gover</a><a href="../lab_members/alumni/matan_gover/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/mathieu_bergeron/">Mathieu Bergeron</a><a href="../lab_members/alumni/mathieu_bergeron/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/mike_winters/">Mike Winters</a><a href="../lab_members/alumni/mike_winters/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/neda_eshraghi/">Neda Eshraghi</a><a href="../lab_members/alumni/neda_eshraghi/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/nestor_napoles/">Néstor Nápoles López</a><a href="../lab_members/alumni/nestor_napoles/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/Nestor_Napoles_2018.jpg" /></a></li>
+                <li><a href="../lab_members/alumni/nicky_mirfallah/">Nicky Mirfallah</a><a href="../lab_members/alumni/nicky_mirfallah/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/paul_buser/">Paul Buser</a><a href="../lab_members/alumni/paul_buser/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/paul_buser.jpg" /></a></li>
+                <li><a href="../lab_members/alumni/peter_henderson/">Peter Henderson</a><a href="../lab_members/alumni/peter_henderson/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/rajarshi%20rivu_khoda/">Rajarshi Rivu Khoda</a><a href="../lab_members/alumni/rajarshi%20rivu_khoda/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/ravi_raina/">Ravi Raina</a><a href="../lab_members/alumni/ravi_raina/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/ravi_raina.jpeg" /></a></li>
+                <li><a href="../lab_members/alumni/rebecca_fiebrink/">Rebecca Fiebrink</a><a href="../lab_members/alumni/rebecca_fiebrink/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/reiko_yamada/">Reiko Yamada</a><a href="../lab_members/alumni/reiko_yamada/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/reiner_kr%C3%A4mer/">Reiner Krämer</a><a href="../lab_members/alumni/reiner_kr%C3%A4mer/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/remi_chiu/">Remi Chiu</a><a href="../lab_members/alumni/remi_chiu/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/robert_ferguson/">Robert Ferguson</a><a href="../lab_members/alumni/robert_ferguson/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/rory_oconnor/">Rory O'Connor</a><a href="../lab_members/alumni/rory_oconnor/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/ruth_berkow/">Ruth Berkow</a><a href="../lab_members/alumni/ruth_berkow/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/ryan_bannon/">Ryan Bannon</a><a href="../lab_members/alumni/ryan_bannon/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/sacah_perry-fagant/">Sacah Perry-Fagant</a><a href="../lab_members/alumni/sacah_perry-fagant/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/saining_li/">Saining Li</a><a href="../lab_members/alumni/saining_li/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/sevag_hanssian/">Sevag Hanssian</a><a href="../lab_members/alumni/sevag_hanssian/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/Sevag_2021.jpg" /></a></li>
+                <li><a href="../lab_members/alumni/shahrad_mohammadzadeh/">Shahrad Mohammadzadeh</a><a href="../lab_members/alumni/shahrad_mohammadzadeh/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/shahrad.jpg" /></a></li>
+                <li><a href="../lab_members/alumni/simon_leon/">Simon de Leon</a><a href="../lab_members/alumni/simon_leon/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/spencer_cambell/">Spencer Cambell</a><a href="../lab_members/alumni/spencer_cambell/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/suzuka_kokubu/">Suzuka Kokubu</a><a href="../lab_members/alumni/suzuka_kokubu/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/suzuka.JPG" /></a></li>
+                <li><a href="../lab_members/alumni/tim_wilfong/">Tim Wilfong</a><a href="../lab_members/alumni/tim_wilfong/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/tristan_himmelman/">Tristan Himmelman</a><a href="../lab_members/alumni/tristan_himmelman/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/tristan_matthews/">Tristan Matthews</a><a href="../lab_members/alumni/tristan_matthews/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/tristano_tenaglia/">Tristano Tenaglia</a><a href="../lab_members/alumni/tristano_tenaglia/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/v%C3%A9ronique_lagac%C3%A9/">Véronique Lagacé</a><a href="../lab_members/alumni/v%C3%A9ronique_lagac%C3%A9/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/wei_gao/">Wei Gao</a><a href="../lab_members/alumni/wei_gao/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/wendy_liu/">Wendy Liu</a><a href="../lab_members/alumni/wendy_liu/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/william_bain/">William Bain</a><a href="../lab_members/alumni/william_bain/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/yaolong_ju/">Yaolong Ju</a><a href="../lab_members/alumni/yaolong_ju/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/yaolong_ju.jpg" /></a></li>
+                <li><a href="../lab_members/alumni/yihong_luo/">Yihong Luo</a><a href="../lab_members/alumni/yihong_luo/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/yu_hua/">Yu Hua</a><a href="../lab_members/alumni/yu_hua/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/yue%20phillis_ouyang/">Yue Phillis Ouyang</a><a href="../lab_members/alumni/yue%20phillis_ouyang/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+                <li><a href="../lab_members/alumni/zeyad_saleh/">Zeyad Saleh</a><a href="../lab_members/alumni/zeyad_saleh/"><img class="member_photo_list" src="../assets/lab_members/thumbnail/placeholder.png" /></a></li>
+              </ul>
+            </ul>
+          </ul>
+        </div>
+        <br>
+        <br>
       </div>
-
+    </div>
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-
     <footer id="sticky">
-  <div class="footer-img-wrap">
-    <img class="mcgill-img-footer" src="../assets/schulich_logo.png" alt="">
-    <img class="ddmal-img-footer" src="../assets/Ddmal_logo_transp-bg_no-border_1600w.png" alt="">
-  </div>
-</footer>
-
-
+      <div class="footer-img-wrap">
+        <img class="mcgill-img-footer" src="../assets/schulich_logo.png" alt="">
+        <img class="ddmal-img-footer" src="../assets/Ddmal_logo_transp-bg_no-border_1600w.png" alt="">
+      </div>
+    </footer>
     <!-- <script>
       (function(document) {
         var toggle = document.querySelector('.sidebar-toggle');
@@ -470,7 +292,7 @@
           checkbox.checked = false;
         }, false);
       })(document);
-    </script> -->
+      </script> -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="../js/bootstrap.js"></script>
