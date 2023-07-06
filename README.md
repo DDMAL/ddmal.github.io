@@ -7,10 +7,7 @@ To view the old version using Forestry CMS, consult the 'old-forestry-version' b
 ## Contents
 
 - [Local Setup](#local-setup)
-- [CMS](#cms)
-  - [CMS Navigation](#cms-navigation)
-  - [Organization](#organization)
-  - [Media](#media)
+- [How to Create Lab Member Page](#creating-your-lab-member-page)
 - [Troubleshooting](#troubleshooting)
 
 ## Local Setup
