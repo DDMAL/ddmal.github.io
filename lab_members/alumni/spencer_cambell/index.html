@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="theme-color" content="#1DB2E9">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#1DB2E9">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1DB2E9">
+    <title>
+      Spencer Cambell &middot; DDMAL
+    </title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../../assets/css/main.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:300,400,500" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../../public/mcgill_crest.png">
+    <link rel="shortcut icon" href="../../../public/mcgill_crest.png">
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <nav class="navbar navbar-light fixed-top navbar-expand-lg bg-white">
+    <a class="navbar-brand" href="../../../">DDMAL</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto" id="nav-items">
+        <li class="nav-item">
+          <a class="nav-link" href="../../../">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../../lab_members/">Lab Members</a>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">Activities<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href='../../../activities/media/' target='_top' >Media</a></li>
+            <li><a href='../../../activities/posters/' target='_top' >Posters</a></li>
+            <li><a href='../../../activities/presentations/' target='_top' >Presentations</a></li>
+            <li><a href='../../../activities/publications/' target='_top' >Publications</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../../research/">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../../software/">Software</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../../events/">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../../resources/">Resources</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <body id ="Site" class='layout-reverse theme-base-db sidebar-overlay'>
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+      content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="container content">
+        <div class="member-page container lab_member">
+          <div class="logo_header">
+            <h1 style="text-align: left;" class="page-title">Spencer Cambell</h1>
+          </div>
+          <div class="img-wrap">
+            <img class="profile-photo" src="../../../assets/lab_members/placeholder.png"/>
+            <div class="social-links">
+            </div>
+          </div>
+          <div class="lab_member_flex">
+            <div class="current-focus">
+              <p><i></i></p>
+            </div>
+            <div class=""></div>
+            <div class=""></div>
+          </div>
+          <div class="lab_member_bio"></div>
+          <div class="flex-wrap">
+          </div>
+        </div>
+        <br>
+        <br>
+      </div>
+    </div>
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    <footer id="sticky">
+      <div class="footer-img-wrap">
+        <img class="mcgill-img-footer" src="../../../assets/schulich_logo.png" alt="">
+        <img class="ddmal-img-footer" src="../../../assets/Ddmal_logo_transp-bg_no-border_1600w.png" alt="">
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="../../../js/bootstrap.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+          var url = window.location;
+          $('ul.navbar-nav a[href="'+ url +'"]').parent().addClass('active');
+          $('ul.navbar-nav a').filter(function() {
+               return this.href == url;
+          }).parent().addClass('active');
+      });
+    </script>
+  </body>
+</html>

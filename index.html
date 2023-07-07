@@ -1,44 +1,132 @@
----
-layout: default
-title: Home
-tab: Home
----
-
-<div style="text-align:center">
-  <h1 class="home-title">Welcome!</h1>
-  <div style="padding-top: 15px;"></div>
-  <h3 style="font-weight:300;" class="subtitle">Distributed Digital Music Archives & Libraries Lab</h2>
-</div>
-<div class="container" data-aos="fade-in" id="home-body">
-  {% include textpic.html imgurl="/assets/ddmal-labphoto-2023c.jpeg" %}
-  <br>
-  <div class="col-lg-12">
-    <p>We focus on developing and evaluating practices, frameworks, and tools for the design and construction of worldwide distributed digital music archives and libraries. Over the last few millennia, humans have amassed an enormous amount of information and cultural material that is scattered around the world. It is becoming abundantly clear that the optimal path for acquisition is to distribute the task of digitizing the wealth of historical and cultural heritage material that exists in analogue formats, which may include books, manuscripts, music scores, maps, photographs, videos, analogue tapes, and phonograph records.
-    </p>
-    <p>
-      In order to achieve this goal, libraries, museums, and archives throughout the world, large or small, need well-researched policies, proper guidance, and efficient tools to digitize their collections and to make them available economically. The research conducted within the program will address unique and imminent challenges posed by the digitization and dissemination of music media.
-    </p>
-    <p>    We are located in the <a href="http://www.music.mcgill.ca/musictech/">Music Technology Area</a> of the <a href="http://www.mcgill.ca/music/">Schulich School of Music</a> at <a href="http://www.mcgill.ca/">McGill University</a> in Montreal, Quebec, Canada. We are affiliated with the <a href="http://www.cirmmt.mcgill.ca/"</a>Centre for Interdisciplinary Research in Music Media and Technology</a> (CIRMMT).
-    </p>
-  </div>
-  <h2>Research & Projects</h2>
-  <br>
-  <ul id="home-research-list">
-    {% for post in site.research %}
-      {% if post.type == 'project' %}
-        {% if post.title == "Centre de Recherche sur l'Interprétation au Clavecin (CRIC)" %}
-          <li> {{ post.title }} </li>
-        {% else %}
-          {% if post.link %}
-            <li><a href="{{ post.link }}">{{ post.title }}</a></li>
-          {% else %}
-            <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-          {% endif %}
-        {% endif %}
-      {% endif %}
-
-    {% endfor %}
-  <!-- </ul> -->
-</div>
-<br><br>
-<!-- Yuh -->
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="theme-color" content="#1DB2E9">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#1DB2E9">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1DB2E9">
+    <title>
+      DDMAL &middot; Distributed Digital Music Archives & Libraries Lab
+    </title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:300,400,500" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/mcgill_crest.png">
+    <link rel="shortcut icon" href="public/mcgill_crest.png">
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <nav class="navbar navbar-light fixed-top navbar-expand-lg bg-white">
+    <a class="navbar-brand" href="">DDMAL</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto" id="nav-items">
+        <li class="nav-item">
+          <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="lab_members/">Lab Members</a>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">Activities<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href='activities/media/' target='_top' >Media</a></li>
+            <li><a href='activities/posters/' target='_top' >Posters</a></li>
+            <li><a href='activities/presentations/' target='_top' >Presentations</a></li>
+            <li><a href='activities/publications/' target='_top' >Publications</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="research/">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="software/">Software</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="events/">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="resources/">Resources</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <body id ="Site" class='layout-reverse theme-base-db sidebar-overlay'>
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+      content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="container content">
+        <div style="text-align:center">
+          <h1 class="home-title">Welcome!</h1>
+          <div style="padding-top: 15px;"></div>
+          <h3 style="font-weight:300;" class="subtitle">
+          Distributed Digital Music Archives & Libraries Lab</h2>
+        </div>
+        <div class="container" data-aos="fade-in" id="home-body">
+          <div class="pic-container">
+            <img src="assets/ddmal-labphoto-2023c.jpeg" alt="" class="center-img">
+            <div class="bottom-left"></div>
+          </div>
+          <br>
+          <div class="col-lg-12">
+            <p>We focus on developing and evaluating practices, frameworks, and tools for the design and construction of worldwide distributed digital music archives and libraries. Over the last few millennia, humans have amassed an enormous amount of information and cultural material that is scattered around the world. It is becoming abundantly clear that the optimal path for acquisition is to distribute the task of digitizing the wealth of historical and cultural heritage material that exists in analogue formats, which may include books, manuscripts, music scores, maps, photographs, videos, analogue tapes, and phonograph records.
+            </p>
+            <p>
+              In order to achieve this goal, libraries, museums, and archives throughout the world, large or small, need well-researched policies, proper guidance, and efficient tools to digitize their collections and to make them available economically. The research conducted within the program will address unique and imminent challenges posed by the digitization and dissemination of music media.
+            </p>
+            <p>    We are located in the <a href="http://www.music.mcgill.ca/musictech/">Music Technology Area</a> of the <a href="http://www.mcgill.ca/music/">Schulich School of Music</a> at <a href="http://www.mcgill.ca/">McGill University</a> in Montreal, Quebec, Canada. We are affiliated with the <a href="http://www.cirmmt.mcgill.ca/"</a>Centre for Interdisciplinary Research in Music Media and Technology</a> (CIRMMT).
+            </p>
+          </div>
+          <h2>Research & Projects</h2>
+          <br>
+          <ul id="home-research-list">
+          <li><a href="research/Audio_Quality/">Audio Quality</a></li>
+          <li><a href="research/Automatic_Metadata_Extraction/">Workflow Management with Automatic Metadata Extraction</a></li>
+          <li><a href="research/Automatic_Music_Classification/">Automatic Music Classification</a></li>
+          <li> Centre de Recherche sur l'Interprétation au Clavecin (CRIC) </li>
+          <li><a href="research/Interlibrary_Communication/">Interlibrary Communication</a></li>
+          <li><a href="https://linkedmusic.ca/">LinkedMusic</a></li>
+          <li><a href="research/The_McGill_Image-to-Audio_Conversion_Project_(MltAC)/">The McGill Image-to-Audio Conversion Project (MltAC)</a></li>
+          <li><a href="research/omr/">Optical Music Recognition (OMR)</a></li>
+          <li><a href="research/Posters_deprecated/">Posters</a></li>
+          <li><a href="research/salami/">Structural Analysis of Large Amounts of Music Information (SALAMI)</a></li>
+          <li><a href="https://simssa.ca/">Single Interface for Music Score Searching and Analysis (SIMSSA)</a></li>
+          <li><a href="research/The_McGill_Billboard_Project_(Chord_Analysis_Dataset)/">The McGill Billboard Project</a></li>
+          <li><a href="research/The_Music_Listening_Histories_Dataset_(MLHD)/">The Music Listening Histories Dataset (MLHD)</a></li>
+          <li><a href="research/Vocal-Intonation/">Vocal Intonation</a></li>
+        </div>
+        <br><br>
+      </div>
+    </div>
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    <footer id="sticky">
+      <div class="footer-img-wrap">
+        <img class="mcgill-img-footer" src="assets/schulich_logo.png" alt="">
+        <img class="ddmal-img-footer" src="assets/Ddmal_logo_transp-bg_no-border_1600w.png" alt="">
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+          var url = window.location;
+          $('ul.navbar-nav a[href="'+ url +'"]').parent().addClass('active');
+          $('ul.navbar-nav a').filter(function() {
+               return this.href == url;
+          }).parent().addClass('active');
+      });
+    </script>
+  </body>
+</html>
