@@ -26,6 +26,10 @@ else:
 ddmal_root_folder = './'
 export_folder = 'zotero_export/'
 
+# Dictionaries for each of the different sources. Keys are the years, values are the html contents.
+# These will be stored in JSON files in the corresponding folders.
+content_dicts = {type: {} for type in full_list}
+
 # if os.path.exists():
 #     shutil.rmtree(simssa_root_folder + citation_folder + '/' + year)
 
@@ -37,8 +41,8 @@ for type in parse_list:
     with open(export_folder + html_file_name) as f:
         html_soup = BeautifulSoup(f, 'html.parser')
 
-    shutil.rmtree(citation_folder)
-    os.makedirs(citation_folder)
+    # shutil.rmtree(citation_folder)
+    # os.makedirs(citation_folder)
     # Save html (div) and ascii title [ [<div></div>, "Example Title"]]
 
     html_array = []
@@ -72,14 +76,27 @@ for type in parse_list:
         final_title = final_title.replace('/', ' ')
         file_name = author + '_' + final_title.replace(' ', '_') + '_' + year + '.md'
 
-        if not os.path.exists(ddmal_root_folder + citation_folder + '/' + year):
-            os.makedirs(ddmal_root_folder + citation_folder + '/' + year)
-        with open(ddmal_root_folder + citation_folder + '/' + year + '/' + file_name, 'w') as f:
-            f.write(f'---\npresentation_year: {year}\nyear: {year}\n---\n\n{html_tag.decode_contents()}')
+        # if not os.path.exists(ddmal_root_folder + citation_folder + '/' + year):
+        #     os.makedirs(ddmal_root_folder + citation_folder + '/' + year)
+        # with open(ddmal_root_folder + citation_folder + '/' + year + '/' + file_name, 'w') as f:
+        #     f.write(f'---\npresentation_year: {year}\nyear: {year}\n---\n\n{html_tag.decode_contents()}')
 
-        print(html_tag.decode_contents(), '\n')
-        print(parse_attr, '\n')
-        print('T', final_title, '\n\n')
+        if year in content_dicts[type]:
+            content_dicts[type][year].append(html_tag.decode_contents())
+        else:
+            content_dicts[type][year] = [html_tag.decode_contents()]
+
+        # print(html_tag.decode_contents(), '\n')
+        # print(parse_attr, '\n')
+        # print('T', final_title, '\n\n')
+    
+    content_dicts['posters'] = {i: content_dicts['posters'][i] for i in sorted(content_dicts['posters'], reverse=True)}
+
+    for year in content_dicts['posters']:
+        print(f'\n{year}')
+        content_dicts['posters'][year].sort()
+        for index, poster in enumerate(content_dicts['posters'][year]):
+            print(f'\t{index+1}: {poster}')
 
     # print("unsorted")
     # for x in html_array: print(x[0], x[1])
