@@ -7,6 +7,7 @@ import re
 import os
 import markdown
 import shutil
+import json
 
 print('Media (m,M), presentations (pr, PR), publications (pu, PU), posters (po, PO), or all (a,A)?\n')
 choice = str(input()).lower()
@@ -26,19 +27,19 @@ else:
 ddmal_root_folder = './'
 export_folder = 'zotero_export/'
 
-# Dictionaries for each of the different sources. Keys are the years, values are the html contents.
-# These will be stored in JSON files in the corresponding folders.
-content_dicts = {type: {} for type in full_list}
-
 # if os.path.exists():
 #     shutil.rmtree(simssa_root_folder + citation_folder + '/' + year)
 
 for type in parse_list:
 
     html_file_name = f'DDMAL_{type}.html'
-    citation_folder = f'_{type}'
+    path = f'activities/{type}/content.json'
 
-    with open(export_folder + html_file_name) as f:
+    # Dictionaries for each of the different sources. Keys are the years, values are the html contents.
+    # These will be stored in JSON files in the corresponding folders.
+    content = {}
+
+    with open(export_folder + html_file_name, encoding='utf-8') as f:
         html_soup = BeautifulSoup(f, 'html.parser')
 
     # shutil.rmtree(citation_folder)
@@ -81,25 +82,27 @@ for type in parse_list:
         # with open(ddmal_root_folder + citation_folder + '/' + year + '/' + file_name, 'w') as f:
         #     f.write(f'---\npresentation_year: {year}\nyear: {year}\n---\n\n{html_tag.decode_contents()}')
 
-        if year in content_dicts[type]:
-            content_dicts[type][year].append(html_tag.decode_contents())
+        if year in content:
+            content[year].append(html_tag.decode_contents())
         else:
-            content_dicts[type][year] = [html_tag.decode_contents()]
+            content[year] = [html_tag.decode_contents()]
 
         # print(html_tag.decode_contents(), '\n')
         # print(parse_attr, '\n')
         # print('T', final_title, '\n\n')
     
-    content_dicts['posters'] = {i: content_dicts['posters'][i] for i in sorted(content_dicts['posters'], reverse=True)}
+    # sort by year, descending
+    content = {y: content[y] for y in sorted(content, reverse=True)}
 
-    for year in content_dicts['posters']:
-        print(f'\n{year}')
-        content_dicts['posters'][year].sort()
-        for index, poster in enumerate(content_dicts['posters'][year]):
-            print(f'\t{index+1}: {poster}')
+    # sort alphabetically in each year
+    for y in content:
+        content[y].sort()
+
+    with open(path, 'w') as f:
+        json.dump(content, f, indent=4)
 
     # print("unsorted")
     # for x in html_array: print(x[0], x[1])
-    html_array = sorted(html_array, key = lambda x: (x[0], x[1]))
+    # html_array = sorted(html_array, key = lambda x: (x[0], x[1]))
     # print("\nsorted")
     # for x in html_array: print(x[0], x[1], x[2], "\n")
