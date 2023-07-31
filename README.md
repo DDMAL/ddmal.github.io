@@ -2,7 +2,7 @@
 
 This is the repository for the new DDMAL website distributed via GitHub Pages. It is a static website that has been modified to run without a CMS. The entirety of the site is stored in this repository, blog contents included. The formatting was adapted from the Lanyon theme, developed by Mark Otto.
 
-To view the old version using Forestry CMS, consult the 'old-forestry-version' branch.
+To view the old version using Forestry CMS, consult the 'old-forestry-website' branch.
 
 ## Contents
 
