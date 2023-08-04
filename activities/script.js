@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         for (let key of years) {
             if (data.hasOwnProperty(key)) {
                 year = key;
-                html += `<h2 id="${year}">${year}</h2><hr /><ul>`
+                html += `<h2 id="${year}">${year}</h2><hr /><ul>`;
                 for (entry of data[key]) {
                     html += `<li><p>${entry}</p></li>`;
                 }
