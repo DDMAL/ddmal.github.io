@@ -49,14 +49,20 @@ There are two parts of this site updated from Zotero group libraries.
 https://www.zotero.org/groups/424851/omr_bibliography
 https://www.zotero.org/groups/2415821/ddmal
 
-The basic functionality is documented on the SIMSSA site here:
-https://github.com/DDMAL/simssa.github.io#updating-citations-locally
+Inside the DDMAL folder, there are four subfolders for _Media_, _Posters_, _Presentations_ and _Publications_ respectively.
 
-This repo has two different versions of that script, one for general
-DDMAL citation updates and one for the Zotero bibliography.
+To create an export, right click on any desired subfolder and select the option **Create Bibliography from Collection...**. At this point, make sure you have installed the _Chicago Manual of Style 17th edition_ inside the **Manage Styles...** popup. Then, set _Output Mode_ to Bibliography and Output Method to **Save as HTML**. Select ok, and name the file one of
 
-(Ideally someone will make a general-purpose parser that works for all
-these scenarios but I didn't get to it -EH)
+```
+DDMAL_< [media, posters, presentations, publications, omr] >.html
+```
+depending on which folder you are exporting. Then, save it inside the zotero_export/ folder within this directory.
+
+_NOTE: make sure your generated HTML file contains all of the content you want displayed for the given page, old and new. Once the script is run, the existing page content will be replaced with the contents of your generated file, so include previous content you want to keep as well as any new modifications._
+
+Next, run the `html_parser.py` script at the top level of this directory (works on Python 3.7, have not checked others). You will be prompted to input text based on which type of citations you would like to update, one of the three or all. The changes will be reflected in the `content.json` files in each of the specified folders, which are dynamically displayed in the static pages. Open any modified pages locally to ensure they display correctly before pushing to this repository.
+
+_There is another GitHub Actions script called github_html_parser.py that was used in an attempt to automatically update the citation markdown files when zotero_export/ files are updated and pushed to the repo. It is currently deprecated._
 
 ## Troubleshooting
 
