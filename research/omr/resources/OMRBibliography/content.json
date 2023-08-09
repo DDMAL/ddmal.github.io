@@ -1,0 +1,441 @@
+{
+    "2019": [
+        "Pacha, Alexander, and Jorge Calvo-Zaragoza. 2019. \u201cLearning Notation Graph Construction for Full-Pipeline Optical Music Recognition.\u201d In <i>Proceedings of the 20th International Society for Music Information Retrieval Conference (ISMIR)</i>, 8. at Delft, the Netherlands. <a href=\"https://archives.ismir.net/ismir2019/paper/000006.pdf\">https://archives.ismir.net/ismir2019/paper/000006.pdf</a>."
+    ],
+    "2017": [
+        "Greet, Justin. 2017. \u201cImproved Optical Music Recognition (OMR).\u201d <a href=\"http://cs231n.stanford.edu/reports/2017/pdfs/20.pdf\">http://cs231n.stanford.edu/reports/2017/pdfs/20.pdf</a>."
+    ],
+    "2015": [
+        "Shi, Baoguang, Xiang Bai, and CongYao. 2015. <i>An end-to-end trainable neural network for image-based sequence recognition and Its application to scene text recognition</i>. arXiv preprint.",
+        "Wen, Cuihong, Ana Rebelo, Jing Zhang, and Jaime Cardoso. 2015. \u201cA New Optical Music Recognition System Based on Combined Neural Network.\u201d <i>Pattern Recognition Letters</i> 58:1\u20137."
+    ],
+    "2014": [
+        "Montagner, Igor, Roberto Hirata Jr., and Nina Hirata. 2014. \u201cLearning to Remove Staff Lines from Music Score Images.\u201d In <i>Proceedings of the IEEE International Conference on Image Processing</i>, 2614\u201318. <a href=\"https://doi.org/DOI:http://dx.doi.org/10.1109/ICIP.2014.7025529\">https://doi.org/DOI:http://dx.doi.org/10.1109/ICIP.2014.7025529</a>."
+    ],
+    "2013": [
+        "Steyn, Jacques, ed. 2013. <i>Structuring Music through Markup Language: Designs and Architectures</i>. IGI Global. <a href=\"https://doi.org/10.4018/978-1-4666-2497-9\">https://doi.org/10.4018/978-1-4666-2497-9</a>.",
+        "Visaniy, Muriel, Van Cuong Kieu, Alicia Forn\u00e9s, and Nicholas Journet. 2013. \u201cICDAR 2013 Music Scores Competition: Staff Removal.\u201d In <i>Proceedings of the International Conference on Document Analysis and Recognition</i>, 1407\u201311."
+    ],
+    "2012": [
+        "Rebelo, Ana, Ichiro Fujinaga, Filipe Paszkiewicz, Carlos Guedes, Andre Marcal, and Jaime Cardoso. 2012. \u201cOptical Music Recognition: State of the Art and Open Issues for Handwritten Music Scores.\u201d <i>International Journal of Multimedia Information Retrieval</i> 1 (3):173\u201390."
+    ],
+    "2011": [
+        "Helsen, Kate. 2011. \u201c\u2018Venite et Videte\u2019: First Results in the Optical Neume Recognition Project.\u201d In <i>Cantus Planus Conference</i>. Vienna.",
+        "Pinto, Telmo, Ana Rebelo, Gilson Giralid, and Jaime Cardoso. 2011. \u201cMusic Score Binarization Based on Domain Knowledge.\u201d In <i>Pattern Recognition and Image Analysis</i>, edited by Jordi Vitri\u00e0, Jo\u00e3o Miguel Sanches, and Mario Hern\u00e1ndez, 700\u2013708. Berlin: Springer.",
+        "Rajds, Arkadiusz. 2011. \u201cMathematical Morphology in the Process of Musical Notation Recognition.\u201d In <i>Advances in Intelligent and Soft Computing</i>, 84:331\u201335. 2010.",
+        "Tambouratzis, Tatiana. 2011. \u201cIdentification of Key Music Symbols for Optical Music Recognition and On-Screen Presentation.\u201d In <i>The 2011 International Joint Conference on Neural Networks (IJCNN)</i>, 1935\u201342."
+    ],
+    "2010": [
+        "Cardoso, Jaime, and Ana Rebelo. 2010. \u201cRobust Staffline Thickness and Distance Estimation in Binary and Gray-Level Music Scores.\u201d In <i>Proceedings of the 20th International Conference on Pattern Recognition</i>, 1856\u201359.",
+        "Cui, Jiali, He Huan, and Yiding Wang. 2010. \u201cAn Adaptive Staff Line Removal in Music Score Images.\u201d In <i>10th Annual Conference on Signal Processing (ICSP)</i>, 964\u201367.",
+        "Dutta, Anjan, Umapada Pal, Alicia Forn\u00e9s, and Josep Llad\u00f3s. 2010. \u201cAn Efficient Staff Removal Approach from Printed Musical Documents.\u201d In <i>Proceedings of International Workshop on Structural and Syntactic Pattern Recognition</i>, 373\u201382.",
+        "Gordo, Albert, Alicia Forn\u00e9s, Ernest Valveny, and Josep Llad\u00f3s. 2010. \u201cA Bag of Notes Approach to Writer Identification in Old Handwritten Musical Scores.\u201d In <i>Proceedings of the 9th IAPR International Workshop on Document Analysis Systems</i>, 247\u201354.",
+        "Gozzi, Gianmarco. 2010. <i>OMRJX: A framework for piano scores optical music recognition</i>. Politecnico di Milano.",
+        "Hankinson, Andrew, Laurent Pugin, and Ichiro Fujinaga. 2010. \u201cAn Interchange Format for Optical Music Recognition Applications.\u201d In <i>Proceedings of the 11th Annual Conference of the International Society for Music Information Retrieval (ISMIR)</i>, 51\u201356. at Utrecht, Netherlands.",
+        "Ramirez, Carolina, and Jun Ohya. 2010. \u201cSymbol Classification Approach for OMR of Square Notation Manuscripts.\u201d In <i>Proceedings of the 11th Annual Conference of the International Society for Music Information Retrieval (ISMIR)</i>, 549\u201353. at Utrecht, Netherlands.",
+        "Rebelo, Ana, G. Capela, and Jaime Cardoso. 2010. \u201cOptical Recognition of Music Symbols: A Comparative Study.\u201d <i>International Journal on Document Analysis and Recognition</i> 13 (1):19\u201331.",
+        "Sammartino, Simone, Lorenzo Tard\u00f3n, and Isabel Barbancho. 2010. \u201cGraphical Tool for the Optical Music Recognition of Scores in White Mensural Notation.\u201d In <i>Proceedings of the Conference on Artificial Intelligence and Applications</i>. at Innsbruck Austria.",
+        "Tard\u00f3n, Lorenzo, Simone Sammartino, Isabel Barbancho, V\u00e9ronica G\u00f3mez, and Antonio Oliver. 2010. \u201cOptical Music Recognition for Scores Written in White Mensural Notation.\u201d In <i>EURASIP Journal on Image and Video Processing</i>, 2009."
+    ],
+    "2009": [
+        "Burgoyne, John, Yue Ouyang, Tristan Himmelman, Johanna Devaney, Laurent Pugin, and Ichiro Fujinaga. 2009. \u201cLyric Extraction and Recognition on Digital Images of Early Music Sources.\u201d In <i>Proceedings of the 10th International Society for Music Information Retrieval (ISMIR)</i>, 723\u201327. at Kobe, Japan.",
+        "Byrd, Donald, William Guerin, Megan Schindele, and Ian Knopke. 2009. <i>OMR Evaluation and Prospects for Improved OMR via Multiple Recognizers</i>.",
+        "Dalitz, Christoph, and Bastian Pranzas. 2009. \u201cGerman Lute Tablature Recognition.\u201d In <i>Proceedings of the 10th International Conference on Document Analysis and Recognition</i>, 371\u201375. at Barcelona, Spain.",
+        "Forn\u00e9s, Alicia, Josep Llad\u00f3s, S\u00e1nchez Gemma, and Bunke Horst. 2009. \u201cOn the Use of Textural Features for Writer Identification in Old Handwritten Music Scores.\u201d In <i>Proceedings of the 10th International Conference on Document Analysis and Recognition</i>, 996\u20131000. at Barcelona, Spain.",
+        "Genfang, Chen, Zhang Wenjun, and Wang Qiuqiu. 2009. \u201cPick-up the Musical Information from Digital Musical Score Based on Mathematical Morphology and Music Notation.\u201d In <i>Proceedings of the First International Workshop on Education Technology and Computer Science</i>, 1141\u201344. at Wuhan, Hubei.",
+        "Johansen, Linn. 2009. <i>Optical Music Recognition</i>. University of Oslo.",
+        "Liu, Xiaoxiang, and Shu-Sheng Zhang. 2009. \u201cStructure Analysis Approach of Music Notes for Optical Music Recognition.\u201d <i>Computer Engineering and Design</i> 30 (3):709\u201312.",
+        "Nielsen, Johan. 2009. <i>Statistical Analysis of Music Corpora</i>. University of Copenhagen.",
+        "Ouyang, Yue, John Burgoyne, Laurent Pugin, and Ichiro Fujinaga. 2009. \u201cComplex Layout Analysis of Medieval Music Manuscripts for Information Extraction and Optical Reccognition.\u201d In <i>Proceedings of the International Computer Music Conference</i>. at Montreal, QC.",
+        "Phon-Amnuaisuk, Somnuk. 2009. \u201cEstimating HMM Parameters Using Particle Swarm Optimisation.\u201d In <i>Applications of Evolutionary Computing</i>. Berlin: Springer.",
+        "Pugin, Laurent and Forthcoming. 2009. \u201cEditing Renaissance Music: The Aruspix Project.\u201d In <i>Internationales Jahrbuch F\u00fcr Editionswissenschaften</i>, Beihefte zur Editio, 94\u2013103.",
+        "Santos, Cardoso dos, Arthur Capela Jaime, Ana Rebelo, Carlos Guedes, and Joaquim da Costa. 2009. \u201cStaff Detection with Stable Paths.\u201d <i>IEEE Transactions on Pattern Analysis and Machine Intelligence</i> 31 (6):1134\u201339.",
+        "Vrist, S\u00f8ren. 2009. <i>Optical Music Recognition for Structural Information from High-Quality Scanned Music</i>. University of Copenhagen."
+    ],
+    "2008": [
+        "Bellini, Pierfrancesco, Ivan Bruno, and Paolo Nesi. 2008. \u201cOptical Music Recognition: Architecture and Algorithms.\u201d In <i>Interactive Multimedia Music Technologies</i>, edited by Kia Ng and and Paolo Nesi. Hershey, PA: Information Science Reference.",
+        "Bullen, Andrew. 2008. <i>Bringing Sheet Music to Life: My Experiences with OMR</i>.",
+        "Burgoyne, John, Johanna Devaney, Laurent Pugin, and Ichiro Fujinaga. 2008. \u201cEnhanced Bleedthrough Correction for Early Music Documents with Recto-Verso Registration.\u201d In <i>Proceedings of the Conference of the International Society for Music Information Retrieval (ISMIR)</i>, 407\u201312. at Philadelphia, PA.",
+        "Cardoso, Jaime, Aarthur Capela, Ana Rebelo, Carlos Guedes, and and INESC Porto. 2008. \u201cA Connected Path Approach for Staff Detection on a Music Score.\u201d In <i>Proceedings of the 15th IEEE International Conference on Image Processing</i>, 1005\u20138.",
+        "Castro, Pedro, Rui Almeida, and Jo\u00e3o Caldas Pinto. 2008. \u201cRestoration of Double-Sided Ancient Music Documents with Bleed-Through.\u201d In <i>Progress in Pattern Recognition, Image Analysis and Applications</i>. Berlin: Springer.",
+        "Dalitz, Christoph, Georgios Michalakis, and Christine Pranzas. 2008. \u201cOptical Recognition of Psaltic Byzantine Chant Notation.\u201d <i>International Journal on Document Analysis and Recognition</i> 11 (3):143\u201358.",
+        "Dalitz, Christoph, Michael Droettboom, Bastian Pranzas, and Ichiro Fujinaga. 2008. \u201cA comparative study of staff removal algorithms.\u201d <i>IEEE transactions on pattern analysis and machine intelligence</i> 30 (5):753\u201366.",
+        "Forn\u00e9s, Alicia, Josep Llad\u00f3s, and Gemma S\u00e1nchez. 2008. \u201cOld Handwritten Musical Symbol Classification by a Dynamic Time Warping Based Method.\u201d In <i>Graphics Recognition. Recent Advances and New Opportunities</i>, edited by Wenyin Liu, Josep Llad\u00f3s, and Jean-Marc Ogier, 51\u201360. Berlin: Springer.",
+        "Fremerey, Christian, Meinard M\u00fcller, Frank Kurth, and Michael Clausen. 2008. \u201cAutomatic Mapping of Scanned Sheet Music to Audio Recordings.\u201d In <i>Proceedings of the Ninth Conference of the International Society for Music Information Retrieval (ISMIR)</i>, 413\u201318. at Philadelphia, PA.",
+        "Jones, Graham, Bee Ong, Ivan Bruno, and Kia Ng. 2008. \u201cOptical Music Imaging: Music Document Digitisation, Recognition, Evaluation and Restoration.\u201d In <i>Interactive Multimedia Music Technologies</i>, edited by Kia Ng and Paolo Nesi, 50\u201379. Hershey, PA: Information Science Reference.",
+        "Kolakowska, Agata. 2008. \u201cApplying Decision Trees to the Recognition of Musical Symbols.\u201d In <i>Proceedings of the First International Conference on Information Technology</i>. at Gdansk, Poland.",
+        "Laskov, Lasko, and Dimo Dimov. 2008. \u201cSegmentation of Ancient Neumatic Musical Notation.\u201d In <i>Proceedings of the International Conference on Automatics and Informatics</i>, 21\u201324. at Sofia, Bulgaria.",
+        "Pugin, Laurent, Jason Hockman, John Burgoyne, and Ichiro Fujinaga. 2008. \u201cGamera versus Aruspix: Two Optical Music Recognition Approaches.\u201d In <i>Proceedings of the Ninth Conference of the International Society for Music Information Retrieval (ISMIR)</i>, 419\u201324. at Philadelphia, PA.",
+        "Pugin, Laurent. 2008. \u201cComputer Tools for Early Music Sources Comparison: A Practical Study on Marenzio Editions and Re-Editions.\u201d <i>Music, Poetry, Patronage, and Reception in Late Renaissance: Luca Marenzio and the Madrigal</i>.",
+        "Smiatacz, Maciej, and Witold Malina. 2008. \u201cMatrix-Based Classifiers Applied to Recognition of Musical Notation Symbols.\u201d In <i>Proceedings of the First International Conference on Information Technology</i>, 1\u20134. at Gdansk Poland.",
+        "Szwoch, Mariusz. 2008. \u201cUsing MusicXML to Evaluate Accuracy of OMR Systems.\u201d In <i>Proceedings of the Fifth International Conference on Diagrammatic Representation and Inference</i>, 419\u201322. at Herrsching Germany.",
+        "Wei, Lee Ling, Qussay Salih, and Ho Sooi Hock. 2008. \u201cOptical Tablature Recognition (OT) System: Using Fourier Descriptors as a Recognition Tool.\u201d In <i>Proceedings of the International Conference on Audio, Language and Image Processing</i>, 1532\u201339. at Shanghai, China."
+    ],
+    "2007": [
+        "Bellini, Pierfrancesco, Ivan Bruno, and Paolo Nesi. 2007. \u201cAssessing Optical Music Recognition Tools.\u201d <i>Computer Music Journal</i> 31 (1):68\u201393.",
+        "Burgoyne, John, Laurent Pugin, Gred Eustace, and Ichiro Fujinaga. 2007. \u201cA Comparative Survey of Image Binarisation Algorithms for Optical Recognition on Degraded Musical Sources.\u201d In <i>Proceedings of the Eighth International Conference on Music Information Retrieval (ISMIR)</i>, 509\u201312. at Vienna, Austria.",
+        "Castro, Pedro, and Jo\u00e3o Caldas Pinto. 2007. <i>Methods for written ancient music restoration, Image analysis and recognition</i>. Berlin: Springer.",
+        "Knopke, Ian, and Donald Byrd. 2007. \u201cTowards MusicDiff: A Foundation for Improved Optical Music Recognition Using Multiple Recognizers.\u201d In <i>Proceedings of the Eighth Annual Conference of the International Society for Music Information Retrieval (ISMIR)</i>, 121\u201324. at Vienna, Austria.",
+        "Kurth, Frank, Meinard M\u00fcller, Christian Fremerey, Yoon-Ha Chang, and Michael Clausen. 2007. \u201cAutomated Synchronization of Scanned Sheet Music with Audio Recordings.\u201d In <i>Proceedings of the Seventh International Conference on Music Information Retrieval (ISMIR)</i>, 261\u201366. at Vienna, Austria.",
+        "Laskov, Lasko, and Dimo Dimov. 2007. \u201cColor Image Segmentation for Neume Note Recognition.\u201d In <i>Proceedings of the International Conference on Automatics and Informatics</i>, 37\u201341. at Sofia, Bulgaria.",
+        "McKay, Cory, and Ichiro Fujinaga. 2007. \u201cStyle-Independent Computer-Assisted Exploratory Analysis of Large Music Collections.\u201d <i>Journal of Interdisciplinary Music Studies</i> 1 (1):63\u201385.",
+        "Miyao, Hidetoshi, and Masayuki Okamoto. 2007. \u201cStave Extraction for Printed Music Scores Using Dp Matching.\u201d <i>Journal of Advanced Computational Intelligence and Intelligent Informatics</i> 8 (2):208\u201315.",
+        "Pugin, Laurent, John Burgoyne, Douglas Eck, and Ichiro Fujinaga. 2007. \u201cBook-Adaptive and Book-Dependent Models to Accelerate Digitization of Early Music.\u201d In <i>NIPS Workshop on Music, Brain, and Cognition</i>. at Whistler, BC.",
+        "Pugin, Laurent, John Burgoyne, and Ichiro Fujinaga. 2007a. \u201cGoal-Directed Evaluation for the Improvement of Optical Music Recognition on Early Music Prints.\u201d In <i>Proceedings of the Seventh ACM/IEEE-CS Joint Conference on Digital Libraries (JCDL)</i>, 303\u20134. at Vancouver, BC.",
+        "Pugin, Laurent, John Burgoyne, and Ichiro Fujinaga. 2007b. \u201cMAP Adaptation to Improve Optical Music Recognition of Early Music Documents Using Hidden Markov Models.\u201d In <i>Proceedings of the Eighth International Conference on Music Information Retrieval (ISMIR)</i>, 513\u201316. at Vienna, Austria.",
+        "Pugin, Laurent, John Burgoyne, and Ichiro Fujinaga. 2007c. \u201cReducing Costs for Digitising Early Music with Dynamic Adaptation.\u201d In <i>Research and Advanced Technology for Digital Libraries</i>, edited by L\u00e1szl\u00f3 Kov\u00e1cs, Norbert Fuhr, and Carlo Meghini, 4675:471\u201374. Berlin: Springer.",
+        "Rebelo, Ana, Arthur Capela, Joaquim da Costa, Carlos Guedes, Eeurico Carrapatoso, and Jaime Cardoso. 2007. \u201cA Shortest Path Approach for Staff Line Detection.\u201d In <i>Proceedings of the Third International Conference on Automated Production of Cross Media Content for Multi-Channel Distribution (AXMEDIS)</i>, 33\u201344.",
+        "Rossant, Florence, and Isabelle Bloch. 2007. \u201cRobust and Adaptive OMR System Including Fuzzy Modeling, Fusion of Musical Rules, and Possible Error Detection.\u201d In <i>EURASIP Journal on Advances in Signal Processing 2007</i>, 1:160\u201385."
+    ],
+    "2006": [
+        "Bainbridge, David, and Tim Bell. 2006. \u201cIdentifying Music Documents in a Collection of Images.\u201d In <i>Proceedings of the Seventh International Conference on Music Information Retrieval (ISMIR)</i>. Victoria, BC.",
+        "Byrd, Donald, and Megan Schindele. 2006. \u201cProspects for Improving OMR with Multiple Recognizers.\u201d In <i>Seventh International Conference on Music Information Retrieval (ISMIR)</i>, 41\u201346.",
+        "Choudhury, G.Sayeed, Tim DiLauro, Robert Ferguson, Michael Droettboom, and Ichiro Fujinaga. 2006. <i>Document recognition for a million books</i>. Vol. 12. 3. D-Lib Magazine.",
+        "Forn\u00e9s, Alicia, Josep Llad\u00f3s, and S\u00e1nchez Gemma. 2006. \u201cPrimitive Segmentation in Old Handwritten Music Scores.\u201d In <i>Graphics Recognition. Ten Years Review and Future Perspectives</i>, edited by Liu Wenyin and Josep Llad\u00f3s. Berlin: Springer.",
+        "Homenda, Wladyslaw, and Marcin Luckner. 2006a. \u201cAutomatic Knowledge Acquisition: Recognizing Music Notation with Methods of Centroids and Classifications Trees.\u201d In <i>Proceedings of the International Conference on Neural Networks</i>, 3382\u201388. at Vancouver, BC.",
+        "Homenda, Wladyslaw, and Marcin Luckner. 2006b. \u201cBraille Score.\u201d In <i>Proceedings of the International Conference on Intelligent Systems Design and Applications</i>, 775\u201380. at Jinan, China.",
+        "Homenda, Wladyslaw. 2006. \u201cAutomatic Understanding of Images: Integrated Syntactic and Semantic Analysis of Music Notation.\u201d In <i>Proceedings of the International Conference on Neural Networks</i>, 3026\u201333. at Vancouver, BC.",
+        "Laskov, Lasko. 2006. \u201cClassification and Recognition of Neume Note Notation in Historical Documents.\u201d In <i>Proceedings of the International Conference on Computer Systems and Technologies</i>. at Veliko Tarnovo, Bulgaria.",
+        "Luckner, Marcin. 2006. \u201cRecognition of Noised Patterns Using Non-Disruption Learning Set.\u201d In <i>Proceedings of the Sixth International Conference on Intelligent Systems Design and Applications</i>, 557\u201362. at Jinan.",
+        "McKay, Cory, and Ichiro Fujinaga. 2006. \u201cJsymbolic: A Feature Extractor for Midi Files.\u201d In <i>Proceedings of the International Computer Music Conference</i>. at New Orleans, LA.",
+        "Pugin, Laurent. 2006a. \u201cAruspix: An automatic source-comparison system.\u201d <i>Computing in Musicology</i> 14:49\u201360.",
+        "Pugin, Laurent. 2006b. \u201cOptical Music Recognition of Early Typographic Prints Using Hidden Markov Models.\u201d In <i>Proceedings of the Seventh International Conference for Music Information Retrieval (ISMIR)</i>, 53\u201356. at Victoria, BC.",
+        "Pugin, Laurent. 2006c. \u201cRepresentation and Dissemination of Music: Early Typographic Prints and Digitalization.\u201d In <i>Contemporary Classical Music: Papers of the 2006 Intercongressional Symposium of the International Musicological Society</i>.",
+        "Toyama, Fubito, Kenji Shoji, and Juichi Miyamichi. 2006. \u201cSymbol Recognition of Printed Piano Scores with Touching Symbols.\u201d In <i>Proceedings of the 18th International Conference on Pattern Recognition</i>, 480\u201383. at Hong Kong."
+    ],
+    "2005": [
+        "Barton, Lewis, John Caldwell, and Peter Jeavons. 2005. \u201cE-Library of Medieval Chant Manuscript Transcriptions.\u201d In <i>Proceedings of the 5th ACM/IEEE-CS Joint Conference on Digital Libraries (JCDL)</i>, 320\u201329. Denver, CO.",
+        "Dalitz, Christoph, and Thomas Karsten. 2005. \u201cUsing the Gamera Framework for Building a Lute Tablature Recognition System.\u201d In <i>Proceedings of the Sixth International Conference on Music Information Retrieval (ISMIR)</i>, 478\u201381. at London, UK.",
+        "Homenda, Wladyslaw. 2005. \u201cOptical Music Recognition: The Case Study of Pattern Recognition.\u201d In <i>Computer Recognition Systems</i>, 835\u201342. Berlin: Springer.",
+        "Lobb, Richard, Tim Bell, and David Bainbridge. 2005. \u201cFast Capture of Sheet Music for an Agile Digital Music Library.\u201d In <i>Proceedings of the Sixth International Conference on Music Information Retrieval (ISMIR)</i>, 145\u201352. at London, UK.",
+        "Rossant, Florence, and Isabelle Bloch. 2005. \u201cOptical Music Recognition Based on a Fuzzy Modeling of Symbol Classes and Music Writing Rules.\u201d In <i>Proceedings of the IEEE International Conference on Image Processing</i>. at Genoa, Italy.",
+        "Szwoch, Mariusz. 2005. \u201cA robust detector for distorted music staves.\u201d In <i>Computer Analysis of Images and Patterns</i>, edited by Andr\u00e9 Gagalowicz and Wilfried Philips, 701\u20138. Berlin: Springer."
+    ],
+    "2004": [
+        "Bellini, Pierfrancesco, Ivan Bruno, and Paolo Nesi. 2004. \u201cAn Off-Line Optical Music Sheet Recognition.\u201d In <i>Visual Perception of Music Notation: Online and Offline Recognition</i>, edited by S. George. Hershey, PA: IRM Press.",
+        "Clausen, Michael, and Frank Kurth. 2004. \u201cA Unified Approach to Content-Based and Fault-Tolerant Music Recognition.\u201d <i>IEEE Transactions on Multimedia</i> 6 (5):717\u201331.",
+        "Droettboom, Michael, and Ichiro Fujinaga. 2004. \u201cSymbol-Level Groundtruthing Environment for OMR.\u201d In <i>Proceedings of the Fifth International Conference on Music Information Retrieval (ISMIR)</i>, 497\u2013500. at London, UK.",
+        "Fujinaga, Ichiro. 2004. \u201cStaff Detection and Removal.\u201d In <i>Visual Perception of Music Notation</i>, edited by Susan George, 1\u201339. Hershey: Idea Group Inc.",
+        "George, Susan. 2004a. \u201cEvaluation in the Visual Perception of Music Notation.\u201d In <i>Visual Perception of Music Notation: On-Line and off-Line Recognition</i>, edited by Susan George, 304\u201349. Hershey, PA: IRM Press.",
+        "George, Susan. 2004b. \u201cLyric Recognition Christian Music.\u201d In <i>Visual Perception of Music Notation: On-Line and off-Line Recognition</i>, edited by Susan George, 128\u2013226. Hershey, PA: IRM Press.",
+        "George, Susan. 2004c. \u201cWavelets for Dealing with Super-Imposed Objects in Recognition of Music Notation.\u201d In <i>Visual Perception of Music Notation: On-Line and off-Line Recognition</i>, edited by S. George, 78\u2013107. Hershey, PA: IRM Press.",
+        "Homenda, Wladyslaw, and K. Mossakowski. 2004. \u201cMusic Symbol Recognition: Neural Networks vs. Statistical Methods.\u201d In <i>Proceedings of the EUROFUSE</i>. at Warszawa, Poland.",
+        "Homenda, Wladyslaw, and Marcin Luckner. 2004a. \u201cAutomatic Recognition of Music Notation Using Methods of Centroids and Classification Trees.\u201d In <i>Proceedings of the International Symposium on Computational Intelligence and Industrial Applications</i>. at Haikou, China.",
+        "Homenda, Wladyslaw, and Marcin Luckner. 2004b. \u201cAutomatic Recognition of Music Notation Using Neural Networks.\u201d In <i>Proceedings of the International Conference on AI and Systems</i>, 74\u201380. at Divnormorkoye, Russia.",
+        "McKay, Cory, and Ichiro Fujinaga. 2004. \u201cAutomatic Genre Classification Using Large High-Level Musical Feature Sets.\u201d In <i>Proceedings of the Fifth International Conference on Music Information Retrieval (ISMIR)</i>. Barcelona, Spain.",
+        "Mitobe, Youichi, Hidetoshi Miyao, and Minoru Maruyama. 2004. \u201cA Fast HMM Algorithm Based on Stroke Lengths for On-Line Recognition of Handwritten Music Scores.\u201d In <i>Proceedings of the Ninth International Workshop on Frontiers in Handwriting Recognition</i>, 521\u201326. at Tokyo, Japan.",
+        "Ng, Kia. 2004. \u201cOptical Music Analysis for Printed Music Score and Handwritten Music Manuscript.\u201d In <i>Visual Perception of Music Notation: On-Line and off-Line Recognition</i>, edited by Susan George, 108\u201327. Hershey, PA: IRM Press.",
+        "Rossant, Florence, and Isabelle Bloch. 2004. \u201cA Fuzzy Model for Optical Recognition of Musical Scores.\u201d <i>Fuzzy Sets and Systems</i> 141 (2):165\u2013201."
+    ],
+    "2003": [
+        "Bainbridge, David, and Tim Bell. 2003. \u201cA Music Notation Construction Engine for Optical Music Recognition.\u201d <i>Software: Practice and Experience</i> 33 (2):173\u2013200.",
+        "Bruder, Ilvio, Andreas Finger, Andreas Heuer, and Temenushka Ignatova. 2003. \u201cTowards a Digital Document Archive for Historical Handwritten Music Scores.\u201d <i>Digital Libraries: Technology and Management of Indigenous Knowledge\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 for Global Access, 6th International Conference on Asian Digital Libraries, {ICADL} 2003, Kuala Lumpur, Malaysia, December 8-12, 2003, Proceedings</i>, Lecture Notes in Computer Science, 2911:411\u201314. <a href=\"https://doi.org/10.1007/978-3-540-24594-0\\_41\">https://doi.org/10.1007/978-3-540-24594-0\\_41</a>.",
+        "Caldas, Pinto, Pedro Vieira Jo\u00e3o, and Jo\u00e3o Sousa. 2003. \u201cA New Graph-like Classification Method Applied to Ancient Handwritten Musical Symbols.\u201d <i>International Journal on Document Analysis and Recognition</i> 6 (1):10\u201322.",
+        "Droettboom, Michael. 2003. \u201cCorrecting Broken Characters in the Recognition of Historical Printed Documents.\u201d In <i>Proceedings of the Joint Conference on Digital Libraries, At</i>, 364\u201366. Houston, TX.",
+        "Gao, Sheng, Namunu Maddage, and Chin-Hui Lee. 2003. \u201cA Hidden Markov Model Based Approach to Music Segmentation and Identification.\u201d In <i>Proceedings of the Joint Conference of the Fourth International Conference on Information, Communications and Signal Processing, and the Fourth Pacific Rim Conference on Multimedia</i>, 1576\u201380. at Singapore.",
+        "George, Susan. 2003. \u201cOnline Pen-Based Recognition of Music Notation with Artificial Neural Networks.\u201d <i>Computer Music Journal</i> 27 (2):70\u201379.",
+        "G\u00f6cke, Roland. 2003. \u201cPattern Recognition and Applications.\u201d In <i>Proceedings of the International Conference on Signal Processing</i>, 250\u201355. at Rhodes, Greece.",
+        "Luckner, Marcin. 2003. <i>Automatic Identification of Selected Symbols of Music Notation</i>. Warsaw University of Technology.",
+        "Riley, Jenn, and Ichiro Fujinaga. 2003. \u201cRecommended Best Practices for Digital Image Capture of Musical Scores.\u201d <i>OCLC Systems and Services</i> 19 (2):62\u201369."
+    ],
+    "2002": [
+        "Barton, Lewis. 2002. \u201cThe Neumes Project: Digital Transcription of Medieval Chant Manuscripts.\u201d In <i>Proceedings of the Web Delivering of Music (WEDELMUSIC)</i>, 211\u201318. Darmstadt, Germany.",
+        "Droettboom, Michael, Ichiro Fujinaga, G.Sayeed Choudhury Karl MacMillan, M.Patton Tim DiLauro, and T. Anderson. 2002. \u201cUsing the Gamera Framework for the Recognition of Cultural Heritage Materials.\u201d In <i>Proceedings of the 2nd ACM/IEEE-CS Joint Conference on Digital Libraries</i>, 17.",
+        "Droettboom, Michael, Ichiro Fujinaga, and Karl MacMillan. 2002. <i>Optical Music Interpretation, Structural, Syntactic and Statistical Pattern Recognition</i>. Edited by T. Caelli, A. Amin, R. Duin, M. Kamel, and D. de Ridder. Berlin: Springer.",
+        "Gezerlis, Velissarios, and Sergios Theodoridis. 2002. \u201cOptical Character Recognition of the Orthodox Hellenic Byzantine Music Notation.\u201d <i>Pattern Recognition</i> 35 (4):895\u2013914.",
+        "Luth, Nailja. 2002. \u201cAutomatic Identification of Music Notations.\u201d In <i>Proceedings of the Second International Conference on Web Delivering of Music (WEDELMUSIC)</i>, 203\u201310.",
+        "MacMillan, Karl, Michael Droettboom, and Ichiro Fujinaga. 2002. \u201cGamera: Optical Music Recognition in a New Shell.\u201d In <i>Proceedings of the International Computer Music Conference</i>, 482\u201385.",
+        "McPherson, John R. 2002. \u201cIntroducing Feedback into an Optical Music Recognition System.\u201d In <i>Proceedings of the Third International Conference on Music Information Retrieval (ISMIR)</i>.",
+        "Miyao, Hidetoshi. 2002. \u201cStave extraction for printed music scores.\u201d In <i>Intelligent data engineering and automated learning</i>, edited by Hujun Yin, Nigel Allinson, Richard Freeman, John Keane, and Simon Hubbard, 562\u201368. Berlin: Springer.",
+        "Ng, Kia, David Cooper, and Bee Ong. 2002. \u201cOptical Music Analysis: A Reverse Engineering Approach.\u201d In <i>Proceedings of the EVA</i>. at Florence, Italy.",
+        "Ng, Kia. 2002a. \u201cDocument Imaging for Music Manuscript.\u201d In <i>Proceedings of the Sixth World Multiconference on Systemics, Cybernetics and Informatics</i>. at Florida, USA.",
+        "Ng, Kia. 2002b. \u201cMusic Manuscript Tracing.\u201d In <i>Graphics Recognition Algorithms and Applications</i>, edited by Dorothea Blostein and Young-Bin Kwon, 330\u201342. Berlin: Springer.",
+        "Rossant, Florence. 2002. \u201cA Global Method for Music Symbol Recognition in Typeset Music Sheets.\u201d <i>Pattern Recognition Letters</i> 23 (10):1129\u201341.",
+        "Soak, Sang Moon, Seok Cheol Chang, Taehwan Shin, and Byung-Ha Ahn. 2002. \u201cMusic Recognition System Using Art-1 and GA.\u201d In <i>Proceedings of SPIE</i>, 4734:171."
+    ],
+    "2001": [
+        "Bainbridge, David, and and Tim Bell. 2001. \u201cThe Challenge of Optical Music Recognition.\u201d <i>Computers and the Humanities</i> 35 (2):95\u2013121.",
+        "Bellini, Pierfrancesco, Ivan Bruno, and Paolo Nesi. 2001. \u201cOptical Music Sheet Segmentation.\u201d In <i>Proceedings of the First International Conference on Web Delivering of Music (WEDELMUSIC)</i>, 183\u201390. at Florence, Italy.",
+        "Choudhury, G.Sayeed, Tim Dilauro, Michael Droettboom, Ichiro Fujinaga, and Karl Macmillan. 2001. \u201cStrike up the Score.\u201d <i>D-Lib Magazine</i> 7.",
+        "Droettboom, Michael, and Ichiro Fujinaga. 2001. \u201cInterpreting the Semantics of Music Notation Using an Extensible and Object-Oriented System.\u201d In <i>Proceedings of the Ninth Python Conference</i>. at Long Beach, CA.",
+        "Homenda, Wladyslaw. 2001. \u201cOptical Music Recognition: The Case of Granular Computing.\u201d In <i>Granular Computing: An Emerging Paradigm</i>, edited by W. Pedrycz, 341\u201360. Heidelberg: Physica-Verlag.",
+        "MacMillan, Karl, Michael Droettboom, and Ichiro Fujinaga. 2001. \u201cGamera: A Structured Document Recognition Application Development Environment.\u201d In <i>Proceedings of the Second Annual International Symposium on Music Information Retrieval (ISMIR)</i>, 15\u201316.",
+        "McPherson, John R., and David Bainbridge. 2001. \u201cCoordinating Knowledge within an Optical Music Recognition System.\u201d In <i>Proceedings of the The 4th New Zealand Computer Science Research Students\u00d5 Conference (NZCSRSC\u00d501)</i>, 50\u201358. at Christchurch, New Zealand.",
+        "Ng, Kia, David Cooper, and Bee Ong. 2001. \u201cTowards an Integrated Handwritten Music Manuscript Analysis and Recognition System.\u201d In <i>Proceedings of the Conference for Content Integrated Research in Creative User Systems (CIRCUS)</i>.",
+        "Pugin, Laurent. 2001. <i>R\u00e9alisation d\u2019un syst\u00e8me de superposition de partitions de musique anciennes</i>. Geneva University.",
+        "Su, Mu-Chun, Chee-Yuen Tew, and Hsin-Ha Chen. 2001. \u201cMusical Symbol Recognition Using Som-Based Fuzzy Systems.\u201d In <i>Proceedings of the IFSA World Congress and 20th NAFIPS International Conference</i>.",
+        "Vieira, Pedro, and Jo\u00e3o Pintos Caldas. 2001. \u201cRecognition of Musical Symbols in Ancient Manuscripts.\u201d In <i>Proceedings of the International Conference on Image Processing</i>, 38\u201341. at Thessaloniki, Greece."
+    ],
+    "2000": [
+        "Anquetil, \u00c9ric, and Bertrand Co\u00fcasnon. 2000. <i>A Symbol Classifier Able to Reject Wrong Shapes for Document Recognition Systems. Graphics Recognition Recent Advances</i>. Edited by Fr\u00e9d\u00e9ric Dambreville, Atul K. Chhabra, and Dov Dori. Berlin: Springer.",
+        "Caldas, Pinto, Pedro Vieira Jo\u00e3o, M\u00e1rio Ramalho, Megan Mengucci, Pedro Pina, and Fernando Muge. 2000. \u201cAncient Music Recovery for Digital Libraries.\u201d In <i>Research and Advanced Technology for Digital Libraries</i>. Berlin: Springer.",
+        "Choudhury, G.Sayeed, Cynthia Requardt, Ichiro Fujinaga, Tim DiLauro, Elizabeth W. Brown, James W. Warner, and Brian Harrington. 2000. \u201cDigital Workflow Management: The Lester s. Levy Digitized Collection of Sheet Music.\u201d <i>First Monday</i> 5 (6).",
+        "Choudhury, G.Sayeed, Tim DiLauro, Michael Droettboom, Ichiro Fujinaga, Brian Harrington, and Karl MacMillan. 2000. \u201cOptical Music Recognition System within a Large-Scale Digitization Project.\u201d In <i>Proceedings of the Proceedings ISMIR 00</i>.",
+        "Cordella, Luigi, and Mari Vento. 2000. <i>Symbol and Shape Recognition, Graphics Recognition Recent Advances</i>. Berlin: Springer.",
+        "Fotinea, Stavroula-Evita, George Giakoupis, Aggelos Liveris, Stylianos Bakamidis, and George Carayannis. 2000. \u201cAn Optical Notation Recognition Soystem for Printed Music Based on Template Matching and High Level Reasoning.\u201d In <i>Proceedings of the Sixth Recherche d\u2019Informations Assiste Par Ordinateur</i>. at Paris, France.",
+        "Miyao, Hidetoshi, and Robert Haralick. 2000. \u201cFormat of Ground Truth Data Used in the Evaluation of the Results of an Optical Music Recognition System.\u201d In <i>Proceedings of the IAPR Workshop on Document Analysis Systems</i>, 497\u2013506. at Rio de Janeiro, Brazil.",
+        "Muge, Fernando, I. Granado, Megan Mengucci, Pedro Pina, Vitorino Ramos, Nikolay Sirakov, Jo\u00e3o Caldas Pinto, et al. 2000. \u201cAutomatic Feature Extraction and Recognition for Digital Access of Books of the Renaissance.\u201d In <i>Research and Advanced Technology for Digital Libraries</i>, edited by Joe Borbinha and Thomas Baker, 1\u201313. Berlin: Springer."
+    ],
+    "1999": [
+        "Bainbridge, David, Craig Nevill-Manning, Ian Witten, Lloyd Smith, and Rodger McNab. 1999. \u201cTowards a Digital Library of Popular Music.\u201d In <i>Proceedings of the ACM Conference on Digital Libraries,</i> 161\u201369. Berkeley, CA.",
+        "Bainbridge, David, and Kadir Wijaya. 1999. \u201cBulk Processing of Optically Scanned Music.\u201d In <i>Proceedings of the Seventh International Conference on Image Processing and Its Applications</i>, 474\u201378. Manchester, UK.",
+        "Beran, Tom\u00e1\u0161, and Tom\u00e1\u0161 Macek. 1999. \u201cRecognition of Printed Music Score.\u201d In <i>Machine Learning and Data Mining in Pattern Recognition</i>. Berlin: Springer.",
+        "Beran, Tom\u00e1\u0161. 1999. <i>Rozpoznavani notoveho zapisu (in Czech)</i>. Czech Technical University.",
+        "Blostein, Dorothea, and Lippold Haken. 1999. \u201cUsing Diagram Generation Software to Improve Diagram Recognition: A Case Study of Music Notation.\u201d <i>IEEE Transactions on Pattern Analysis and Machine Intelligence</i> 21 (11):1121\u201336.",
+        "Ferrand, Miguel, Jo\u00e3o Alexandre Leite, and Amilcar Cardoso. 1999a. \u201cHypothetical Reasoning: An Application to Optical Music Recognition.\u201d In <i>Proceedings of the Joint Conference on Declarative Programming</i>, 367\u201381. at Aquila, Italy.",
+        "Ferrand, Miguel, Jo\u00e3o Alexandre Leite, and Amilcar Cardoso. 1999b. \u201cImproving Optical Music Recognition by Means of Abductive Constraint Logic Programming.\u201d In <i>Progress in Artificial Intelligence</i>. Berlin: Springer.",
+        "Hori, Toyokazu, Sinichiro Wada, Tai Howzan, Sun-Yuan D.E. Kung, K. Bastiaan, and W. 1999. \u201cAutomatic Music Score Recognition/Play System Based on Decision Based Neural Network.\u201d In <i>Proceedings of the Third Workshop on Multimedia Signal Processing</i>, 183\u201384.",
+        "Marinai, Simone, and Paolo Nesi. 1999. \u201cProjection Based Segmentation of Musical Sheets.\u201d In <i>Proceedings of the International Conference on Document Analysis and Recognition</i>, 515\u201318. at Bangalore, India.",
+        "Mosterd, Eric. 1999. \u201cDeveloping A New Way To Transfer Sheet Music Via The Internet.\u201d University of South Dakota. <a href=\"https://mosterd.org/coursework/csc/thesis/thesis.pdf\">https://mosterd.org/coursework/csc/thesis/thesis.pdf</a>.",
+        "Ng, Kia, David Cooper, Ewan Stefani, Roger Boyle, and Nick Bailey. 1999. \u201cEmbracing the Composer: Optical Recognition of Hand-Written Manuscripts.\u201d In <i>Proceedings of the International Computer Music Conference</i>, 500\u2013503. at Beijing, China.",
+        "St\u00fcckelberg, Marc, and David Doermann. 1999. \u201cOn Musical Score Recognition Using Probabilistic Reasoning.\u201d In <i>Proceedings of the Fifth International Conference on Document Analysis and Recognition</i>, 115\u201318. at Bangalore India.",
+        "St\u00fcckelberg, Marc. 1999. <i>Musical Score Recognition Using Probabilistic Inference</i>.",
+        "Wijaya, Kenny, and David Bainbridge. 1999. \u201cStaff Line Restoration.\u201d In <i>Seventh International Conference on Image Processing and Its Applications</i>, 2:760\u201364."
+    ],
+    "1998": [
+        "Bainbridge, David, and Stuart Inglis. 1998. \u201cMusical Image Compression.\u201d In <i>Proceedings of the Data Compression Conference, at Snowbird</i>, 209\u201318. UT.",
+        "Chhabra, Atul. 1998. <i>Graphic symbol recognition: An overview, Graphics recognition algorithms and systems</i>. Berlin: Springer.",
+        "Fahmy, Hoda, and Dorothea Blostein. 1998. \u201cA Graph-Rewriting Paradigm for Discrete Relaxation: Application to Sheet-Music Recognition.\u201d <i>International Journal of Pattern Recognition and Artificial Intelligence</i> 12 (6):763\u201399.",
+        "Ferrand, Miguel, and Amilcar Cardoso. 1998. \u201cScheduling to Reduce Uncertainty in Syntactical Music Structures.\u201d In <i>14th Brazilian Symposium on Artificial Intelligence</i>, 249\u201358.",
+        "Fujinaga, Ichiro, S. Moore, and D. Sullivan. 1998. \u201cImplementation of Exemplar-Based Learning Model for Music Cognition.\u201d In <i>Proceedings of the International Conference on Music Perception and Cognition</i>, 171\u201379. at Seoul, South Korea.",
+        "Kinoshita, Tomoyoshi, Hideya Muraoka, and Hidehiko Tanaka. 1998. \u201cNote Recognition Using Statistical Information of Musical Note Transitions.\u201d <i>Journal of the Acoustical Society of Japan</i> 54 (3):190\u201398.",
+        "Leite, Jo\u00e3o, Miguel Ferrand, and Amilcar Cardoso. 1998. <i>Riem: A system for recognition and interpretation of music writing (in Portuguese)</i>. Dept. Engenharia Informatica, Faculdade de Cincias e Tecnologia, Universidade de Coimbra.",
+        "Sawaki, Minako, Hiroshi Murasei, Norihiro Hagita, and Kenichiro Ishii. 1998. \u201cA Study on Syakuhachi Score Recognition with Embedded Symbols.\u201d <i>Transactions of the Institute of Electronics, Information and Communication Engineers</i> 81 (10):2480\u201382."
+    ],
+    "1997": [
+        "Bainbridge, David, and Nicholas Carter. 1997. <i>Automatic Reading of Music Notation, Handbook of Character Recognition and Document Image Analysis</i>. Edited by Horst Bunke and and Patrick Wang. Singapore: World Scientific.",
+        "Bainbridge, David, and Tim Bell. 1997. \u201cDealing with Superimposed Objects in Optical Music Recognition.\u201d In <i>Proceedings of the Sixth International Conference on Image Processing and Its Applications</i>, 756\u201360.",
+        "Beran, Tom\u00e1\u0161. 1997. <i>Rozpoznavani notoveho zapisu (in czech)</i>. Czech Technical University.",
+        "Sokei, Sanetoshi, Tsuyoshi Yamashiro, Zensei Iha, and Minoru Toguchi. 1997. <i>Study of recognition for okinawa syamisen score kunkunsi</i>.",
+        "St\u00fcckelberg, Marc, Christian Pellegrini, and M\u00e9lanie Hilario. 1997. \u201cAn Architecture for Musical Score Recognition Using High-Level Domain Knowledge.\u201d In <i>Proceedings of the Fourth International Conference on Document Analysis and Recognition</i>, 2:813\u201318.",
+        "St\u00fcckelberg, Marc, Christian Pellegrini, and M\u00e9lanie Hillario. 1997. <i>A Preview of an Architecture for Musical Score Recognition</i>. CUI, University of Geneva, Geneva, Switzerland."
+    ],
+    "1996": [
+        "Anstice, Jamie, Tim Bell, Andy Cockburn, and Martin Setchell. 1996. \u201cThe Design of a Pen-Based Musical Input System.\u201d In <i>Proceedings Sixth Australian Conference on Computer-Human Interaction</i>, 260\u201367.",
+        "Bainbridge, David, and Tim Bell. 1996. \u201cAn Extensible Optical Music Recognition System.\u201d <i>Australian Computer Science Communications</i> 18 (1):308\u201317.",
+        "Bainbridge, David. 1996. \u201cOptical Music Recognition: A Generalised Approach.\u201d In <i>Proceedings of the Second New Zealand Computer Science Graduate Conference</i>.",
+        "Cho, Kyung Eun Cho, (K)Huyng Je. 1996. \u201cRecognition of Piano Score Using Skeletal Lines and Run-Length Information.\u201d <i>Journal of KISS(C) (Computing Practices)</i> 2 (4):461\u201373.",
+        "Co\u00fcasnon, Bertrand. 1996. \u201cFormalisation grammaticale de la connaissance a priori pour l\u2019analyse de documents: Application aux partitions d\u2019orchestre.\u201d In <i>Reconnaissance des Formes et Intelligence Artificielle</i>, 465\u201374.",
+        "Fujinaga, Ichiro. 1996a. \u201cAdaptive Optical Music Recognition.\u201d <i>IEEE Transactions on Systems, Man, and Cybernetics</i>.",
+        "Fujinaga, Ichiro. 1996b. \u201cExemplar-Based Learning in Adaptive Optical Music Recognition System.\u201d In <i>International Computer Music Conference</i>, 55\u201356.",
+        "Grande, Cindy, and Alan Belkin. 1996. \u201cThe Development of the Notation Interchange File Format.\u201d <i>Computer Music Journal</i> 20 (4):33. <a href=\"https://doi.org/10.2307/3680416\">https://doi.org/10.2307/3680416</a>.",
+        "Homenda, Wladyslaw. 1996. \u201cAutomatic recognition of printed music and its conversion into playable music data.\u201d <i>Control and Cybernetics</i> 25 (2):353\u201367.",
+        "Miyao, Hidetoshi, and Yasuaki Nakano. 1996. \u201cNote Symbol Extraction for Printed Piano Scores Using Neural Networks.\u201d <i>IEICE Transactions on Information and Systems</i> 79 (5):548\u201354.",
+        "Modayur, Bharath. 1996. \u201cMusic Score Recognition: A Selective Attention Approach Using Mathematical Morphology.\u201d EE Dept, FT-10 University of Washington: Intelligent Systems Laboratory.",
+        "Ng, Kia, Roger Boyle, and David Cooper. 1996. \u201cHandwritten Music Manuscript Recognition.\u201d In <i>Proceedings of the International Computer Music Conference</i>, 354\u201357. at Hong Kong, China.",
+        "Ng, Kia, and Roger David Boyle. 1996. \u201cRecognition and Reconstruction of Primitives in Music Scores.\u201d <i>Image and Vision Computing</i> 14 (1):39\u201346.",
+        "Reed, Todd K., and James Parker. 1996. \u201cAutomatic Computer Recognition of Printed Music.\u201d In <i>13th International Conference on Pattern Recognition</i>, 3:803\u20137.",
+        "Yadid-Pecht, Orly, Moti Gerner, Lior Dvir, Eliyahu Brutman, and Uri Shimony. 1996. \u201cRecognition of Handwritten Musical Notes by a Modified Neocognitron.\u201d In <i>Machine Vision and Applications</i>, 9:65\u201372. 2."
+    ],
+    "1995": [
+        "Bainbridge, David. 1995. <i>Optical Music Recognition: Progress Report 2</i>. Department of Computer Science, University of Canterbury, NZ.",
+        "Baumann, Stephan, and Karl Tombre. 1995. <i>Report of the Line Drawing and Music Recognition Working Group</i>. World Scientific.",
+        "Baumann, Stephan. 1995. \u201cA Simplified Attributed Graph Grammar for High-Level Music Recognition.\u201d In <i>Proceedings of the Third International Conference on Document Analysis and Recognition</i>, 2:1080\u201383.",
+        "Capitaine, Thierry, E. Mouaddib, Harold Trannois, and Andr\u00e9 Lebrun. 1995. \u201cAutomatic Recognition of Musical Scores.\u201d In <i>Second Asian Conference on Computer Vision</i>, 1:422\u201324.",
+        "Co\u00fcasnon, Bertrand, Brisset Pascal, and Igor Stephan. 1995. \u201cUsing Logic Programming Languages for Optical Music Recognition.\u201d In <i>International Conference on the Practical Application of Prolog</i>, 115\u201334.",
+        "Co\u00fcasnon, Bertrand, and Bernard R\u00e9tif. 1995a. \u201cUsing a Grammar for a Reliable Full Score Recognition System.\u201d In <i>International Computer Music Conference</i>, 187\u201394.",
+        "Co\u00fcasnon, Bertrand, and Bernard R\u00e9tif. 1995b. \u201cUtilisation d\u2019une grammaire dans la reconnaissance de partitions d\u2019orchestre.\u201d In <i>Deuxi\u00e8mes Journ\u00e9es d\u2019Informatique Musicale</i>, 143\u201352.",
+        "Co\u00fcasnon, Bertrand, and Jean Camillerapp. 1995. \u201cA Way to Separate Knowledge from Program in Structured Document Analysis: Application to Optical Music Recognition.\u201d In <i>International Conference on Document Analysis and Recognition</i>, 1092\u201397.",
+        "Homenda, Wladyslaw. 1995. \u201cOptical Pattern Recognition for Printed Music Notation.\u201d In <i>Proceedings of the SPIE</i>, 2490:230\u201339.",
+        "Kopec, Gary, Philip Chou, and David Maltz. 1995. \u201cMarkov Source Model for Printed Music Decoding.\u201d In <i>Proceedings of the SPIE</i>, 2422:115\u201325.",
+        "Miyao, Hidetoshi, and Yasuaki Nakano. 1995. \u201cHead and Stem Extraction from Printed Music Scores Using a Neural Network Approach.\u201d In <i>Proceedings of the Third International Conference on Document Analysis Recognition</i>, 1074\u201379. at Montreal, QC.",
+        "Ng, Kia, Roger Boyle, and David Cooper. 1995a. \u201cAutomated Optical Musical Score Recognition and Its Enhancement Using High-Level Musical Knowledge.\u201d In <i>Proceedings of the XI Colloquium on Musical Informatics</i>, 167\u201370. at Bologna, Italy.",
+        "Ng, Kia, Roger Boyle, and David Cooper. 1995b. \u201cLow- and High-Level Approaches to Optical Music Score Recognition.\u201d In <i>IEEE Colloquium on Document Image Processing and Multimedia Environments</i>, 3:1\u20136.",
+        "Reed, Todd K. 1995. <i>Optical Music Recognition</i>. University of Calgary.",
+        "Seales, William, and Arcot Rajasekar. 1995. \u201cInterpreting Music Manuscripts: A Logic-Based, Object-Oriented Approach.\u201d In <i>Proceedings of the Third International Computer Science Conference on Image Analysis Applications and Computer Graphics</i>, 181\u201388.",
+        "Wilk, Randy. 1995. <i>Converting Graphic Musical Data to a Machine Playable Form</i>. McGill University."
+    ],
+    "1994": [
+        "Andecy, Vincent Poulain d\u2019, Jean Camillerapp, and Ivan Leplumey. 1994a. \u201cD\u00e9tecteur robuste de segments-application l\u2019analyse de partitions musicales.\u201d In <i>9\u00e8me Congr\u00e8s AFCET Reconnaissance des Formes et Intelligence Artificielle</i>.",
+        "Andecy, Vincent Poulain d\u2019, Jean Camillerapp, and Ivan Leplumey. 1994b. \u201cKalman Filtering for Segment Detection: Application to Music Scores Analysis.\u201d In <i>Proceedings of the 12th IAPR International Conference on Pattern Recognition</i>, 301\u20135.",
+        "Bainbridge, David. 1994a. <i>A Complete Optical Music Recognition System: Looking to the Future</i>.",
+        "Bainbridge, David. 1994b. <i>Optical Music Recognition: Progress Report 1</i>. Department of Computer Science, University of Canterbury, NZ.",
+        "Carter, Nicholas P. 1994a. \u201cConversion of the Haydn Symphonies into Electronic Form Using Automatic Score Recognition: A Pilot Study.\u201d In <i>Proceedings of SPIE</i>, 2181:279\u201390.",
+        "Carter, Nicholas P. 1994b. \u201cMusic Score Recognition: Problems and Prospects.\u201d <i>Computing in Musicology</i> 9:152\u201358.",
+        "Co\u00fcasnon, Bertrand, and Jean Camillerapp. 1994. \u201cUsing Grammars to Segment and Recognize Music Scores.\u201d In <i>International Association for Pattern Recognition Workshop on Document Analysis Systems</i>, 15\u201327.",
+        "Fahmy, Hoda, and Dorothea Blostein. 1994. \u201cA Graph-Rewriting Approach to Discrete Relaxation: Application to Music Recognition.\u201d In <i>Proceedings of the SPIE</i>, 2181:291\u2013302.",
+        "Goolsby, Thomas W. 1994a. \u201cEye Movement in Music Reading: Effects of Reading Ability, Notational Complexity, and Encounters.\u201d <i>Music Perception</i> 12 (1):77\u201396.",
+        "Goolsby, Thomas W. 1994b. \u201cProfiles of Processing: Eye Movements during Sightreading.\u201d <i>Music Perception</i> 12 (1):97\u2013123.",
+        "Lee, Soo-Young, and J. Shin. 1994. \u201cRecognition of Music Scores Using Neural Networks.\u201d <i>Journal of the Korea Information Science Society</i> 21 (7):1358\u201366.",
+        "McGee, William F. 1994. \u201cMusicreader: An Interactive Optical Music Recognition System.\u201d In <i>Computing in Musicology</i>, 9:146\u201351.",
+        "Musitek. 1994. \u201cMusitek.\u201d <i>Keyboard</i> 20 (3):136.",
+        "Ng, Kia, and Roger David Boyle. 1994. <i>Reconstruction of Music Scores from Primitive Sub-Segmentation</i>.",
+        "Roth, Martin. 1994. <i>An Approach to Recognition of Printed Music</i>. Swiss Federal Institute of Technology.",
+        "Selfridge-Field, Eleanor. 1994a. \u201cHow Practical Is Optical Music Recognition as an Input Method?\u201d In <i>Computing in Musicology</i>, 9:159\u201366. 1993\u201394.",
+        "Selfridge-Field, Eleanor. 1994b. \u201cOptical Recognition of Musical Notation: A Survey of Current Work.\u201d In <i>Computing in Musicology</i>, 9:109\u201345.",
+        "Watkins, Greg. 1994. \u201cA Fuzzy Syntactic Approach to Recognising Hand-Written Music.\u201d In <i>Proceedings of the International Computer Music Conference</i>, 297\u2013302.",
+        "Wright, D.James. 1994. <i>Optical music recognition: A deterministic, object-oriented approach</i>. University of Victoria."
+    ],
+    "1993": [
+        "Andecy, Vincent Poulain d\u2019. 1993. <i>Segmentation et reconnaissance optique de partitions musicales</i>. Rennes, France: IRISA/INSA.",
+        "Armand, Jean-Pierre. 1993. \u201cMusical Score Recognition: A Hierarchical and Recursive Approach.\u201d In <i>Proceedings of the Second International Conference on Document Analysis and Recognition</i>, 906\u20139.",
+        "Baumann, Stephan. 1993. \u201cDocument recognition of printed scores and transformation into MIDI.\u201d In <i>Proceedings of the Deutsches Forschungszentrum fuer Kuenstliche Intelligenz GmbH (DFKI)</i>. Kaiserslautern.",
+        "Carter, Nicholas P. 1993. <i>A Generalized Approach to Automatic Recognition of Music Scores</i>. Department of Music, Stanford University.",
+        "Clarke, Alastair T., B.Malcolm Brown, and Michael P. Thorne. 1993. \u201cRecognising Musical Text.\u201d In <i>Proceedings of the SPIE</i>, 2064:222\u201333.",
+        "Distasi, Riccardo, Michele Nappi, and Sergio Vitulano. 1993. \u201cAn Automatic System for Reading Musical Scores.\u201d In <i>Proceedings of the Eighth Scandinavian Conference on Image Analysis</i>, 1307\u201310.",
+        "Distasi, Riccardo, and et al. 1993. \u201cAutomatic System for Reading Scores.\u201d In <i>Eighth Scandinavian Conference on Image Analysis</i>, 1307\u201310.",
+        "Fahmy, Hoda, and Dorothea Blostein. 1993. \u201cA Graph Grammar Programming Style for Recognition of Music Notation.\u201d <i>Machine Vision and Applications</i> 6:83\u201399.",
+        "Fujinaga, Ichiro. 1993. \u201cOptical Music Recognition System Which Learns.\u201d In <i>Proceedings of the SPIE</i>, 1785:210\u201317.",
+        "Geggus, Karl Michael, and Elizabeth C. Botha. 1993. \u201cA Model-Based Approach to Sheet Music Recognition.\u201d <i>Elektron</i> 10 (1):25\u201329.",
+        "Kobayakawa, Tatsu. 1993. \u201cAuto Music Score Recognition System.\u201d In <i>Proceedings SPIE: Character Recognition Technologies</i>, 1906:112\u201323.",
+        "Leplumey, I., and G.Lorette Jean Camillerapp. 1993. \u201cA Robust Detector for Music Staves.\u201d In <i>Proceedings of the International Conference on Document Analysis and Recognition</i>, 902\u20135.",
+        "Modayur, Bharath R., Visvanathan Ramesh, Robert Martin Haralick, and Linda G. Shapiro. 1993. \u201cMuser: A Prototype Musical Recognition System Using Mathematical Morphology.\u201d In <i>Machine Vision and Applications</i>, 6:140\u201350. 2\u20133.",
+        "Newell, Christopher, and Homenda Wladyslaw. 1993. <i>Midiscan for Windows</i>.",
+        "Perrotti, Francesco Artur, and Roberto de Alencar Lotufo. 1993. \u201cPre-processamento, exctracao de atributos e primeiro nivel de classiccao para un sistema de reconhecimento otico de simbolos musicais.\u201d In <i>Proceedings of the VI Brazilian Symposium in Computer Graphics and Image Processing (SINGRAPI)</i>.",
+        "Randriamahefa, R., C.Fluhr Jean-Pierre Cocquerez, F. P\u00e9pin, and S. Philipp. 1993. \u201cPrinted Music Recognition.\u201d In <i>Proceedings of the International Conference on Document Analysis and Recognition</i>, 898\u2013901. at Tsukuba, Japan."
+    ],
+    "1992": [
+        "Baumann, Stephan, and Andreas Dengel. 1992. \u201cTransforming Printed Piano Music into Midi.\u201d In <i>Proceedings of International Workshop on Structural and Syntactic Pattern Recognition</i>, 363\u201372.",
+        "Blostein, Dorothea, and Henry S. Baird. 1992. \u201cA Critical Survey of Music Image Analysis.\u201d In <i>Structured Document Image Analysis</i>, edited by Henry S. Baird, Horst Bunke, and Kazuhiko Yamamoto. Berlin: Springer.",
+        "Blostein, Dorothea, and Nicholas Carter. 1992. <i>Recognition of Music Notation: Sspr \u201990 Working Group Report, Structured Document Image Analysis</i>. Edited by Henry Baird, Horst Bunke, and Kazuhiko Yamamoto. Berlin: Springer Verlag.",
+        "Bulis, Alex, Roy Almog, Moti Gerner, and Uri Shimony. 1992. \u201cComputerized Recognition of Hand-Written Musical Notes.\u201d In <i>Proceedings of the International Computer Music Conference</i>, 110\u201312.",
+        "Carter, Nicholas P. 1992a. \u201cA New Edition of Walton\u2019s Fa\u00e7ade Using Automatic Score Recognition.\u201d In <i>Proceedings of International Workshop on Structural and Syntactic Pattern Recognition</i>, 352\u201362.",
+        "Carter, Nicholas P. 1992b. \u201cSegmentation and Preliminary Recognition of Madrigals Notated in White Mensural Notation.\u201d <i>Machine Vision and Applications</i> 5 (3):223\u201330.",
+        "Carter, Nicholas, and Richard Bacon. 1992. \u201cAutomatic Recognition of Printed Music.\u201d In <i>Structured Document Image Analysis</i>, edited by Henry Baird, Horst Bunke, and Kazuhiko Yamamoto. Berlin: Springer.",
+        "Di, Riso and Giuseppe. 1992. <i>Lettura automatica di partiture musicali</i>. Universit di Salerno.",
+        "Fahmy, Hoda, and Dorothea Blostein. 1992. \u201cGraph Grammar Processing of Uncertain Data.\u201d In <i>Proceedings of International Workshop on Structural and Syntactic Pattern Recognition</i>, 373\u201382.",
+        "Fujinaga, Ichiro, Bo Alphonce, Glendon Diener, and Bruce Pennycook. 1992. \u201cOptical Music Recognition on next Workstation.\u201d In <i>Proceedings of the Second International Conference on Music Perception and Cognition</i>. at Los Angeles, CA.",
+        "Fujinaga, Ichiro, Bo Alphonce, and Bruce Pennycook. 1992. \u201cInteractive Optical Music Recognition.\u201d In <i>Proceedings of the International Computer Music Conference</i>, 117\u201320.",
+        "Fujinaga, Ichiro. 1992. \u201cAn Optical Music Recognition System That Learns.\u201d In <i>Proceedings of SPIE, Enabling Technologies for High-Bandwidth Applications</i>, 1785:210\u201317. Boston: MA.",
+        "Itagaki, Takebumi, Shuji Hashimoto, Masayuki Isogai, and Sadamu Ohteru. 1992. \u201cAutomatic Recognition of Several Types of Musical Notation.\u201d In <i>Structured Document Image Analysis</i>, edited by Henry Baird, Horst Bunke, and Kazuhiko Yamamoto, 466\u201376. Berlin: Springer-Verlag.",
+        "Kasturi, Rangachar, and Lawrence O\u2019Gorman. 1992. \u201cDocument image analysis techniques.\u201d In <i>Machine Vision and Applications</i>, 5:141\u201342. 3.",
+        "Kato, Hirokazu, and Seiji Inokuchi. 1992. \u201cA Recognition System for Printed Piano Music Using Musical Knowledge and Constraints, Structured Document Image Analysis.\u201d In <i>Structured Document Image Analysis</i>, edited by Henry S. Baird, Horst Bunke, and Kazuhiko Yamamoto, 435\u201355. Berlin: Springer-Verlag.",
+        "Martin, Philippe, and Camille Bellissant. 1992. \u201cNeural Networks for the Recognition of Engraved Musical Scores.\u201d <i>International Journal of Pattern Recognition and Artificial Intelligence</i> 6 (1):193\u2013208.",
+        "Martin, Philippe. 1992. \u201cR\u00e9seaux de neurones artificiels: Application la reconnaissance optique de partitions musicales.\u201d PhD Thesis, Institut IMAG.",
+        "Matsushima, Toshiaki. 1992. \u201cComputerized Japanese Traditional Music Processing System.\u201d In <i>Proceedings of the International Computer Music Conference</i>, 121\u201324.",
+        "Miyao, Hidetoshi T., T. Ejima, M. Miyahara, and K. Kotani. 1992. \u201cSymbol Recognition for Printed Piano Scores Based on the Musical Knowledge (in Japanese).\u201d <i>Transactions of the Institute of Electronics, Information and Communication Engineers D-II</i> 75 (11):1848\u201355.",
+        "Modayur, Bharath R., Robert Martin Haralick, and Linda G. Shapiro. 1992. \u201cOn Printed Music Score Symbol Recognition.\u201d In <i>Proceedings of the Symposium on Document Analysis and Information Retrieval</i>, 16\u201318.",
+        "Modayur, Bharath R., Visvanathan Ramesh, Robert Martin Haralick, and Linda G. Shapiro. 1992. \u201cMuser-a Prototype Musical Recognition System Using Mathematical Morphology.\u201d EE Dept, FT-10 University of Washington: Intelligent Systems Laboratory.",
+        "Ng, Kia, and Roger David Boyle. 1992. \u201cSegmentation of Music Primitives.\u201d In <i>Proceedings of the British Machine Vision Conference</i>, 472\u201380. at Leeds, UK.",
+        "Roth, Martin. 1992. <i>OMR-Optical Music Recognition</i>. Swiss Federal Institute of Technology.",
+        "Sicard, Etienne. 1992. \u201cAn Efficient Method for the Recognition of Printed Music.\u201d In <i>Proceedings of 11th International Conference on Pattern Recognition (IAPR)</i>, 573\u201376.",
+        "Stevens, Catherine, and Cyril Latimer. 1992. \u201cA Comparison of Connectionist Models of Music Recognition and Human Performance.\u201d <i>Minds and Machines</i> 2 (4):379\u2013400.",
+        "Wolman, (J) Amnon, James Choi, Shahab Asgharzadeh, and Jason Kahana. 1992. \u201cRecognition of Handwritten Music Notation.\u201d In <i>Proceedings of the International Computer Music Conference</i>, 125\u201327.",
+        "Yadid-Pecht, Orly, Eliyahu Brutman, Lior Dvir, Moti Gerner, and Uri Shimony. 1992. \u201cRamit: Neural Network for Recognition of Musical Notes.\u201d In <i>Proceedings of the International Computer Music Conference</i>, 128\u201331."
+    ],
+    "1991": [
+        "Bainbridge, David. 1991. <i>Preliminary Experiments in Musical Score Recognition</i>. University of Edinburgh.",
+        "Blostein, Dorothea, and Lippold Haken. 1991. \u201cJustification of Printed Music.\u201d <i>Communications of the ACM</i> 34 (3):88\u201399.",
+        "Carter, Nicholas. 1991. \u201cAutomatic Recognition and Related Topics: Guildford.\u201d <i>Computing in Musicology</i> 7:109\u201311.",
+        "Choi, James. 1991. <i>Optical Recognition of the Printed Musical Score</i>. University of Illinois at Chicago.",
+        "Co\u00fcasnon, Bertrand. 1991. <i>R\u00e9seaux de neurones appliqu\u00e9s \u00e0 la reconnaissance de partitions musicales</i>. Universit\u00e9 de Rennes: Irisa.",
+        "Fahmy, Hoda, and Dorothea Blostein. 1991. \u201cA Graph Grammar for High-Level Recognition of Music Notation.\u201d <i>First International Conference on Document Analysis</i> 1:70\u201378.",
+        "Fahmy, Hoda. 1991. <i>A Graph-Grammar Approach to High-Level Music Recognition</i>. Queen\u2019s University.",
+        "Fujinaga, Ichiro, Bo Alphonce, Bruce Pennycook, and Kharim Hogan. 1991. \u201cOptical Music Recognition: Progress Report.\u201d In <i>Proceedings of the International Computer Music Conference</i>, 66\u201373. at Montreal, QC.",
+        "Fujinaga, Ichiro, Bruce Pennycook, and Bo Alphonce. 1991. \u201cThe Optical Music Recognition Project.\u201d In <i>Computers in Music Research</i>, 3:139\u201342.",
+        "Leplumey, I., and Jean Camillerapp. 1991a. \u201cComparison of Region Labelling for Musical Scores.\u201d In <i>First International Conference on Document Analysis</i>, 2:674\u201382.",
+        "Leplumey, I., and Jean Camillerapp. 1991b. \u201cCoopration entre la segmentation des r\u00e9gions blanches et des r\u00e9gions noires pour l\u2019analyse de partitions musicales.\u201d In <i>8\u00e8me Congr\u00e8s Reconnaissance des Formes et Intelligence Artificielle</i>, 3:1045\u201352.",
+        "Martin, Philippe, and Camille Bellissant. 1991a. \u201cLow-Level Analysis of Music Drawing Images.\u201d In <i>International Conference on Document Analysis and Recognition</i>, 417\u201325.",
+        "Martin, Philippe, and Camille Bellissant. 1991b. \u201cNeural Networks at Different Levels of Musical Score Image Analysis System.\u201d In <i>Seventh Scandinavian Conference on Image Analysis</i>, 1102\u20139.",
+        "McGee, William, and Paul Merkley. 1991. \u201cThe Optical Scanning of Medieval Music.\u201d <i>Computers and the Humanities</i> 25 (1):47\u201353.",
+        "McLean, Graeme. 1991. <i>Music Recognition</i>. Heriot-Watt University.",
+        "Rothstein, Joseph. 1991. \u201cCoda Finale-PC 2.0 Notation Software for IBM PCs.\u201d <i>Computer Music Journal</i> 15 (4):115. <a href=\"https://doi.org/10.2307/3681091\">https://doi.org/10.2307/3681091</a>.",
+        "Ruttenberg, Alan. 1991. <i>Optical Reading of Typeset Music</i>. Massachusetts Institute of Technology."
+    ],
+    "1990": [
+        "Akiyama, Taz, and Norihiro Hagita. 1990. \u201cAutomated Entry System for Printed Documents.\u201d <i>Pattern Recognition</i> 23 (11):1141\u201354.",
+        "Blostein, Dorothea, and Lippold Haken. 1990. \u201cTemplate Matching for Rhythmic Analysis of Music Keyboard Input.\u201d In <i>Proceedings of 10th International Conference on Pattern Recognition</i>, 767\u201370.",
+        "Carter, Nicholas P., and Richard A. Bacon. 1990. \u201cAutomatic Recognition of Music Notation.\u201d In <i>Proceedings of the International Association for Pattern Recognition Workshop on Syntactic and Structural Pattern Recognition</i>, 482.",
+        "Clarke, Alastair, Malcolm Brown, and Michael Thorne. 1990. \u201cProblems to Be Faced by Developers of Computer Based Automatic Music Recognisers.\u201d In <i>Proceedings of the International Computer Music Conference</i>, 345\u201347.",
+        "Hewlett, Walter B., and Eleanor Selfridge-Field. 1990. \u201cOptical Recognition of Musical Data.\u201d In <i>Computing in Musicology: A Directory of Research</i>, 36\u201345.",
+        "Inokuchi, Seiji, and Haruhiro Katayose. 1990. \u201cComputer and Music.\u201d <i>Journal of the Institute of Electronics, Information and Communication Engineers</i> 73 (9):965\u201367.",
+        "Itagaki, Takebumi S., Shuji Hashimoto, Masayuki Isogai, and Sadamu Ohteru. 1990. \u201cAutomatic Recognition on Some Different Types of Musical Notation.\u201d In <i>Proceedings of the International Association for Pattern Recognition Workshop on Syntactic and Structural Pattern Recognition</i>, 488.",
+        "Katayose, Haruhiro, T. Fukuoka, K. Takami, and Seiji Inokuchi. 1990. \u201cExpression Extraction in Virtuoso Music Performances.\u201d In <i>Proceedings of the Tenth International Conference on Pattern Recognition</i>, 780\u201384.",
+        "Kato, Hirokazu, and Seiji Inokuchi. 1990. \u201cThe Recognition System for Printed Piano Music Using Musical Knowledge and Constraints.\u201d In <i>Proceedings of the International Association for Pattern Recognition Workshop on Syntactic and Structural Pattern Recognition</i>, 231\u201348.",
+        "Miyao, Hidetoshi T., T. Ejima, M. Miyahara, and K. Kotani. 1990. <i>Recognition for Printed Piano Scores (in Japanese)</i>. Vol. 34. 90\u201374.",
+        "Pennycook, Bruce. 1990. \u201cTowards Advanced Optical Music Recognition.\u201d <i>Advanced Imaging</i>, 54\u201357.",
+        "Richard, Dominique M. 1990. \u201cGodel Tune: Formal Models in Music Recognition Systems.\u201d In <i>ICMC Glasgow 1990 Proceedings</i>, 338\u201340.",
+        "Sawada, Hideyuki, Toshiaki Matsushima, Takebumi Itakagi, and Sadamu Ohteru. 1990. \u201cA Practical Bilateral Translation System between Printed Music and Braille.\u201d In <i>Proceedings of Sixth International Workshop on Computer Applications for the Visually Handicapped</i>."
+    ],
+    "1989": [
+        "Clarke, Alastair, Malcolm B. Brown, and Michael Thorne. 1989. \u201cCoping with Some Really Rotten Problems in Automatic Music Recognition.\u201d <i>Microprocessing &amp; Microprogramming</i> 27 (1\u20135):547\u201350.",
+        "Fujinaga, Ichiro, Bo Alphonce, Bruce Pennycook, and Nathalie Boisvert. 1989. \u201cOptical Recognition of Music Notation by Computer.\u201d In <i>Computers in Music Research</i>, 1:161\u201364.",
+        "Fujinaga, Ichiro, Bo Alphonce, and Bruce Pennycook. 1989. \u201cIssues in the Design of an Optical Music Recognition System.\u201d In <i>Proceedings of the International Computer Music Conference</i>, 113\u201316.",
+        "Fujinaga, Ichiro, Bruce Pennycook, and Bo Alphonce. 1989. \u201cComputer Recognition of Musical Notation.\u201d In <i>Proceedings of the First International Conference on Music Perception and Cognition</i>, 87\u201390. at Kyoto, Japan.",
+        "Glass, S. 1989. <i>Optical Music Recognition</i>. University of Canterbury.",
+        "Katayose, Haruhiro, Hirokazu Kato, Masakazu Imai, and Seiji Inokuchi. 1989. \u201cAn Approach to an Artificial Music Expert.\u201d In <i>Proceedings of the International Computer Music Conference</i>, 139\u201346.",
+        "Katayose, Haruhiro, and Seiji Inokuchi. 1989. \u201cThe kansei music system.\u201d <i>Computer Music Journal</i> 13 (4):72\u201377.",
+        "Martin, Philippe. 1989. \u201cReconnaissance de partitions musicales et r\u00e9seaux de neurones: Une \u00e9tude.\u201d In <i>Actes 7 i\u00e8me Congrs AFCET de Reconnaissance des Formes et Intelligence Artificielle</i>, 217\u201326.",
+        "Matsushima, Toshiaki, Sadamu Ohteru, and Shuji Hashimoto. 1989. \u201cAn Integrated Music Information Processing System.\u201d In <i>Proceedings of the International Computer Music Conference</i>, 191\u201398.",
+        "McGee, William F., and P. Merkley. 1989. <i>Optical Recognition of Music Using Page Straightening</i>.",
+        "Nagy, George. 1989. \u201cDocument Analysis and Optical Character Recognition.\u201d In <i>Fifth International Conference on Image Analysis and Processing</i>, 511\u201329.",
+        "Yin, F., G. Qingshi, and Z. Xiang. 1989. \u201cPrinciple on designing the music reading system (in Chinese).\u201d <i>Mini-Micro Systems</i> 10 (12):1\u201310."
+    ],
+    "1988": [
+        "Alphonce, Bo, Bruce Pennycook, Ichiro Fujinaga, and Nathalie Boisvert. 1988. \u201cOptical Music Recognition: A Progress Report.\u201d In <i>Proceedings of the Small Computers in the Arts</i>, 8\u201312.",
+        "Bacon, Richard A., and Nicholas P. Carter. 1988. \u201cRecognising Music Automatically.\u201d <i>Physics Bulletin</i> 39:265.",
+        "Carter, Nicholas, Richard Bacon, and Thomas Messenger. 1988. \u201cThe Acquisition, Representation and Reconstruction of Printed Music by Computer: A Review.\u201d <i>Computers and the Humanities</i> 22 (2):117\u201336.",
+        "Clarke, Alastair T., B.Malcolm Brown, and Michael P. Thorne. 1988a. \u201cInexpensive Optical Character Recognition of Music Notation: A New Alternative for Publishers.\u201d In <i>Proceedings of the Computers in Music Research Conference</i>, 84\u201387.",
+        "Clarke, Alastair T., B.Malcolm Brown, and Michael P. Thorne. 1988b. \u201cUsing a micro to automate data acquisition in music publishing.\u201d <i>Microprocessing and Microprogramming</i> 24:549\u201354.",
+        "Fletcher, Lloyd Alan, and Rangachar Kasturi. 1988. \u201cA Robust Algorithm for Text String Separation from Mixed Text/Graphics Images.\u201d <i>IEEE Transactions on Pattern Analysis and Machine Intelligence</i> 10 (6):910\u201318.",
+        "Fluhr, Christian, and J. Abouassly. 1988. \u201cMusic Pattern Recognition.\u201d In <i>Proceedings of the EEC Concerted Action on Technology and Blindness</i>. at Toulouse, France.",
+        "Fujinaga, Ichiro. 1988. <i>Optical Music Recognition Using Projections</i>. McGill University.",
+        "Kato, Hirokazu, and Seiji Inokuchi. 1988. \u201cAutomatic Recognition of Printed Piano Music Based on Bar Unit Processing (in Japanese).\u201d <i>Transactions of I. E. C. E</i> 71 (5):894\u2013901.",
+        "Matsushima, Toshiaki. 1988. \u201cAutomatic Printed-Music-to-Braille Translation System.\u201d <i>Journal of Information Processing</i> 11 (4):249\u201357.",
+        "Ohteru Sadamu. 1988. \u201cData entry and automatic recognition of music score (in Japanese).\u201d <i>Journal of the Information Processing Society of Japan</i> 29 (6):586\u201392.",
+        "Ostenstad, Berge. 1988. <i>Oppdeling av abjektene I et digitalt notebilde I klassifiserbare enheter (in Norwegian)</i>. Institute of Informatics, Oslo, Norway.",
+        "Roach, John W., and James E. Tatem. 1988. \u201cUsing Domain Knowledge in Low-Level Visual Processing to Interpret Handwritten Music: An Experiment.\u201d <i>Pattern Recognition</i> 21 (1):33\u201344.",
+        "Thorud, Elise. 1988. <i>Analyse Av Notebilder (in Norwegian)</i>. Institute of Informatics, Oslo, Norway."
+    ],
+    "1987": [
+        "Hachimura, Kozaburo, and Yutaka Ohno. 1987. \u201cA system for the representation of human body movements from dance scores.\u201d <i>Pattern Recognition Letters</i> 5:1\u20139.",
+        "Kim, Woong-Tae J., Myung Jin Chung, and Zeungnam Bien. 1987. \u201cRecognition System for a Printed Music Score.\u201d In <i>Proceedings of TENCON 87: 1987 IEEE Region 10 Conference \u2019Computers and Communications Technology Toward</i>, 2000:573\u201377.",
+        "Martin, Neil G. 1987. <i>Towards Computer Recognition of the Printed Musical Score</i>. Thames Polytechnic.",
+        "Ohteru Sadamu. 1987. \u201cAutomatic recognition of music score (in Japanese).\u201d <i>Bit (special issue on Computer and Music)</i>, 92\u2013100."
+    ],
+    "1986": [
+        "Roads, Curtis. 1986. \u201cThe Tsukuba Musical Robot.\u201d <i>Computer Music Journal</i> 10 (2):39\u201343.",
+        "Tonnesland, S. 1986. <i>Symfoni: System for note coding (in Norwegian)</i>. Institute of Informatics, Oslo, Norway."
+    ],
+    "1985": [
+        "Fujimoto, Yoichi. 1985. \u201cThe Keyboard Playing Robot WABOT-2.\u201d <i>Bulletin of Science and Engineering Research Laboratory</i> 112.",
+        "Lee, Myung Woo, and Jong Soo Choi. 1985. \u201cThe Recognition of Printed Music Score and Performance Using Computer Vision System (in Korean and English Translation).\u201d <i>Journal of the Korean Institute of Electronic Engineers</i> 22 (5):429\u201335.",
+        "Matsushima, Toshiaki, Itaru Sonomoto, Tadanori Harada, Katsuhiro Kanamori, and Sadamu Ohteru. 1985. \u201cAutomated High Speed Recognition of Printed Music (WABOT-2 Vision System).\u201d In <i>Proceedings of the 1985 International Conference on Advanced Robotics</i>, 477\u201382.",
+        "Matsushima, Toshiaki, Sadamu Ohteru, and Katsuhiro Kanamori. 1985. \u201cAutomatic Recognition of Printed Music (in Japanese).\u201d <i>Japan Acoustics Society Journal</i> 41 (6):412\u201315.",
+        "Matsushima, Toshiaki, Tadanori Harada, Itaru Sonomoto, Katsuhiro Kanamori, Akio Uesugi, Yuji Nimura, Shuji Hashimoto, and Sadamu Ohteru. 1985. \u201cAutomated Recognition System for Musical Score: The Vision System of WABOT-2.\u201d <i>Bulletin of Science and Engineering Research Laboratory</i> 112:25\u201352.",
+        "Sonomoto, Itaru, Tadanori Harada, Toshiaki Matsushima, Katsuhiro Kanamori, M. Konuma, Akio Uesugi, Yuji Nimura, Shuji Hashimoto, and Sadamu Ohteru. 1985. \u201cAutomated Recognition System of Printed Music for Playing Keyboards (in Japanese).\u201d <i>Acoustical Society of Japan</i> 84 (22):17\u201322."
+    ],
+    "1984": [
+        "Ohteru Sadamu. 1984. \u201cA multi processor system for high speed recognition of printed music (in Japanese).\u201d In <i>National Convention Records of IECE</i>."
+    ],
+    "1983": [
+        "Maenaka, Karl, and Tadokoro Yoshiaki. 1983. \u201cRecognition of Music Using the Special Image-Input-Device Enabling to Scan the Staff of Music as the Supporting System for the Blind (in Japanese).\u201d <i>Prl83-60</i>, 37\u201345."
+    ],
+    "1982": [
+        "Andronico, Alfio, and Alberto Ciampa. 1982. \u201cOn Automatic Pattern Recognition and Acquisition of Printed Music.\u201d In <i>Proceedings of the International Computer Music Conference</i>, 245\u201378.",
+        "Aoyama, Hiroshi, and A. Tojo. 1982a. \u201cAutomatic Recognition of Music Score (in Japanese).\u201d In <i>Electronic Image Conference Journal</i>, 11:427\u201335. 5.",
+        "Aoyama, Hiroshi, and A. Tojo. 1982b. \u201cAutomatic Recognition of Printed Music (in Japanese).\u201d In <i>Institute of Electronics and Communications Engineers of Japan (IECE)</i>, 33\u201340.",
+        "Mahoney, James Victor. 1982. <i>Automatic Analysis of Musical Score Images</i>. Massachusetts Institute of Technology.",
+        "Tojo, A., and Hiroshi Aoyama. 1982. \u201cAutomatic Recognition of Music Score.\u201d In <i>Sixth International Conference on Pattern Recognition</i>. Vol. 1223."
+    ],
+    "1979": [
+        "Onoe Morio, Ishizuka Mitsuru, and Tsuboi Kuniaki. 1979. \u201cExperiment on automatic music reading (in Japanese).\u201d In <i>Proceedings of the 20th IPSJ National Conference</i>, 6\u201365."
+    ],
+    "1978": [
+        "Fischer, K.N. 1978. <i>Computer Recognition of Engraved Music</i>. University of Tennessee.",
+        "Nakamura, Y., M. Shindo, and Seiji Inokuchi. 1978. \u201cInput Method of [Musical] Note and Realization of Folk Music Data-Base (in Japanese).\u201d In <i>Institute of Electronics and Communications Engineers of Japan (IECE)</i>, 78:41\u201350. 73.",
+        "Wittlich, Gary, Donald Byrd, and Rosalee Nerheim. 1978. \u201cA system for interactive encoding of music scores under computer control.\u201d <i>Computers and the Humanities</i> 12 (4):309\u201319."
+    ],
+    "1975": [
+        "Prerau, David Stewart. 1975. \u201cDo-Re-Mi: A Program That Recognizes Music Notation.\u201d <i>Computer and the Humanities</i> 9 (1):25\u201329."
+    ],
+    "1974": [
+        "Wittlich, Gary E. 1974. <i>Non-physics measurements on the PEPR system: Seismograms and music scores</i>."
+    ],
+    "1973": [
+        "Nelson, Gary, and Terry R. Penney. 1973. \u201cPattern Recognition in Musical Score - Project No. M88.\u201d In <i>Computers and the Humanities</i>, 8:50\u201351.",
+        "Wittlich, Gary. 1973. \u201cProject Score.\u201d <i>Computational Musicology Newsletter</i> 1 (1):6."
+    ],
+    "1972": [
+        "Kassler, Michael. 1972. \u201cOptical Character Recognition of Printed Music: A Review of Two Dissertations.\u201d <i>Perspectives of New Music</i> 11:250\u201354."
+    ],
+    "1971": [
+        "Prerau, David. 1971. \u201cComputer Pattern Recognition of Printed Music.\u201d <i>AFIP Joint Computer Conferences</i> 39:153\u201362."
+    ],
+    "1970": [
+        "Kassler, Michael. 1970. \u201cAn Essay toward Specification of a Music-Reading Machine.\u201d In <i>Musicology and the Computer</i>, edited by Barry Brook, 151\u201375. New York: City University of New York Press."
+    ],
+    "1966": [
+        "Pruslin, Dennis. 1966. \u201cAutomatic Recognition of Sheet Music.\u201d Massachusetts Institute of Technology."
+    ]
+}

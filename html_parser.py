@@ -6,11 +6,11 @@ from bs4 import BeautifulSoup
 from urllib.parse import unquote
 import json
 
-print('Media (m,M), presentations (pr, PR), publications (pu, PU), posters (po, PO), or all (a,A)?\n')
+print('Media (m,M), presentations (pr, PR), publications (pu, PU), posters (po, PO), OMR bibliography (o,O) or all (a,A)?\n')
 choice = str(input()).lower()
 
-input_list = ['m', 'pr', 'pu', 'po', 'a']
-full_list = ['media', 'presentations', 'publications', 'posters']
+input_list = ['m', 'pr', 'pu', 'po', 'o', 'a']
+full_list = ['media', 'presentations', 'publications', 'posters', 'omr']
 parse_list = []
 
 if choice not in input_list:
@@ -27,7 +27,7 @@ export_folder = 'zotero_export/'
 for type in parse_list:
 
     html_file_name = f'DDMAL_{type}.html'
-    path = f'activities/{type}/content.json'
+    path = f'activities/{type}/content.json' if type != 'omr' else f'research/omr/resources/OMRBibliography/content.json'
 
     # Dictionaries for each of the different sources. Keys are the years, values are the html contents.
     # These will be stored in JSON files in the corresponding folders.
