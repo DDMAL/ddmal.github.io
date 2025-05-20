@@ -45,7 +45,7 @@ for type in parse_list:
 
     html_array = []
 
-    for html_tag in html_soup.findAll('div', {'class': 'csl-entry'}):
+    for html_tag in html_soup.find_all('div', {'class': 'csl-entry'}):
         # print(tag.find_next('span'))
         # if html_tag.find('a'):
         #     continue

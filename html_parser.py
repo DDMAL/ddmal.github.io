@@ -39,7 +39,7 @@ for type in parse_list:
 
     html_array = []
 
-    for html_tag in html_soup.findAll('div', {'class': 'csl-entry'}):
+    for html_tag in html_soup.find_all('div', {'class': 'csl-entry'}):
         parse_attr = html_tag.find_next('span')['title']
         year = 'n.d.'
         author = 'no_author'
