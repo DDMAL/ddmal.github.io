@@ -1,107 +1,110 @@
 {
-  "2019": [
-      "Hopkins, Emily, Yaolong Ju, Gustavo Polins Pedro, Cory McKay, Julie Cumming, and Ichiro Fujinaga. 2019. \u201cSIMSSA DB: Symbolic Music Discovery and Search.\u201d Poster presented at the 6th International Conference on Digital Libraries for Musicology, Den Haag, Netherlands, November 9.",
-      "Ju, Yaolong. 2019. \u201cAn Interactive Workflow for Generating Chord Labels for Homorhythmic Music in Symbolic Formats.\u201d Presented at the 20th International Society of Music Information Retrieval Conference, Delft, Netherlands, November 8. <a href=\"http://cloud.simssa.ca/index.php/f/996\">http://cloud.simssa.ca/index.php/f/996</a>.",
-      "N\u00e1poles, N\u00e9stor L\u00f3pez, Gabriel Vigliensoni, and Ichiro Fujinaga. 2019. \u201cThe Effects of Translation between Symbolic Music Formats: A Case Study with Humdrum, Lilypond, MEI, and MusicXML.\u201d Poster presented at the annual Music Encoding Conference, Vienna, Austria, June 29.",
-      "Reuse, Tim de, and Ichiro Fujinaga. 2019. \u201cCopyForward: Point-Set Matching for Predicting Patterns.\u201d Poster presented at the 15th running of the Music Information Retrieval Evaluation eXchange at the 20th International Society for Music Information retrieval Conference, Delft, Netherlands, November 4."
-  ],
-  "2018": [
-      "N\u00e1poles, N\u00e9stor, Claire Arthur, and Ichiro Fujinaga. 2018. \u201cSymbolic and Audio Key Detection Based on a Hidden Markov Model.\u201d Poster presented at the 19th International Society for Music Information Retrieval Conference, Paris, France, September 23."
-  ],
-  "2017": [
-      "Ju, Yaolong, Nathaniel Condit-Schultz, Claire Arthur, and Ichiro Fujinaga. 2017. \u201cNon-Chord Tone Identification Using Deep Neural Networks.\u201d Poster presented at the 18th International Society for Music Information Retrieval Conference (Late-Breaking), Suzhou, China, October 23.",
-      "McKay, Cory, Andrew Hankinson, Julie Cumming, and Ichiro Fujinaga. 2017. \u201cA Database Model for Computational Music Research.\u201d Poster presented at the 4th International Workshop on Digital Libraries for Musicology, Suzhou, China, October 28.",
-      "McKay, Cory, Julie Cumming, and Ichiro Fujinaga. 2017. \u201cCharacterizing Composers Using JSymbolic2 Features.\u201d Poster presented at the 18th International Society for Music Information Retrieval Conference, Suzhou, China, August 7.",
-      "Parmentier, Alex, Andrew Hankinson, and Ichiro Fujinaga. 2017. \u201cTripoli: Presentation API Validation.\u201d Poster presented at the International Image Interoperability Framework Annual Conference, The Vatican, Italy, June 7.",
-      "Vigliensoni, Gabriel, Jorge Calvo-Zaragoza, and Ichiro Fujinaga. 2017. \u201cReconnaissance Optique de La Musique Bas\u00e9e Sur l\u2019Apprentissage Machine \u00e0 Grande \u00c9chelle Pour Des Donn\u00e9es de Partitions Musicales.\u201d Poster presented at the 85e \u00e9dition du Congr\u00e8s de l\u2019Association francophone pour le savoir, Montreal, Canada, May 8."
-  ],
-  "2016": [
-      "Calvo-Zaragoza, Jorge, Gabriel Vigliensoni, and Ichiro Fujinaga. 2016. \u201cStaff Line Detection on Grewscale Images with Pixel Classification.\u201d Poster presented at the 17th International Society for Music Information Retrieval Conference, New York City, USA, August 7.",
-      "Horwitz, Andrew, Andrew Hankinson, and Ichiro Fujinaga. 2016. \u201cAn MEI Score Alignment Client.\u201d Poster presented at the annual Music Encoding Conference, Montreal, Canada, May 17.",
-      "McKay, Cory, Tristano Tenaglia, and Ichiro Fujinaga. 2016. \u201cJSymbolic2: Extracting Features from Symbolic Music Representations.\u201d Poster presented at the 17th International Society for Music Information Retrieval Conference, New York City, USA, August 7.",
-      "Vigliensoni, Gabriel, and Ichiro Fujinaga. 2016. \u201cAutomatic Music Recommendation Systems: Do Demographic, Profiling, and Contextual Features Improve Their Performance?\u201d Poster presented at the 17th International Society for Music Information Retrieval Conference, New York City, USA, August 7.",
-      "Weiss, Susan Forscher, and Ichiro Fujinaga. 2016. \u201cThe Human History Project: Digital Prosopography of Renaissance Musicians.\u201d Poster presented at the 3rd International Digital Libraries for Musicology workshop, New York City, USA, August 12."
-  ],
-  "2015": [
-      "Fogarty, Alex, Andrew Hankinson, and Ichiro Fujinaga. 2015. \u201cA Browser-Based Neume Metadata Editor.\u201d Poster presented at the annual Muic Encoding Conference, Florence, Italy, May 18.",
-      "Horwitz, Andrew, Andrew Hankinson, and Ichiro Fujinaga. 2015. \u201cA Browser-Based MEI Editor.\u201d Poster presented at the annual Muic Encoding Conference, Florence, Italy, May 18."
-  ],
-  "2014": [
-      "Antila, Christopher, and Julie Cumming. 2014. \u201cThe VIS Framework: Analyzing Counterpoint in Large Datasets.\u201d Poster presented at the 15th International Society for Music Information Retrieval Conference, Taipei, Taiwan, October 27.",
-      "Vigliensoni, Gabriel, and Ichiro Fujinaga. 2014a. \u201cIdentifying Time Zones in a Large Dataset of Music Listening Logs.\u201d Poster presented at the 1st International Workshop on Social Media Retrieval and Analysis, Gold Coast, Australia, July 11.",
-      "Vigliensoni, Gabriel, and Ichiro Fujinaga. 2014b. \u201cTime-Shift Normalization and Listener Profiling in a Large Dataset of Music Listening Histories.\u201d Poster presented at the 4th annual seminar on cognitively based music informatics research, Toronto, Canada, October 4.",
-      "Weiss, Susan Forscher, and Ichiro Fujinaga. 2014. \u201cDigital Prosopography of Renaissance Musicians: Discovery of Social and Professional Networks.\u201d Poster presented at the 8th Annual Meeting of the American Musicological Society and the 37th Annual Meeting of the Society for music Theory, Milwaukee, USA, November 6."
-  ],
-  "2013": [
-      "Burlet, Gregory, Marcelo M. Wanderley, and Ichiro Fujinaga. 2013. \u201cStompboxes: Kicking the Habit.\u201d Poster presented at the 13th International Conference on New Interfaces for Musical Expression, Daejeon, Republic of Korea, May 27.",
-      "Groves, Ryan, Doina Precup, and Ichiro Fujinaga. 2013. \u201cAutomatic Rock\u2019n\u2019Roll Accompaniment: Using a Hidden Semi-Markov Model.\u201d Poster presented at the 4th International Conference on Mathematics and Computation in Music, Montreal, Canada, June 12.",
-      "Vigliensoni, Gabriel, Gregory Burlet, and Ichiro Fujinaga. 2013. \u201cOptical Measure Recognition in Common Music Notation.\u201d Poster presented at the 14th International Society for Music Information Retrieval Conference, Curitiba, Brazil, November 4.",
-      "Vigliensoni, Gabriel, John Ashley Burgoyne, and Ichiro Fujinaga. 2013. \u201cMusicbrainz for the World: The Chilean Experience.\u201d Poster presented at the 14th International Society for Music Information Retrieval Conference, Miami, USA, November 4."
-  ],
-  "2012": [
-      "Burlet, Gregory, Alastair Porter, Andrew Hankinson, and Ichiro Fujinaga. 2012. \u201cNeon.Js: Neume Editor Online.\u201d Poster presented at the 13th International Society for Music Information Retrieval Conference, Porto, Portugal, October 8.",
-      "Hankinson, Andrew, Gabriel Vigliensoni, John Ashley Burgoyne, and Ichiro Fujinaga. 2012. \u201cNew Tools for Optical Chant Recognition.\u201d Poster presented at the Music Libraries Association 81st Annual Meeting, Dallas, USA, February 15."
-  ],
-  "2011": [
-      "Burlet, Gregory, and Ichiro Fujinaga. 2011. \u201cRobotaba Guitar Tablature Transcription Framework.\u201d Poster presented at the 12th International Society for Music Information Retrieval Conference, Miami, USA, October 24.",
-      "Hankinson, Andrew, Daniel Donnelly, Ichiro Fujinaga, and Julie Cumming. 2011. \u201cAn Annotated Dataset for Optical Music Recognition Systems Development.\u201d Poster presented at the Center for Interdisciplanary Research in Music Media and Technology (CIRMMT) Student Symposium, Montreal, Canada, May 16.",
-      "Hankinson, Andrew, Gabriel Vigliensoni, John Ashley Burgoyne, and Ichiro Fujinaga. 2011. \u201cNew Tools for Optical Chant Recognition.\u201d Poster presented at the annual International Association of Music Libraries, Archives and Documentation Centres Congress, Dublin, Ireland, July 24.",
-      "Hockman, Jason A., David M. Weigh, Catherine Guastavino, and Ichiro Fujinaga. 2011. \u201cDiscrimination between Phonograph Playback Ystems.\u201d Poster presented at the 131th Audio Engineering Society Convention, New York City, USA, October 20.",
-      "Knight, Trevor, Finn Upham, and Ichiro Fujinaga. 2011. \u201cThe Potential for Automatic Assessment of Trumpet Tone Quality.\u201d Poster presented at the 12th International Society for Music Information Retrieval Conference, Miami, USA, October 24.",
-      "Neubarth, Kerstin, Mathieu Bergeron, and Darrell Conklin. 2011. \u201cAssociations between Musicology and Music Information Retrieval.\u201d Poster presented at the 12th International Society for Music Information Retrieval Conference, Miami, USA, October 24.",
-      "Smith, Jordan B. L., John Ashley Burgoyne, Ichiro Fujinaga, David de Roure, and J. Stephen Downie. 2011. \u201cDesign and Creation of a Large-Scale Database of Structural Annotations.\u201d Poster presented at the 12th International Society for Music Information Retrieval Conference, Miami, USA, October 24.",
-      "Thompson, Jessica, Andrew Hankinson, and Ichiro Fujinaga. 2011. \u201cSearching for the Liber Usualis: Using CouchDB and ElasticSearch to Query Graphical Music Documents.\u201d Poster presented at the 12th International Society for Music Information Retrieval Conference, Miami, USA, October 24.",
-      "Vigliensoni, Gabriel, John Ashley Burgoyne, Andrew Hankinson, and Ichiro Fujinaga. 2011. \u201cAutomatic Pitch Recognition in Printed Square-Note Notation.\u201d Poster presented at the 12th International Society for Music Information Retrieval Conference, Miami, USA, October 24."
-  ],
-  "2010": [
-      "Angeles, Bruno, Cory McKay, and Ichiro Fujinaga. 2010. \u201cDiscovering Metadata Inconsistencies.\u201d Poster presented at the 11th International Society for Music Information Retrieval Conference, Utrecht, Netherlands, August 9.",
-      "Burgoyne, John Ashley, and Ichiro Fujinaga. 2010. \u201cSmart Statistical Models for Musical Data.\u201d Poster presented at the annual meeting of the Society for Music Theory, Indianapolis, USA, November 4.",
-      "Conklin, Darrell, and Mathieu Bergeron. 2010. \u201cDiscovery of Contrapuntal Patterns.\u201d Poster presented at the 11th International Society for Music Information Retrieval Conference, Utrecht, Netherlands, August 9.",
-      "Devaney, Johanna, and Ichiro Fujinaga. 2010. \u201cAMPACT: Automated Music Performance Analysis and Comparison Toolkit.\u201d Poster.",
-      "Hankinson, Andrew, Laurent Pugin, and Ichiro Fujinaga. 2010. \u201cAn Interchange FOrmat for Optical Music Recognition Applications.\u201d Poster presented at the 11th International Society for Music Information Retrieval Conference, Utrecht, Netherlands, August 9.",
-      "Hockman, Jason A., Jason Malloch, Ichiro Fujinaga, and Marcelo M. Wanderley. 2010. \u201cInteractive Real-Time Rhythmic.\u201d Poster presented at the Center for Interdisciplinary Research in Music Media and Technology (CIRMMT) Student Symposium, Montreal, QC, May 27.",
-      "Hockman, Jason A., and Ichiro Fujinaga. 2010. \u201cFast vs Slow: Learning Tempo Ocataves from User Data.\u201d Poster presented at the 11th International Society for Music Information Retrieval Conference, Utrecht, Netherlands, August 9.",
-      "McKay, Cory, John Ashley Burgoyne, Jason Hockman, Jordan B. L. Smith, Gabriel Vigliensoni, and Ichiro Fujinaga. 2010. \u201cEvaluating the Genre Classification Performance of Lyrical Features Relative to Audio, Symbolic and Cultural Features.\u201d Utrecht, Netherlands, August 9.",
-      "Vigliensoni, Gabriel, Cory McKay, and Ichiro Fujinaga. 2010. \u201cUsing JWebMiner 2.0 to Improve Music Classification Performance by Combining Different Types of Features Mined from the Web.\u201d Poster presented at the 10th International Society for Music Information Retrieval Conference, Utrecht, Netherlands, August 9."
-  ],
-  "2009": [
-      "Devaney, Johanna, Jonathan Wild, Ichiro Fujinaga, and Douglas Elk. 2009. \u201cIntonation Tendencies in Sola A Cappella Vocal Performances.\u201d Poster presented at the 2009 Biennial Meeting of the Society for Music Perception and Cognition, Indianapolis, USA, August 3.",
-      "Hockman, Jason A., Marcelo M. Wanderley, and Ichiro Fujinaga. 2009. \u201cAutomated Phase Vocoder.\u201d Poster presented at the 9th New Interfaces for Musical Expression International Conference, Pittsburgh, USA, June 4.",
-      "Li, Beinan, Jordan B. L. Smith, and Ichiro Fujinaga. 2009. \u201cOptical Audio Reconstruction for Stereo Phonograph Records Using White-Light Interferometry.\u201d Poster presented at the 10th International Society for Music Information Retrieval Conference, Kobe, Japan, October 26.",
-      "McKay, Cory, and Ichiro Fujinaga. 2009. \u201cJMir: Tools for Automatic Music Classification.\u201d Poster presented at the 2009 International Computer Music Conference, Montreal, Canada, August 16.",
-      "Ouyang, Yue, John Ashley Burgoyne, Laurent Pugin, and Ichiro Fujinaga. 2009. \u201cA Robust Border Detection Algorithm with Application to Medieval Music Manuscripts.\u201d Poster presented at the 2009 International Computer Music Conference, Montreal, Canada, August 16.",
-      "Thompson, Jessica, Cory McKay, John Ashley Burgoyne, and Ichiro Fujinaga. 2009. \u201cAdditions and Improvements to the ACE 2.0 Music Classifier.\u201d Poster presented at the 10th International Society for Music Information Retrieval Conference, Kobe, Japan, October 26."
-  ],
-  "2008": [
-      "Burgoyne, John Ashley, Johanna Devaney, Laurent Pugin, and Ichiro Fujinaga. 2008. \u201cEnhanced Bleedthrough Correction for Early Music Document with Recto-Verso Registration.\u201d Poster presented at the 9th International Conference on Music Information Retrieval, Philadelphia, USA, September 14.",
-      "Devaney, Johanna, and Ichiro Fujinaga. 2008. \u201cAssessing the Role of Sensory Consonance in Trained Musicians\u2019 Tuning Preferences.\u201d Poster presented at the 10th International Conference on Music Perception and Cognition, Sapporo, Japan, August 25.",
-      "Hankinson, Andrew, Laurent Pugin, Gabriella Hanke Knaus, and Ichiro Fujinaga. 2008. \u201cA Web-Based Musical Document Viewer for Digital Music Library.\u201d Poster (late-breaking) presented at the Conference of the International Society for Music Information Retrieval, Philadelphia, PA.",
-      "Hockman, Jason A., Matthew E.P. Davies, Juan P. Bello, and Mark D. Plumbley. 2008. \u201cAutomated Rhythmic Transformation of Musical Audio.\u201d Poster presented at the 11th International Conference on Digital Audio Effects, Espoo, Finland, September 1.",
-      "Pugin, Laurent, Jason Hockman, John Ashley Burgoyne, and Ichiro Fujinaga. 2008. \u201cGamera versus Aruspix: Two Optical Music Recognition Approaches.\u201d Poster presented at the 9th International Society for Music Information Retrieval Conference, Philadelphia, USA, September 14.",
-      "Pugin, Laurent, John Ashley Burgoyne, and Ichiro Fujinaga. 2008. \u201cOptical Music Recognition to Digitise Early Music Collections on a Library Scale.\u201d Poster presented at the annual International Association of Music Libraries, Archives and Documentation Centres Congress, Naples, Italy, July 20."
-  ],
-  "2007": [
-      "Lai, Catherine, Ichiro Fujinaga, David Descheneau, Michael Frishkopf, Jenn Riley, Joseph Hafner, and Brian McMillan. 2007. \u201cMetadata Infrastructure for Sound Recordings.\u201d Poster presented at the 8th International Conference on Music Information Retrieval, Vienna, Austria, September 23.",
-      "Li, Beinan, Simon de Leon, and Ichiro Fujinaga. 2007. \u201cAlternative Digitization Approach for Stereo Phonograph Records Using Optical Audio Reconstruction.\u201d Poster presented at the 8th International Society for Music Information Retrieval Conference, Vienna, Austria, September 23.",
-      "McKay, Cory, and Ichiro Fujinaga. 2007. \u201cJWebMiner: A Web-Based Feature Extractor.\u201d Poster presented at the 8th International Conference on Music Information Retrieval, Vienna, Austria, September 23."
-  ],
-  "2006": [
-      "Fujinaga, Ichiro, and Daniel McEnnis. 2006. \u201cOn-Demand Metadata Extraction Network [OMEN]: Making Libraries\u2019 Music Collections Available to MIR Researchers for Search and Analysis.\u201d Poster presented at the 6th ACM/IEEE-CS joint conference on Digital libraries, New York City, USA, June 11.",
-      "Lai, Catherine, and Ichiro Fujinaga. 2006. \u201cA Metadata Data Dictionary for Analog Sound and Recordings.\u201d Poster presented at the 6th ACM/IEEE-CS joint conference on Digital libraries, Chapel Hill, USA, June 11.",
-      "Li, Beinan, Catherine Lai, and Ichiro Fujinaga. 2006a. \u201cTechnical Issues in Digitization of Large Online Collections of Phonograph Records.\u201d Poster presented at the 3rd IS&amp;T Archiving Conference, Ottawa, Canada, May 23.",
-      "Li, Beinan, Catherine Lai, and Ichiro Fujinaga. 2006b. \u201cTechnical Issues in Digitization of Large Online Collections of Phonograph Records - Part 2.\u201d Poster presented at the 3rd IS&amp;T Archiving Conference, Ottawa, Canada, May 23.",
-      "Li, Beinan, Ichiro Fujinaga, and Cory McKay. 2006. \u201cAutomatic Track Segmentation for Digitized Phonograph Records.\u201d Poster, May.",
-      "Li, Beinan, John Ashley Burgoyne, and Ichiro Fujinaga. 2006. \u201cExtending Audacity for Audio Annotation.\u201d Poster presented at the 7th International Society for Music Information Retrieval Conference, Victoria, Canada, October 8.",
-      "McEnnis, Daniel, Cory McKay, and Ichiro Fujinaga. 2006. \u201cJAudio: Additions and Improvements.\u201d Poster presented at the 7th International Conference on Music Information Retrieval, Victoria, Canada, October 8.",
-      "McKay, Cory, and Ichiro Fujinaga. 2006. \u201cCombining Features Extracted from Audio, Symbolic and Cultural Sources.\u201d Poster presented at the 8th International Conference on Music Information Retrieval, Vienna, Austria, June 11.",
-      "Sinclair, Stephen, Michael Droettboom, and Ichiro Fujinaga. 2006. \u201cLilypond for PyScore: Approaching a Universal Translator for Music Notation.\u201d Poster presented at the 7th International Conference on Music Information Retrieval, Victoria, Canada, October 8."
-  ],
-  "2005": [
-      "Burgoyne, John Ashley, and Lawrence K. Saul. 2005. \u201cLearning Harmonic Relationships in Digital Audio with Dirichlet-Based Hidden Markov Models.\u201d Poster presented at the 6th International Conference on Music Information Retrieval, London, UK, September 11.",
-      "Fiebrink, Rebecca, Cory McKay, and Ichiro Fujinaga. 2005. \u201cCombining D2K and JGAP for Efficient Feature Weighting for Classification Tasks in Music Information Retrieval.\u201d Poster, London, UK, September 11.",
-      "Lai, Catherine, Beinan Li, and Ichiro Fujinaga. 2005. \u201cPreservation Digitization of David Edelberg\u2019s Handel LP Collection: A Pilot Project.\u201d Poster presented at the 6th International Conference on Music Information Retrieval, London, UK, September 11.",
-      "Lai, Catherine, Ichiro Fujinaga, and Cynthia A. Leive. 2005. \u201cMetaData for Phonograph Records: Facilitating New Forms of Use and Access to Analogue Recordings.\u201d Poster presented at the 5th ACM/IEEE-CS joint conference on Digital libraries, Denver, USA, June 7.",
-      "McEnnis, Daniel, Cory McKay, Ichiro Fujinaga, and Philippe Depalle. 2005. \u201cJAudio: A Feature Extraction Library.\u201d Posrer presented at the 6th International Conference on Music Information Retrieval, London, UK, September 11.",
-      "Sinyor, Elliot, Cory McKay, Rebecca Fiebrink, Daniel McEnnis, and Ichiro Fujinaga. 2005. \u201cBeatbox Classification Using ACE.\u201d Poster presented at the 6th International Conference on Music Information Retrieval, London, UK, September 11."
-  ]
+    "2025": [
+        "Kun Fang, Kyrie Bouressa, Yu-Chia Kuo, Anna de Bakker, and Ichiro Fujinaga. 2025. \u201cUniversal Musical Instrument Lexicon: A Crowdsourced Platform for Expanding Multilingual Vocabularies and Enhancing Global Access to Musical Instrument Metadata.\u201d Accepted by 12th International Conference on Digital Libraries for Musicology, Sogang University, Seoul, South Korea."
+    ],
+    "2019": [
+        "Hopkins, Emily, Yaolong Ju, Gustavo Polins Pedro, Cory McKay, Julie Cumming, and Ichiro Fujinaga. 2019. \u201cSIMSSA DB: Symbolic Music Discovery and Search.\u201d Poster presented at the 6th International Conference on Digital Libraries for Musicology, Den Haag, Netherlands, November 9.",
+        "Ju, Yaolong. 2019. \u201cAn Interactive Workflow for Generating Chord Labels for Homorhythmic Music in Symbolic Formats.\u201d Poster presented at the 20th International Society of Music Information Retrieval Conference, Delft, Netherlands, November 8. <a href=\"http://cloud.simssa.ca/index.php/f/996\">http://cloud.simssa.ca/index.php/f/996</a>.",
+        "N\u00e1poles, N\u00e9stor L\u00f3pez, Gabriel Vigliensoni, and Ichiro Fujinaga. 2019. \u201cThe Effects of Translation between Symbolic Music Formats: A Case Study with Humdrum, Lilypond, MEI, and MusicXML.\u201d Poster presented at the annual Music Encoding Conference, Vienna, Austria, June 29.",
+        "Reuse, Tim de, and Ichiro Fujinaga. 2019. \u201cCopyForward: Point-Set Matching for Predicting Patterns.\u201d Poster presented at the 15th running of the Music Information Retrieval Evaluation eXchange at the 20th International Society for Music Information retrieval Conference, Delft, Netherlands, November 4."
+    ],
+    "2018": [
+        "N\u00e1poles, N\u00e9stor, Claire Arthur, and Ichiro Fujinaga. 2018. \u201cSymbolic and Audio Key Detection Based on a Hidden Markov Model.\u201d Poster presented at the 19th International Society for Music Information Retrieval Conference, Paris, France, September 23."
+    ],
+    "2017": [
+        "Ju, Yaolong, Nathaniel Condit-Schultz, Claire Arthur, and Ichiro Fujinaga. 2017. \u201cNon-Chord Tone Identification Using Deep Neural Networks.\u201d Poster presented at the 18th International Society for Music Information Retrieval Conference (Late-Breaking), Suzhou, China, October 23.",
+        "McKay, Cory, Andrew Hankinson, Julie Cumming, and Ichiro Fujinaga. 2017. \u201cA Database Model for Computational Music Research.\u201d Poster presented at the 4th International Workshop on Digital Libraries for Musicology, Suzhou, China, October 28.",
+        "McKay, Cory, Julie Cumming, and Ichiro Fujinaga. 2017. \u201cCharacterizing Composers Using JSymbolic2 Features.\u201d Poster presented at the 18th International Society for Music Information Retrieval Conference, Suzhou, China, August 7.",
+        "Parmentier, Alex, Andrew Hankinson, and Ichiro Fujinaga. 2017. \u201cTripoli: Presentation API Validation.\u201d Poster presented at the International Image Interoperability Framework Annual Conference, The Vatican, Italy, June 7.",
+        "Vigliensoni, Gabriel, Jorge Calvo-Zaragoza, and Ichiro Fujinaga. 2017. \u201cReconnaissance Optique de La Musique Bas\u00e9e Sur l\u2019Apprentissage Machine \u00e0 Grande \u00c9chelle Pour Des Donn\u00e9es de Partitions Musicales.\u201d Poster presented at the 85e \u00e9dition du Congr\u00e8s de l\u2019Association francophone pour le savoir, Montreal, Canada, May 8."
+    ],
+    "2016": [
+        "Calvo-Zaragoza, Jorge, Gabriel Vigliensoni, and Ichiro Fujinaga. 2016. \u201cStaff Line Detection on Grewscale Images with Pixel Classification.\u201d Poster presented at the 17th International Society for Music Information Retrieval Conference, New York City, USA, August 7.",
+        "Horwitz, Andrew, Andrew Hankinson, and Ichiro Fujinaga. 2016. \u201cAn MEI Score Alignment Client.\u201d Poster presented at the annual Music Encoding Conference, Montreal, Canada, May 17.",
+        "McKay, Cory, Tristano Tenaglia, and Ichiro Fujinaga. 2016. \u201cJSymbolic2: Extracting Features from Symbolic Music Representations.\u201d Poster presented at the 17th International Society for Music Information Retrieval Conference, New York City, USA, August 7.",
+        "Vigliensoni, Gabriel, and Ichiro Fujinaga. 2016. \u201cAutomatic Music Recommendation Systems: Do Demographic, Profiling, and Contextual Features Improve Their Performance?\u201d Poster presented at the 17th International Society for Music Information Retrieval Conference, New York City, USA, August 7.",
+        "Weiss, Susan Forscher, and Ichiro Fujinaga. 2016. \u201cThe Human History Project: Digital Prosopography of Renaissance Musicians.\u201d Poster presented at the 3rd International Digital Libraries for Musicology workshop, New York City, USA, August 12."
+    ],
+    "2015": [
+        "Fogarty, Alex, Andrew Hankinson, and Ichiro Fujinaga. 2015. \u201cA Browser-Based Neume Metadata Editor.\u201d Poster presented at the annual Muic Encoding Conference, Florence, Italy, May 18.",
+        "Horwitz, Andrew, Andrew Hankinson, and Ichiro Fujinaga. 2015. \u201cA Browser-Based MEI Editor.\u201d Poster presented at the annual Muic Encoding Conference, Florence, Italy, May 18."
+    ],
+    "2014": [
+        "Antila, Christopher, and Julie Cumming. 2014. \u201cThe VIS Framework: Analyzing Counterpoint in Large Datasets.\u201d Poster presented at the 15th International Society for Music Information Retrieval Conference, Taipei, Taiwan, October 27.",
+        "Vigliensoni, Gabriel, and Ichiro Fujinaga. 2014a. \u201cIdentifying Time Zones in a Large Dataset of Music Listening Logs.\u201d Poster presented at the 1st International Workshop on Social Media Retrieval and Analysis, Gold Coast, Australia, July 11.",
+        "Vigliensoni, Gabriel, and Ichiro Fujinaga. 2014b. \u201cTime-Shift Normalization and Listener Profiling in a Large Dataset of Music Listening Histories.\u201d Poster presented at the 4th annual seminar on cognitively based music informatics research, Toronto, Canada, October 4.",
+        "Weiss, Susan Forscher, and Ichiro Fujinaga. 2014. \u201cDigital Prosopography of Renaissance Musicians: Discovery of Social and Professional Networks.\u201d Poster presented at the 8th Annual Meeting of the American Musicological Society and the 37th Annual Meeting of the Society for music Theory, Milwaukee, USA, November 6."
+    ],
+    "2013": [
+        "Burlet, Gregory, Marcelo M. Wanderley, and Ichiro Fujinaga. 2013. \u201cStompboxes: Kicking the Habit.\u201d Poster presented at the 13th International Conference on New Interfaces for Musical Expression, Daejeon, Republic of Korea, May 27.",
+        "Groves, Ryan, Doina Precup, and Ichiro Fujinaga. 2013. \u201cAutomatic Rock\u2019n\u2019Roll Accompaniment: Using a Hidden Semi-Markov Model.\u201d Poster presented at the 4th International Conference on Mathematics and Computation in Music, Montreal, Canada, June 12.",
+        "Vigliensoni, Gabriel, Gregory Burlet, and Ichiro Fujinaga. 2013. \u201cOptical Measure Recognition in Common Music Notation.\u201d Poster presented at the 14th International Society for Music Information Retrieval Conference, Curitiba, Brazil, November 4.",
+        "Vigliensoni, Gabriel, John Ashley Burgoyne, and Ichiro Fujinaga. 2013. \u201cMusicbrainz for the World: The Chilean Experience.\u201d Poster presented at the 14th International Society for Music Information Retrieval Conference, Miami, USA, November 4."
+    ],
+    "2012": [
+        "Burlet, Gregory, Alastair Porter, Andrew Hankinson, and Ichiro Fujinaga. 2012. \u201cNeon.Js: Neume Editor Online.\u201d Poster presented at the 13th International Society for Music Information Retrieval Conference, Porto, Portugal, October 8.",
+        "Hankinson, Andrew, Gabriel Vigliensoni, John Ashley Burgoyne, and Ichiro Fujinaga. 2012. \u201cNew Tools for Optical Chant Recognition.\u201d Poster presented at the Music Libraries Association 81st Annual Meeting, Dallas, USA, February 15."
+    ],
+    "2011": [
+        "Burlet, Gregory, and Ichiro Fujinaga. 2011. \u201cRobotaba Guitar Tablature Transcription Framework.\u201d Poster presented at the 12th International Society for Music Information Retrieval Conference, Miami, USA, October 24.",
+        "Hankinson, Andrew, Daniel Donnelly, Ichiro Fujinaga, and Julie Cumming. 2011. \u201cAn Annotated Dataset for Optical Music Recognition Systems Development.\u201d Poster presented at the Center for Interdisciplanary Research in Music Media and Technology (CIRMMT) Student Symposium, Montreal, Canada, May 16.",
+        "Hankinson, Andrew, Gabriel Vigliensoni, John Ashley Burgoyne, and Ichiro Fujinaga. 2011. \u201cNew Tools for Optical Chant Recognition.\u201d Poster presented at the annual International Association of Music Libraries, Archives and Documentation Centres Congress, Dublin, Ireland, July 24.",
+        "Hockman, Jason A., David M. Weigh, Catherine Guastavino, and Ichiro Fujinaga. 2011. \u201cDiscrimination between Phonograph Playback Ystems.\u201d Poster presented at the 131th Audio Engineering Society Convention, New York City, USA, October 20.",
+        "Knight, Trevor, Finn Upham, and Ichiro Fujinaga. 2011. \u201cThe Potential for Automatic Assessment of Trumpet Tone Quality.\u201d Poster presented at the 12th International Society for Music Information Retrieval Conference, Miami, USA, October 24.",
+        "Neubarth, Kerstin, Mathieu Bergeron, and Darrell Conklin. 2011. \u201cAssociations between Musicology and Music Information Retrieval.\u201d Poster presented at the 12th International Society for Music Information Retrieval Conference, Miami, USA, October 24.",
+        "Smith, Jordan B. L., John Ashley Burgoyne, Ichiro Fujinaga, David de Roure, and J. Stephen Downie. 2011. \u201cDesign and Creation of a Large-Scale Database of Structural Annotations.\u201d Poster presented at the 12th International Society for Music Information Retrieval Conference, Miami, USA, October 24.",
+        "Thompson, Jessica, Andrew Hankinson, and Ichiro Fujinaga. 2011. \u201cSearching for the Liber Usualis: Using CouchDB and ElasticSearch to Query Graphical Music Documents.\u201d Poster presented at the 12th International Society for Music Information Retrieval Conference, Miami, USA, October 24.",
+        "Vigliensoni, Gabriel, John Ashley Burgoyne, Andrew Hankinson, and Ichiro Fujinaga. 2011. \u201cAutomatic Pitch Recognition in Printed Square-Note Notation.\u201d Poster presented at the 12th International Society for Music Information Retrieval Conference, Miami, USA, October 24."
+    ],
+    "2010": [
+        "Angeles, Bruno, Cory McKay, and Ichiro Fujinaga. 2010. \u201cDiscovering Metadata Inconsistencies.\u201d Poster presented at the 11th International Society for Music Information Retrieval Conference, Utrecht, Netherlands, August 9.",
+        "Burgoyne, John Ashley, and Ichiro Fujinaga. 2010. \u201cSmart Statistical Models for Musical Data.\u201d Poster presented at the annual meeting of the Society for Music Theory, Indianapolis, USA, November 4.",
+        "Conklin, Darrell, and Mathieu Bergeron. 2010. \u201cDiscovery of Contrapuntal Patterns.\u201d Poster presented at the 11th International Society for Music Information Retrieval Conference, Utrecht, Netherlands, August 9.",
+        "Devaney, Johanna, and Ichiro Fujinaga. 2010. \u201cAMPACT: Automated Music Performance Analysis and Comparison Toolkit.\u201d Poster.",
+        "Hankinson, Andrew, Laurent Pugin, and Ichiro Fujinaga. 2010. \u201cAn Interchange FOrmat for Optical Music Recognition Applications.\u201d Poster presented at the 11th International Society for Music Information Retrieval Conference, Utrecht, Netherlands, August 9.",
+        "Hockman, Jason A., Jason Malloch, Ichiro Fujinaga, and Marcelo M. Wanderley. 2010. \u201cInteractive Real-Time Rhythmic.\u201d Poster presented at the Center for Interdisciplinary Research in Music Media and Technology (CIRMMT) Student Symposium, Montreal, QC, May 27.",
+        "Hockman, Jason A., and Ichiro Fujinaga. 2010. \u201cFast vs Slow: Learning Tempo Ocataves from User Data.\u201d Poster presented at the 11th International Society for Music Information Retrieval Conference, Utrecht, Netherlands, August 9.",
+        "McKay, Cory, John Ashley Burgoyne, Jason Hockman, Jordan B. L. Smith, Gabriel Vigliensoni, and Ichiro Fujinaga. 2010. \u201cEvaluating the Genre Classification Performance of Lyrical Features Relative to Audio, Symbolic and Cultural Features.\u201d Utrecht, Netherlands, August 9.",
+        "Vigliensoni, Gabriel, Cory McKay, and Ichiro Fujinaga. 2010. \u201cUsing JWebMiner 2.0 to Improve Music Classification Performance by Combining Different Types of Features Mined from the Web.\u201d Poster presented at the 10th International Society for Music Information Retrieval Conference, Utrecht, Netherlands, August 9."
+    ],
+    "2009": [
+        "Devaney, Johanna, Jonathan Wild, Ichiro Fujinaga, and Douglas Elk. 2009. \u201cIntonation Tendencies in Sola A Cappella Vocal Performances.\u201d Poster presented at the 2009 Biennial Meeting of the Society for Music Perception and Cognition, Indianapolis, USA, August 3.",
+        "Hockman, Jason A., Marcelo M. Wanderley, and Ichiro Fujinaga. 2009. \u201cAutomated Phase Vocoder.\u201d Poster presented at the 9th New Interfaces for Musical Expression International Conference, Pittsburgh, USA, June 4.",
+        "Li, Beinan, Jordan B. L. Smith, and Ichiro Fujinaga. 2009. \u201cOptical Audio Reconstruction for Stereo Phonograph Records Using White-Light Interferometry.\u201d Poster presented at the 10th International Society for Music Information Retrieval Conference, Kobe, Japan, October 26.",
+        "McKay, Cory, and Ichiro Fujinaga. 2009. \u201cJMir: Tools for Automatic Music Classification.\u201d Poster presented at the 2009 International Computer Music Conference, Montreal, Canada, August 16.",
+        "Ouyang, Yue, John Ashley Burgoyne, Laurent Pugin, and Ichiro Fujinaga. 2009. \u201cA Robust Border Detection Algorithm with Application to Medieval Music Manuscripts.\u201d Poster presented at the 2009 International Computer Music Conference, Montreal, Canada, August 16.",
+        "Thompson, Jessica, Cory McKay, John Ashley Burgoyne, and Ichiro Fujinaga. 2009. \u201cAdditions and Improvements to the ACE 2.0 Music Classifier.\u201d Poster presented at the 10th International Society for Music Information Retrieval Conference, Kobe, Japan, October 26."
+    ],
+    "2008": [
+        "Burgoyne, John Ashley, Johanna Devaney, Laurent Pugin, and Ichiro Fujinaga. 2008. \u201cEnhanced Bleedthrough Correction for Early Music Document with Recto-Verso Registration.\u201d Poster presented at the 9th International Conference on Music Information Retrieval, Philadelphia, USA, September 14.",
+        "Devaney, Johanna, and Ichiro Fujinaga. 2008. \u201cAssessing the Role of Sensory Consonance in Trained Musicians\u2019 Tuning Preferences.\u201d Poster presented at the 10th International Conference on Music Perception and Cognition, Sapporo, Japan, August 25.",
+        "Hankinson, Andrew, Laurent Pugin, Gabriella Hanke Knaus, and Ichiro Fujinaga. 2008. \u201cA Web-Based Musical Document Viewer for Digital Music Library.\u201d Poster (late-breaking) presented at the Conference of the International Society for Music Information Retrieval, Philadelphia, PA.",
+        "Hockman, Jason A., Matthew E.P. Davies, Juan P. Bello, and Mark D. Plumbley. 2008. \u201cAutomated Rhythmic Transformation of Musical Audio.\u201d Poster presented at the 11th International Conference on Digital Audio Effects, Espoo, Finland, September 1.",
+        "Pugin, Laurent, Jason Hockman, John Ashley Burgoyne, and Ichiro Fujinaga. 2008. \u201cGamera versus Aruspix: Two Optical Music Recognition Approaches.\u201d Poster presented at the 9th International Society for Music Information Retrieval Conference, Philadelphia, USA, September 14.",
+        "Pugin, Laurent, John Ashley Burgoyne, and Ichiro Fujinaga. 2008. \u201cOptical Music Recognition to Digitise Early Music Collections on a Library Scale.\u201d Poster presented at the annual International Association of Music Libraries, Archives and Documentation Centres Congress, Naples, Italy, July 20."
+    ],
+    "2007": [
+        "Lai, Catherine, Ichiro Fujinaga, David Descheneau, Michael Frishkopf, Jenn Riley, Joseph Hafner, and Brian McMillan. 2007. \u201cMetadata Infrastructure for Sound Recordings.\u201d Poster presented at the 8th International Conference on Music Information Retrieval, Vienna, Austria, September 23.",
+        "Li, Beinan, Simon de Leon, and Ichiro Fujinaga. 2007. \u201cAlternative Digitization Approach for Stereo Phonograph Records Using Optical Audio Reconstruction.\u201d Poster presented at the 8th International Society for Music Information Retrieval Conference, Vienna, Austria, September 23.",
+        "McKay, Cory, and Ichiro Fujinaga. 2007. \u201cJWebMiner: A Web-Based Feature Extractor.\u201d Poster presented at the 8th International Conference on Music Information Retrieval, Vienna, Austria, September 23."
+    ],
+    "2006": [
+        "Fujinaga, Ichiro, and Daniel McEnnis. 2006. \u201cOn-Demand Metadata Extraction Network [OMEN]: Making Libraries\u2019 Music Collections Available to MIR Researchers for Search and Analysis.\u201d Poster presented at the 6th ACM/IEEE-CS joint conference on Digital libraries, New York City, USA, June 11.",
+        "Lai, Catherine, and Ichiro Fujinaga. 2006. \u201cA Metadata Data Dictionary for Analog Sound and Recordings.\u201d Poster presented at the 6th ACM/IEEE-CS joint conference on Digital libraries, Chapel Hill, USA, June 11.",
+        "Li, Beinan, Catherine Lai, and Ichiro Fujinaga. 2006a. \u201cTechnical Issues in Digitization of Large Online Collections of Phonograph Records.\u201d Poster presented at the 3rd IS&amp;T Archiving Conference, Ottawa, Canada, May 23.",
+        "Li, Beinan, Catherine Lai, and Ichiro Fujinaga. 2006b. \u201cTechnical Issues in Digitization of Large Online Collections of Phonograph Records - Part 2.\u201d Poster presented at the 3rd IS&amp;T Archiving Conference, Ottawa, Canada, May 23.",
+        "Li, Beinan, Ichiro Fujinaga, and Cory McKay. 2006. \u201cAutomatic Track Segmentation for Digitized Phonograph Records.\u201d Poster, May.",
+        "Li, Beinan, John Ashley Burgoyne, and Ichiro Fujinaga. 2006. \u201cExtending Audacity for Audio Annotation.\u201d Poster presented at the 7th International Society for Music Information Retrieval Conference, Victoria, Canada, October 8.",
+        "McEnnis, Daniel, Cory McKay, and Ichiro Fujinaga. 2006. \u201cJAudio: Additions and Improvements.\u201d Poster presented at the 7th International Conference on Music Information Retrieval, Victoria, Canada, October 8.",
+        "McKay, Cory, and Ichiro Fujinaga. 2006. \u201cCombining Features Extracted from Audio, Symbolic and Cultural Sources.\u201d Poster presented at the 8th International Conference on Music Information Retrieval, Vienna, Austria, June 11.",
+        "Sinclair, Stephen, Michael Droettboom, and Ichiro Fujinaga. 2006. \u201cLilypond for PyScore: Approaching a Universal Translator for Music Notation.\u201d Poster presented at the 7th International Conference on Music Information Retrieval, Victoria, Canada, October 8."
+    ],
+    "2005": [
+        "Burgoyne, John Ashley, and Lawrence K. Saul. 2005. \u201cLearning Harmonic Relationships in Digital Audio with Dirichlet-Based Hidden Markov Models.\u201d Poster presented at the 6th International Conference on Music Information Retrieval, London, UK, September 11.",
+        "Fiebrink, Rebecca, Cory McKay, and Ichiro Fujinaga. 2005. \u201cCombining D2K and JGAP for Efficient Feature Weighting for Classification Tasks in Music Information Retrieval.\u201d Poster, London, UK, September 11.",
+        "Lai, Catherine, Beinan Li, and Ichiro Fujinaga. 2005. \u201cPreservation Digitizaation of David Edelberg\u2019s Handel LP Collection: A Pilot Project.\u201d Poster presented at the 6th International Conference on Music Information Retrieval, London, UK, September 11.",
+        "Lai, Catherine, Ichiro Fujinaga, and Cynthia A. Leive. 2005. \u201cMetaData for Phonograph Records: Facilitating New Forms of Use and Access to Analogue Recordings.\u201d Poster presented at the 5th ACM/IEEE-CS joint conference on Digital libraries, Denver, USA, June 7.",
+        "McEnnis, Daniel, Cory McKay, Ichiro Fujinaga, and Philippe Depalle. 2005. \u201cJAudio: A Feature Extraction Library.\u201d Posrer presented at the 6th International Conference on Music Information Retrieval, London, UK, September 11.",
+        "Sinyor, Elliot, Cory McKay, Rebecca Fiebrink, Daniel McEnnis, and Ichiro Fujinaga. 2005. \u201cBeatbox Classification Using ACE.\u201d Poster presented at the 6th International Conference on Music Information Retrieval, London, UK, September 11."
+    ]
 }
