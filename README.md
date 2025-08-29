@@ -22,13 +22,16 @@ Assuming you have [Git](https://www.atlassian.com/git/tutorials/install-git) ins
 git clone https://github.com/DDMAL/ddmal.github.io.git
 ```
 
-Enter the directory with `cd ddmal.github.io`, and pull from the repository to your local folder. Specifically, pull from the 'deforested' branch, the branch used by GitHub Pages to host the site.
+Enter the directory with `cd ddmal.github.io`, and pull from the repository to your local folder. Specifically, pull from 'master' (NOTE: this was once 'deforested'), the branch used by GitHub Pages to host the site.
 
 ```
-git pull origin deforested
+git pull origin master
 ```
 
-At this point, the site is able to be edited and run locally. Use the VSCode "Live Server" extension to view the static website in your browser and track changes automatically.
+At this point, the site is able to be edited and run locally. Use the VSCode "Live Server" extension to view the static website in your browser and track changes automatically. Make sure you make your own branch to be merged later. 
+
+> [!CAUTION]
+> As of [7 July 2023]([url](https://github.com/DDMAL/ddmal.github.io/pull/120)), deforested was merged with master; at this stage make sure you are pulling from master **not deforested** or you will get an error (probably "fatal:..." etc.). See https://github.com/DDMAL/ddmal.github.io/pull/120 . 
 
 ## Creating your lab member page
 
