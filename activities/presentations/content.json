@@ -1,4 +1,44 @@
 {
+    "2025": [
+        "Kun Fang. 2025. \u201cSix Lectures on Introduction to Music AI: Beat Tracking in Music Information Retrieval.\u201d Presented at the Music AI Master Workshop, Nanjing University of the Arts, Nanjing, China, May.",
+        "Ichiro Fujinaga and Junjun Cao. 2025. \u201cLinkedMusic Project: Integrating Online Music Databases.\u201d Presented at the Vitrine HN / DH Showcase 2025, McGill University, January 17.",
+        "Pond, Liam. 2025. \u201cTeaching LLMs Music Theory with In-Context Learning and Chain-of-Thought Prompting: Pedagogical Strategies for Machines.\u201d Presented at the 6th International Special Session on Computer Supported Music Education (CSME 2025), Porto, Portugal, April 1."
+    ],
+    "2024": [
+        "Anna de Bakker. 2024a. \u201cCantus Ultimus and Fragments.\u201d Presented at the Medieval Academy of America Graduate Student Committee Digital Humanities Showcase, January.",
+        "Anna de Bakker. 2024b. \u201cBoth Sides Now: CANTUS and Cuttings.\u201d Presented at the Manuscript Cuttings Working Group of the V&amp;A Museum, McGill University, Montreal QC, April.",
+        "Anna de Bakker. 2024c. \u201cUnsung Heroes: A Case Study in Fragments and Chant Transmission.\u201d Presented at the 59th International Congress on Medieval Studies, Western Michigan University, Kalamazoo MI, USA, May.",
+        "Anna de Bakker. 2024d. \u201cLeaves and Links: Enhancing Fragmentarium\u2019s Collection of Musically-Notated Liturgical Chant Fragments.\u201d Presented at the Fragmentarium Video Conference, July.",
+        "Anna de Bakker. 2024e. \u201cSinging from the Sources: Using the Cantus Ultimus Portal to Find and View Manuscript Images.\u201d Presented at the Meeting of the IMS study group Cantus Planus, G\u00f6d\u00f6ll\u0151, Hungary, August.",
+        "Anna de Bakker. 2024f. \u201cUpdate on Feast Days Project (Encoding Time Matters).\u201d Presented at the LinkedMusic Project Meeting III, McGill University, Montreal QC, October.",
+        "Anna de Bakker. 2024g. \u201cMcGill Chant Fragments: Une Histoire En Chant.\u201d Presentation for McGill libraries in collaboration with Ensemble Scholastica., McGill University, Montreal QC, November.",
+        "Anna de Bakker. 2024h. \u201cReduced, Reused, Recycled: A Fragmented Antiphoner from Medieval Trier.\u201d Presented at the Annual meeting of the American Musicological Society, Chicago, Illinois, November.",
+        "Bouressa, Kyrie. 2024a. \u201cTuscan Fragments in the Danish Royal Library.\u201d Presented at the International Conference of Medieval Studies, Western Michigan University, Kalamazoo MI, USA, May.",
+        "Bouressa, Kyrie. 2024b. \u201cPerformance as Pedagogy: Neumes in Passages from Virgil and Ovid at San Giovanni a Carbonara.\u201d Presented at the Medieval and Renaissance Music Conference \u201cMedRen,\u201d Universidad de Granada, Granada, ES, July.",
+        "Bouressa, Kyrie. 2024c. \u201cEnd-to-End with CDN-Mrb MS 0073.\u201d Presented at the LinkedMusic Project Meeting III, McGill University, Montreal QC, October.",
+        "Bouressa, Kyrie. 2024d. \u201cPerformance as Pedagogy: Neumes in Passages from Vergil at San Giovanni a Carbonara.\u201d American Musicological Society, Palmer Hilton, Chicago IL, USA, November.",
+        "Fang, Kun. 2024. \u201cUniversal Musical Instrument Lexicon.\u201d Presented at the LinkedMusic Project Meeting III, McGill University, Montreal QC, October.",
+        "Ichiro Fujinaga and Junjun Cao. 2024. \u201cSustainable Archiving of Music Databases through RDF and NLQ2SPARQL Frameworks.\u201d Presented at the 1st Workshop on Utilizing AI/ML to Enhance Information Extraction, Organization, and Retrieval from Large-scale Archival Collections, Hong Kong University, Hong Kong, December 20.",
+        "Ichiro Fujinaga and Kyrie Bouressa. 2024. \u201cMusic Instrument Encoding Matters.\u201d Presented at the Music Encoding Conference, University of North Texas, Denton, TX, May 22.",
+        "Ichiro Fujinaga, Anna de Bakker, Andrew Hankinson, Dylan Hillerbrand, and Laurent Pugin. 2024. \u201cLinkedNeumes: The Making of Cantus Ultimus.\u201d Presented at the Medieval and Renaissance Music Conference, Granada, July 6.",
+        "Ichiro Fujinaga. 2024. \u201cDigital Echoes from the Middle Ages: A Framework for Analyzing Plainchants.\u201d Keynote Speaker presented at the Digital Technologies Applied to Music Research Conference, NOVA University, Lisbon, June 27."
+    ],
+    "2023": [
+        "Anna de Bakker. 2023. \u201cMcGill Chant Manuscripts and Fragments.\u201d Presented at the Celebrating Salzinnes: A Symposium, December.",
+        "Bouressa, Kyrie. 2023. \u201cMusical Instruments in Wikidata.\u201d Presented at the LinkedMusic Project Meeting II, McGill University, Montr\u00e9al QC, October.",
+        "Genevi\u00e8ve Gates-Panneton. 2023. \u201cDes Si\u00e8cles de Silence.\u201d Presented at the Symposium on the Salzinnes Antiphoner, Namur, Belgium, December.",
+        "Ichiro Fujinaga, Elsa de Luca, Inga Behrendt, Kate Helsen, and Stefan Morent. 2023. \u201cVisual or Symbolic? Best Practices for Encoding Neumes.\u201d Presented at the Joint Conference on MEC and TEI Conference, Paderborn University, Paderborn, Germany, September 8.",
+        "Ichiro Fujinaga, Elsa de Luca, and Maria Alexandru. 2023. \u201cBrainstorming on the Encoding of Eastern Neumes: Middle-Byzantine Notation as a Case-Study.\u201d Presented at the Joint Conference on MEC and TEI Conference, Paderborn University, Paderborn, Germany, September 8.",
+        "Ichiro Fujinaga, Martha E. Thomae, and Julie Cumming. 2023. \u201cUpdates and Outcomes from the Guatemalan Digitization and Encoding Project.\u201d Presented at the Joint Conference on MEC and TEI Conference, Paderborn University, Paderborn, Germany, September 8.",
+        "Ichiro Fujinaga. 2023. \u201cOptical Music Recognition Workflow for Neume Notation and Its Encoding &amp; The Art of Teaching Computers.\u201d Invited Speaker presented at the Hakodate Mirai University, Tokyo, January 23.",
+        "\u201cTeaching Bio-Inspired Design Principles in Elementary School.\u201d 2023. Presented at the Engineering Education Forum, Calgary, AB."
+    ],
+    "2022": [
+        "Ichiro Fujinaga. 2022a. \u201cOptical Music Recognition Workflow for\u00a0 Neume Notation and Its Encoding &amp; The Art of Teaching Computers.\u201d Keynote Speaker presented at the Music Encoding Conference, Dalhousie University, Halifax, May 21.",
+        "Ichiro Fujinaga. 2022b. \u201cOptical Music Recognition Workflow for Neume Notation and Its Encoding &amp; The Art of Teaching Computers.\u201d Invited Speaker presented at the Keio University, Tokyo, June 17.",
+        "Liam Pond. 2022. \u201cBiomedical Engineering Undergraduate Summer Research Symposium.\u201d Calgary, AB.",
+        "\u201cEstablishment of Sex- and Site-Specific Normative Data for Adults Using Dual X-Ray Absorptiometry.\u201d 2022. Presented at the McCaig Institute Summer Student Symposium, Calgary, AB."
+    ],
     "2021": [
         "McKay, Cory, and Mar\u00eda Elena Cuenca. 2021. \u201cMusical Influences on the Masses and Motets of Crist\u00f3bal de Morales and Francisco Guerrero: A Statistical Approach.\u201d Presented at the 49th Medieval and Renaissance International Music Conference, Universidade NOVA de Lisboa, Portugal, July. <a href=\"http://jmir.sourceforge.net/publications/mckay21musical.pdf\">http://jmir.sourceforge.net/publications/mckay21musical.pdf</a>.",
         "Rodr\u00edguez-Garc\u00eda, Esperanza, and Cory McKay. 2021. \u201cAve Festiva Ferculis: Exploring Attribution by Combining Manual and Computational Analysis.\u201d Presented at the 49th Medieval and Renaissance International Music Conference, Universidade NOVA de Lisboa, Portugal, July.",
