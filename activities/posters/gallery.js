@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
   showView('gallery');
 
   // Load and parse CSV
-  Papa.parse("poster_filenames_v2.csv", {
+  Papa.parse("poster_filenames.csv", {
     download: true,
     header: true,
     complete: function (results) {
