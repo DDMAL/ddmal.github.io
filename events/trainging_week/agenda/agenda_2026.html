@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="theme-color" content="#1DB2E9">
+  <meta name="msapplication-navbutton-color" content="#1DB2E9">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#1DB2E9">
+  <title>Agenda &middot; DDMAL</title>
+  <link rel="stylesheet" href="../../../assets/css/main.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:300,400,500" rel="stylesheet">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../../public/mcgill_crest.png">
+  <link rel="shortcut icon" href="../../../public/mcgill_crest.png">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #faf8f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 { text-align: center; color: #343a40; margin-bottom: 10px; }
+
+    .legend {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 13px;
+      color: #555;
+    }
+    .legend span {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    .legend .dot {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: 0 auto;
+      background-color: #fff;
+      border: 1px solid #e0dcd5;
+      width: 95%;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    th, td {
+      border: 1px solid #e8e4dd;
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+      font-size: 14px;
+    }
+
+    th {
+      background-color: #f5f3ee;
+      color: #343a40;
+      font-weight: 600;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 13px;
+      letter-spacing: 0.5px;
+    }
+    th small {
+      display: block;
+      font-weight: 400;
+      text-transform: none;
+      font-size: 11px;
+      color: #888;
+      letter-spacing: 0;
+    }
+
+    td.time-col {
+      text-align: center;
+      font-weight: 500;
+      color: #666;
+      background-color: #faf8f4;
+      width: 7%;
+    }
+
+    /* Color categories */
+    .tech       { background-color: #e3f0f5; border-left: 4px solid #4a90a4; }
+    .ddmal-all  { background-color: #fce8e0; border-left: 4px solid #c75b39; }
+    .cantus     { background-color: #e8f3e0; border-left: 4px solid #5b8c3e; }
+    .mothra     { background-color: #f3e8f0; border-left: 4px solid #b07ba5; }
+    .lab-orient { background-color: #e0f0e0; border-left: 4px solid #6baf6b; }
+    .break-cell { background-color: #faf3e0; border-left: 4px solid #d4a843; color: #8a7530; }
+    .general    { background-color: #f5f3ee; border-left: 4px solid #aaa; color: #777; font-style: italic; }
+    .away-day   { background-color: #f5f3ee; border-left: 4px solid #aaa; text-align: center; vertical-align: middle; }
+
+    td .presenter {
+      font-weight: 600;
+      color: #333;
+      display: block;
+    }
+    td .topic {
+      color: #555;
+      font-size: 13px;
+    }
+
+    th:first-child, td:first-child { width: 7%; }
+    th:not(:first-child), td:not(:first-child) { width: 18.6%; }
+  </style>
+</head>
+
+<body id="Site" class="layout-reverse theme-base-db sidebar-overlay">
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg bg-white">
+  <a class="navbar-brand" href="../../../">DDMAL</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto" id="nav-items">
+      <li class="nav-item"><a class="nav-link" href="../../../">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="../../../lab_members/">Lab Members</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">Activities<span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href='../../../activities/media/' target='_top'>Media</a></li>
+          <li><a href='../../../activities/posters/' target='_top'>Posters</a></li>
+          <li><a href='../../../activities/presentations/' target='_top'>Presentations</a></li>
+          <li><a href='../../../activities/publications/' target='_top'>Publications</a></li>
+        </ul>
+      </li>
+      <li class="nav-item"><a class="nav-link" href="../../../research/">Research</a></li>
+      <li class="nav-item"><a class="nav-link" href="../../../software/">Software</a></li>
+      <li class="nav-item"><a class="nav-link" href="../../../events/">Events</a></li>
+      <li class="nav-item"><a class="nav-link" href="../../../resources/">Resources</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="wrap">
+  <div class="container content">
+    <div class="page container">
+      <h1 class="page-title" style="text-align: left;">Summer Training Schedule 2026</h1>
+      <div style="margin-bottom: 10px;"></div>
+
+      <div class="legend">
+        <span><span class="dot" style="background:#4a90a4;"></span>Technical / Dev</span>
+        <span><span class="dot" style="background:#c75b39;"></span>DDMAL / All-hands</span>
+        <span><span class="dot" style="background:#5b8c3e;"></span>Cantus / CATDOES</span>
+        <span><span class="dot" style="background:#b07ba5;"></span>Mothra / OMR</span>
+        <span><span class="dot" style="background:#6baf6b;"></span>Lab orientation</span>
+        <span><span class="dot" style="background:#d4a843;"></span>Break</span>
+        <span><span class="dot" style="background:#aaa;"></span>General</span>
+      </div>
+
+      <div style="overflow-x:auto;">
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th>Monday<br><small>4 May</small></th>
+              <th>Tuesday<br><small>hygiene day</small></th>
+              <th>Wednesday<br><small>08:45–16:00</small></th>
+              <th>Thursday<br><small>7 May</small></th>
+              <th>Friday<br><small>8 May</small></th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- 9:00 -->
+            <tr>
+              <td class="time-col" rowspan="2">9:00</td>
+              <td class="tech" rowspan="2">
+                <span class="presenter">ICH</span>
+                <span class="topic">Intro</span>
+              </td>
+              <td class="tech" rowspan="2">
+                <span class="presenter">Yinan</span>
+                <span class="topic">Vibe coding steps/tips</span>
+              </td>
+              <td class="away-day" rowspan="26">
+                <strong>Away day</strong><br>
+                Burnside Hall 306<br>
+                805, rue Sherbrooke O.<br><br>
+                (Lunch provided)
+              </td>
+              <td class="tech" rowspan="2">
+                <span class="presenter">Andrew</span>
+                <span class="topic">Django</span>
+              </td>
+              <td class="ddmal-all" rowspan="8" style="text-align:center; vertical-align:middle; font-weight:600; font-size:16px;">
+                DDMAL<br>ALL HANDS
+              </td>
+            </tr>
+            <tr></tr>
+
+            <!-- 9:30 -->
+            <tr>
+              <td class="time-col" rowspan="2">9:30</td>
+              <td class="mothra" rowspan="2">
+                <span class="presenter">OMR</span>
+              </td>
+              <td class="tech" rowspan="2">
+                <span class="presenter">Yinan</span>
+              </td>
+              <td class="mothra" rowspan="2">
+                <span class="presenter">Kyrie</span>
+                <span class="topic">Mothra II (group)</span>
+              </td>
+            </tr>
+            <tr></tr>
+
+            <!-- 10:00 -->
+            <tr>
+              <td class="time-col" rowspan="2">10:00</td>
+              <td class="tech" rowspan="2">
+                <span class="presenter">ICH cont.</span>
+              </td>
+              <td class="tech" rowspan="2">
+                <span class="presenter">Yinan cont.</span>
+              </td>
+              <td class="cantus" rowspan="2">
+                <span class="presenter">Anna</span>
+                <span class="topic">Cantus Database I</span>
+              </td>
+            </tr>
+            <tr></tr>
+
+            <!-- 10:30 -->
+            <tr>
+              <td class="time-col">10:30</td>
+              <td class="break-cell">Coffee / stretch</td>
+              <td class="break-cell">Coffee / stretch</td>
+              <td class="break-cell">Coffee / stretch</td>
+            </tr>
+
+            <!-- 11:00 -->
+            <tr>
+              <td class="time-col" rowspan="3">11:00</td>
+              <td class="tech" rowspan="3">
+                <span class="presenter">ICH Vibe Coding</span>
+                <span class="topic">+ Video</span>
+              </td>
+              <td class="ddmal-all" rowspan="3">
+                <span class="presenter">Kyrie</span>
+                <span class="topic">Housekeeping &amp; PM<br>WorkDay · Wiki · GitHub · Agile</span>
+              </td>
+              <td class="cantus" rowspan="3">
+                <span class="presenter">Anna</span>
+                <span class="topic">Cantus DB II / CATDOES</span>
+              </td>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+
+            <!-- 11:00 Friday: Coffee/stretch -->
+            <!-- (already inside DDMAL ALL HANDS rowspan) -->
+
+            <!-- 11:30 -->
+            <tr>
+              <td class="time-col" rowspan="2">11:30</td>
+              <td class="cantus" rowspan="2">
+                <span class="presenter">Anna</span>
+                <span class="topic">✨ manuscripts ✨</span>
+              </td>
+              <td class="tech" rowspan="2">
+                <span class="presenter">Wenye &amp; Liam</span>
+                <span class="topic">SSH and DRAC</span>
+              </td>
+              <td class="cantus" rowspan="2">
+                <span class="presenter">Kyrie</span>
+                <span class="topic">CATDOES</span>
+              </td>
+              <td class="ddmal-all" rowspan="2">
+                <span class="presenter">Team assignment review</span>
+              </td>
+            </tr>
+            <tr></tr>
+
+            <!-- 12:00 -->
+            <tr>
+              <td class="time-col">12:00</td>
+              <td class="general">lunch</td>
+              <td class="general">lunch</td>
+              <td class="general">lunch</td>
+              <td class="general">lunch</td>
+            </tr>
+
+            <!-- 12:30 -->
+            <tr>
+              <td class="time-col">12:30</td>
+              <td class="general">lunch</td>
+              <td class="general">lunch</td>
+              <td class="general">lunch</td>
+              <td class="general" rowspan="9"></td>
+            </tr>
+
+            <!-- 13:00 -->
+            <tr>
+              <td class="time-col" rowspan="2">13:00</td>
+              <td class="tech" rowspan="2">
+                <span class="presenter">Antoine</span>
+                <span class="topic">Rodan I</span>
+              </td>
+              <td class="tech" rowspan="2">
+                <span class="presenter">Hanwen</span>
+                <span class="topic">Docker &amp; Arbutus</span>
+              </td>
+              <td class="lab-orient" rowspan="2">
+                <span class="presenter">Lab</span>
+                <span class="topic">Get situated, questions</span>
+              </td>
+            </tr>
+            <tr></tr>
+
+            <!-- 13:30 -->
+            <tr>
+              <td class="time-col" rowspan="3">13:30</td>
+              <td class="tech">
+                <span class="presenter">Antoine</span>
+                <span class="topic">Rodan I</span>
+              </td>
+              <td class="lab-orient" rowspan="3">
+                <span class="presenter">Lab</span>
+                <span class="topic">Get situated</span>
+              </td>
+              <td class="lab-orient" rowspan="7"> </td>
+            </tr>
+            <tr>
+              <td class="mothra">
+                <span class="presenter">Kyrie</span>
+                <span class="topic">Mothra I (project overview)</span>
+              </td>
+            </tr>
+            <tr></tr>
+
+            <!-- 14:00 -->
+            <tr>
+              <td class="time-col" rowspan="2">14:00</td>
+              <td class="tech" rowspan="2">
+                <span class="presenter">Gen</span>
+                <span class="topic">Neon.js</span>
+              </td>
+              <td rowspan="4" style="background:#faf8f4;"></td>
+            </tr>
+            <tr></tr>
+
+            <!-- 14:30 -->
+            <tr>
+              <td class="time-col">14:30</td>
+              <td rowspan="2" style="background:#faf8f4;"></td>
+            </tr>
+
+            <!-- 15:00 -->
+            <tr>
+              <td class="time-col">15:00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="text-align: center; margin-top: 15px; font-style: italic; color: #6c757d; font-size: 13px;">
+        Wednesday is an off-site day at Burnside Hall 306 (805 rue Sherbrooke O.) — lunch provided · All times approximate
+      </p>
+    </div>
+  </div>
+</div>
+
+<label for="sidebar-checkbox" class="sidebar-toggle"></label>
+<footer id="sticky">
+  <div class="footer-img-wrap">
+    <img class="mcgill-img-footer" src="../../../assets/schulich_logo.png" alt="">
+    <img class="ddmal-img-footer" src="../../../assets/Ddmal_logo_transp-bg_no-border_1600w.png" alt="">
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+  integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+  crossorigin="anonymous"></script>
+<script src="../../../js/bootstrap.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    var url = window.location;
+    $('ul.navbar-nav a[href="' + url + '"]').parent().addClass('active');
+    $('ul.navbar-nav a').filter(function () {
+      return this.href == url;
+    }).parent().addClass('active');
+  });
+</script>
+</body>
+</html>
