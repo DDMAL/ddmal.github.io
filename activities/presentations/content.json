@@ -1,10 +1,28 @@
 {
+    "2026": [
+        "Basso, Pierre, and Liam Pond. 2026. \u201cCAMBIATA (Counterpoint and MusicXML by Instructing AI through APIs): An Experiment in Generating Species Counterpoint with Large Language Models.\u201d Poster presented at the EuroMAC11: 11th European Music Analysis Conference, Barcelona, Spain, September 7.",
+        "Fujinaga, Ichiro, Hanwen Zhang, and Lele Liu. 2026. \u201cA Context-Aware Piano Performance Encoding Framework for Sustain Pedaling.\u201d Paper presented at the Music Encoding Conference 2026, Tokyo, Japan, May 28.",
+        "Fujinaga, Ichiro, Yifan Huang, and Eto Sun. 2026. \u201cEncoding Guqin Jianzipu: A Gesture-Based MEI Module for a Logographic Notation.\u201d Paper presented at the Music Encoding Conference 2026, Tokyo, Japan, May 28.",
+        "Pond, Liam, Amirsadra Abdollahi, and Yinan Zhou. 2026. \u201cFacilitating Access to LinkedMusic with SESEMMI.\u201d Guest lecture presented at the Oxford e-Research Centre, Oxford, United Kingdom, October 8.",
+        "Pond, Liam, Sichen Meng, and Linnea Kirby. 2026. \u201cFacilitating Access to LinkedMusic with SESEMMI: Converting Natural Language Queries to SPARQL with Large Language Models.\u201d Paper presented at the 13th International Conference on Digital Libraries for Musicology, Thessaloniki, Greece, July 2.",
+        "Pond, Liam, Tace McNamara, and Ichiro Fujinaga. 2026. \u201cThe Benchmark for Encoding Assessment in Music (BEAM): Evaluating LLM Performance in Symbolic Music Parsing.\u201d Paper presented at the Music Encoding Conference 2026, Tokyo, Japan, May 27.",
+        "Pond, Liam, and Ichiro Fujinaga. 2026. \u201cThe (Formerly) Well-Tempered Classifier: A Symbolic Approach to Performer Identification.\u201d Oral presentation presented at the McGill Music Graduate Symposium 2026, Montr\u00e9al, QC, March 21.",
+        "Fujinaga, Ichiro, Kun Fang, and Ziyu Wang. 2026. \u201cRevisiting Music Encoding for Music-to-Text Large Language Models: What Is Encoded and What Is \u2018Heard.\u2019\u201d Poster presented at the Music Encoding Conference 2026, Tokyo, Japan, May 27."
+    ],
     "2025": [
         "Kun Fang. 2025. \u201cSix Lectures on Introduction to Music AI: Beat Tracking in Music Information Retrieval.\u201d Presented at the Music AI Master Workshop, Nanjing University of the Arts, Nanjing, China, May.",
+        "Pond, Liam. 2025. \u201cTeaching LLMs Music Theory with In-Context Learning and Chain-of-Thought Prompting: Pedagogical Strategies for Machines.\u201d Presented at the 6th International Special Session on Computer Supported Music Education (CSME 2025), Porto, Portugal, April 1.",
         "Ichiro Fujinaga and Junjun Cao. 2025. \u201cLinkedMusic Project: Integrating Online Music Databases.\u201d Presented at the Vitrine HN / DH Showcase 2025, McGill University, January 17.",
-        "Pond, Liam. 2025. \u201cTeaching LLMs Music Theory with In-Context Learning and Chain-of-Thought Prompting: Pedagogical Strategies for Machines.\u201d Presented at the 6th International Special Session on Computer Supported Music Education (CSME 2025), Porto, Portugal, April 1."
+        "Ichiro Fujinaga. 2025a. \u201cThe LinkedMusic Project.\u201d Talk presented at the CIRMMT Workshop: Societal, Creative and Research Impacts of Data-driven Approaches to Music, McGill University, Montr\u00e9al, QC, March 18.",
+        "Ichiro Fujinaga. 2025b. \u201cPlenary Talk: On the Virtues of Lazy Machines.\u201d Presented at the Digital Humanities Summer Institute, Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, May 26.",
+        "Ichiro Fujinaga. 2025c. \u201cLinkedMusic Project: Integrating Online Music Databases.\u201d Presented at the Music Symposium 2025, Waseda University, Tokyo, Japan, June 13.",
+        "Ichiro Fujinaga. 2025d. \u201cLinkedMusic Project: Integrating Music Databases.\u201d Presented at the Twenty-Third International Conference on New Directions in the Humanities, Hilo, Hawaii, June 26.",
+        "Ichiro Fujinaga. 2025e. \u201cLinkedMusic Project: Integrating Online Music Databases.\u201d Presented at the International Association of Music Libraries, Archives and Documentation Centres (IAML), Salzburg, Austria, July 9.",
+        "Ichiro Fujinaga. 2025f. \u201cLinkedMusic Project: Integrating Music Databases.\u201d Presented at the Forum for Information Technology (FIT) 2025, Hokkaido University of Science, Sapporo, Japan, September 4.",
+        "Ichiro Fujinaga. 2025g. \u201cIntegrating Music Databases with Linked Data.\u201d Presented at the International Society for Music Information Retrieval Conference: Late-breaking Demo Session, Daejeon, Korea, September 25.",
+        "Ichiro Fujinaga. 2025h. \u201cLinkedMusic Project: A Progress Report.\u201d Presented at the Sixth Joint Meeting Acoustical Society of America and Acoustical Society of Japan, Honolulu, Hawaii, December 3."
     ],
-    "2024": [
+        "2024": [
         "Anna de Bakker. 2024a. \u201cCantus Ultimus and Fragments.\u201d Presented at the Medieval Academy of America Graduate Student Committee Digital Humanities Showcase, January.",
         "Anna de Bakker. 2024b. \u201cBoth Sides Now: CANTUS and Cuttings.\u201d Presented at the Manuscript Cuttings Working Group of the V&amp;A Museum, McGill University, Montreal QC, April.",
         "Anna de Bakker. 2024c. \u201cUnsung Heroes: A Case Study in Fragments and Chant Transmission.\u201d Presented at the 59th International Congress on Medieval Studies, Western Michigan University, Kalamazoo MI, USA, May.",
